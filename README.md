@@ -41,7 +41,7 @@
 
 | 类型 | 说明 | 代表论文 |
 |------|------|----------|
-| 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Harnessing Task Overload](./papers/Harnessing-Task-Overload.md), [AutoDAN](./papers/AutoDAN.md), [PAIR](./papers/PAIR.md), [GCG](./papers/GCG.md), [Tree of Attacks](./papers/Tree-of-Attacks.md) |
+| 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Harnessing Task Overload](./papers/Harnessing-Task-Overload.md), [AutoDAN](./papers/AutoDAN.md), [PAIR](./papers/PAIR.md), [GCG](./papers/GCG.md), [Tree of Attacks](./papers/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/AutoDAN-Turbo.md) |
 | 🎯 **对抗攻击** | 构造对抗样本欺骗模型 | [GCG](./papers/GCG.md), [AutoDAN](./papers/AutoDAN.md) |
 | 🧠 **提示注入** | 通过提示操控模型行为 | [Under the Influence](./papers/Under-the-Influence.md) |
 | 🎭 **隐蔽攻击** | 难以检测的攻击方式 | [Cold-Attack](./papers/Cold-Attack.md), [Sleeper Agents](./papers/Sleeper-Agents.md) |
@@ -61,6 +61,7 @@
 | 📊 **JailbreakBench** | 越狱攻击评估基准 | [JailbreakBench](./papers/JailbreakBench.md) |
 | ⚖️ **HarmBench** | 标准化安全评估框架 | [HarmBench](./papers/HarmBench.md) |
 | 🔎 **AuditBench** | 安全审计基准 | [AuditBench](./papers/AuditBench.md) |
+| 🤖 **AgentDojo** | 智能体安全评估环境 | [AgentDojo](./papers/AgentDojo.md) |
 
 ### 其他重要方向
 
