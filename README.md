@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-19%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-20%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 19 篇 (24%) |
+| **已完成** | 20 篇 (25%) |
 | **最后更新** | 2026-03-17 |
 
 ---
@@ -62,6 +62,7 @@
 | ⚖️ **HarmBench** | 标准化安全评估框架 | [HarmBench](./papers/HarmBench.md) |
 | 🔎 **AuditBench** | 安全审计基准 | [AuditBench](./papers/AuditBench.md) |
 | 🤖 **AgentDojo** | 智能体安全评估环境 | [AgentDojo](./papers/AgentDojo.md) |
+| 🛡️ **R-Judge** | 智能体风险意识评估 | [R-Judge](./papers/R-Judge.md) |
 
 ### 其他重要方向
 
@@ -96,6 +97,7 @@ llm-safety-papers/
 │   ├── MLLM-Protector.md              # ✅ MLLM-Protector
 │   ├── Nothing-in-Excess.md           # ✅ Nothing in Excess
 │   ├── PAIR.md                        # ✅ PAIR
+│   ├── R-Judge.md                     # ✅ R-Judge
 │   ├── Sleeper-Agents.md              # ✅ Sleeper Agents
 │   ├── Tree-of-Attacks.md             # ✅ Tree of Attacks
 │   └── Under-the-Influence.md         # ✅ Under the Influence
@@ -124,9 +126,9 @@ llm-safety-papers/
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 7 | [MLLM-Protector](./papers/MLLM-Protector.md) | arXiv 2024 | 多模态模型输出端检测与解毒 | `多模态` `输出检测` `轻量级` |
-| 8 | [Nothing in Excess](./papers/Nothing-in-Excess.md) | ICLR 2025 | 缓解过度安全对齐导致的过度拒绝 | `过度拒绝` `安全对齐` `平衡` |
-| 9 | [Alignment-Weighted DPO](./papers/Alignment-Weighted-DPO.md) | arXiv 2024 | 加权DPO优化安全对齐 | `DPO` `加权训练` `安全对齐` |
+| 14 | [MLLM-Protector](./papers/MLLM-Protector.md) | arXiv 2024 | 多模态模型输出端检测与解毒 | `多模态` `输出检测` `轻量级` |
+| 15 | [Nothing in Excess](./papers/Nothing-in-Excess.md) | ICLR 2025 | 缓解过度安全对齐导致的过度拒绝 | `过度拒绝` `安全对齐` `平衡` |
+| 16 | [Alignment-Weighted DPO](./papers/Alignment-Weighted-DPO.md) | arXiv 2024 | 加权DPO优化安全对齐 | `DPO` `加权训练` `安全对齐` |
 
 ### 评估基准（4篇）
 
@@ -136,6 +138,7 @@ llm-safety-papers/
 | 10 | [HarmBench](./papers/HarmBench.md) | ICLR 2024 | 标准化安全评估框架 | `安全评估` `标准化` `自动化` |
 | 11 | [AuditBench](./papers/AuditBench.md) | arXiv 2024 | 安全审计基准测试 | `安全审计` `评估基准` |
 | 12 | [AgentDojo](./papers/AgentDojo.md) | NeurIPS 2024 | 动态提示注入攻击评估环境 | `动态评估` `提示注入` `智能体` |
+| 13 | [R-Judge](./papers/R-Judge.md) | EMNLP 2024 | 智能体风险意识评估基准 | `风险意识` `智能体` `评估基准` |
 
 ### 防御与安全对齐（3篇）
 
@@ -228,7 +231,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
-| 2026-03-17 | 初始化仓库，上传 19 篇论文笔记，完善 README 结构，添加论文汇总 |
+| 2026-03-17 | 初始化仓库，上传 20 篇论文笔记，完善 README 结构，添加论文汇总 |
 
 ---
 
