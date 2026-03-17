@@ -1,8 +1,8 @@
 # 论文索引
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total-22%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-22%20Notes-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Total-23%20Papers-blue?style=flat-square" alt="Total Papers">
+  <img src="https://img.shields.io/badge/Complete-23%20Notes-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--03--17-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -36,6 +36,7 @@
 | 20 | [R-Judge: Benchmarking Safety Risk Awareness for LLM Agents](./R-Judge.md) | EMNLP 2024 | 评估基准 | ✅ |
 | 21 | [TrustLLM: Trustworthiness in Large Language Models](./TrustLLM.md) | arXiv 2024 | 综述 | ✅ |
 | 22 | [SafeGen: Mitigating Sexually Explicit Content in T2I Models](./SafeGen.md) | IEEE S&P 2024 | 多模态安全 | ✅ |
+| 23 | [MultiJail: Jailbreaking T2I Models via Multi-Modal Attack](./MultiJail.md) | arXiv 2024 | 多模态攻击 | ✅ |
 
 ---
 
@@ -174,8 +175,8 @@
 ## 📝 维护说明
 
 - **最后更新**：2026-03-17
-- **论文总数**：22 篇
-- **完整笔记**：22 篇 (100%)
+- **论文总数**：23 篇
+- **完整笔记**：23 篇 (100%)
 - **维护者**：AI 助手 + 人工审核
 - **更新频率**：随阅读进度同步更新
 
