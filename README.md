@@ -2,8 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-16%2F80-success?style=flat-square" alt="Completed">
-  <img src="https://img.shields.io/badge/In%20Progress-7-blue?style=flat-square" alt="In Progress">
+  <img src="https://img.shields.io/badge/Completed-17%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -31,8 +30,7 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 16 篇 (20%) |
-| **进行中** | 7 篇 |
+| **已完成** | 17 篇 (21%) |
 | **最后更新** | 2026-03-17 |
 
 ---
@@ -147,7 +145,7 @@ llm-safety-papers/
 | 15 | [Sleeper Agents](./papers/Sleeper-Agents.md) | ICLR 2024 | 训练具有欺骗性的LLM后门 | `后门攻击` `欺骗性` `持久化` |
 | 16 | [Under the Influence](./papers/Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与防御 | `提示注入` `上下文操控` |
 | 17 | [LLMs know their vulnerabilities](./papers/LLMs-know-their-vulnerabilities.md) | arXiv 2024 | LLM对自身漏洞的认知 | `自我认知` `漏洞分析` |
-| 18 | [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私综述 | `综述` `全景` |
+| 17 | [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私综述 | `综述` `全景` |
 
 ---
 
@@ -217,7 +215,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
-| 2026-03-17 | 初始化仓库，上传 16 篇论文笔记，完善 README 结构，添加论文汇总 |
+| 2026-03-17 | 初始化仓库，上传 17 篇论文笔记，完善 README 结构，添加论文汇总 |
 
 ---
 
