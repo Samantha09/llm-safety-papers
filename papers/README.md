@@ -1,8 +1,8 @@
 # 论文索引
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total-16%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-16%20Notes-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Total-19%20Papers-blue?style=flat-square" alt="Total Papers">
+  <img src="https://img.shields.io/badge/Complete-19%20Notes-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--03--17-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -31,6 +31,8 @@
 | 15 | [AuditBench](./AuditBench.md) | arXiv 2024 | 评估基准 | ✅ |
 | 16 | [LLMs know their vulnerabilities](./LLMs-know-their-vulnerabilities.md) | arXiv 2024 | 漏洞分析 | ✅ |
 | 17 | [LLM Security and Privacy Survey](./LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | 综述 | ✅ |
+| 18 | [AgentDojo: Dynamic Environment for LLM Agent Security](./AgentDojo.md) | NeurIPS 2024 | 评估基准 | ✅ |
+| 19 | [AutoDAN-Turbo: Lifelong Agent for Jailbreak Strategy](./AutoDAN-Turbo.md) | arXiv 2024 | 越狱攻击 | ✅ |
 
 ---
 
@@ -40,7 +42,7 @@
 
 | 标签 | 论文数量 | 论文列表 |
 |------|:--------:|----------|
-| 🔓 越狱攻击 | 6 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG |
+| 🔓 越狱攻击 | 6 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo |
 | 🎯 对抗攻击 | 2 | GCG, AutoDAN |
 | 🧠 提示注入 | 1 | Under the Influence |
 | 🎭 隐蔽攻击 | 2 | Cold-Attack, Sleeper Agents |
@@ -58,7 +60,7 @@
 
 | 标签 | 论文数量 | 论文列表 |
 |------|:--------:|----------|
-| 📊 评估基准 | 3 | JailbreakBench, HarmBench, AuditBench |
+| 📊 评估基准 | 4 | JailbreakBench, HarmBench, AuditBench, AgentDojo |
 
 ### 其他标签
 
@@ -69,12 +71,14 @@
 | 🔄 过度拒绝 | 1 | Nothing in Excess |
 | 🔬 漏洞分析 | 1 | LLMs know their vulnerabilities |
 | 📚 综述 | 1 | LLM Security and Privacy Survey |
+| 🤖 智能体安全 | 1 | AgentDojo |
+| 🔄 终身学习 | 1 | AutoDAN-Turbo |
 
 ---
 
 ## 📊 按类别详细分类
 
-### 🔓 越狱攻击类（6篇）
+### 🔓 越狱攻击类（7篇）
 
 | 论文 | 会议 | 核心思想 | 关键词 |
 |------|------|----------|--------|
@@ -84,6 +88,7 @@
 | [GCG](./GCG.md) | ICLR 2024 | 通用可迁移的对抗后缀攻击 | `对抗后缀` `白盒攻击` `可迁移` `贪心搜索` |
 | [Tree of Attacks](./Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击，分支探索多种攻击路径 | `红队测试` `树搜索` `自动化` `分支探索` |
 | [Cold-Attack](./Cold-Attack.md) | arXiv 2024 | 隐蔽且可控的越狱攻击方法 | `隐蔽攻击` `可控性` `逃避检测` |
+| [AutoDAN-Turbo](./AutoDAN-Turbo.md) | arXiv 2024 | 终身学习策略自探索代理，自动发现越狱策略 | `终身学习` `策略自探索` `黑盒` `自动化` |
 
 ### 🛡️ 防御与安全对齐（3篇）
 
@@ -93,13 +98,14 @@
 | [Nothing in Excess](./Nothing-in-Excess.md) | ICLR 2025 | 缓解过度安全对齐导致的过度拒绝问题 | `过度拒绝` `安全对齐` `平衡` `有用性` |
 | [Alignment-Weighted DPO](./Alignment-Weighted-DPO.md) | arXiv 2024 | 加权DPO优化安全对齐效果 | `DPO` `加权训练` `安全对齐` `样本重要性` |
 
-### 📊 评估基准（3篇）
+### 📊 评估基准（4篇）
 
 | 论文 | 会议 | 核心思想 | 关键词 |
 |------|------|----------|--------|
 | [JailbreakBench](./JailbreakBench.md) | arXiv 2024 | 越狱攻击的标准化评估基准 | `基准测试` `评估框架` `鲁棒性` `标准化` |
 | [HarmBench](./HarmBench.md) | ICLR 2024 | 标准化安全评估框架 | `安全评估` `标准化` `自动化` `全面性` |
 | [AuditBench](./AuditBench.md) | arXiv 2024 | 安全审计基准测试 | `安全审计` `评估基准` `合规性` |
+| [AgentDojo](./AgentDojo.md) | NeurIPS 2024 | 动态提示注入攻击评估环境，支持多工具智能体 | `动态评估` `提示注入` `智能体` `多工具` |
 
 ### 🧪 红队测试（2篇）
 
@@ -132,13 +138,13 @@
 
 **入门路径：**
 1. 先读 [LLM Security and Privacy Survey](./LLM-Security-and-Privacy-Survey.md) 了解全景
-2. 再看评估基准（JailbreakBench, HarmBench）了解评测方法
+2. 再看评估基准（JailbreakBench, HarmBench, AgentDojo）了解评测方法
 
 **攻击研究路径：**
 1. [GCG](./GCG.md) - 经典的对抗后缀攻击
 2. [AutoDAN](./AutoDAN.md) - 隐蔽的语义保持攻击
 3. [PAIR](./PAIR.md) - 高效的黑盒攻击
-4. [Tree of Attacks](./Tree-of-Attacks.md) - 系统化的红队方法
+4. [AutoDAN-Turbo](./AutoDAN-Turbo.md) - 终身学习的自动化攻击
 
 **防御研究路径：**
 1. [MLLM-Protector](./MLLM-Protector.md) - 输出层防御
@@ -163,8 +169,8 @@
 ## 📝 维护说明
 
 - **最后更新**：2026-03-17
-- **论文总数**：17 篇
-- **完整笔记**：17 篇 (100%)
+- **论文总数**：19 篇
+- **完整笔记**：19 篇 (100%)
 - **维护者**：AI 助手 + 人工审核
 - **更新频率**：随阅读进度同步更新
 
