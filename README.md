@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-22%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-23%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 22 篇 (28%) |
+| **已完成** | 23 篇 (29%) |
 | **最后更新** | 2026-03-17 |
 
 ---
@@ -41,7 +41,7 @@
 
 | 类型 | 说明 | 代表论文 |
 |------|------|----------|
-| 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Harnessing Task Overload](./papers/Harnessing-Task-Overload.md), [AutoDAN](./papers/AutoDAN.md), [PAIR](./papers/PAIR.md), [GCG](./papers/GCG.md), [Tree of Attacks](./papers/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/AutoDAN-Turbo.md) |
+| 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Harnessing Task Overload](./papers/Harnessing-Task-Overload.md), [AutoDAN](./papers/AutoDAN.md), [PAIR](./papers/PAIR.md), [GCG](./papers/GCG.md), [Tree of Attacks](./papers/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/AutoDAN-Turbo.md), [MultiJail](./papers/MultiJail.md) |
 | 🎯 **对抗攻击** | 构造对抗样本欺骗模型 | [GCG](./papers/GCG.md), [AutoDAN](./papers/AutoDAN.md) |
 | 🧠 **提示注入** | 通过提示操控模型行为 | [Under the Influence](./papers/Under-the-Influence.md) |
 | 🎭 **隐蔽攻击** | 难以检测的攻击方式 | [Cold-Attack](./papers/Cold-Attack.md), [Sleeper Agents](./papers/Sleeper-Agents.md) |
@@ -95,6 +95,7 @@ llm-safety-papers/
 │   ├── LLM-Security-and-Privacy-Survey.md  # ✅ 综述
 │   ├── LLMs-know-their-vulnerabilities.md  # ✅ 漏洞分析
 │   ├── MLLM-Protector.md              # ✅ MLLM-Protector
+│   ├── MultiJail.md                   # ✅ MultiJail
 │   ├── Nothing-in-Excess.md           # ✅ Nothing in Excess
 │   ├── PAIR.md                        # ✅ PAIR
 │   ├── R-Judge.md                     # ✅ R-Judge
@@ -111,7 +112,7 @@ llm-safety-papers/
 
 ## 📚 论文列表
 
-### 越狱攻击类（8篇）
+### 越狱攻击类（9篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
@@ -123,6 +124,7 @@ llm-safety-papers/
 | 6 | [Cold-Attack](./papers/Cold-Attack.md) | arXiv 2024 | 隐蔽且可控的越狱攻击方法 | `隐蔽攻击` `可控性` |
 | 7 | [AutoDAN-Turbo](./papers/AutoDAN-Turbo.md) | arXiv 2024 | 终身学习策略自探索代理 | `终身学习` `策略自探索` `黑盒` |
 | 8 | [Sleeper Agents](./papers/Sleeper-Agents.md) | ICLR 2024 | 训练具有欺骗性的LLM后门 | `后门攻击` `欺骗性` `持久化` |
+| 9 | [MultiJail](./papers/MultiJail.md) | arXiv 2024 | 多模态越狱攻击T2I模型 | `多模态` `视觉提示` `越狱` |
 
 ### 防御与安全对齐（3篇）
 
@@ -235,7 +237,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
-| 2026-03-17 | 初始化仓库，上传 22 篇论文笔记，完善 README 结构，添加论文汇总 |
+| 2026-03-17 | 初始化仓库，上传 23 篇论文笔记，完善 README 结构，添加论文汇总 |
 
 ---
 
