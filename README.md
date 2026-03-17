@@ -68,7 +68,7 @@
 
 | 方向 | 说明 | 论文 |
 |------|------|------|
-| 📚 **综述** | 领域全面回顾 | [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) |
+| 📚 **综述** | 领域全面回顾 | [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md), [TrustLLM](./papers/TrustLLM.md) |
 | 🔬 **漏洞分析** | 模型自我认知漏洞 | [LLMs know their vulnerabilities](./papers/LLMs-know-their-vulnerabilities.md) |
 
 ---
@@ -99,6 +99,7 @@ llm-safety-papers/
 │   ├── PAIR.md                        # ✅ PAIR
 │   ├── R-Judge.md                     # ✅ R-Judge
 │   ├── Sleeper-Agents.md              # ✅ Sleeper Agents
+│   ├── TrustLLM.md                    # ✅ TrustLLM
 │   ├── Tree-of-Attacks.md             # ✅ Tree of Attacks
 │   └── Under-the-Influence.md         # ✅ Under the Influence
 └── .github/                           # GitHub 配置
@@ -155,13 +156,14 @@ llm-safety-papers/
 | 16 | [APRT](./papers/APRT.md) | COLING 2025 | 自动化渐进式红队测试 | `红队测试` `渐进式` `自动化` |
 | 17 | [Tree of Attacks](./papers/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `树搜索` |
 
-### 其他重要论文（3篇）
+### 其他重要论文（4篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
 | 18 | [Under the Influence](./papers/Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与防御 | `提示注入` `上下文操控` |
 | 19 | [LLMs know their vulnerabilities](./papers/LLMs-know-their-vulnerabilities.md) | arXiv 2024 | LLM对自身漏洞的认知 | `自我认知` `漏洞分析` |
-| 20 | [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私综述 | `综述` `全景` |
+| 20 | [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` |
+| 21 | [TrustLLM](./papers/TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
 
 ---
 
