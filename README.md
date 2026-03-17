@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-20%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-21%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 20 篇 (25%) |
+| **已完成** | 21 篇 (26%) |
 | **最后更新** | 2026-03-17 |
 
 ---
@@ -231,7 +231,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
-| 2026-03-17 | 初始化仓库，上传 20 篇论文笔记，完善 README 结构，添加论文汇总 |
+| 2026-03-17 | 初始化仓库，上传 21 篇论文笔记，完善 README 结构，添加论文汇总 |
 
 ---
 
