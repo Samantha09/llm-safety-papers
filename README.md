@@ -2,9 +2,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Read-22%20Done-success?style=flat-square" alt="Read Progress">
+  <img src="https://img.shields.io/badge/Read-23%20Done-success?style=flat-square" alt="Read Progress">
   <img src="https://img.shields.io/badge/Uploaded-16%20Notes-orange?style=flat-square" alt="Uploaded">
-  <img src="https://img.shields.io/badge/Progress-27.5%25-yellow?style=flat-square" alt="Progress">
+  <img src="https://img.shields.io/badge/Uploaded-16%2F23-yellow?style=flat-square" alt="Progress">
 </p>
 
 <p align="center">
