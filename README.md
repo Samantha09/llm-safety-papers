@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-21%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-22%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 21 篇 (26%) |
+| **已完成** | 22 篇 (28%) |
 | **最后更新** | 2026-03-17 |
 
 ---
@@ -51,7 +51,7 @@
 | 类型 | 说明 | 代表论文 |
 |------|------|----------|
 | 🛡️ **安全对齐** | 训练阶段的安全优化 | [Nothing in Excess](./papers/Nothing-in-Excess.md), [Alignment-Weighted DPO](./papers/Alignment-Weighted-DPO.md) |
-| 🔍 **输出检测** | 生成内容的实时检测 | [MLLM-Protector](./papers/MLLM-Protector.md) |
+| 🔍 **输出检测** | 生成内容的实时检测 | [MLLM-Protector](./papers/MLLM-Protector.md), [SafeGen](./papers/SafeGen.md) |
 | 🧪 **红队测试** | 主动发现安全漏洞 | [APRT](./papers/APRT.md), [Tree of Attacks](./papers/Tree-of-Attacks.md) |
 
 ### 按评估基准
@@ -98,6 +98,7 @@ llm-safety-papers/
 │   ├── Nothing-in-Excess.md           # ✅ Nothing in Excess
 │   ├── PAIR.md                        # ✅ PAIR
 │   ├── R-Judge.md                     # ✅ R-Judge
+│   ├── SafeGen.md                     # ✅ SafeGen
 │   ├── Sleeper-Agents.md              # ✅ Sleeper Agents
 │   ├── TrustLLM.md                    # ✅ TrustLLM
 │   ├── Tree-of-Attacks.md             # ✅ Tree of Attacks
@@ -141,29 +142,30 @@ llm-safety-papers/
 | 12 | [AgentDojo](./papers/AgentDojo.md) | NeurIPS 2024 | 动态提示注入攻击评估环境 | `动态评估` `提示注入` `智能体` |
 | 13 | [R-Judge](./papers/R-Judge.md) | EMNLP 2024 | 智能体风险意识评估基准 | `风险意识` `智能体` `评估基准` |
 
-### 防御与安全对齐（3篇）
+### 防御与安全对齐（4篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
 | 13 | [MLLM-Protector](./papers/MLLM-Protector.md) | arXiv 2024 | 多模态模型输出端检测与解毒 | `多模态` `输出检测` `轻量级` |
 | 14 | [Nothing in Excess](./papers/Nothing-in-Excess.md) | ICLR 2025 | 缓解过度安全对齐导致的过度拒绝 | `过度拒绝` `安全对齐` `平衡` |
 | 15 | [Alignment-Weighted DPO](./papers/Alignment-Weighted-DPO.md) | arXiv 2024 | 加权DPO优化安全对齐 | `DPO` `加权训练` `安全对齐` |
+| 16 | [SafeGen](./papers/SafeGen.md) | IEEE S&P 2024 | T2I模型性暗示内容生成防护 | `多模态` `内容过滤` `即插即用` |
 
 ### 红队测试（2篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 16 | [APRT](./papers/APRT.md) | COLING 2025 | 自动化渐进式红队测试 | `红队测试` `渐进式` `自动化` |
-| 17 | [Tree of Attacks](./papers/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `树搜索` |
+| 17 | [APRT](./papers/APRT.md) | COLING 2025 | 自动化渐进式红队测试 | `红队测试` `渐进式` `自动化` |
+| 18 | [Tree of Attacks](./papers/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `树搜索` |
 
 ### 其他重要论文（4篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 18 | [Under the Influence](./papers/Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与防御 | `提示注入` `上下文操控` |
-| 19 | [LLMs know their vulnerabilities](./papers/LLMs-know-their-vulnerabilities.md) | arXiv 2024 | LLM对自身漏洞的认知 | `自我认知` `漏洞分析` |
-| 20 | [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` |
-| 21 | [TrustLLM](./papers/TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
+| 19 | [Under the Influence](./papers/Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与防御 | `提示注入` `上下文操控` |
+| 20 | [LLMs know their vulnerabilities](./papers/LLMs-know-their-vulnerabilities.md) | arXiv 2024 | LLM对自身漏洞的认知 | `自我认知` `漏洞分析` |
+| 21 | [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` |
+| 22 | [TrustLLM](./papers/TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
 
 ---
 
@@ -233,7 +235,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
-| 2026-03-17 | 初始化仓库，上传 21 篇论文笔记，完善 README 结构，添加论文汇总 |
+| 2026-03-17 | 初始化仓库，上传 22 篇论文笔记，完善 README 结构，添加论文汇总 |
 
 ---
 
