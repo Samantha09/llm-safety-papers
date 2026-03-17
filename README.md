@@ -207,6 +207,7 @@ llm-safety-papers/
 ## 📖 相关资源
 
 ### 内部资源
+- 📚 [论文汇总](./PAPER_COLLECTION.md) - 约80篇LLM Safety论文完整列表（2021-2026）
 - 📋 [飞书文档汇总](https://icnw8tijaj9e.feishu.cn/docx/SeHadTyljotTDyxTPQoc7EllnUc) - 原始笔记和资料
 
 ### 外部资源
