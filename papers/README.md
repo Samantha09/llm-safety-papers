@@ -1,8 +1,8 @@
 # 论文索引
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total-19%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-19%20Notes-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Total-20%20Papers-blue?style=flat-square" alt="Total Papers">
+  <img src="https://img.shields.io/badge/Complete-20%20Notes-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--03--17-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -33,6 +33,7 @@
 | 17 | [LLM Security and Privacy Survey](./LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | 综述 | ✅ |
 | 18 | [AgentDojo: Dynamic Environment for LLM Agent Security](./AgentDojo.md) | NeurIPS 2024 | 评估基准 | ✅ |
 | 19 | [AutoDAN-Turbo: Lifelong Agent for Jailbreak Strategy](./AutoDAN-Turbo.md) | arXiv 2024 | 越狱攻击 | ✅ |
+| 20 | [R-Judge: Benchmarking Safety Risk Awareness for LLM Agents](./R-Judge.md) | EMNLP 2024 | 评估基准 | ✅ |
 
 ---
 
@@ -60,7 +61,7 @@
 
 | 标签 | 论文数量 | 论文列表 |
 |------|:--------:|----------|
-| 📊 评估基准 | 4 | JailbreakBench, HarmBench, AuditBench, AgentDojo |
+| 📊 评估基准 | 5 | JailbreakBench, HarmBench, AuditBench, AgentDojo, R-Judge |
 
 ### 其他标签
 
@@ -72,6 +73,7 @@
 | 🔬 漏洞分析 | 1 | LLMs know their vulnerabilities |
 | 📚 综述 | 1 | LLM Security and Privacy Survey |
 | 🤖 智能体安全 | 1 | AgentDojo |
+| 🛡️ 风险意识 | 1 | R-Judge |
 | 🔄 终身学习 | 1 | AutoDAN-Turbo |
 
 ---
@@ -98,7 +100,7 @@
 | [Nothing in Excess](./Nothing-in-Excess.md) | ICLR 2025 | 缓解过度安全对齐导致的过度拒绝问题 | `过度拒绝` `安全对齐` `平衡` `有用性` |
 | [Alignment-Weighted DPO](./Alignment-Weighted-DPO.md) | arXiv 2024 | 加权DPO优化安全对齐效果 | `DPO` `加权训练` `安全对齐` `样本重要性` |
 
-### 📊 评估基准（4篇）
+### 📊 评估基准（5篇）
 
 | 论文 | 会议 | 核心思想 | 关键词 |
 |------|------|----------|--------|
@@ -106,6 +108,7 @@
 | [HarmBench](./HarmBench.md) | ICLR 2024 | 标准化安全评估框架 | `安全评估` `标准化` `自动化` `全面性` |
 | [AuditBench](./AuditBench.md) | arXiv 2024 | 安全审计基准测试 | `安全审计` `评估基准` `合规性` |
 | [AgentDojo](./AgentDojo.md) | NeurIPS 2024 | 动态提示注入攻击评估环境，支持多工具智能体 | `动态评估` `提示注入` `智能体` `多工具` |
+| [R-Judge](./R-Judge.md) | EMNLP 2024 | 智能体风险意识评估基准，系统性评估风险识别能力 | `风险意识` `智能体` `评估基准` `多维度` |
 
 ### 🧪 红队测试（2篇）
 
@@ -169,8 +172,8 @@
 ## 📝 维护说明
 
 - **最后更新**：2026-03-17
-- **论文总数**：19 篇
-- **完整笔记**：19 篇 (100%)
+- **论文总数**：20 篇
+- **完整笔记**：20 篇 (100%)
 - **维护者**：AI 助手 + 人工审核
 - **更新频率**：随阅读进度同步更新
 
