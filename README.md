@@ -2,9 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Read-23%20Done-success?style=flat-square" alt="Read Progress">
-  <img src="https://img.shields.io/badge/Uploaded-16%20Notes-orange?style=flat-square" alt="Uploaded">
-  <img src="https://img.shields.io/badge/Uploaded-16%2F23-yellow?style=flat-square" alt="Progress">
+  <img src="https://img.shields.io/badge/Completed-16%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/In%20Progress-7-blue?style=flat-square" alt="In Progress">
 </p>
 
 <p align="center">
@@ -31,9 +30,9 @@
 
 | 指标 | 数值 |
 |------|------|
-| **计划阅读** | 80 篇 |
-| **已完成阅读** | 22 篇 (27.5%) |
-| **已整理笔记** | 16 篇 |
+| **计划完成** | 80 篇 |
+| **已完成** | 16 篇 (20%) |
+| **进行中** | 7 篇 |
 | **最后更新** | 2026-03-17 |
 
 ---
@@ -79,6 +78,7 @@
 ```
 llm-safety-papers/
 ├── README.md                          # 项目主页（本文件）
+├── PAPER_COLLECTION.md                # 论文汇总（约80篇）
 ├── papers/
 │   ├── README.md                      # 论文索引与快速检索
 │   ├── APRT.md                        # ✅ Automated Progressive Red Teaming
@@ -98,12 +98,9 @@ llm-safety-papers/
 │   ├── Sleeper-Agents.md              # ✅ Sleeper Agents
 │   ├── Tree-of-Attacks.md             # ✅ Tree of Attacks
 │   └── Under-the-Influence.md         # ✅ Under the Influence
-└── .github/                           # GitHub 配置（待添加）
+└── .github/                           # GitHub 配置
     └── workflows/                     # 自动化工作流
 ```
-
-**图例说明：**
-- ✅ 完整笔记 - 包含所有章节和详细分析
 
 ---
 
@@ -117,8 +114,8 @@ llm-safety-papers/
 | 2 | [AutoDAN](./papers/AutoDAN.md) | NeurIPS 2024 | 遗传算法生成隐蔽的越狱提示 | `对抗生成` `隐蔽攻击` `黑盒` |
 | 3 | [PAIR](./papers/PAIR.md) | arXiv 2024 | 20次查询内越狱黑盒LLM | `黑盒攻击` `查询高效` |
 | 4 | [GCG](./papers/GCG.md) | ICLR 2024 | 通用可迁移的对抗攻击 | `对抗后缀` `白盒攻击` `可迁移` |
-| 5 | [Tree of Attacks](./papers/Tree-of-Attacks.md) | arXiv 2024 | 自动化的树状红队攻击 | `红队测试` `自动化` `树搜索` |
-| 6 | [Cold-Attack](./papers/Cold-Attack.md) | arXiv 2024 | 隐蔽可控的越狱攻击 | `隐蔽攻击` `可控性` |
+| 5 | [Tree of Attacks](./papers/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `自动化` `树搜索` |
+| 6 | [Cold-Attack](./papers/Cold-Attack.md) | arXiv 2024 | 隐蔽且可控的越狱攻击方法 | `隐蔽攻击` `可控性` |
 
 ### 防御与安全对齐（3篇）
 
@@ -143,7 +140,7 @@ llm-safety-papers/
 | 13 | [APRT](./papers/APRT.md) | COLING 2025 | 自动化渐进式红队测试 | `红队测试` `渐进式` `自动化` |
 | 14 | [Tree of Attacks](./papers/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `树搜索` |
 
-### 其他重要论文（2篇）
+### 其他重要论文（3篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
@@ -191,7 +188,7 @@ llm-safety-papers/
 欢迎贡献！你可以通过以下方式参与：
 
 1. **补充笔记** - 完善标记为 📝 的论文笔记
-2. **上传新论文** - 将飞书云盘中的论文整理上传到 GitHub
+2. **上传新论文** - 将 PAPER_COLLECTION.md 中的论文整理上传到 papers/ 目录
 3. **修正错误** - 发现笔记中的错误请提 Issue 或 PR
 4. **添加分类** - 建议新的论文分类或标签
 
@@ -208,7 +205,6 @@ llm-safety-papers/
 
 ### 内部资源
 - 📚 [论文汇总](./PAPER_COLLECTION.md) - 约80篇LLM Safety论文完整列表（2021-2026）
-- 📋 [飞书文档汇总](https://icnw8tijaj9e.feishu.cn/docx/SeHadTyljotTDyxTPQoc7EllnUc) - 原始笔记和资料
 
 ### 外部资源
 - 📚 [arXiv CS.CR](https://arxiv.org/list/cs.CR/recent) - 最新安全论文
@@ -221,7 +217,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
-| 2026-03-17 | 初始化仓库，上传 16 篇论文笔记，完善 README 结构 |
+| 2026-03-17 | 初始化仓库，上传 16 篇论文笔记，完善 README 结构，添加论文汇总 |
 
 ---
 
