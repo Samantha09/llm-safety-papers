@@ -1,9 +1,9 @@
 # 论文索引
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total-23%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-23%20Notes-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--03--17-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Total-24%20Papers-blue?style=flat-square" alt="Total Papers">
+  <img src="https://img.shields.io/badge/Complete-24%20Notes-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--03--18-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按类别和状态整理。
@@ -37,6 +37,7 @@
 | 21 | [TrustLLM: Trustworthiness in Large Language Models](./TrustLLM.md) | arXiv 2024 | 综述 | ✅ |
 | 22 | [SafeGen: Mitigating Sexually Explicit Content in T2I Models](./SafeGen.md) | IEEE S&P 2024 | 多模态安全 | ✅ |
 | 23 | [MultiJail: Jailbreaking T2I Models via Multi-Modal Attack](./MultiJail.md) | arXiv 2024 | 多模态攻击 | ✅ |
+| 24 | [Jailbreak Attacks and Defenses Survey](./Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 综述 | ✅ |
 
 ---
 
@@ -74,7 +75,7 @@
 | ⚡ 资源攻击 | 1 | Harnessing Task Overload |
 | 🔄 过度拒绝 | 1 | Nothing in Excess |
 | 🔬 漏洞分析 | 1 | LLMs know their vulnerabilities |
-| 📚 综述 | 1 | LLM Security and Privacy Survey |
+| 📚 综述 | 2 | LLM Security and Privacy Survey, Jailbreak Attacks and Defenses Survey |
 | 🤖 智能体安全 | 1 | AgentDojo |
 | 🛡️ 风险意识 | 1 | R-Judge |
 | 🔄 终身学习 | 1 | AutoDAN-Turbo |
@@ -120,10 +121,11 @@
 | [APRT](./APRT.md) | COLING 2025 | 自动化渐进式红队测试框架 | `红队测试` `渐进式` `自动化` `持续优化` |
 | [Tree of Attacks](./Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击方法 | `红队测试` `树搜索` `分支探索` |
 
-### 🔬 其他重要论文（4篇）
+### 🔬 其他重要论文（5篇）
 
 | 论文 | 会议 | 核心思想 | 关键词 |
 |------|------|----------|--------|
+| [Jailbreak Attacks and Defenses Survey](./Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 越狱攻击与防御全面综述，系统分类攻击和防御方法 | `综述` `攻击` `防御` `分类` `关系图谱` |
 | [Sleeper Agents](./Sleeper-Agents.md) | ICLR 2024 | 训练具有欺骗性的持久化后门 | `后门攻击` `欺骗性` `持久化` `安全训练` |
 | [Under the Influence](./Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与上下文操控 | `提示注入` `上下文操控` `指令劫持` |
 | [LLMs know their vulnerabilities](./LLMs-know-their-vulnerabilities.md) | arXiv 2024 | LLM对自身安全漏洞的认知能力 | `自我认知` `漏洞分析` `元认知` |
@@ -143,8 +145,9 @@
 ### 阅读建议
 
 **入门路径：**
-1. 先读 [LLM Security and Privacy Survey](./LLM-Security-and-Privacy-Survey.md) 了解全景
-2. 再看评估基准（JailbreakBench, HarmBench, AgentDojo）了解评测方法
+1. 先读 [Jailbreak Attacks and Defenses Survey](./Jailbreak-Attacks-and-Defenses-Survey.md) 了解越狱攻击与防御全景
+2. 再读 [LLM Security and Privacy Survey](./LLM-Security-and-Privacy-Survey.md) 了解LLM安全整体概况
+3. 再看评估基准（JailbreakBench, HarmBench, AgentDojo）了解评测方法
 
 **攻击研究路径：**
 1. [GCG](./GCG.md) - 经典的对抗后缀攻击
@@ -174,9 +177,9 @@
 
 ## 📝 维护说明
 
-- **最后更新**：2026-03-17
-- **论文总数**：23 篇
-- **完整笔记**：23 篇 (100%)
+- **最后更新**：2026-03-18
+- **论文总数**：24 篇
+- **完整笔记**：24 篇 (100%)
 - **维护者**：AI 助手 + 人工审核
 - **更新频率**：随阅读进度同步更新
 
