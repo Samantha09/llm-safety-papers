@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-23%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-24%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 23 篇 (29%) |
-| **最后更新** | 2026-03-17 |
+| **已完成** | 24 篇 (30%) |
+| **最后更新** | 2026-03-18 |
 
 ---
 
@@ -68,7 +68,7 @@
 
 | 方向 | 说明 | 论文 |
 |------|------|------|
-| 📚 **综述** | 领域全面回顾 | [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md), [TrustLLM](./papers/TrustLLM.md) |
+| 📚 **综述** | 领域全面回顾 | [Jailbreak Attacks and Defenses Survey](./papers/Jailbreak-Attacks-and-Defenses-Survey.md), [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md), [TrustLLM](./papers/TrustLLM.md) |
 | 🔬 **漏洞分析** | 模型自我认知漏洞 | [LLMs know their vulnerabilities](./papers/LLMs-know-their-vulnerabilities.md) |
 
 ---
@@ -91,6 +91,7 @@ llm-safety-papers/
 │   ├── GCG.md                         # ✅ GCG攻击
 │   ├── HarmBench.md                   # ✅ HarmBench
 │   ├── Harnessing-Task-Overload.md    # ✅ Harnessing Task Overload
+│   ├── Jailbreak-Attacks-and-Defenses-Survey.md  # ✅ 综述
 │   ├── JailbreakBench.md              # ✅ JailbreakBench
 │   ├── LLM-Security-and-Privacy-Survey.md  # ✅ 综述
 │   ├── LLMs-know-their-vulnerabilities.md  # ✅ 漏洞分析
@@ -160,14 +161,15 @@ llm-safety-papers/
 | 17 | [APRT](./papers/APRT.md) | COLING 2025 | 自动化渐进式红队测试 | `红队测试` `渐进式` `自动化` |
 | 18 | [Tree of Attacks](./papers/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `树搜索` |
 
-### 其他重要论文（4篇）
+### 其他重要论文（5篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 19 | [Under the Influence](./papers/Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与防御 | `提示注入` `上下文操控` |
-| 20 | [LLMs know their vulnerabilities](./papers/LLMs-know-their-vulnerabilities.md) | arXiv 2024 | LLM对自身漏洞的认知 | `自我认知` `漏洞分析` |
-| 21 | [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` |
-| 22 | [TrustLLM](./papers/TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
+| 19 | [Jailbreak Attacks and Defenses Survey](./papers/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 越狱攻击与防御全面综述 | `综述` `攻击` `防御` `分类` |
+| 20 | [Under the Influence](./papers/Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与防御 | `提示注入` `上下文操控` |
+| 21 | [LLMs know their vulnerabilities](./papers/LLMs-know-their-vulnerabilities.md) | arXiv 2024 | LLM对自身漏洞的认知 | `自我认知` `漏洞分析` |
+| 22 | [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` |
+| 23 | [TrustLLM](./papers/TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
 
 ---
 
@@ -237,6 +239,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-03-18 | 添加论文：Jailbreak Attacks and Defenses Against LLMs - A Survey，更新进度至 24/80 |
 | 2026-03-17 | 初始化仓库，上传 23 篇论文笔记，完善 README 结构，添加论文汇总 |
 
 ---
