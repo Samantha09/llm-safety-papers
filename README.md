@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-24%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-25%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 24 篇 (30%) |
-| **最后更新** | 2026-03-18 |
+| **已完成** | 25 篇 (31%) |
+| **最后更新** | 2026-03-19 |
 
 ---
 
@@ -81,7 +81,7 @@ llm-safety-papers/
 ├── PAPER_COLLECTION.md                # 论文汇总（约80篇）
 ├── papers/
 │   ├── README.md                      # 论文索引与快速检索
-├── AgentDojo.md                       # ✅ AgentDojo
+│   ├── AgentDojo.md                   # ✅ AgentDojo - 智能体安全评估环境
 │   ├── APRT.md                        # ✅ Automated Progressive Red Teaming
 │   ├── Alignment-Weighted-DPO.md      # ✅ Alignment-Weighted DPO
 │   ├── AuditBench.md                  # ✅ AuditBench
@@ -127,49 +127,41 @@ llm-safety-papers/
 | 8 | [Sleeper Agents](./papers/Sleeper-Agents.md) | ICLR 2024 | 训练具有欺骗性的LLM后门 | `后门攻击` `欺骗性` `持久化` |
 | 9 | [MultiJail](./papers/MultiJail.md) | arXiv 2024 | 多模态越狱攻击T2I模型 | `多模态` `视觉提示` `越狱` |
 
-### 防御与安全对齐（3篇）
-
-| # | 论文 | 会议/年份 | 核心思想 | 标签 |
-|---|------|----------|----------|------|
-| 14 | [MLLM-Protector](./papers/MLLM-Protector.md) | arXiv 2024 | 多模态模型输出端检测与解毒 | `多模态` `输出检测` `轻量级` |
-| 15 | [Nothing in Excess](./papers/Nothing-in-Excess.md) | ICLR 2025 | 缓解过度安全对齐导致的过度拒绝 | `过度拒绝` `安全对齐` `平衡` |
-| 16 | [Alignment-Weighted DPO](./papers/Alignment-Weighted-DPO.md) | arXiv 2024 | 加权DPO优化安全对齐 | `DPO` `加权训练` `安全对齐` |
-
-### 评估基准（4篇）
-
-| # | 论文 | 会议/年份 | 核心思想 | 标签 |
-|---|------|----------|----------|------|
-| 9 | [JailbreakBench](./papers/JailbreakBench.md) | arXiv 2024 | 越狱攻击评估基准 | `基准测试` `评估框架` `鲁棒性` |
-| 10 | [HarmBench](./papers/HarmBench.md) | ICLR 2024 | 标准化安全评估框架 | `安全评估` `标准化` `自动化` |
-| 11 | [AuditBench](./papers/AuditBench.md) | arXiv 2024 | 安全审计基准测试 | `安全审计` `评估基准` |
-| 12 | [AgentDojo](./papers/AgentDojo.md) | NeurIPS 2024 | 动态提示注入攻击评估环境 | `动态评估` `提示注入` `智能体` |
-| 13 | [R-Judge](./papers/R-Judge.md) | EMNLP 2024 | 智能体风险意识评估基准 | `风险意识` `智能体` `评估基准` |
-
 ### 防御与安全对齐（4篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 13 | [MLLM-Protector](./papers/MLLM-Protector.md) | arXiv 2024 | 多模态模型输出端检测与解毒 | `多模态` `输出检测` `轻量级` |
-| 14 | [Nothing in Excess](./papers/Nothing-in-Excess.md) | ICLR 2025 | 缓解过度安全对齐导致的过度拒绝 | `过度拒绝` `安全对齐` `平衡` |
-| 15 | [Alignment-Weighted DPO](./papers/Alignment-Weighted-DPO.md) | arXiv 2024 | 加权DPO优化安全对齐 | `DPO` `加权训练` `安全对齐` |
-| 16 | [SafeGen](./papers/SafeGen.md) | IEEE S&P 2024 | T2I模型性暗示内容生成防护 | `多模态` `内容过滤` `即插即用` |
+| 10 | [MLLM-Protector](./papers/MLLM-Protector.md) | arXiv 2024 | 多模态模型输出端检测与解毒 | `多模态` `输出检测` `轻量级` |
+| 11 | [Nothing in Excess](./papers/Nothing-in-Excess.md) | ICLR 2025 | 缓解过度安全对齐导致的过度拒绝 | `过度拒绝` `安全对齐` `平衡` |
+| 12 | [Alignment-Weighted DPO](./papers/Alignment-Weighted-DPO.md) | arXiv 2024 | 加权DPO优化安全对齐 | `DPO` `加权训练` `安全对齐` |
+| 13 | [SafeGen](./papers/SafeGen.md) | IEEE S&P 2024 | T2I模型性暗示内容生成防护 | `多模态` `内容过滤` `即插即用` |
+
+### 评估基准（5篇）
+
+| # | 论文 | 会议/年份 | 核心思想 | 标签 |
+|---|------|----------|----------|------|
+| 14 | [JailbreakBench](./papers/JailbreakBench.md) | arXiv 2024 | 越狱攻击评估基准 | `基准测试` `评估框架` `鲁棒性` |
+| 15 | [HarmBench](./papers/HarmBench.md) | ICLR 2024 | 标准化安全评估框架 | `安全评估` `标准化` `自动化` |
+| 16 | [AuditBench](./papers/AuditBench.md) | arXiv 2024 | 安全审计基准测试 | `安全审计` `评估基准` |
+| 17 | [AgentDojo](./papers/AgentDojo.md) | NeurIPS 2024 | 动态提示注入攻击评估环境 | `动态评估` `提示注入` `智能体` |
+| 18 | [R-Judge](./papers/R-Judge.md) | EMNLP 2024 | 智能体风险意识评估基准 | `风险意识` `智能体` `评估基准` |
 
 ### 红队测试（2篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 17 | [APRT](./papers/APRT.md) | COLING 2025 | 自动化渐进式红队测试 | `红队测试` `渐进式` `自动化` |
-| 18 | [Tree of Attacks](./papers/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `树搜索` |
+| 19 | [APRT](./papers/APRT.md) | COLING 2025 | 自动化渐进式红队测试 | `红队测试` `渐进式` `自动化` |
+| 20 | [Tree of Attacks](./papers/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `树搜索` |
 
 ### 其他重要论文（5篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 19 | [Jailbreak Attacks and Defenses Survey](./papers/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 越狱攻击与防御全面综述 | `综述` `攻击` `防御` `分类` |
-| 20 | [Under the Influence](./papers/Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与防御 | `提示注入` `上下文操控` |
-| 21 | [LLMs know their vulnerabilities](./papers/LLMs-know-their-vulnerabilities.md) | arXiv 2024 | LLM对自身漏洞的认知 | `自我认知` `漏洞分析` |
-| 22 | [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` |
-| 23 | [TrustLLM](./papers/TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
+| 21 | [Jailbreak Attacks and Defenses Survey](./papers/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 越狱攻击与防御全面综述 | `综述` `攻击` `防御` `分类` |
+| 22 | [Under the Influence](./papers/Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与防御 | `提示注入` `上下文操控` |
+| 23 | [LLMs know their vulnerabilities](./papers/LLMs-know-their-vulnerabilities.md) | arXiv 2024 | LLM对自身漏洞的认知 | `自我认知` `漏洞分析` |
+| 24 | [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` |
+| 25 | [TrustLLM](./papers/TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
 
 ---
 
@@ -195,7 +187,7 @@ llm-safety-papers/
 - **想快速了解领域**：先看 [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) 和评估基准类论文
 - **关注攻击方法**：重点阅读 GCG、AutoDAN、PAIR、Harnessing Task Overload
 - **关注防御方法**：重点阅读 MLLM-Protector、Nothing in Excess、Alignment-Weighted DPO
-- **关注评估基准**：重点阅读 JailbreakBench、HarmBench、AuditBench
+- **关注评估基准**：重点阅读 JailbreakBench、HarmBench、AuditBench、AgentDojo
 
 ### 进阶阅读路径
 
@@ -239,6 +231,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-03-19 | 更新论文：AgentDojo - 添加完整的12章详细阅读笔记，更新进度至 25/80 |
 | 2026-03-18 | 添加论文：Jailbreak Attacks and Defenses Against LLMs - A Survey，更新进度至 24/80 |
 | 2026-03-17 | 初始化仓库，上传 23 篇论文笔记，完善 README 结构，添加论文汇总 |
 
