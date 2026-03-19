@@ -1,9 +1,9 @@
 # 论文索引
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total-24%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-24%20Notes-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--03--18-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Total-25%20Papers-blue?style=flat-square" alt="Total Papers">
+  <img src="https://img.shields.io/badge/Complete-25%20Notes-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--03--19-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按类别和状态整理。
@@ -38,6 +38,7 @@
 | 22 | [SafeGen: Mitigating Sexually Explicit Content in T2I Models](./SafeGen.md) | IEEE S&P 2024 | 多模态安全 | ✅ |
 | 23 | [MultiJail: Jailbreaking T2I Models via Multi-Modal Attack](./MultiJail.md) | arXiv 2024 | 多模态攻击 | ✅ |
 | 24 | [Jailbreak Attacks and Defenses Survey](./Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 综述 | ✅ |
+| 25 | [AgentDojo: A Dynamic Environment to Evaluate Attacks and Defenses for LLM Agents](./AgentDojo.md) | NeurIPS 2024 | 智能体安全评估 | ✅ |
 
 ---
 
@@ -47,7 +48,7 @@
 
 | 标签 | 论文数量 | 论文列表 |
 |------|:--------:|----------|
-| 🔓 越狱攻击 | 6 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo |
+| 🔓 越狱攻击 | 7 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo |
 | 🎯 对抗攻击 | 2 | GCG, AutoDAN |
 | 🧠 提示注入 | 1 | Under the Influence |
 | 🎭 隐蔽攻击 | 2 | Cold-Attack, Sleeper Agents |
@@ -58,7 +59,7 @@
 | 标签 | 论文数量 | 论文列表 |
 |------|:--------:|----------|
 | 🛡️ 安全对齐 | 2 | Nothing in Excess, Alignment-Weighted DPO |
-| 🔍 输出检测 | 1 | MLLM-Protector |
+| 🔍 输出检测 | 2 | MLLM-Protector, SafeGen |
 | 🧪 红队测试 | 2 | APRT, Tree of Attacks |
 
 ### 评估基准
@@ -71,12 +72,12 @@
 
 | 标签 | 论文数量 | 论文列表 |
 |------|:--------:|----------|
-| 🖼️ 多模态 | 1 | MLLM-Protector |
+| 🖼️ 多模态 | 3 | MLLM-Protector, SafeGen, MultiJail |
 | ⚡ 资源攻击 | 1 | Harnessing Task Overload |
 | 🔄 过度拒绝 | 1 | Nothing in Excess |
 | 🔬 漏洞分析 | 1 | LLMs know their vulnerabilities |
-| 📚 综述 | 2 | LLM Security and Privacy Survey, Jailbreak Attacks and Defenses Survey |
-| 🤖 智能体安全 | 1 | AgentDojo |
+| 📚 综述 | 3 | LLM Security and Privacy Survey, Jailbreak Attacks and Defenses Survey, TrustLLM |
+| 🤖 智能体安全 | 2 | AgentDojo, R-Judge |
 | 🛡️ 风险意识 | 1 | R-Judge |
 | 🔄 终身学习 | 1 | AutoDAN-Turbo |
 
@@ -96,11 +97,12 @@
 | [Cold-Attack](./Cold-Attack.md) | arXiv 2024 | 隐蔽且可控的越狱攻击方法 | `隐蔽攻击` `可控性` `逃避检测` |
 | [AutoDAN-Turbo](./AutoDAN-Turbo.md) | arXiv 2024 | 终身学习策略自探索代理，自动发现越狱策略 | `终身学习` `策略自探索` `黑盒` `自动化` |
 
-### 🛡️ 防御与安全对齐（3篇）
+### 🛡️ 防御与安全对齐（4篇）
 
 | 论文 | 会议 | 核心思想 | 关键词 |
 |------|------|----------|--------|
 | [MLLM-Protector](./MLLM-Protector.md) | arXiv 2024 | 多模态模型输出端轻量级检测与解毒 | `多模态` `输出检测` `轻量级` `性能无损` |
+| [SafeGen](./SafeGen.md) | IEEE S&P 2024 | T2I模型性暗示内容生成防护 | `多模态` `内容过滤` `即插即用` |
 | [Nothing in Excess](./Nothing-in-Excess.md) | ICLR 2025 | 缓解过度安全对齐导致的过度拒绝问题 | `过度拒绝` `安全对齐` `平衡` `有用性` |
 | [Alignment-Weighted DPO](./Alignment-Weighted-DPO.md) | arXiv 2024 | 加权DPO优化安全对齐效果 | `DPO` `加权训练` `安全对齐` `样本重要性` |
 
@@ -111,7 +113,7 @@
 | [JailbreakBench](./JailbreakBench.md) | arXiv 2024 | 越狱攻击的标准化评估基准 | `基准测试` `评估框架` `鲁棒性` `标准化` |
 | [HarmBench](./HarmBench.md) | ICLR 2024 | 标准化安全评估框架 | `安全评估` `标准化` `自动化` `全面性` |
 | [AuditBench](./AuditBench.md) | arXiv 2024 | 安全审计基准测试 | `安全审计` `评估基准` `合规性` |
-| [AgentDojo](./AgentDojo.md) | NeurIPS 2024 | 动态提示注入攻击评估环境，支持多工具智能体 | `动态评估` `提示注入` `智能体` `多工具` |
+| [AgentDojo](./AgentDojo.md) | NeurIPS 2024 | 动态提示注入攻击评估环境，支持97个真实世界任务 | `动态评估` `提示注入` `智能体` `多工具` |
 | [R-Judge](./R-Judge.md) | EMNLP 2024 | 智能体风险意识评估基准，系统性评估风险识别能力 | `风险意识` `智能体` `评估基准` `多维度` |
 
 ### 🧪 红队测试（2篇）
@@ -121,7 +123,7 @@
 | [APRT](./APRT.md) | COLING 2025 | 自动化渐进式红队测试框架 | `红队测试` `渐进式` `自动化` `持续优化` |
 | [Tree of Attacks](./Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击方法 | `红队测试` `树搜索` `分支探索` |
 
-### 🔬 其他重要论文（5篇）
+### 🔬 其他重要论文（7篇）
 
 | 论文 | 会议 | 核心思想 | 关键词 |
 |------|------|----------|--------|
@@ -130,6 +132,8 @@
 | [Under the Influence](./Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与上下文操控 | `提示注入` `上下文操控` `指令劫持` |
 | [LLMs know their vulnerabilities](./LLMs-know-their-vulnerabilities.md) | arXiv 2024 | LLM对自身安全漏洞的认知能力 | `自我认知` `漏洞分析` `元认知` |
 | [LLM Security and Privacy Survey](./LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` `分类体系` |
+| [TrustLLM](./TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
+| [MultiJail](./MultiJail.md) | arXiv 2024 | 多模态越狱攻击T2I模型 | `多模态` `视觉提示` `越狱` |
 
 ---
 
@@ -160,6 +164,10 @@
 2. [Nothing in Excess](./Nothing-in-Excess.md) - 安全与有用性平衡
 3. [Alignment-Weighted DPO](./Alignment-Weighted-DPO.md) - 训练阶段优化
 
+**智能体安全路径：**
+1. [AgentDojo](./AgentDojo.md) - 智能体安全评估框架
+2. [R-Judge](./R-Judge.md) - 智能体风险意识评估
+
 ### 笔记格式
 
 完整笔记包含以下章节：
@@ -177,9 +185,9 @@
 
 ## 📝 维护说明
 
-- **最后更新**：2026-03-18
-- **论文总数**：24 篇
-- **完整笔记**：24 篇 (100%)
+- **最后更新**：2026-03-19
+- **论文总数**：25 篇
+- **完整笔记**：25 篇 (100%)
 - **维护者**：AI 助手 + 人工审核
 - **更新频率**：随阅读进度同步更新
 
