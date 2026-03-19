@@ -1,8 +1,8 @@
 # 论文索引
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total-26%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-26%20Notes-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Total-25%20Papers-blue?style=flat-square" alt="Total Papers">
+  <img src="https://img.shields.io/badge/Complete-25%20Notes-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--03--19-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -38,8 +38,7 @@
 | 22 | [SafeGen: Mitigating Sexually Explicit Content in T2I Models](./SafeGen.md) | IEEE S&P 2024 | 多模态安全 | ✅ |
 | 23 | [MultiJail: Jailbreaking T2I Models via Multi-Modal Attack](./MultiJail.md) | arXiv 2024 | 多模态攻击 | ✅ |
 | 24 | [Jailbreak Attacks and Defenses Survey](./Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 综述 | ✅ |
-| 25 | [AgentDojo: A Dynamic Environment to Evaluate Attacks and Defenses for LLM Agents](./AgentDojo.md) | NeurIPS 2024 | 智能体安全评估 | ✅ |
-| 26 | [SIABench: Evaluating LLMs for Security Incident Analysis](./SIABench.md) | arXiv 2026 | 网络安全评估 | ✅ |
+| 25 | [SIABench: Evaluating LLMs for Security Incident Analysis](./SIABench.md) | arXiv 2026 | 网络安全评估 | ✅ |
 
 ---
 
@@ -190,8 +189,8 @@
 ## 📝 维护说明
 
 - **最后更新**：2026-03-19
-- **论文总数**：26 篇
-- **完整笔记**：26 篇 (100%)
+- **论文总数**：25 篇
+- **完整笔记**：25 篇 (100%)
 - **维护者**：AI 助手 + 人工审核
 - **更新频率**：随阅读进度同步更新
 
