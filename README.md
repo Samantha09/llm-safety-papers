@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-25%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-26%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 25 篇 (31%) |
+| **已完成** | 26 篇 (32.5%) |
 | **最后更新** | 2026-03-19 |
 
 ---
@@ -63,6 +63,7 @@
 | 🔎 **AuditBench** | 安全审计基准 | [AuditBench](./papers/AuditBench.md) |
 | 🤖 **AgentDojo** | 智能体安全评估环境 | [AgentDojo](./papers/AgentDojo.md) |
 | 🛡️ **R-Judge** | 智能体风险意识评估 | [R-Judge](./papers/R-Judge.md) |
+| 🔬 **SIABench** | 安全事件分析评估 | [SIABench](./papers/SIABench.md) |
 
 ### 其他重要方向
 
@@ -101,6 +102,7 @@ llm-safety-papers/
 │   ├── PAIR.md                        # ✅ PAIR
 │   ├── R-Judge.md                     # ✅ R-Judge
 │   ├── SafeGen.md                     # ✅ SafeGen
+│   ├── SIABench.md                    # ✅ SIABench - 安全事件分析评估
 │   ├── Sleeper-Agents.md              # ✅ Sleeper Agents
 │   ├── TrustLLM.md                    # ✅ TrustLLM
 │   ├── Tree-of-Attacks.md             # ✅ Tree of Attacks
@@ -136,7 +138,7 @@ llm-safety-papers/
 | 12 | [Alignment-Weighted DPO](./papers/Alignment-Weighted-DPO.md) | arXiv 2024 | 加权DPO优化安全对齐 | `DPO` `加权训练` `安全对齐` |
 | 13 | [SafeGen](./papers/SafeGen.md) | IEEE S&P 2024 | T2I模型性暗示内容生成防护 | `多模态` `内容过滤` `即插即用` |
 
-### 评估基准（5篇）
+### 评估基准（6篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
@@ -145,6 +147,7 @@ llm-safety-papers/
 | 16 | [AuditBench](./papers/AuditBench.md) | arXiv 2024 | 安全审计基准测试 | `安全审计` `评估基准` |
 | 17 | [AgentDojo](./papers/AgentDojo.md) | NeurIPS 2024 | 动态提示注入攻击评估环境 | `动态评估` `提示注入` `智能体` |
 | 18 | [R-Judge](./papers/R-Judge.md) | EMNLP 2024 | 智能体风险意识评估基准 | `风险意识` `智能体` `评估基准` |
+| 26 | [SIABench](./papers/SIABench.md) | arXiv 2026 | 安全事件分析评估框架 | `网络安全` `评估基准` `智能体` |
 
 ### 红队测试（2篇）
 
@@ -187,7 +190,7 @@ llm-safety-papers/
 - **想快速了解领域**：先看 [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) 和评估基准类论文
 - **关注攻击方法**：重点阅读 GCG、AutoDAN、PAIR、Harnessing Task Overload
 - **关注防御方法**：重点阅读 MLLM-Protector、Nothing in Excess、Alignment-Weighted DPO
-- **关注评估基准**：重点阅读 JailbreakBench、HarmBench、AuditBench、AgentDojo
+- **关注评估基准**：重点阅读 JailbreakBench、HarmBench、AuditBench、AgentDojo、SIABench
 
 ### 进阶阅读路径
 
@@ -231,6 +234,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-03-19 | 添加论文：SIABench - 安全事件分析评估框架，更新进度至 26/80 |
 | 2026-03-19 | 更新论文：AgentDojo - 添加完整的12章详细阅读笔记，更新进度至 25/80 |
 | 2026-03-18 | 添加论文：Jailbreak Attacks and Defenses Against LLMs - A Survey，更新进度至 24/80 |
 | 2026-03-17 | 初始化仓库，上传 23 篇论文笔记，完善 README 结构，添加论文汇总 |
