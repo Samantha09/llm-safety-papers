@@ -1,8 +1,8 @@
 # 论文索引
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total-25%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-25%20Notes-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Total-26%20Papers-blue?style=flat-square" alt="Total Papers">
+  <img src="https://img.shields.io/badge/Complete-26%20Notes-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--03--19-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -39,6 +39,7 @@
 | 23 | [MultiJail: Jailbreaking T2I Models via Multi-Modal Attack](./MultiJail.md) | arXiv 2024 | 多模态攻击 | ✅ |
 | 24 | [Jailbreak Attacks and Defenses Survey](./Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 综述 | ✅ |
 | 25 | [AgentDojo: A Dynamic Environment to Evaluate Attacks and Defenses for LLM Agents](./AgentDojo.md) | NeurIPS 2024 | 智能体安全评估 | ✅ |
+| 26 | [SIABench: Evaluating LLMs for Security Incident Analysis](./SIABench.md) | arXiv 2026 | 网络安全评估 | ✅ |
 
 ---
 
@@ -66,7 +67,7 @@
 
 | 标签 | 论文数量 | 论文列表 |
 |------|:--------:|----------|
-| 📊 评估基准 | 5 | JailbreakBench, HarmBench, AuditBench, AgentDojo, R-Judge |
+| 📊 评估基准 | 6 | JailbreakBench, HarmBench, AuditBench, AgentDojo, R-Judge, SIABench |
 
 ### 其他标签
 
@@ -80,6 +81,7 @@
 | 🤖 智能体安全 | 2 | AgentDojo, R-Judge |
 | 🛡️ 风险意识 | 1 | R-Judge |
 | 🔄 终身学习 | 1 | AutoDAN-Turbo |
+| 🔒 网络安全 | 1 | SIABench |
 
 ---
 
@@ -106,7 +108,7 @@
 | [Nothing in Excess](./Nothing-in-Excess.md) | ICLR 2025 | 缓解过度安全对齐导致的过度拒绝问题 | `过度拒绝` `安全对齐` `平衡` `有用性` |
 | [Alignment-Weighted DPO](./Alignment-Weighted-DPO.md) | arXiv 2024 | 加权DPO优化安全对齐效果 | `DPO` `加权训练` `安全对齐` `样本重要性` |
 
-### 📊 评估基准（5篇）
+### 📊 评估基准（6篇）
 
 | 论文 | 会议 | 核心思想 | 关键词 |
 |------|------|----------|--------|
@@ -115,6 +117,7 @@
 | [AuditBench](./AuditBench.md) | arXiv 2024 | 安全审计基准测试 | `安全审计` `评估基准` `合规性` |
 | [AgentDojo](./AgentDojo.md) | NeurIPS 2024 | 动态提示注入攻击评估环境，支持97个真实世界任务 | `动态评估` `提示注入` `智能体` `多工具` |
 | [R-Judge](./R-Judge.md) | EMNLP 2024 | 智能体风险意识评估基准，系统性评估风险识别能力 | `风险意识` `智能体` `评估基准` `多维度` |
+| [SIABench](./SIABench.md) | arXiv 2026 | 安全事件分析评估框架，评估LLM在SOC任务中的能力 | `网络安全` `评估基准` `智能体` `SOC` |
 
 ### 🧪 红队测试（2篇）
 
@@ -151,7 +154,7 @@
 **入门路径：**
 1. 先读 [Jailbreak Attacks and Defenses Survey](./Jailbreak-Attacks-and-Defenses-Survey.md) 了解越狱攻击与防御全景
 2. 再读 [LLM Security and Privacy Survey](./LLM-Security-and-Privacy-Survey.md) 了解LLM安全整体概况
-3. 再看评估基准（JailbreakBench, HarmBench, AgentDojo）了解评测方法
+3. 再看评估基准（JailbreakBench, HarmBench, AgentDojo, SIABench）了解评测方法
 
 **攻击研究路径：**
 1. [GCG](./GCG.md) - 经典的对抗后缀攻击
@@ -167,6 +170,7 @@
 **智能体安全路径：**
 1. [AgentDojo](./AgentDojo.md) - 智能体安全评估框架
 2. [R-Judge](./R-Judge.md) - 智能体风险意识评估
+3. [SIABench](./SIABench.md) - 安全事件分析评估
 
 ### 笔记格式
 
@@ -186,8 +190,8 @@
 ## 📝 维护说明
 
 - **最后更新**：2026-03-19
-- **论文总数**：25 篇
-- **完整笔记**：25 篇 (100%)
+- **论文总数**：26 篇
+- **完整笔记**：26 篇 (100%)
 - **维护者**：AI 助手 + 人工审核
 - **更新频率**：随阅读进度同步更新
 
