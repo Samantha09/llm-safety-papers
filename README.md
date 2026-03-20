@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-25%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-26%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 25 篇 (31.25%) |
-| **最后更新** | 2026-03-19 |
+| **已完成** | 26 篇 (32.5%) |
+| **最后更新** | 2026-03-20 |
 
 ---
 
@@ -41,7 +41,7 @@
 
 | 类型 | 说明 | 代表论文 |
 |------|------|----------|
-| 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Harnessing Task Overload](./papers/Harnessing-Task-Overload.md), [AutoDAN](./papers/AutoDAN.md), [PAIR](./papers/PAIR.md), [GCG](./papers/GCG.md), [Tree of Attacks](./papers/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/AutoDAN-Turbo.md), [MultiJail](./papers/MultiJail.md) |
+| 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Harnessing Task Overload](./papers/Harnessing-Task-Overload.md), [AutoDAN](./papers/AutoDAN.md), [PAIR](./papers/PAIR.md), [GCG](./papers/GCG.md), [Tree of Attacks](./papers/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/AutoDAN-Turbo.md), [MultiJail](./papers/MultiJail.md), [Crescendo](./papers/Crescendo.md) |
 | 🎯 **对抗攻击** | 构造对抗样本欺骗模型 | [GCG](./papers/GCG.md), [AutoDAN](./papers/AutoDAN.md) |
 | 🧠 **提示注入** | 通过提示操控模型行为 | [Under the Influence](./papers/Under-the-Influence.md) |
 | 🎭 **隐蔽攻击** | 难以检测的攻击方式 | [Cold-Attack](./papers/Cold-Attack.md), [Sleeper Agents](./papers/Sleeper-Agents.md) |
@@ -89,6 +89,7 @@ llm-safety-papers/
 │   ├── AutoDAN.md                     # ✅ AutoDAN
 │   ├── AutoDAN-Turbo.md               # ✅ AutoDAN-Turbo
 │   ├── Cold-Attack.md                 # ✅ Cold-Attack
+│   ├── Crescendo.md                   # ✅ Crescendo - 多轮渐进式越狱攻击
 │   ├── GCG.md                         # ✅ GCG攻击
 │   ├── HarmBench.md                   # ✅ HarmBench
 │   ├── Harnessing-Task-Overload.md    # ✅ Harnessing Task Overload
@@ -115,7 +116,7 @@ llm-safety-papers/
 
 ## 📚 论文列表
 
-### 越狱攻击类（9篇）
+### 越狱攻击类（10篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
@@ -128,15 +129,16 @@ llm-safety-papers/
 | 7 | [AutoDAN-Turbo](./papers/AutoDAN-Turbo.md) | arXiv 2024 | 终身学习策略自探索代理 | `终身学习` `策略自探索` `黑盒` |
 | 8 | [Sleeper Agents](./papers/Sleeper-Agents.md) | ICLR 2024 | 训练具有欺骗性的LLM后门 | `后门攻击` `欺骗性` `持久化` |
 | 9 | [MultiJail](./papers/MultiJail.md) | arXiv 2024 | 多模态越狱攻击T2I模型 | `多模态` `视觉提示` `越狱` |
+| 10 | [Crescendo](./papers/Crescendo.md) | USENIX Security 2025 | 多轮渐进式越狱攻击 | `多轮攻击` `渐进式` `良性输入` |
 
 ### 防御与安全对齐（4篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 10 | [MLLM-Protector](./papers/MLLM-Protector.md) | arXiv 2024 | 多模态模型输出端检测与解毒 | `多模态` `输出检测` `轻量级` |
-| 11 | [Nothing in Excess](./papers/Nothing-in-Excess.md) | ICLR 2025 | 缓解过度安全对齐导致的过度拒绝 | `过度拒绝` `安全对齐` `平衡` |
-| 12 | [Alignment-Weighted DPO](./papers/Alignment-Weighted-DPO.md) | arXiv 2024 | 加权DPO优化安全对齐 | `DPO` `加权训练` `安全对齐` |
-| 13 | [SafeGen](./papers/SafeGen.md) | IEEE S&P 2024 | T2I模型性暗示内容生成防护 | `多模态` `内容过滤` `即插即用` |
+| 11 | [MLLM-Protector](./papers/MLLM-Protector.md) | arXiv 2024 | 多模态模型输出端检测与解毒 | `多模态` `输出检测` `轻量级` |
+| 12 | [Nothing in Excess](./papers/Nothing-in-Excess.md) | ICLR 2025 | 缓解过度安全对齐导致的过度拒绝 | `过度拒绝` `安全对齐` `平衡` |
+| 13 | [Alignment-Weighted DPO](./papers/Alignment-Weighted-DPO.md) | arXiv 2024 | 加权DPO优化安全对齐 | `DPO` `加权训练` `安全对齐` |
+| 14 | [SafeGen](./papers/SafeGen.md) | IEEE S&P 2024 | T2I模型性暗示内容生成防护 | `多模态` `内容过滤` `即插即用` |
 
 ### 评估基准（6篇）
 
@@ -147,7 +149,7 @@ llm-safety-papers/
 | 16 | [AuditBench](./papers/AuditBench.md) | arXiv 2024 | 安全审计基准测试 | `安全审计` `评估基准` |
 | 17 | [AgentDojo](./papers/AgentDojo.md) | NeurIPS 2024 | 动态提示注入攻击评估环境 | `动态评估` `提示注入` `智能体` |
 | 18 | [R-Judge](./papers/R-Judge.md) | EMNLP 2024 | 智能体风险意识评估基准 | `风险意识` `智能体` `评估基准` |
-| 26 | [SIABench](./papers/SIABench.md) | arXiv 2026 | 安全事件分析评估框架 | `网络安全` `评估基准` `智能体` |
+| 19 | [SIABench](./papers/SIABench.md) | arXiv 2026 | 安全事件分析评估框架 | `网络安全` `评估基准` `智能体` |
 
 ### 红队测试（2篇）
 
@@ -234,7 +236,8 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
-| 2026-03-19 | 添加论文：SIABench - 安全事件分析评估框架，更新进度至 26/80 |
+| 2026-03-20 | 添加论文：Crescendo - 多轮渐进式LLM越狱攻击 (USENIX Security 2025)，更新进度至 26/80 |
+| 2026-03-19 | 添加论文：SIABench - 安全事件分析评估框架，更新进度至 25/80 |
 | 2026-03-19 | 更新论文：AgentDojo - 添加完整的12章详细阅读笔记，更新进度至 25/80 |
 | 2026-03-18 | 添加论文：Jailbreak Attacks and Defenses Against LLMs - A Survey，更新进度至 24/80 |
 | 2026-03-17 | 初始化仓库，上传 23 篇论文笔记，完善 README 结构，添加论文汇总 |
