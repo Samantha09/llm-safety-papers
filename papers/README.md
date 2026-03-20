@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Total-26%20Papers-blue?style=flat-square" alt="Total Papers">
   <img src="https://img.shields.io/badge/Complete-26%20Notes-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--03--20-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--03-20-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按类别和状态整理。
@@ -49,12 +49,11 @@
 
 | 标签 | 论文数量 | 论文列表 |
 |------|:--------:|----------|
-| 🔓 越狱攻击 | 8 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo, **Crescendo** |
+| 🔓 越狱攻击 | 8 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo, Crescendo |
 | 🎯 对抗攻击 | 2 | GCG, AutoDAN |
 | 🧠 提示注入 | 1 | Under the Influence |
-| 🎭 隐蔽攻击 | 3 | Cold-Attack, Sleeper Agents, **Crescendo** |
+| 🎭 隐蔽攻击 | 2 | Cold-Attack, Sleeper Agents |
 | 🚪 后门攻击 | 1 | Sleeper Agents |
-| 🔄 多轮攻击 | 1 | **Crescendo** |
 
 ### 防御类型
 
@@ -99,7 +98,7 @@
 | [Tree of Attacks](./Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击，分支探索多种攻击路径 | `红队测试` `树搜索` `自动化` `分支探索` |
 | [Cold-Attack](./Cold-Attack.md) | arXiv 2024 | 隐蔽且可控的越狱攻击方法 | `隐蔽攻击` `可控性` `逃避检测` |
 | [AutoDAN-Turbo](./AutoDAN-Turbo.md) | arXiv 2024 | 终身学习策略自探索代理，自动发现越狱策略 | `终身学习` `策略自探索` `黑盒` `自动化` |
-| **[Crescendo](./Crescendo.md)** | **USENIX Security 2025** | **多轮渐进式越狱，完全良性输入，利用模型自身输出** | **`多轮攻击` `渐进式` `隐蔽` `黑盒` `Microsoft`** |
+| [Crescendo](./Crescendo.md) | USENIX Security 2025 | 多轮渐进式越狱攻击，利用良性输入突破安全对齐 | `多轮攻击` `渐进式` `良性输入` `黑盒` |
 
 ### 🛡️ 防御与安全对齐（4篇）
 
@@ -162,8 +161,8 @@
 1. [GCG](./GCG.md) - 经典的对抗后缀攻击
 2. [AutoDAN](./AutoDAN.md) - 隐蔽的语义保持攻击
 3. [PAIR](./PAIR.md) - 高效的黑盒攻击
-4. **[Crescendo](./Crescendo.md)** - **最新的多轮渐进式攻击（USENIX Security 2025）**
-5. [AutoDAN-Turbo](./AutoDAN-Turbo.md) - 终身学习的自动化攻击
+4. [AutoDAN-Turbo](./AutoDAN-Turbo.md) - 终身学习的自动化攻击
+5. [Crescendo](./Crescendo.md) - 多轮渐进式攻击
 
 **防御研究路径：**
 1. [MLLM-Protector](./MLLM-Protector.md) - 输出层防御
@@ -180,16 +179,12 @@
 完整笔记包含以下章节：
 - 基本信息（标题、作者、会议、链接）
 - 研究背景与意义
-- 核心贡献
+- 所用数据集
 - 研究方法
-- 实验设置
-- 实验结果
-- 攻击策略示例
-- 自动化工具
-- 多模态攻击能力
-- 消融实验/理解分析
-- 局限性与未来工作
-- 伦理声明
+- 实验详细记录
+- 结果分析
+- 展望
+- 代码资源
 - 参考文献
 
 ---
