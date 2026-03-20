@@ -1,9 +1,9 @@
 # 论文索引
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total-25%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-25%20Notes-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--03--19-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Total-26%20Papers-blue?style=flat-square" alt="Total Papers">
+  <img src="https://img.shields.io/badge/Complete-26%20Notes-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--03--20-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按类别和状态整理。
@@ -39,6 +39,7 @@
 | 23 | [MultiJail: Jailbreaking T2I Models via Multi-Modal Attack](./MultiJail.md) | arXiv 2024 | 多模态攻击 | ✅ |
 | 24 | [Jailbreak Attacks and Defenses Survey](./Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 综述 | ✅ |
 | 25 | [SIABench: Evaluating LLMs for Security Incident Analysis](./SIABench.md) | arXiv 2026 | 网络安全评估 | ✅ |
+| 26 | [Crescendo: Multi-Turn LLM Jailbreak Attack](./Crescendo.md) | USENIX Security 2025 | 多轮越狱攻击 | ✅ |
 
 ---
 
@@ -48,11 +49,12 @@
 
 | 标签 | 论文数量 | 论文列表 |
 |------|:--------:|----------|
-| 🔓 越狱攻击 | 7 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo |
+| 🔓 越狱攻击 | 8 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo, **Crescendo** |
 | 🎯 对抗攻击 | 2 | GCG, AutoDAN |
 | 🧠 提示注入 | 1 | Under the Influence |
-| 🎭 隐蔽攻击 | 2 | Cold-Attack, Sleeper Agents |
+| 🎭 隐蔽攻击 | 3 | Cold-Attack, Sleeper Agents, **Crescendo** |
 | 🚪 后门攻击 | 1 | Sleeper Agents |
+| 🔄 多轮攻击 | 1 | **Crescendo** |
 
 ### 防御类型
 
@@ -86,7 +88,7 @@
 
 ## 📊 按类别详细分类
 
-### 🔓 越狱攻击类（7篇）
+### 🔓 越狱攻击类（8篇）
 
 | 论文 | 会议 | 核心思想 | 关键词 |
 |------|------|----------|--------|
@@ -97,6 +99,7 @@
 | [Tree of Attacks](./Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击，分支探索多种攻击路径 | `红队测试` `树搜索` `自动化` `分支探索` |
 | [Cold-Attack](./Cold-Attack.md) | arXiv 2024 | 隐蔽且可控的越狱攻击方法 | `隐蔽攻击` `可控性` `逃避检测` |
 | [AutoDAN-Turbo](./AutoDAN-Turbo.md) | arXiv 2024 | 终身学习策略自探索代理，自动发现越狱策略 | `终身学习` `策略自探索` `黑盒` `自动化` |
+| **[Crescendo](./Crescendo.md)** | **USENIX Security 2025** | **多轮渐进式越狱，完全良性输入，利用模型自身输出** | **`多轮攻击` `渐进式` `隐蔽` `黑盒` `Microsoft`** |
 
 ### 🛡️ 防御与安全对齐（4篇）
 
@@ -159,7 +162,8 @@
 1. [GCG](./GCG.md) - 经典的对抗后缀攻击
 2. [AutoDAN](./AutoDAN.md) - 隐蔽的语义保持攻击
 3. [PAIR](./PAIR.md) - 高效的黑盒攻击
-4. [AutoDAN-Turbo](./AutoDAN-Turbo.md) - 终身学习的自动化攻击
+4. **[Crescendo](./Crescendo.md)** - **最新的多轮渐进式攻击（USENIX Security 2025）**
+5. [AutoDAN-Turbo](./AutoDAN-Turbo.md) - 终身学习的自动化攻击
 
 **防御研究路径：**
 1. [MLLM-Protector](./MLLM-Protector.md) - 输出层防御
@@ -176,21 +180,25 @@
 完整笔记包含以下章节：
 - 基本信息（标题、作者、会议、链接）
 - 研究背景与意义
-- 所用数据集
+- 核心贡献
 - 研究方法
-- 实验详细记录
-- 结果分析
-- 展望
-- 代码资源
+- 实验设置
+- 实验结果
+- 攻击策略示例
+- 自动化工具
+- 多模态攻击能力
+- 消融实验/理解分析
+- 局限性与未来工作
+- 伦理声明
 - 参考文献
 
 ---
 
 ## 📝 维护说明
 
-- **最后更新**：2026-03-19
-- **论文总数**：25 篇
-- **完整笔记**：25 篇 (100%)
+- **最后更新**：2026-03-20
+- **论文总数**：26 篇
+- **完整笔记**：26 篇 (100%)
 - **维护者**：AI 助手 + 人工审核
 - **更新频率**：随阅读进度同步更新
 
