@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-26%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-27%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 26 篇 (33.75%) |
-| **最后更新** | 2026-03-20 |
+| **已完成** | 27 篇 (33.75%) |
+| **最后更新** | 2026-03-21 |
 
 ---
 
@@ -70,7 +70,7 @@
 | 方向 | 说明 | 论文 |
 |------|------|------|
 | 📚 **综述** | 领域全面回顾 | [Jailbreak Attacks and Defenses Survey](./papers/Jailbreak-Attacks-and-Defenses-Survey.md), [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md), [TrustLLM](./papers/TrustLLM.md) |
-| 🔬 **漏洞分析** | 模型自我认知漏洞 | [LLMs know their vulnerabilities](./papers/LLMs-know-their-vulnerabilities.md) |
+| 🔬 **漏洞分析** | 模型自我认知漏洞 | [LLMs know their vulnerabilities](./papers/LLMs-know-their-vulnerabilities.md), [Jailbroken](./papers/Jailbroken.md) |
 
 ---
 
@@ -95,6 +95,7 @@ llm-safety-papers/
 │   ├── Harnessing-Task-Overload.md    # ✅ Harnessing Task Overload
 │   ├── Jailbreak-Attacks-and-Defenses-Survey.md  # ✅ 综述
 │   ├── JailbreakBench.md              # ✅ JailbreakBench
+│   ├── Jailbroken.md                  # ✅ Jailbroken - LLM安全训练失败分析
 │   ├── LLM-Security-and-Privacy-Survey.md  # ✅ 综述
 │   ├── LLMs-know-their-vulnerabilities.md  # ✅ 漏洞分析
 │   ├── MLLM-Protector.md              # ✅ MLLM-Protector
@@ -158,7 +159,7 @@ llm-safety-papers/
 | 19 | [APRT](./papers/APRT.md) | COLING 2025 | 自动化渐进式红队测试 | `红队测试` `渐进式` `自动化` |
 | 20 | [Tree of Attacks](./papers/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `树搜索` |
 
-### 其他重要论文（5篇）
+### 其他重要论文（6篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
@@ -167,6 +168,7 @@ llm-safety-papers/
 | 23 | [LLMs know their vulnerabilities](./papers/LLMs-know-their-vulnerabilities.md) | arXiv 2024 | LLM对自身漏洞的认知 | `自我认知` `漏洞分析` |
 | 24 | [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` |
 | 25 | [TrustLLM](./papers/TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
+| 26 | [Jailbroken: How Does LLM Safety Training Fail?](./papers/Jailbroken.md) | NeurIPS 2023 | LLM安全训练失败原因分析 | `安全训练` `漏洞分析` |
 
 ---
 
@@ -236,6 +238,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-03-21 | 添加论文：Jailbroken - LLM安全训练失败原因分析 (NeurIPS 2023)，更新进度至 27/80 |
 | 2026-03-20 | 添加论文：Crescendo - 多轮渐进式LLM越狱攻击 (USENIX Security 2025)，更新进度至 27/80 |
 | 2026-03-19 | 添加论文：SIABench - 安全事件分析评估框架，更新进度至 25/80 |
 | 2026-03-19 | 更新论文：AgentDojo - 添加完整的12章详细阅读笔记，更新进度至 25/80 |
