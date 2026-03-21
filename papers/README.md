@@ -1,8 +1,8 @@
 # 论文索引
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total-27%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-27%20Notes-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Total-28%20Papers-blue?style=flat-square" alt="Total Papers">
+  <img src="https://img.shields.io/badge/Complete-28%20Notes-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--03-21-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -41,6 +41,7 @@
 | 25 | [SIABench: Evaluating LLMs for Security Incident Analysis](./SIABench.md) | arXiv 2026 | 网络安全评估 | ✅ |
 | 26 | [Crescendo: Multi-Turn LLM Jailbreak Attack](./Crescendo.md) | USENIX Security 2025 | 多轮越狱攻击 | ✅ |
 | 27 | [Jailbroken: How Does LLM Safety Training Fail?](./Jailbroken.md) | NeurIPS 2023 | 安全训练分析 | ✅ |
+| 28 | [Derail Yourself: Multi-turn LLM Jailbreak Attack](./Derail-Yourself.md) | ACL 2025 | 多轮越狱攻击 | ✅ |
 
 ---
 
@@ -50,7 +51,7 @@
 
 | 标签 | 论文数量 | 论文列表 |
 |------|:--------:|----------|
-| 🔓 越狱攻击 | 8 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo, Crescendo |
+| 🔓 越狱攻击 | 9 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo, Crescendo, Derail Yourself |
 | 🎯 对抗攻击 | 2 | GCG, AutoDAN |
 | 🧠 提示注入 | 1 | Under the Influence |
 | 🎭 隐蔽攻击 | 2 | Cold-Attack, Sleeper Agents |
@@ -101,6 +102,7 @@
 | [Cold-Attack](./Cold-Attack.md) | arXiv 2024 | 隐蔽且可控的越狱攻击方法 | `隐蔽攻击` `可控性` `逃避检测` |
 | [AutoDAN-Turbo](./AutoDAN-Turbo.md) | arXiv 2024 | 终身学习策略自探索代理，自动发现越狱策略 | `终身学习` `策略自探索` `黑盒` `自动化` |
 | [Crescendo](./Crescendo.md) | USENIX Security 2025 | 多轮渐进式越狱攻击，利用良性输入突破安全对齐 | `多轮攻击` `渐进式` `良性输入` `黑盒` |
+| [Derail Yourself](./Derail-Yourself.md) | ACL 2025 | 基于行动者网络理论的多轮越狱攻击，通过自发现线索生成攻击路径 | `多轮攻击` `行动者网络` `自发现线索` `动态修改` |
 
 ### 🛡️ 防御与安全对齐（4篇）
 
@@ -195,8 +197,8 @@
 ## 📝 维护说明
 
 - **最后更新**：2026-03-21
-- **论文总数**：27 篇
-- **完整笔记**：27 篇 (100%)
+- **论文总数**：28 篇
+- **完整笔记**：28 篇 (100%)
 - **维护者**：AI 助手 + 人工审核
 - **更新频率**：随阅读进度同步更新
 
