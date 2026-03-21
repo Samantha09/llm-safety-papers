@@ -1,9 +1,9 @@
 # 论文索引
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total-26%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-26%20Notes-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--03-20-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Total-27%20Papers-blue?style=flat-square" alt="Total Papers">
+  <img src="https://img.shields.io/badge/Complete-27%20Notes-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--03-21-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按类别和状态整理。
@@ -40,6 +40,7 @@
 | 24 | [Jailbreak Attacks and Defenses Survey](./Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 综述 | ✅ |
 | 25 | [SIABench: Evaluating LLMs for Security Incident Analysis](./SIABench.md) | arXiv 2026 | 网络安全评估 | ✅ |
 | 26 | [Crescendo: Multi-Turn LLM Jailbreak Attack](./Crescendo.md) | USENIX Security 2025 | 多轮越狱攻击 | ✅ |
+| 27 | [Jailbroken: How Does LLM Safety Training Fail?](./Jailbroken.md) | NeurIPS 2023 | 安全训练分析 | ✅ |
 
 ---
 
@@ -76,12 +77,13 @@
 | 🖼️ 多模态 | 3 | MLLM-Protector, SafeGen, MultiJail |
 | ⚡ 资源攻击 | 1 | Harnessing Task Overload |
 | 🔄 过度拒绝 | 1 | Nothing in Excess |
-| 🔬 漏洞分析 | 1 | LLMs know their vulnerabilities |
+| 🔬 漏洞分析 | 2 | LLMs know their vulnerabilities, Jailbroken |
 | 📚 综述 | 3 | LLM Security and Privacy Survey, Jailbreak Attacks and Defenses Survey, TrustLLM |
 | 🤖 智能体安全 | 2 | AgentDojo, R-Judge |
 | 🛡️ 风险意识 | 1 | R-Judge |
 | 🔄 终身学习 | 1 | AutoDAN-Turbo |
 | 🔒 网络安全 | 1 | SIABench |
+| 🔍 安全训练分析 | 1 | Jailbroken |
 
 ---
 
@@ -135,6 +137,7 @@
 | [Sleeper Agents](./Sleeper-Agents.md) | ICLR 2024 | 训练具有欺骗性的持久化后门 | `后门攻击` `欺骗性` `持久化` `安全训练` |
 | [Under the Influence](./Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与上下文操控 | `提示注入` `上下文操控` `指令劫持` |
 | [LLMs know their vulnerabilities](./LLMs-know-their-vulnerabilities.md) | arXiv 2024 | LLM对自身安全漏洞的认知能力 | `自我认知` `漏洞分析` `元认知` |
+| [Jailbroken](./Jailbroken.md) | NeurIPS 2023 | 安全训练失败的两种模式：竞争目标与不匹配泛化 | `安全训练` `失败模式` `竞争目标` `不匹配泛化` |
 | [LLM Security and Privacy Survey](./LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` `分类体系` |
 | [TrustLLM](./TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
 | [MultiJail](./MultiJail.md) | arXiv 2024 | 多模态越狱攻击T2I模型 | `多模态` `视觉提示` `越狱` |
@@ -191,9 +194,9 @@
 
 ## 📝 维护说明
 
-- **最后更新**：2026-03-20
-- **论文总数**：26 篇
-- **完整笔记**：26 篇 (100%)
+- **最后更新**：2026-03-21
+- **论文总数**：27 篇
+- **完整笔记**：27 篇 (100%)
 - **维护者**：AI 助手 + 人工审核
 - **更新频率**：随阅读进度同步更新
 
