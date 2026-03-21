@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-28%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-29%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 28 篇 (31.25%) |
+| **已完成** | 29 篇 (36.25%) |
 | **最后更新** | 2026-03-21 |
 
 ---
@@ -72,6 +72,7 @@
 |------|------|------|
 | 📚 **综述** | 领域全面回顾 | [Jailbreak Attacks and Defenses Survey](./papers/2024/Jailbreak-Attacks-and-Defenses-Survey.md), [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md), [TrustLLM](./papers/2024/TrustLLM.md) |
 | 🔬 **漏洞分析** | 模型自我认知漏洞 | [Jailbroken](./papers/2023/Jailbroken.md) |
+| 💻 **代码安全** | CodeLLM安全生成 | [SCS-Code](./papers/2026/SCS-Code.md) |
 
 ---
 
@@ -83,9 +84,10 @@ llm-safety-papers/
 ├── PAPER_COLLECTION.md                # 论文汇总（约80篇）
 ├── papers/
 │   ├── README.md                      # 论文索引与快速检索
-│   ├── 2026/                          # 2026年论文 (2篇)
+│   ├── 2026/                          # 2026年论文 (3篇)
 │   │   ├── SIABench.md
-│   │   └── ESG-Bench.md
+│   │   ├── ESG-Bench.md
+│   │   └── SCS-Code.md
 │   ├── 2025/                          # 2025年论文 (4篇)
 │   │   ├── ActorBreaker.md
 │   │   ├── APRT.md
@@ -123,7 +125,7 @@ llm-safety-papers/
 
 ## 📚 论文列表
 
-### 越狱攻击类（9篇）
+### 越狱攻击（9篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
@@ -158,22 +160,28 @@ llm-safety-papers/
 | 19 | [SIABench](./papers/2026/SIABench.md) | arXiv 2026 | 安全事件分析评估框架 | `网络安全` `评估基准` `智能体` |
 | 20 | [ESG-Bench](./papers/2026/ESG-Bench.md) | AAAI 2026 | 长上下文ESG报告幻觉缓解评估 | `幻觉缓解` `长上下文` `事实可靠性` |
 
+### 代码安全（1篇）
+
+| # | 论文 | 会议/年份 | 核心思想 | 标签 |
+|---|------|----------|----------|------|
+| 21 | [SCS-Code](./papers/2026/SCS-Code.md) | EuroS&P 2026 | 利用内部表示引导CodeLLM生成安全代码 | `代码安全` `概念引导` `可解释性` |
+
 ### 红队测试（2篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 21 | [APRT](./papers/2025/APRT.md) | COLING 2025 | 自动化渐进式红队测试 | `红队测试` `渐进式` `自动化` |
-| 22 | [Tree of Attacks](./papers/2024/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `树搜索` |
+| 22 | [APRT](./papers/2025/APRT.md) | COLING 2025 | 自动化渐进式红队测试 | `红队测试` `渐进式` `自动化` |
+| 23 | [Tree of Attacks](./papers/2024/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `树搜索` |
 
-### 其他重要论文（3篇）
+### 其他重要论文（6篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 23 | [Jailbreak Attacks and Defenses Survey](./papers/2024/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 越狱攻击与防御全面综述 | `综述` `攻击` `防御` `分类` |
-| 24 | [Under the Influence](./papers/2024/Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与防御 | `提示注入` `上下文操控` |
-| 25 | [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` |
-| 26 | [TrustLLM](./papers/2024/TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
-| 27 | [Jailbroken: How Does LLM Safety Training Fail?](./papers/2023/Jailbroken.md) | NeurIPS 2023 | LLM安全训练失败原因分析 | `安全训练` `漏洞分析` |
+| 24 | [Jailbreak Attacks and Defenses Survey](./papers/2024/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 越狱攻击与防御全面综述 | `综述` `攻击` `防御` `分类` |
+| 25 | [Under the Influence](./papers/2024/Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与防御 | `提示注入` `上下文操控` |
+| 26 | [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` |
+| 27 | [TrustLLM](./papers/2024/TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
+| 28 | [Jailbroken: How Does LLM Safety Training Fail?](./papers/2023/Jailbroken.md) | NeurIPS 2023 | LLM安全训练失败原因分析 | `安全训练` `漏洞分析` |
 
 ---
 
@@ -195,13 +203,13 @@ llm-safety-papers/
 10. **伦理声明** - 研究伦理、数据使用
 11. **参考文献** - 相关论文列表
 
-### 快速阅读建议
+### 推荐阅读路径
 
 - **想快速了解领域**：先看 [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md) 和评估基准类论文
 - **关注攻击方法**：重点阅读 GCG、AutoDAN、PAIR、Harnessing Task Overload
 - **关注防御方法**：重点阅读 MLLM-Protector、Nothing in Excess、Alignment-Weighted DPO
 - **关注评估基准**：重点阅读 JailbreakBench、HarmBench、AuditBench、AgentDojo、SIABench、ESG-Bench
-- **关注幻觉缓解**：重点阅读 ESG-Bench
+- **关注代码安全**：重点阅读 [SCS-Code](./papers/2026/SCS-Code.md)
 
 ### 进阶阅读路径
 
@@ -231,10 +239,7 @@ llm-safety-papers/
 
 ## 📖 相关资源
 
-### 内部资源
 - 📚 [论文汇总](./PAPER_COLLECTION.md) - 约80篇LLM Safety论文完整列表（2021-2026）
-
-### 外部资源
 - 📚 [arXiv CS.CR](https://arxiv.org/list/cs.CR/recent) - 最新安全论文
 - 🔬 [HarmBench Leaderboard](https://harmbench.org) - 安全评估排行榜
 - 🏆 [JailbreakBench](https://jailbreakbench.github.io) - 越狱攻击基准
@@ -245,6 +250,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-03-21 | 添加论文：SCS-Code - 利用内部表示引导CodeLLM生成安全代码 (EuroS&P 2026)，更新进度至 29/80 |
 | 2026-03-21 | 添加论文：ESG-Bench - 长上下文ESG报告幻觉缓解评估 (AAAI 2026)，更新进度至 25/80 |
 | 2026-03-21 | 重构 papers 目录: 按发表年份分目录整理 (2023/2024/2025/2026) |
 | 2026-03-21 | 删除重复论文: LLMs-know-their-vulnerabilities.md (与ActorBreaker.md重复) |
@@ -258,7 +264,6 @@ llm-safety-papers/
 
 ---
 
-<p align="center">
-  <i>笔记由 AI 助手辅助整理，基于 arXiv 公开信息生成。</i><br>
-  <i>如有问题或建议，欢迎提交 Issue。</i>
-</p>
+*笔记由 AI 助手辅助整理，基于 arXiv 公开信息生成。*
+
+*如有问题或建议，欢迎提交 Issue。*
