@@ -65,7 +65,7 @@
 |------|------|-------|------|------|
 | **Cold-Attack** - Guo et al. | - | [2402.06679](https://arxiv.org/abs/2402.06679) | 隐蔽可控的越狱攻击 | 未开源 |
 | **Jailbreaking Black Box LLMs in Twenty Queries (PAIR)** - Chao et al. | - | [2310.08419](https://arxiv.org/abs/2310.08419) | 20次查询内黑盒越狱 | 未开源 |
-| **Derail Yourself** - Ren et al. | - | [2410.10700](https://arxiv.org/abs/2410.10700) | 通过自我发现线索的多轮越狱 | 未开源 |
+| **ActorAttack** - Ren et al. | ACL 2025 | [2410.10700](https://arxiv.org/abs/2410.10700) | 基于行动者网络的多轮越狱攻击（原v1标题Derail Yourself） | [GitHub](https://github.com/renqibing/ActorAttack) |
 | **Tree of Attacks** - Mehrotra et al. | NeurIPS 2024 | - | 树形攻击自动越狱黑盒LLM | [GitHub](https://github.com/RICommunity/TAP) |
 | **AutoDAN** - Liu et al. | ICLR 2024 | - | 生成隐蔽越狱提示 | [GitHub](https://github.com/SheltonLiu-N/AutoDAN) |
 | **Crescendo Multi-Turn Jailbreak** - Russinovich et al. | - | - | 多轮递增式越狱攻击 | 未开源 |
@@ -177,6 +177,7 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-03-21 | 修正论文：ActorAttack (原Derail Yourself) - 更新标题、方法名、代码链接 |
 | 2026-03-16 | 收录3篇CCF-A/B论文（AAAI 2026, EuroS&P 2026, LAK 2026） |
 | 2026-03-09 | 新增6篇论文（SIABENCH, ESAA-Security, Proteus等） |
 | 2026-03-04 | 首次整理，收录2021-2026年约80篇论文 |
@@ -185,4 +186,4 @@
 ---
 
 *本文档由 Kimi Claw 自动整理维护*  
-*最后更新: 2026-03-17*
+*最后更新: 2026-03-21*
