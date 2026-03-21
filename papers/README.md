@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-28%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Complete-31%2F80-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--03-21-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -14,7 +14,7 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 2 | [./2026/](./2026/) |
+| 2026 | 5 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
 | 2024 | 21 | [./2024/](./2024/) |
 | 2023 | 1 | [./2023/](./2023/) |
@@ -23,12 +23,15 @@
 
 ## 📋 完整论文列表（按年份排序）
 
-### 2026 年 (2篇)
+### 2026 年 (5篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
 | 1 | [SIABench: Evaluating LLMs for Security Incident Analysis](./2026/SIABench.md) | arXiv 2026 | 网络安全评估 |
 | 2 | [ESG-Bench: Benchmarking Long-Context ESG Reports for Hallucination Mitigation](./2026/ESG-Bench.md) | AAAI 2026 | 幻觉缓解/长上下文QA |
+| 3 | [SCS-Code: Security-by-Design for LLM-Based Code Generation](./2026/SCS-Code.md) | EuroS&P 2026 | 代码安全 |
+| 4 | [ESAA-Security: Event-Sourced Verifiable Architecture for Agent-Assisted Security Audits](./2026/ESAA-Security.md) | arXiv 2026 | 可验证审计/AI安全 |
+| 5 | [CLIOPATRA: Extracting Private Information from LLM Insights](./2026/CLIOPATRA.md) | arXiv 2026 | 隐私保护/隐私攻击 |
 
 ### 2025 年 (4篇)
 
@@ -98,6 +101,8 @@
 | 标签 | 论文数量 | 论文列表 |
 |------|:--------:|----------|
 | 📊 评估基准 | 7 | JailbreakBench, HarmBench, AuditBench, AgentDojo, R-Judge, SIABench, ESG-Bench |
+| 📋 可验证审计 | 1 | ESAA-Security |
+| 🔐 隐私攻击 | 1 | CLIOPATRA |
 
 ### 其他标签
 
@@ -153,8 +158,8 @@
 ## 📝 维护说明
 
 - **最后更新**：2026-03-21
-- **论文总数**：25 篇
-- **完整笔记**：25 篇 (100%)
+- **论文总数**：31 篇
+- **完整笔记**：31 篇 (100%)
 - **目录结构**：按发表年份整理
 - **维护者**：AI 助手 + 人工审核
 

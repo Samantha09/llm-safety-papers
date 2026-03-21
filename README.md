@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-29%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-31%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 29 篇 (36.25%) |
+| **已完成** | 31 篇 (38.75%) |
 | **最后更新** | 2026-03-21 |
 
 ---
@@ -65,6 +65,8 @@
 | 🛡️ **R-Judge** | 智能体风险意识评估 | [R-Judge](./papers/2024/R-Judge.md) |
 | 🔬 **SIABench** | 安全事件分析评估 | [SIABench](./papers/2026/SIABench.md) |
 | 📊 **ESG-Bench** | 长上下文幻觉缓解评估 | [ESG-Bench](./papers/2026/ESG-Bench.md) |
+| 🔒 **ESAA-Security** | 事件溯源安全审计框架 | [ESAA-Security](./papers/2026/ESAA-Security.md) |
+| 🔐 **CLIOPATRA** | LLM洞察系统隐私攻击 | [CLIOPATRA](./papers/2026/CLIOPATRA.md) |
 
 ### 其他重要方向
 
@@ -73,6 +75,8 @@
 | 📚 **综述** | 领域全面回顾 | [Jailbreak Attacks and Defenses Survey](./papers/2024/Jailbreak-Attacks-and-Defenses-Survey.md), [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md), [TrustLLM](./papers/2024/TrustLLM.md) |
 | 🔬 **漏洞分析** | 模型自我认知漏洞 | [Jailbroken](./papers/2023/Jailbroken.md) |
 | 💻 **代码安全** | CodeLLM安全生成 | [SCS-Code](./papers/2026/SCS-Code.md) |
+| 🔒 **隐私保护** | LLM洞察系统隐私攻击 | [CLIOPATRA](./papers/2026/CLIOPATRA.md) |
+| 📋 **可验证审计** | 事件溯源AI代码安全审计 | [ESAA-Security](./papers/2026/ESAA-Security.md) |
 
 ---
 
@@ -84,16 +88,18 @@ llm-safety-papers/
 ├── PAPER_COLLECTION.md                # 论文汇总（约80篇）
 ├── papers/
 │   ├── README.md                      # 论文索引与快速检索
-│   ├── 2026/                          # 2026年论文 (3篇)
+│   ├── 2026/                          # 2026年论文 (5篇)
 │   │   ├── SIABench.md
 │   │   ├── ESG-Bench.md
-│   │   └── SCS-Code.md
+│   │   ├── SCS-Code.md
+│   │   ├── ESAA-Security.md
+│   │   └── CLIOPATRA.md
 │   ├── 2025/                          # 2025年论文 (4篇)
 │   │   ├── ActorBreaker.md
 │   │   ├── APRT.md
 │   │   ├── Crescendo.md
 │   │   └── Nothing-in-Excess.md
-│   ├── 2024/                          # 2024年论文 (18篇)
+│   ├── 2024/                          # 2024年论文 (21篇)
 │   │   ├── AgentDojo.md
 │   │   ├── Alignment-Weighted-DPO.md
 │   │   ├── AuditBench.md
@@ -250,6 +256,8 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-03-21 | 添加论文：ESAA-Security - 事件溯源可验证AI代码安全审计架构，更新进度至 31/80 |
+| 2026-03-21 | 添加论文：CLIOPATRA - 针对LLM洞察系统的首个隐私攻击（Extracting Private Information from LLM Insights），更新进度至 30/80 |
 | 2026-03-21 | 添加论文：SCS-Code - 利用内部表示引导CodeLLM生成安全代码 (EuroS&P 2026)，更新进度至 29/80 |
 | 2026-03-21 | 添加论文：ESG-Bench - 长上下文ESG报告幻觉缓解评估 (AAAI 2026)，更新进度至 25/80 |
 | 2026-03-21 | 重构 papers 目录: 按发表年份分目录整理 (2023/2024/2025/2026) |
