@@ -41,7 +41,7 @@
 
 | 类型 | 说明 | 代表论文 |
 |------|------|----------|
-| 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Harnessing Task Overload](./papers/Harnessing-Task-Overload.md), [AutoDAN](./papers/AutoDAN.md), [PAIR](./papers/PAIR.md), [GCG](./papers/GCG.md), [Tree of Attacks](./papers/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/AutoDAN-Turbo.md), [MultiJail](./papers/MultiJail.md), [Crescendo](./papers/Crescendo.md), [Derail Yourself](./papers/Derail-Yourself.md) |
+| 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Harnessing Task Overload](./papers/Harnessing-Task-Overload.md), [AutoDAN](./papers/AutoDAN.md), [PAIR](./papers/PAIR.md), [GCG](./papers/GCG.md), [Tree of Attacks](./papers/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/AutoDAN-Turbo.md), [MultiJail](./papers/MultiJail.md), [Crescendo](./papers/Crescendo.md), [ActorAttack](./papers/ActorAttack.md) |
 | 🎯 **对抗攻击** | 构造对抗样本欺骗模型 | [GCG](./papers/GCG.md), [AutoDAN](./papers/AutoDAN.md) |
 | 🧠 **提示注入** | 通过提示操控模型行为 | [Under the Influence](./papers/Under-the-Influence.md) |
 | 🎭 **隐蔽攻击** | 难以检测的攻击方式 | [Cold-Attack](./papers/Cold-Attack.md), [Sleeper Agents](./papers/Sleeper-Agents.md) |
@@ -86,11 +86,11 @@ llm-safety-papers/
 │   ├── APRT.md                        # ✅ Automated Progressive Red Teaming
 │   ├── Alignment-Weighted-DPO.md      # ✅ Alignment-Weighted DPO
 │   ├── AuditBench.md                  # ✅ AuditBench
+│   ├── ActorAttack.md                 # ✅ ActorAttack - 基于行动者网络的多轮越狱攻击
 │   ├── AutoDAN.md                     # ✅ AutoDAN
 │   ├── AutoDAN-Turbo.md               # ✅ AutoDAN-Turbo
 │   ├── Cold-Attack.md                 # ✅ Cold-Attack
 │   ├── Crescendo.md                   # ✅ Crescendo - 多轮渐进式越狱攻击
-│   ├── Derail-Yourself.md              # ✅ Derail Yourself - 行动者网络越狱攻击
 │   ├── GCG.md                         # ✅ GCG攻击
 │   ├── HarmBench.md                   # ✅ HarmBench
 │   ├── Harnessing-Task-Overload.md    # ✅ Harnessing Task Overload
@@ -132,7 +132,7 @@ llm-safety-papers/
 | 8 | [Sleeper Agents](./papers/Sleeper-Agents.md) | ICLR 2024 | 训练具有欺骗性的LLM后门 | `后门攻击` `欺骗性` `持久化` |
 | 9 | [MultiJail](./papers/MultiJail.md) | arXiv 2024 | 多模态越狱攻击T2I模型 | `多模态` `视觉提示` `越狱` |
 | 10 | [Crescendo](./papers/Crescendo.md) | USENIX Security 2025 | 多轮渐进式越狱攻击 | `多轮攻击` `渐进式` `良性输入` |
-| 11 | [Derail Yourself](./papers/Derail-Yourself.md) | ACL 2025 | 基于行动者网络的多轮越狱攻击 | `多轮攻击` `行动者网络` `自发现线索` |
+| 11 | [ActorAttack](./papers/ActorAttack.md) | ACL 2025 | 基于行动者网络的多轮越狱攻击（原v1标题Derail Yourself） | `多轮攻击` `行动者网络` `自发现线索` |
 
 ### 防御与安全对齐（4篇）
 
@@ -240,6 +240,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-03-21 | 修正论文：ActorAttack (原Derail Yourself) - 更新标题、方法名、代码链接 |
 | 2026-03-21 | 添加论文：Jailbroken - LLM安全训练失败原因分析 (NeurIPS 2023)，更新进度至 27/80 |
 | 2026-03-20 | 添加论文：Crescendo - 多轮渐进式LLM越狱攻击 (USENIX Security 2025)，更新进度至 27/80 |
 | 2026-03-19 | 添加论文：SIABench - 安全事件分析评估框架，更新进度至 25/80 |
