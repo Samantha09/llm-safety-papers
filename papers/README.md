@@ -1,8 +1,8 @@
 # 论文索引
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total-28%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-28%20Notes-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Total-27%20Papers-blue?style=flat-square" alt="Total Papers">
+  <img src="https://img.shields.io/badge/Complete-27%20Notes-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--03-21-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -29,19 +29,18 @@
 | 13 | [Under the Influence](./Under-the-Influence.md) | arXiv 2024 | 提示注入 | ✅ |
 | 14 | [Alignment-Weighted DPO](./Alignment-Weighted-DPO.md) | arXiv 2024 | 安全对齐 | ✅ |
 | 15 | [AuditBench](./AuditBench.md) | arXiv 2024 | 评估基准 | ✅ |
-| 16 | [LLMs know their vulnerabilities](./LLMs-know-their-vulnerabilities.md) | arXiv 2024 | 漏洞分析 | ✅ |
-| 17 | [LLM Security and Privacy Survey](./LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | 综述 | ✅ |
-| 18 | [AgentDojo: Dynamic Environment for LLM Agent Security](./AgentDojo.md) | NeurIPS 2024 | 评估基准 | ✅ |
-| 19 | [AutoDAN-Turbo: Lifelong Agent for Jailbreak Strategy](./AutoDAN-Turbo.md) | arXiv 2024 | 越狱攻击 | ✅ |
-| 20 | [R-Judge: Benchmarking Safety Risk Awareness for LLM Agents](./R-Judge.md) | EMNLP 2024 | 评估基准 | ✅ |
-| 21 | [TrustLLM: Trustworthiness in Large Language Models](./TrustLLM.md) | arXiv 2024 | 综述 | ✅ |
-| 22 | [SafeGen: Mitigating Sexually Explicit Content in T2I Models](./SafeGen.md) | IEEE S&P 2024 | 多模态安全 | ✅ |
-| 23 | [MultiJail: Jailbreaking T2I Models via Multi-Modal Attack](./MultiJail.md) | arXiv 2024 | 多模态攻击 | ✅ |
-| 24 | [Jailbreak Attacks and Defenses Survey](./Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 综述 | ✅ |
-| 25 | [SIABench: Evaluating LLMs for Security Incident Analysis](./SIABench.md) | arXiv 2026 | 网络安全评估 | ✅ |
-| 26 | [Crescendo: Multi-Turn LLM Jailbreak Attack](./Crescendo.md) | USENIX Security 2025 | 多轮越狱攻击 | ✅ |
-| 27 | [Jailbroken: How Does LLM Safety Training Fail?](./Jailbroken.md) | NeurIPS 2023 | 安全训练分析 | ✅ |
-| 28 | [ActorBreaker: Multi-turn LLM Jailbreak Attack](./ActorBreaker.md) | ACL 2025 | 多轮越狱攻击 | ✅ |
+| 16 | [LLM Security and Privacy Survey](./LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | 综述 | ✅ |
+| 17 | [AgentDojo: Dynamic Environment for LLM Agent Security](./AgentDojo.md) | NeurIPS 2024 | 评估基准 | ✅ |
+| 18 | [AutoDAN-Turbo: Lifelong Agent for Jailbreak Strategy](./AutoDAN-Turbo.md) | arXiv 2024 | 越狱攻击 | ✅ |
+| 19 | [R-Judge: Benchmarking Safety Risk Awareness for LLM Agents](./R-Judge.md) | EMNLP 2024 | 评估基准 | ✅ |
+| 20 | [TrustLLM: Trustworthiness in Large Language Models](./TrustLLM.md) | arXiv 2024 | 综述 | ✅ |
+| 21 | [SafeGen: Mitigating Sexually Explicit Content in T2I Models](./SafeGen.md) | IEEE S&P 2024 | 多模态安全 | ✅ |
+| 22 | [MultiJail: Jailbreaking T2I Models via Multi-Modal Attack](./MultiJail.md) | arXiv 2024 | 多模态攻击 | ✅ |
+| 23 | [Jailbreak Attacks and Defenses Survey](./Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 综述 | ✅ |
+| 24 | [SIABench: Evaluating LLMs for Security Incident Analysis](./SIABench.md) | arXiv 2026 | 网络安全评估 | ✅ |
+| 25 | [Crescendo: Multi-Turn LLM Jailbreak Attack](./Crescendo.md) | USENIX Security 2025 | 多轮越狱攻击 | ✅ |
+| 26 | [Jailbroken: How Does LLM Safety Training Fail?](./Jailbroken.md) | NeurIPS 2023 | 安全训练分析 | ✅ |
+| 27 | [ActorBreaker: Multi-turn LLM Jailbreak Attack](./ActorBreaker.md) | ACL 2025 | 多轮越狱攻击 | ✅ |
 
 ---
 
@@ -78,7 +77,7 @@
 | 🖼️ 多模态 | 3 | MLLM-Protector, SafeGen, MultiJail |
 | ⚡ 资源攻击 | 1 | Harnessing Task Overload |
 | 🔄 过度拒绝 | 1 | Nothing in Excess |
-| 🔬 漏洞分析 | 2 | LLMs know their vulnerabilities, Jailbroken |
+| 🔬 漏洞分析 | 1 | Jailbroken |
 | 📚 综述 | 3 | LLM Security and Privacy Survey, Jailbreak Attacks and Defenses Survey, TrustLLM |
 | 🤖 智能体安全 | 2 | AgentDojo, R-Judge |
 | 🛡️ 风险意识 | 1 | R-Judge |
@@ -131,14 +130,13 @@
 | [APRT](./APRT.md) | COLING 2025 | 自动化渐进式红队测试框架 | `红队测试` `渐进式` `自动化` `持续优化` |
 | [Tree of Attacks](./Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击方法 | `红队测试` `树搜索` `分支探索` |
 
-### 🔬 其他重要论文（7篇）
+### 🔬 其他重要论文（6篇）
 
 | 论文 | 会议 | 核心思想 | 关键词 |
 |------|------|----------|--------|
 | [Jailbreak Attacks and Defenses Survey](./Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 越狱攻击与防御全面综述，系统分类攻击和防御方法 | `综述` `攻击` `防御` `分类` `关系图谱` |
 | [Sleeper Agents](./Sleeper-Agents.md) | ICLR 2024 | 训练具有欺骗性的持久化后门 | `后门攻击` `欺骗性` `持久化` `安全训练` |
 | [Under the Influence](./Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与上下文操控 | `提示注入` `上下文操控` `指令劫持` |
-| [LLMs know their vulnerabilities](./LLMs-know-their-vulnerabilities.md) | arXiv 2024 | LLM对自身安全漏洞的认知能力 | `自我认知` `漏洞分析` `元认知` |
 | [Jailbroken](./Jailbroken.md) | NeurIPS 2023 | 安全训练失败的两种模式：竞争目标与不匹配泛化 | `安全训练` `失败模式` `竞争目标` `不匹配泛化` |
 | [LLM Security and Privacy Survey](./LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` `分类体系` |
 | [TrustLLM](./TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
@@ -198,8 +196,8 @@
 ## 📝 维护说明
 
 - **最后更新**：2026-03-21
-- **论文总数**：28 篇
-- **完整笔记**：28 篇 (100%)
+- **论文总数**：27 篇
+- **完整笔记**：27 篇 (100%)
 - **维护者**：AI 助手 + 人工审核
 - **更新频率**：随阅读进度同步更新
 
