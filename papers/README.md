@@ -1,8 +1,8 @@
 # 论文索引
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total-27%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-27%20Notes-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
+  <img src="https://img.shields.io/badge/Complete-25%2F80-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--03-21-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -14,20 +14,21 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 1 | [./2026/](./2026/) |
+| 2026 | 2 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
-| 2024 | 21 | [./2024/](./2024/) |
+| 2024 | 18 | [./2024/](./2024/) |
 | 2023 | 1 | [./2023/](./2023/) |
 
 ---
 
 ## 📋 完整论文列表（按年份排序）
 
-### 2026 年 (1篇)
+### 2026 年 (2篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
 | 1 | [SIABench: Evaluating LLMs for Security Incident Analysis](./2026/SIABench.md) | arXiv 2026 | 网络安全评估 |
+| 2 | [ESG-Bench: Benchmarking Long-Context ESG Reports for Hallucination Mitigation](./2026/ESG-Bench.md) | AAAI 2026 | 幻觉缓解/长上下文QA |
 
 ### 2025 年 (4篇)
 
@@ -38,7 +39,7 @@
 | 3 | [APRT: Automated Progressive Red Teaming](./2025/APRT.md) | COLING 2025 | 红队测试 |
 | 4 | [ActorBreaker: Multi-turn LLM Jailbreak Attack](./2025/ActorBreaker.md) | ACL 2025 | 多轮越狱攻击 |
 
-### 2024 年 (21篇)
+### 2024 年 (18篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -96,7 +97,7 @@
 
 | 标签 | 论文数量 | 论文列表 |
 |------|:--------:|----------|
-| 📊 评估基准 | 6 | JailbreakBench, HarmBench, AuditBench, AgentDojo, R-Judge, SIABench |
+| 📊 评估基准 | 7 | JailbreakBench, HarmBench, AuditBench, AgentDojo, R-Judge, SIABench, ESG-Bench |
 
 ### 其他标签
 
@@ -112,13 +113,15 @@
 | 🔄 终身学习 | 1 | AutoDAN-Turbo |
 | 🔒 网络安全 | 1 | SIABench |
 | 🔍 安全训练分析 | 1 | Jailbroken |
+| 📊 幻觉缓解 | 1 | ESG-Bench |
+| 📄 长上下文 | 1 | ESG-Bench |
 
 ---
 
 ## 🔍 使用指南
 
 ### 按年份查找
-- **2026年**: 最新前沿研究
+- **2026年**: 最新前沿研究 (AAAI)
 - **2025年**: 最新会议论文 (ACL, ICLR, USENIX Security, COLING)
 - **2024年**: 主流会议论文 (NeurIPS, ICLR, EMNLP, IEEE S&P)
 - **2023年**: 早期重要工作 (NeurIPS)
@@ -142,13 +145,16 @@
 2. [Nothing in Excess](./2025/Nothing-in-Excess.md) - 安全与有用性平衡
 3. [Alignment-Weighted DPO](./2024/Alignment-Weighted-DPO.md) - 训练阶段优化
 
+**幻觉缓解研究路径：**
+1. [ESG-Bench](./2026/ESG-Bench.md) - 长上下文幻觉缓解基准
+
 ---
 
 ## 📝 维护说明
 
 - **最后更新**：2026-03-21
-- **论文总数**：27 篇
-- **完整笔记**：27 篇 (100%)
+- **论文总数**：25 篇
+- **完整笔记**：25 篇 (100%)
 - **目录结构**：按发表年份整理
 - **维护者**：AI 助手 + 人工审核
 
