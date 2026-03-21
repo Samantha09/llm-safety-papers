@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-27%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-28%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 27 篇 (33.75%) |
+| **已完成** | 28 篇 (35.00%) |
 | **最后更新** | 2026-03-21 |
 
 ---
