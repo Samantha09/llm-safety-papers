@@ -41,36 +41,36 @@
 
 | 类型 | 说明 | 代表论文 |
 |------|------|----------|
-| 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Harnessing Task Overload](./papers/Harnessing-Task-Overload.md), [AutoDAN](./papers/AutoDAN.md), [PAIR](./papers/PAIR.md), [GCG](./papers/GCG.md), [Tree of Attacks](./papers/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/AutoDAN-Turbo.md), [MultiJail](./papers/MultiJail.md), [Crescendo](./papers/Crescendo.md), [ActorBreaker](./papers/ActorBreaker.md) |
-| 🎯 **对抗攻击** | 构造对抗样本欺骗模型 | [GCG](./papers/GCG.md), [AutoDAN](./papers/AutoDAN.md) |
-| 🧠 **提示注入** | 通过提示操控模型行为 | [Under the Influence](./papers/Under-the-Influence.md) |
-| 🎭 **隐蔽攻击** | 难以检测的攻击方式 | [Cold-Attack](./papers/Cold-Attack.md), [Sleeper Agents](./papers/Sleeper-Agents.md) |
+| 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Harnessing Task Overload](./papers/2024/Harnessing-Task-Overload.md), [AutoDAN](./papers/2024/AutoDAN.md), [PAIR](./papers/2024/PAIR.md), [GCG](./papers/2024/GCG.md), [Tree of Attacks](./papers/2024/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/2024/AutoDAN-Turbo.md), [MultiJail](./papers/2024/MultiJail.md), [Crescendo](./papers/2025/Crescendo.md), [ActorBreaker](./papers/2025/ActorBreaker.md) |
+| 🎯 **对抗攻击** | 构造对抗样本欺骗模型 | [GCG](./papers/2024/GCG.md), [AutoDAN](./papers/2024/AutoDAN.md) |
+| 🧠 **提示注入** | 通过提示操控模型行为 | [Under the Influence](./papers/2024/Under-the-Influence.md) |
+| 🎭 **隐蔽攻击** | 难以检测的攻击方式 | [Cold-Attack](./papers/2024/Cold-Attack.md), [Sleeper Agents](./papers/2024/Sleeper-Agents.md) |
 
 ### 按防御类型
 
 | 类型 | 说明 | 代表论文 |
 |------|------|----------|
-| 🛡️ **安全对齐** | 训练阶段的安全优化 | [Nothing in Excess](./papers/Nothing-in-Excess.md), [Alignment-Weighted DPO](./papers/Alignment-Weighted-DPO.md) |
-| 🔍 **输出检测** | 生成内容的实时检测 | [MLLM-Protector](./papers/MLLM-Protector.md), [SafeGen](./papers/SafeGen.md) |
-| 🧪 **红队测试** | 主动发现安全漏洞 | [APRT](./papers/APRT.md), [Tree of Attacks](./papers/Tree-of-Attacks.md) |
+| 🛡️ **安全对齐** | 训练阶段的安全优化 | [Nothing in Excess](./papers/2025/Nothing-in-Excess.md), [Alignment-Weighted DPO](./papers/2024/Alignment-Weighted-DPO.md) |
+| 🔍 **输出检测** | 生成内容的实时检测 | [MLLM-Protector](./papers/2024/MLLM-Protector.md), [SafeGen](./papers/2024/SafeGen.md) |
+| 🧪 **红队测试** | 主动发现安全漏洞 | [APRT](./papers/2025/APRT.md), [Tree of Attacks](./papers/2024/Tree-of-Attacks.md) |
 
 ### 按评估基准
 
 | 基准 | 说明 | 论文 |
 |------|------|------|
-| 📊 **JailbreakBench** | 越狱攻击评估基准 | [JailbreakBench](./papers/JailbreakBench.md) |
-| ⚖️ **HarmBench** | 标准化安全评估框架 | [HarmBench](./papers/HarmBench.md) |
-| 🔎 **AuditBench** | 安全审计基准 | [AuditBench](./papers/AuditBench.md) |
-| 🤖 **AgentDojo** | 智能体安全评估环境 | [AgentDojo](./papers/AgentDojo.md) |
-| 🛡️ **R-Judge** | 智能体风险意识评估 | [R-Judge](./papers/R-Judge.md) |
-| 🔬 **SIABench** | 安全事件分析评估 | [SIABench](./papers/SIABench.md) |
+| 📊 **JailbreakBench** | 越狱攻击评估基准 | [JailbreakBench](./papers/2024/JailbreakBench.md) |
+| ⚖️ **HarmBench** | 标准化安全评估框架 | [HarmBench](./papers/2024/HarmBench.md) |
+| 🔎 **AuditBench** | 安全审计基准 | [AuditBench](./papers/2024/AuditBench.md) |
+| 🤖 **AgentDojo** | 智能体安全评估环境 | [AgentDojo](./papers/2024/AgentDojo.md) |
+| 🛡️ **R-Judge** | 智能体风险意识评估 | [R-Judge](./papers/2024/R-Judge.md) |
+| 🔬 **SIABench** | 安全事件分析评估 | [SIABench](./papers/2026/SIABench.md) |
 
 ### 其他重要方向
 
 | 方向 | 说明 | 论文 |
 |------|------|------|
-| 📚 **综述** | 领域全面回顾 | [Jailbreak Attacks and Defenses Survey](./papers/Jailbreak-Attacks-and-Defenses-Survey.md), [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md), [TrustLLM](./papers/TrustLLM.md) |
-| 🔬 **漏洞分析** | 模型自我认知漏洞 | [LLMs know their vulnerabilities](./papers/LLMs-know-their-vulnerabilities.md), [Jailbroken](./papers/Jailbroken.md) |
+| 📚 **综述** | 领域全面回顾 | [Jailbreak Attacks and Defenses Survey](./papers/2024/Jailbreak-Attacks-and-Defenses-Survey.md), [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md), [TrustLLM](./papers/2024/TrustLLM.md) |
+| 🔬 **漏洞分析** | 模型自我认知漏洞 | [LLMs know their vulnerabilities](./papers/LLMs-know-their-vulnerabilities.md), [Jailbroken](./papers/2023/Jailbroken.md) |
 
 ---
 
@@ -82,33 +82,37 @@ llm-safety-papers/
 ├── PAPER_COLLECTION.md                # 论文汇总（约80篇）
 ├── papers/
 │   ├── README.md                      # 论文索引与快速检索
-│   ├── AgentDojo.md                   # ✅ AgentDojo - 智能体安全评估环境
-│   ├── APRT.md                        # ✅ Automated Progressive Red Teaming
-│   ├── Alignment-Weighted-DPO.md      # ✅ Alignment-Weighted DPO
-│   ├── AuditBench.md                  # ✅ AuditBench
-│   ├── ActorBreaker.md                # ✅ ActorBreaker - 基于行动者网络的多轮越狱攻击
-│   ├── AutoDAN.md                     # ✅ AutoDAN
-│   ├── AutoDAN-Turbo.md               # ✅ AutoDAN-Turbo
-│   ├── Cold-Attack.md                 # ✅ Cold-Attack
-│   ├── Crescendo.md                   # ✅ Crescendo - 多轮渐进式越狱攻击
-│   ├── GCG.md                         # ✅ GCG攻击
-│   ├── HarmBench.md                   # ✅ HarmBench
-│   ├── Harnessing-Task-Overload.md    # ✅ Harnessing Task Overload
-│   ├── Jailbreak-Attacks-and-Defenses-Survey.md  # ✅ 综述
-│   ├── JailbreakBench.md              # ✅ JailbreakBench
-│   ├── Jailbroken.md                  # ✅ Jailbroken - LLM安全训练失败分析
-│   ├── LLM-Security-and-Privacy-Survey.md  # ✅ 综述
-│   ├── MLLM-Protector.md              # ✅ MLLM-Protector
-│   ├── MultiJail.md                   # ✅ MultiJail
-│   ├── Nothing-in-Excess.md           # ✅ Nothing in Excess
-│   ├── PAIR.md                        # ✅ PAIR
-│   ├── R-Judge.md                     # ✅ R-Judge
-│   ├── SafeGen.md                     # ✅ SafeGen
-│   ├── SIABench.md                    # ✅ SIABench - 安全事件分析评估
-│   ├── Sleeper-Agents.md              # ✅ Sleeper Agents
-│   ├── TrustLLM.md                    # ✅ TrustLLM
-│   ├── Tree-of-Attacks.md             # ✅ Tree of Attacks
-│   └── Under-the-Influence.md         # ✅ Under the Influence
+│   ├── 2026/                          # 2026年论文 (1篇)
+│   │   └── SIABench.md
+│   ├── 2025/                          # 2025年论文 (4篇)
+│   │   ├── ActorBreaker.md
+│   │   ├── APRT.md
+│   │   ├── Crescendo.md
+│   │   └── Nothing-in-Excess.md
+│   ├── 2024/                          # 2024年论文 (21篇)
+│   │   ├── AgentDojo.md
+│   │   ├── Alignment-Weighted-DPO.md
+│   │   ├── AuditBench.md
+│   │   ├── AutoDAN.md
+│   │   ├── AutoDAN-Turbo.md
+│   │   ├── Cold-Attack.md
+│   │   ├── GCG.md
+│   │   ├── HarmBench.md
+│   │   ├── Harnessing-Task-Overload.md
+│   │   ├── Jailbreak-Attacks-and-Defenses-Survey.md
+│   │   ├── JailbreakBench.md
+│   │   ├── LLM-Security-and-Privacy-Survey.md
+│   │   ├── MLLM-Protector.md
+│   │   ├── MultiJail.md
+│   │   ├── PAIR.md
+│   │   ├── R-Judge.md
+│   │   ├── SafeGen.md
+│   │   ├── Sleeper-Agents.md
+│   │   ├── TrustLLM.md
+│   │   ├── Tree-of-Attacks.md
+│   │   └── Under-the-Influence.md
+│   └── 2023/                          # 2023年论文 (1篇)
+│       └── Jailbroken.md
 └── .github/                           # GitHub 配置
     └── workflows/                     # 自动化工作流
 ```
@@ -121,54 +125,54 @@ llm-safety-papers/
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 1 | [Harnessing Task Overload](./papers/Harnessing-Task-Overload.md) | arXiv 2024 | 资源饱和攻击，占用计算资源绕过安全机制 | `资源饱和` `计算开销` |
-| 2 | [AutoDAN](./papers/AutoDAN.md) | NeurIPS 2024 | 遗传算法生成隐蔽的越狱提示 | `对抗生成` `隐蔽攻击` `黑盒` |
-| 3 | [PAIR](./papers/PAIR.md) | arXiv 2024 | 20次查询内越狱黑盒LLM | `黑盒攻击` `查询高效` |
-| 4 | [GCG](./papers/GCG.md) | ICLR 2024 | 通用可迁移的对抗攻击 | `对抗后缀` `白盒攻击` `可迁移` |
-| 5 | [Tree of Attacks](./papers/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `自动化` `树搜索` |
-| 6 | [Cold-Attack](./papers/Cold-Attack.md) | arXiv 2024 | 隐蔽且可控的越狱攻击方法 | `隐蔽攻击` `可控性` |
-| 7 | [AutoDAN-Turbo](./papers/AutoDAN-Turbo.md) | arXiv 2024 | 终身学习策略自探索代理 | `终身学习` `策略自探索` `黑盒` |
-| 8 | [Sleeper Agents](./papers/Sleeper-Agents.md) | ICLR 2024 | 训练具有欺骗性的LLM后门 | `后门攻击` `欺骗性` `持久化` |
-| 9 | [MultiJail](./papers/MultiJail.md) | arXiv 2024 | 多模态越狱攻击T2I模型 | `多模态` `视觉提示` `越狱` |
-| 10 | [Crescendo](./papers/Crescendo.md) | USENIX Security 2025 | 多轮渐进式越狱攻击 | `多轮攻击` `渐进式` `良性输入` |
-| 11 | [ActorBreaker](./papers/ActorBreaker.md) | ACL 2025 | 基于行动者网络的多轮越狱攻击，通过自然分布偏移发现安全漏洞 | `多轮攻击` `行动者网络` `自然分布偏移` |
+| 1 | [Harnessing Task Overload](./papers/2024/Harnessing-Task-Overload.md) | arXiv 2024 | 资源饱和攻击，占用计算资源绕过安全机制 | `资源饱和` `计算开销` |
+| 2 | [AutoDAN](./papers/2024/AutoDAN.md) | NeurIPS 2024 | 遗传算法生成隐蔽的越狱提示 | `对抗生成` `隐蔽攻击` `黑盒` |
+| 3 | [PAIR](./papers/2024/PAIR.md) | arXiv 2024 | 20次查询内越狱黑盒LLM | `黑盒攻击` `查询高效` |
+| 4 | [GCG](./papers/2024/GCG.md) | ICLR 2024 | 通用可迁移的对抗攻击 | `对抗后缀` `白盒攻击` `可迁移` |
+| 5 | [Tree of Attacks](./papers/2024/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `自动化` `树搜索` |
+| 6 | [Cold-Attack](./papers/2024/Cold-Attack.md) | arXiv 2024 | 隐蔽且可控的越狱攻击方法 | `隐蔽攻击` `可控性` |
+| 7 | [AutoDAN-Turbo](./papers/2024/AutoDAN-Turbo.md) | arXiv 2024 | 终身学习策略自探索代理 | `终身学习` `策略自探索` `黑盒` |
+| 8 | [Sleeper Agents](./papers/2024/Sleeper-Agents.md) | ICLR 2024 | 训练具有欺骗性的LLM后门 | `后门攻击` `欺骗性` `持久化` |
+| 9 | [MultiJail](./papers/2024/MultiJail.md) | arXiv 2024 | 多模态越狱攻击T2I模型 | `多模态` `视觉提示` `越狱` |
+| 10 | [Crescendo](./papers/2025/Crescendo.md) | USENIX Security 2025 | 多轮渐进式越狱攻击 | `多轮攻击` `渐进式` `良性输入` |
+| 11 | [ActorBreaker](./papers/2025/ActorBreaker.md) | ACL 2025 | 基于行动者网络的多轮越狱攻击，通过自然分布偏移发现安全漏洞 | `多轮攻击` `行动者网络` `自然分布偏移` |
 
 ### 防御与安全对齐（4篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 11 | [MLLM-Protector](./papers/MLLM-Protector.md) | arXiv 2024 | 多模态模型输出端检测与解毒 | `多模态` `输出检测` `轻量级` |
-| 12 | [Nothing in Excess](./papers/Nothing-in-Excess.md) | ICLR 2025 | 缓解过度安全对齐导致的过度拒绝 | `过度拒绝` `安全对齐` `平衡` |
-| 13 | [Alignment-Weighted DPO](./papers/Alignment-Weighted-DPO.md) | arXiv 2024 | 加权DPO优化安全对齐 | `DPO` `加权训练` `安全对齐` |
-| 14 | [SafeGen](./papers/SafeGen.md) | IEEE S&P 2024 | T2I模型性暗示内容生成防护 | `多模态` `内容过滤` `即插即用` |
+| 11 | [MLLM-Protector](./papers/2024/MLLM-Protector.md) | arXiv 2024 | 多模态模型输出端检测与解毒 | `多模态` `输出检测` `轻量级` |
+| 12 | [Nothing in Excess](./papers/2025/Nothing-in-Excess.md) | ICLR 2025 | 缓解过度安全对齐导致的过度拒绝 | `过度拒绝` `安全对齐` `平衡` |
+| 13 | [Alignment-Weighted DPO](./papers/2024/Alignment-Weighted-DPO.md) | arXiv 2024 | 加权DPO优化安全对齐 | `DPO` `加权训练` `安全对齐` |
+| 14 | [SafeGen](./papers/2024/SafeGen.md) | IEEE S&P 2024 | T2I模型性暗示内容生成防护 | `多模态` `内容过滤` `即插即用` |
 
 ### 评估基准（6篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 14 | [JailbreakBench](./papers/JailbreakBench.md) | arXiv 2024 | 越狱攻击评估基准 | `基准测试` `评估框架` `鲁棒性` |
-| 15 | [HarmBench](./papers/HarmBench.md) | ICLR 2024 | 标准化安全评估框架 | `安全评估` `标准化` `自动化` |
-| 16 | [AuditBench](./papers/AuditBench.md) | arXiv 2024 | 安全审计基准测试 | `安全审计` `评估基准` |
-| 17 | [AgentDojo](./papers/AgentDojo.md) | NeurIPS 2024 | 动态提示注入攻击评估环境 | `动态评估` `提示注入` `智能体` |
-| 18 | [R-Judge](./papers/R-Judge.md) | EMNLP 2024 | 智能体风险意识评估基准 | `风险意识` `智能体` `评估基准` |
-| 19 | [SIABench](./papers/SIABench.md) | arXiv 2026 | 安全事件分析评估框架 | `网络安全` `评估基准` `智能体` |
+| 14 | [JailbreakBench](./papers/2024/JailbreakBench.md) | arXiv 2024 | 越狱攻击评估基准 | `基准测试` `评估框架` `鲁棒性` |
+| 15 | [HarmBench](./papers/2024/HarmBench.md) | ICLR 2024 | 标准化安全评估框架 | `安全评估` `标准化` `自动化` |
+| 16 | [AuditBench](./papers/2024/AuditBench.md) | arXiv 2024 | 安全审计基准测试 | `安全审计` `评估基准` |
+| 17 | [AgentDojo](./papers/2024/AgentDojo.md) | NeurIPS 2024 | 动态提示注入攻击评估环境 | `动态评估` `提示注入` `智能体` |
+| 18 | [R-Judge](./papers/2024/R-Judge.md) | EMNLP 2024 | 智能体风险意识评估基准 | `风险意识` `智能体` `评估基准` |
+| 19 | [SIABench](./papers/2026/SIABench.md) | arXiv 2026 | 安全事件分析评估框架 | `网络安全` `评估基准` `智能体` |
 
 ### 红队测试（2篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 19 | [APRT](./papers/APRT.md) | COLING 2025 | 自动化渐进式红队测试 | `红队测试` `渐进式` `自动化` |
-| 20 | [Tree of Attacks](./papers/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `树搜索` |
+| 19 | [APRT](./papers/2025/APRT.md) | COLING 2025 | 自动化渐进式红队测试 | `红队测试` `渐进式` `自动化` |
+| 20 | [Tree of Attacks](./papers/2024/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `树搜索` |
 
 ### 其他重要论文（5篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 21 | [Jailbreak Attacks and Defenses Survey](./papers/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 越狱攻击与防御全面综述 | `综述` `攻击` `防御` `分类` |
-| 22 | [Under the Influence](./papers/Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与防御 | `提示注入` `上下文操控` |
-| 23 | [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` |
-| 24 | [TrustLLM](./papers/TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
-| 25 | [Jailbroken: How Does LLM Safety Training Fail?](./papers/Jailbroken.md) | NeurIPS 2023 | LLM安全训练失败原因分析 | `安全训练` `漏洞分析` |
+| 21 | [Jailbreak Attacks and Defenses Survey](./papers/2024/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 越狱攻击与防御全面综述 | `综述` `攻击` `防御` `分类` |
+| 22 | [Under the Influence](./papers/2024/Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与防御 | `提示注入` `上下文操控` |
+| 23 | [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` |
+| 24 | [TrustLLM](./papers/2024/TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
+| 25 | [Jailbroken: How Does LLM Safety Training Fail?](./papers/2023/Jailbroken.md) | NeurIPS 2023 | LLM安全训练失败原因分析 | `安全训练` `漏洞分析` |
 
 ---
 
@@ -191,7 +195,7 @@ llm-safety-papers/
 
 ### 快速阅读建议
 
-- **想快速了解领域**：先看 [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) 和评估基准类论文
+- **想快速了解领域**：先看 [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md) 和评估基准类论文
 - **关注攻击方法**：重点阅读 GCG、AutoDAN、PAIR、Harnessing Task Overload
 - **关注防御方法**：重点阅读 MLLM-Protector、Nothing in Excess、Alignment-Weighted DPO
 - **关注评估基准**：重点阅读 JailbreakBench、HarmBench、AuditBench、AgentDojo、SIABench
@@ -238,7 +242,8 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
-| 2026-03-21 | 删除重复论文: LLMs-know-their-vulnerabilities.md (与ActorBreaker.md重复，arXiv:2410.10700) |
+| 2026-03-21 | 重构 papers 目录: 按发表年份分目录整理 (2023/2024/2025/2026) |
+| 2026-03-21 | 删除重复论文: LLMs-know-their-vulnerabilities.md (与ActorBreaker.md重复) |
 | 2026-03-21 | 修正论文：ActorBreaker (v2最新版本) - 更新标题、方法名、代码链接 |
 | 2026-03-21 | 添加论文：Jailbroken - LLM安全训练失败原因分析 (NeurIPS 2023)，更新进度至 27/80 |
 | 2026-03-20 | 添加论文：Crescendo - 多轮渐进式LLM越狱攻击 (USENIX Security 2025)，更新进度至 27/80 |
