@@ -41,7 +41,7 @@
 | 25 | [SIABench: Evaluating LLMs for Security Incident Analysis](./SIABench.md) | arXiv 2026 | 网络安全评估 | ✅ |
 | 26 | [Crescendo: Multi-Turn LLM Jailbreak Attack](./Crescendo.md) | USENIX Security 2025 | 多轮越狱攻击 | ✅ |
 | 27 | [Jailbroken: How Does LLM Safety Training Fail?](./Jailbroken.md) | NeurIPS 2023 | 安全训练分析 | ✅ |
-| 28 | [ActorAttack: Multi-turn LLM Jailbreak Attack](./ActorAttack.md) | ACL 2025 | 多轮越狱攻击 | ✅ |
+| 28 | [ActorBreaker: Multi-turn LLM Jailbreak Attack](./ActorBreaker.md) | ACL 2025 | 多轮越狱攻击 | ✅ |
 
 ---
 
@@ -51,7 +51,7 @@
 
 | 标签 | 论文数量 | 论文列表 |
 |------|:--------:|----------|
-| 🔓 越狱攻击 | 9 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo, Crescendo, ActorAttack |
+| 🔓 越狱攻击 | 9 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo, Crescendo, ActorBreaker |
 | 🎯 对抗攻击 | 2 | GCG, AutoDAN |
 | 🧠 提示注入 | 1 | Under the Influence |
 | 🎭 隐蔽攻击 | 2 | Cold-Attack, Sleeper Agents |
@@ -102,7 +102,7 @@
 | [Cold-Attack](./Cold-Attack.md) | arXiv 2024 | 隐蔽且可控的越狱攻击方法 | `隐蔽攻击` `可控性` `逃避检测` |
 | [AutoDAN-Turbo](./AutoDAN-Turbo.md) | arXiv 2024 | 终身学习策略自探索代理，自动发现越狱策略 | `终身学习` `策略自探索` `黑盒` `自动化` |
 | [Crescendo](./Crescendo.md) | USENIX Security 2025 | 多轮渐进式越狱攻击，利用良性输入突破安全对齐 | `多轮攻击` `渐进式` `良性输入` `黑盒` |
-| [ActorAttack](./ActorAttack.md) | ACL 2025 | 基于行动者网络理论的多轮越狱攻击，通过自发现线索生成攻击路径（原v1标题Derail Yourself） | `多轮攻击` `行动者网络` `自发现线索` `动态修改` |
+| [ActorBreaker](./ActorBreaker.md) | ACL 2025 | 基于行动者网络理论的多轮越狱攻击，通过自然分布偏移发现安全漏洞 | `多轮攻击` `行动者网络` `自然分布偏移` |
 
 ### 🛡️ 防御与安全对齐（4篇）
 
@@ -168,7 +168,7 @@
 3. [PAIR](./PAIR.md) - 高效的黑盒攻击
 4. [AutoDAN-Turbo](./AutoDAN-Turbo.md) - 终身学习的自动化攻击
 5. [Crescendo](./Crescendo.md) - 多轮渐进式攻击
-6. [ActorAttack](./ActorAttack.md) - 基于行动者网络的多轮攻击
+6. [ActorBreaker](./ActorBreaker.md) - 基于行动者网络的多轮攻击
 
 **防御研究路径：**
 1. [MLLM-Protector](./MLLM-Protector.md) - 输出层防御
