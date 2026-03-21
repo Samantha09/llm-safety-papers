@@ -30,7 +30,7 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 28 篇 (35.00%) |
+| **已完成** | 27 篇 (33.75%) |
 | **最后更新** | 2026-03-21 |
 
 ---
@@ -98,7 +98,6 @@ llm-safety-papers/
 │   ├── JailbreakBench.md              # ✅ JailbreakBench
 │   ├── Jailbroken.md                  # ✅ Jailbroken - LLM安全训练失败分析
 │   ├── LLM-Security-and-Privacy-Survey.md  # ✅ 综述
-│   ├── LLMs-know-their-vulnerabilities.md  # ✅ 漏洞分析
 │   ├── MLLM-Protector.md              # ✅ MLLM-Protector
 │   ├── MultiJail.md                   # ✅ MultiJail
 │   ├── Nothing-in-Excess.md           # ✅ Nothing in Excess
@@ -161,16 +160,15 @@ llm-safety-papers/
 | 19 | [APRT](./papers/APRT.md) | COLING 2025 | 自动化渐进式红队测试 | `红队测试` `渐进式` `自动化` |
 | 20 | [Tree of Attacks](./papers/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `树搜索` |
 
-### 其他重要论文（6篇）
+### 其他重要论文（5篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
 | 21 | [Jailbreak Attacks and Defenses Survey](./papers/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 越狱攻击与防御全面综述 | `综述` `攻击` `防御` `分类` |
 | 22 | [Under the Influence](./papers/Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与防御 | `提示注入` `上下文操控` |
-| 23 | [LLMs know their vulnerabilities](./papers/LLMs-know-their-vulnerabilities.md) | arXiv 2024 | LLM对自身漏洞的认知 | `自我认知` `漏洞分析` |
-| 24 | [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` |
-| 25 | [TrustLLM](./papers/TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
-| 26 | [Jailbroken: How Does LLM Safety Training Fail?](./papers/Jailbroken.md) | NeurIPS 2023 | LLM安全训练失败原因分析 | `安全训练` `漏洞分析` |
+| 23 | [LLM Security and Privacy Survey](./papers/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` |
+| 24 | [TrustLLM](./papers/TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
+| 25 | [Jailbroken: How Does LLM Safety Training Fail?](./papers/Jailbroken.md) | NeurIPS 2023 | LLM安全训练失败原因分析 | `安全训练` `漏洞分析` |
 
 ---
 
@@ -240,6 +238,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-03-21 | 删除重复论文: LLMs-know-their-vulnerabilities.md (与ActorBreaker.md重复，arXiv:2410.10700) |
 | 2026-03-21 | 修正论文：ActorBreaker (v2最新版本) - 更新标题、方法名、代码链接 |
 | 2026-03-21 | 添加论文：Jailbroken - LLM安全训练失败原因分析 (NeurIPS 2023)，更新进度至 27/80 |
 | 2026-03-20 | 添加论文：Crescendo - 多轮渐进式LLM越狱攻击 (USENIX Security 2025)，更新进度至 27/80 |
