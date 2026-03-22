@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-31%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--03-21-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-32%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--03-22-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -17,7 +17,7 @@
 | 2026 | 5 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
 | 2024 | 21 | [./2024/](./2024/) |
-| 2023 | 1 | [./2023/](./2023/) |
+| 2023 | 2 | [./2023/](./2023/) |
 
 ---
 
@@ -68,11 +68,12 @@
 | 20 | [Jailbreak Attacks and Defenses Survey](./2024/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 综述 |
 | 21 | [LLM Security and Privacy Survey](./2024/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | 综述 |
 
-### 2023 年 (1篇)
+### 2023 年 (2篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
 | 1 | [Jailbroken: How Does LLM Safety Training Fail?](./2023/Jailbroken.md) | NeurIPS 2023 | 安全训练分析 |
+| 2 | [Siren's Song: LLM幻觉综述](./2023/Sirens-Song.md) | arXiv 2023 | LLM幻觉分类与缓解综述 |
 
 ---
 
