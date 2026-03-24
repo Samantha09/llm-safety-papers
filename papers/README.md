@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-33%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Complete-34%2F80-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--03-22-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -14,7 +14,7 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 5 | [./2026/](./2026/) |
+| 2026 | 6 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
 | 2024 | 21 | [./2024/](./2024/) |
 | 2023 | 2 | [./2023/](./2023/) |
@@ -23,7 +23,7 @@
 
 ## 📋 完整论文列表（按年份排序）
 
-### 2026 年 (5篇)
+### 2026 年 (6篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -32,6 +32,7 @@
 | 3 | [SCS-Code: Security-by-Design for LLM-Based Code Generation](./2026/SCS-Code.md) | EuroS&P 2026 | 代码安全 |
 | 4 | [ESAA-Security: Event-Sourced Verifiable Architecture for Agent-Assisted Security Audits](./2026/ESAA-Security.md) | arXiv 2026 | 可验证审计/AI安全 |
 | 5 | [CLIOPATRA: Extracting Private Information from LLM Insights](./2026/CLIOPATRA.md) | arXiv 2026 | 隐私保护/隐私攻击 |
+| 6 | [Proteus: A Practical Framework for Privacy-Preserving Device Logs](./2026/Proteus.md) | CCS 2026 | 隐私保护/移动端安全 |
 
 ### 2025 年 (4篇)
 
