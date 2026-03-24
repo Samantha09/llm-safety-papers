@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-34%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--03-22-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-35%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--03-25-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -14,16 +14,16 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 6 | [./2026/](./2026/) |
+| 2026 | 7 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
 | 2024 | 21 | [./2024/](./2024/) |
-| 2023 | 2 | [./2023/](./2023/) |
+| 2023 | 3 | [./2023/](./2023/) |
 
 ---
 
 ## 📋 完整论文列表（按年份排序）
 
-### 2026 年 (6篇)
+### 2026 年 (7篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -33,6 +33,7 @@
 | 4 | [ESAA-Security: Event-Sourced Verifiable Architecture for Agent-Assisted Security Audits](./2026/ESAA-Security.md) | arXiv 2026 | 可验证审计/AI安全 |
 | 5 | [CLIOPATRA: Extracting Private Information from LLM Insights](./2026/CLIOPATRA.md) | arXiv 2026 | 隐私保护/隐私攻击 |
 | 6 | [Proteus: A Practical Framework for Privacy-Preserving Device Logs](./2026/Proteus.md) | CCS 2026 | 隐私保护/移动端安全 |
+| 7 | [Marked Pedagogies: Linguistic Biases in Personalized Automated Writing Feedback](./2026/Marked-Pedagogies.md) | LAK 2026 | 偏见与公平/LLM教育 |
 
 ### 2025 年 (4篇)
 
@@ -123,6 +124,7 @@
 | 🔍 安全训练分析 | 1 | Jailbroken |
 | 📊 幻觉缓解 | 1 | ESG-Bench |
 | 📄 长上下文 | 1 | ESG-Bench |
+| ⚖️ 偏见与公平 | 1 | Marked Pedagogies |
 
 ---
 
@@ -160,9 +162,9 @@
 
 ## 📝 维护说明
 
-- **最后更新**：2026-03-23
-- **论文总数**：33 篇
-- **完整笔记**：31 篇 (100%)
+- **最后更新**：2026-03-25
+- **论文总数**：35 篇
+- **完整笔记**：35 篇 (100%)
 - **目录结构**：按发表年份整理
 - **维护者**：AI 助手 + 人工审核
 

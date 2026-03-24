@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-34%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-35%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 34 篇 (42.5%) |
-| **最后更新** | 2026-03-24 |
+| **已完成** | 35 篇 (43.75%) |
+| **最后更新** | 2026-03-25 |
 
 ---
 
@@ -78,6 +78,7 @@
 | 💻 **代码安全** | CodeLLM安全生成 | [SCS-Code](./papers/2026/SCS-Code.md) |
 | 🔒 **隐私保护** | 移动端日志隐私保护 | [Proteus](./papers/2026/Proteus.md) |
 | 📋 **可验证审计** | 事件溯源AI代码安全审计 | [ESAA-Security](./papers/2026/ESAA-Security.md) |
+| ⚖️ **偏见与公平** | LLM教育反馈中的语言偏见 | [Marked Pedagogies](./papers/2026/Marked-Pedagogies.md) |
 
 ---
 
@@ -89,12 +90,13 @@ llm-safety-papers/
 ├── PAPER_COLLECTION.md                # 论文汇总（约80篇）
 ├── papers/
 │   ├── README.md                      # 论文索引与快速检索
-│   ├── 2026/                          # 2026年论文 (5篇)
+│   ├── 2026/                          # 2026年论文 (6篇)
 │   │   ├── SIABench.md
 │   │   ├── ESG-Bench.md
 │   │   ├── SCS-Code.md
 │   │   ├── ESAA-Security.md
-│   │   └── CLIOPATRA.md
+│   │   ├── CLIOPATRA.md
+│   │   └── Marked-Pedagogies.md
 │   ├── 2025/                          # 2025年论文 (4篇)
 │   │   ├── ActorBreaker.md
 │   │   ├── APRT.md
@@ -261,6 +263,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-03-25 | 添加论文：Marked Pedagogies - LLMs在个性化写作反馈中的语言偏见 (LAK 2026)，更新进度至 35/80 |
 | 2026-03-24 | 添加论文：Proteus - 隐私保护设备日志框架 (CCS 2026)，更新进度至 34/80 |
 | 2026-03-23 | 添加论文：Llama Guard - 基于LLM的输入输出保护模型 (Meta 2023)，更新进度至 33/80 |
 | 2026-03-21 | 添加论文：ESAA-Security - 事件溯源可验证AI代码安全审计架构，更新进度至 31/80 |
