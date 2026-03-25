@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-35%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-36%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 35 篇 (43.75%) |
+| **已完成** | 36 篇 (45.0%) |
 | **最后更新** | 2026-03-25 |
 
 ---
@@ -177,6 +177,7 @@ llm-safety-papers/
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
 | 22 | [SCS-Code](./papers/2026/SCS-Code.md) | EuroS&P 2026 | 利用内部表示引导CodeLLM生成安全代码 | `代码安全` `概念引导` `可解释性` |
+| 23 | [DiaHalu](./papers/2024/DiaHalu.md) | arXiv 2024 | 对话级幻觉评估基准 | `幻觉检测` `对话系统` `基准测试` |
 
 ### 红队测试（2篇）
 
@@ -263,6 +264,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-03-25 | 添加论文：DiaHalu - 对话级幻觉评估基准 (arXiv 2024)，更新进度至 36/80 |
 | 2026-03-25 | 添加论文：Marked Pedagogies - LLMs在个性化写作反馈中的语言偏见 (LAK 2026)，更新进度至 35/80 |
 | 2026-03-24 | 添加论文：Proteus - 隐私保护设备日志框架 (CCS 2026)，更新进度至 34/80 |
 | 2026-03-23 | 添加论文：Llama Guard - 基于LLM的输入输出保护模型 (Meta 2023)，更新进度至 33/80 |

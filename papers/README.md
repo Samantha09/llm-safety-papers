@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-35%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Complete-36%2F80-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--03-25-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -16,7 +16,7 @@
 |:----:|:--------:|------|
 | 2026 | 7 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
-| 2024 | 21 | [./2024/](./2024/) |
+| 2024 | 22 | [./2024/](./2024/) |
 | 2023 | 3 | [./2023/](./2023/) |
 
 ---
@@ -69,6 +69,7 @@
 | 19 | [MultiJail: Jailbreaking T2I Models via Multi-Modal Attack](./2024/MultiJail.md) | arXiv 2024 | 多模态攻击 |
 | 20 | [Jailbreak Attacks and Defenses Survey](./2024/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 综述 |
 | 21 | [LLM Security and Privacy Survey](./2024/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | 综述 |
+| 22 | [DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark](./2024/DiaHalu.md) | arXiv 2024 | 幻觉检测基准 |
 
 ### 2023 年 (3篇)
 
@@ -163,8 +164,8 @@
 ## 📝 维护说明
 
 - **最后更新**：2026-03-25
-- **论文总数**：35 篇
-- **完整笔记**：35 篇 (100%)
+- **论文总数**：36 篇
+- **完整笔记**：36 篇 (100%)
 - **目录结构**：按发表年份整理
 - **维护者**：AI 助手 + 人工审核
 
