@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-38%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Complete-39%2F80-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--03-31-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -17,7 +17,7 @@
 | 2026 | 7 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
 | 2024 | 22 | [./2024/](./2024/) |
-| 2023 | 4 | [./2023/](./2023/) |
+| 2023 | 5 | [./2023/](./2023/) |
 
 ---
 
@@ -71,7 +71,7 @@
 | 21 | [LLM Security and Privacy Survey](./2024/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | 综述 |
 | 22 | [DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark](./2024/DiaHalu.md) | arXiv 2024 | 幻觉检测基准 |
 
-### 2023 年 (4篇)
+### 2023 年 (5篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -79,6 +79,7 @@
 | 2 | [Siren's Song: LLM幻觉综述](./2023/Sirens-Song.md) | arXiv 2023 | LLM幻觉分类与缓解综述 |
 | 3 | [Llama Guard: LLM-based Input-Output Safeguard](./2023/Llama-Guard.md) | Meta 2023 | 内容审核/安全分类 |
 | 4 | [Towards Mitigating LLM Hallucination via Self-Reflection](./2023/Towards-Mitigating-LLM-Hallucination.md) | EMNLP 2023 | 幻觉缓解/医学QA |
+| 5 | [GPTFuzzer: Red Teaming LLMs with Auto-Generated Jailbreak Prompts](./2023/GPTFuzzer.md) | arXiv 2023 | 越狱攻击/红队测试 |
 
 ---
 
@@ -88,7 +89,7 @@
 
 | 标签 | 论文数量 | 论文列表 |
 |------|:--------:|----------|
-| 🔓 越狱攻击 | 9 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo, Crescendo, ActorBreaker |
+| 🔓 越狱攻击 | 10 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo, Crescendo, ActorBreaker, GPTFuzzer |
 | 🎯 对抗攻击 | 2 | GCG, AutoDAN |
 | 🧠 提示注入 | 1 | Under the Influence |
 | 🎭 隐蔽攻击 | 2 | Cold-Attack, Sleeper Agents |
@@ -100,7 +101,7 @@
 |------|:--------:|----------|
 | 🛡️ 安全对齐 | 2 | Nothing in Excess, Alignment-Weighted DPO |
 | 🔍 输出检测 | 2 | MLLM-Protector, SafeGen |
-| 🧪 红队测试 | 2 | APRT, Tree of Attacks |
+| 🧪 红队测试 | 3 | APRT, Tree of Attacks, GPTFuzzer |
 
 ### 评估基准
 

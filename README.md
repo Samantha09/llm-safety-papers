@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-38%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-39%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 38 篇 (47.5%) |
-| **最后更新** | 2026-03-30 |
+| **已完成** | 39 篇 (48.75%) |
+| **最后更新** | 2026-03-31 |
 
 ---
 
@@ -41,7 +41,7 @@
 
 | 类型 | 说明 | 代表论文 |
 |------|------|----------|
-| 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Harnessing Task Overload](./papers/2024/Harnessing-Task-Overload.md), [AutoDAN](./papers/2024/AutoDAN.md), [PAIR](./papers/2024/PAIR.md), [GCG](./papers/2024/GCG.md), [Tree of Attacks](./papers/2024/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/2024/AutoDAN-Turbo.md), [MultiJail](./papers/2024/MultiJail.md), [Crescendo](./papers/2025/Crescendo.md), [ActorBreaker](./papers/2025/ActorBreaker.md) |
+| 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Harnessing Task Overload](./papers/2024/Harnessing-Task-Overload.md), [AutoDAN](./papers/2024/AutoDAN.md), [PAIR](./papers/2024/PAIR.md), [GCG](./papers/2024/GCG.md), [Tree of Attacks](./papers/2024/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/2024/AutoDAN-Turbo.md), [MultiJail](./papers/2024/MultiJail.md), [Crescendo](./papers/2025/Crescendo.md), [ActorBreaker](./papers/2025/ActorBreaker.md), [GPTFuzzer](./papers/2023/GPTFuzzer.md) |
 | 🎯 **对抗攻击** | 构造对抗样本欺骗模型 | [GCG](./papers/2024/GCG.md), [AutoDAN](./papers/2024/AutoDAN.md) |
 | 🧠 **提示注入** | 通过提示操控模型行为 | [Under the Influence](./papers/2024/Under-the-Influence.md) |
 | 🎭 **隐蔽攻击** | 难以检测的攻击方式 | [Cold-Attack](./papers/2024/Cold-Attack.md), [Sleeper Agents](./papers/2024/Sleeper-Agents.md) |
@@ -52,7 +52,7 @@
 |------|------|----------|
 | 🛡️ **安全对齐** | 训练阶段的安全优化 | [Nothing in Excess](./papers/2025/Nothing-in-Excess.md), [Alignment-Weighted DPO](./papers/2024/Alignment-Weighted-DPO.md) |
 | 🔍 **输出检测** | 生成内容的实时检测 | [MLLM-Protector](./papers/2024/MLLM-Protector.md), [SafeGen](./papers/2024/SafeGen.md) |
-| 🧪 **红队测试** | 主动发现安全漏洞 | [APRT](./papers/2025/APRT.md), [Tree of Attacks](./papers/2024/Tree-of-Attacks.md) |
+| 🧪 **红队测试** | 主动发现安全漏洞 | [APRT](./papers/2025/APRT.md), [Tree of Attacks](./papers/2024/Tree-of-Attacks.md), [GPTFuzzer](./papers/2023/GPTFuzzer.md) |
 
 ### 按评估基准
 
