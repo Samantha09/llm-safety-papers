@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-39%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--03-31-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-40%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--04-02-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -18,10 +18,17 @@
 | 2025 | 4 | [./2025/](./2025/) |
 | 2024 | 22 | [./2024/](./2024/) |
 | 2023 | 5 | [./2023/](./2023/) |
+| 2022 | 1 | [./2022/](./2022/) |
 
 ---
 
 ## 📋 完整论文列表（按年份排序）
+
+### 2022 年 (1篇)
+
+| 序号 | 论文标题 | 会议/年份 | 类别 |
+|:----:|----------|:---------:|------|
+| 1 | [Red Teaming Language Models with Language Models](./2022/Red-Teaming-LMs.md) | EMNLP 2022 | 红队测试 |
 
 ### 2026 年 (7篇)
 
@@ -101,7 +108,7 @@
 |------|:--------:|----------|
 | 🛡️ 安全对齐 | 2 | Nothing in Excess, Alignment-Weighted DPO |
 | 🔍 输出检测 | 2 | MLLM-Protector, SafeGen |
-| 🧪 红队测试 | 3 | APRT, Tree of Attacks, GPTFuzzer |
+| 🧪 红队测试 | 4 | APRT, Tree of Attacks, GPTFuzzer, Red Teaming LMs |
 
 ### 评估基准
 
