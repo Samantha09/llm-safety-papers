@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-40%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Complete-41%2F80-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--04-02-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -18,17 +18,18 @@
 | 2025 | 4 | [./2025/](./2025/) |
 | 2024 | 22 | [./2024/](./2024/) |
 | 2023 | 5 | [./2023/](./2023/) |
-| 2022 | 1 | [./2022/](./2022/) |
+| 2022 | 2 | [./2022/](./2022/) |
 
 ---
 
 ## 📋 完整论文列表（按年份排序）
 
-### 2022 年 (1篇)
+### 2022 年 (2篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
 | 1 | [Red Teaming Language Models with Language Models](./2022/Red-Teaming-LMs.md) | EMNLP 2022 | 红队测试 |
+| 2 | [TruthfulQA: Measuring How Models Mimic Human Falsehoods](./2022/TruthfulQA.md) | ACL 2022 | 真实性评估/幻觉检测 |
 
 ### 2026 年 (7篇)
 

@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-40%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-41%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | 40 篇 (50.00%) |
+| **已完成** | **41 篇 (51.25%)** |
 | **最后更新** | 2026-04-02 |
 
 ---
@@ -65,6 +65,7 @@
 | 🛡️ **R-Judge** | 智能体风险意识评估 | [R-Judge](./papers/2024/R-Judge.md) |
 | 🔬 **SIABench** | 安全事件分析评估 | [SIABench](./papers/2026/SIABench.md) |
 | 📊 **ESG-Bench** | 长上下文幻觉缓解评估 | [ESG-Bench](./papers/2026/ESG-Bench.md) |
+| ✅ **TruthfulQA** | 模型真实性评估基准 | [TruthfulQA](./papers/2022/TruthfulQA.md) |
 | 🔒 **ESAA-Security** | 事件溯源安全审计框架 | [ESAA-Security](./papers/2026/ESAA-Security.md) |
 | 🔐 **CLIOPATRA** | LLM洞察系统隐私攻击 | [CLIOPATRA](./papers/2026/CLIOPATRA.md) |
 | 🔒 **Proteus** | 隐私保护设备日志框架 | [Proteus](./papers/2026/Proteus.md) |
@@ -79,6 +80,7 @@
 | 🔒 **隐私保护** | 移动端日志隐私保护 | [Proteus](./papers/2026/Proteus.md) |
 | 📋 **可验证审计** | 事件溯源AI代码安全审计 | [ESAA-Security](./papers/2026/ESAA-Security.md) |
 | ⚖️ **偏见与公平** | LLM教育反馈中的语言偏见 | [Marked Pedagogies](./papers/2026/Marked-Pedagogies.md) |
+| ✅ **幻觉与真实性** | 模型真实性评估与幻觉检测 | [TruthfulQA](./papers/2022/TruthfulQA.md), [Siren's Song](./papers/2023/Sirens-Song.md) |
 
 ---
 
@@ -125,9 +127,12 @@ llm-safety-papers/
 │   │   ├── Tree-of-Attacks.md
 │   │   └── Under-the-Influence.md
 │   └── 2023/                          # 2023年论文 (3篇)
-│       ├── Jailbroken.md
-│       ├── Sirens-Song.md
-│       └── Llama-Guard.md
+│   │   ├── Jailbroken.md
+│   │   ├── Sirens-Song.md
+│   │   └── Llama-Guard.md
+│   └── 2022/                          # 2022年论文 (2篇)
+│       ├── Red-Teaming-LMs.md
+│       └── TruthfulQA.md
 └── .github/                           # GitHub 配置
     └── workflows/                     # 自动化工作流
 ```
@@ -171,6 +176,7 @@ llm-safety-papers/
 | 19 | [R-Judge](./papers/2024/R-Judge.md) | EMNLP 2024 | 智能体风险意识评估基准 | `风险意识` `智能体` `评估基准` |
 | 20 | [SIABench](./papers/2026/SIABench.md) | arXiv 2026 | 安全事件分析评估框架 | `网络安全` `评估基准` `智能体` |
 | 21 | [ESG-Bench](./papers/2026/ESG-Bench.md) | AAAI 2026 | 长上下文ESG报告幻觉缓解评估 | `幻觉缓解` `长上下文` `事实可靠性` |
+| 22 | [TruthfulQA](./papers/2022/TruthfulQA.md) | ACL 2022 | 模型真实性评估基准，揭示规模与真实性负相关 | `真实性` `幻觉` `评估基准` `规模悖论` |
 
 ### 代码安全（1篇）
 
