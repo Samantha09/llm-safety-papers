@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-41%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-42%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | **41 篇 (51.25%)** |
+| **已完成** | **42 篇 (52.5%)** |
 | **最后更新** | 2026-04-02 |
 
 ---
@@ -43,7 +43,7 @@
 |------|------|----------|
 | 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Harnessing Task Overload](./papers/2024/Harnessing-Task-Overload.md), [AutoDAN](./papers/2024/AutoDAN.md), [PAIR](./papers/2024/PAIR.md), [GCG](./papers/2024/GCG.md), [Tree of Attacks](./papers/2024/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/2024/AutoDAN-Turbo.md), [MultiJail](./papers/2024/MultiJail.md), [Crescendo](./papers/2025/Crescendo.md), [ActorBreaker](./papers/2025/ActorBreaker.md), [GPTFuzzer](./papers/2023/GPTFuzzer.md) |
 | 🎯 **对抗攻击** | 构造对抗样本欺骗模型 | [GCG](./papers/2024/GCG.md), [AutoDAN](./papers/2024/AutoDAN.md) |
-| 🧠 **提示注入** | 通过提示操控模型行为 | [Under the Influence](./papers/2024/Under-the-Influence.md) |
+| 🧠 **提示注入** | 通过提示操控模型行为 | [Under the Influence](./papers/2024/Under-the-Influence.md), [Not What You've Signed Up For](./papers/2023/Not-What-Youve-Signed-Up-For.md) |
 | 🎭 **隐蔽攻击** | 难以检测的攻击方式 | [Cold-Attack](./papers/2024/Cold-Attack.md), [Sleeper Agents](./papers/2024/Sleeper-Agents.md) |
 
 ### 按防御类型
@@ -126,10 +126,14 @@ llm-safety-papers/
 │   │   ├── TrustLLM.md
 │   │   ├── Tree-of-Attacks.md
 │   │   └── Under-the-Influence.md
-│   └── 2023/                          # 2023年论文 (3篇)
+│   ├── 2023/                          # 2023年论文 (7篇)
+│   │   ├── GCG.md
+│   │   ├── GPTFuzzer.md
 │   │   ├── Jailbroken.md
+│   │   ├── Llama-Guard.md
+│   │   ├── Not-What-Youve-Signed-Up-For.md
 │   │   ├── Sirens-Song.md
-│   │   └── Llama-Guard.md
+│   │   └── Towards-Mitigating-LLM-Hallucination.md
 │   └── 2022/                          # 2022年论文 (2篇)
 │       ├── Red-Teaming-LMs.md
 │       └── TruthfulQA.md
@@ -203,6 +207,7 @@ llm-safety-papers/
 | 29 | [Jailbroken: How Does LLM Safety Training Fail?](./papers/2023/Jailbroken.md) | NeurIPS 2023 | LLM安全训练失败原因分析 | `安全训练` `漏洞分析` |
 | 30 | [Siren's Song: LLM幻觉综述](./papers/2023/Sirens-Song.md) | arXiv 2023 | LLM幻觉全面综述：分类、评估、来源与缓解 | `幻觉` `综述` `可靠性` |
 | 31 | [Towards Mitigating LLM Hallucination via Self-Reflection](./papers/2023/Towards-Mitigating-LLM-Hallucination.md) | EMNLP 2023 | 交互式自我反思方法减少医学QA中的幻觉 | `幻觉缓解` `自我反思` `医学QA` |
+| 32 | [Not What You've Signed Up For](./papers/2023/Not-What-Youve-Signed-Up-For.md) | AISec 2023 | 间接提示注入攻击：无需直接接口即可远程攻击LLM集成应用 | `间接注入` `远程攻击` `数据与指令混淆` |
 
 ---
 
@@ -271,7 +276,8 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
-| 2026-03-31 | 添加论文：Towards Mitigating LLM Hallucination via Self-Reflection - 交互式自我反思方法减少医学QA幻觉 (EMNLP 2023)，更新进度至 38/80 |
+| 2026-04-02 | 添加论文：Not What You've Signed Up For - 间接提示注入攻击 (AISec 2023)，更新进度至 42/80 |
+| 2026-03-31 | 添加论文：Towards Mitigating LLM Hallucination via Self-Reflection - 交互式自我反思方法减少医学QA幻觉 (EMNLP 2023)，更新进度至 41/80 |
 | 2026-03-30 | 添加论文：TrustLLM - 大型语言模型可信度综合评估基准 (arXiv 2024)，更新进度至 37/80 |
 | 2026-03-25 | 添加论文：DiaHalu - 对话级幻觉评估基准 (arXiv 2024)，更新进度至 36/80 |
 | 2026-03-25 | 添加论文：Marked Pedagogies - LLMs在个性化写作反馈中的语言偏见 (LAK 2026)，更新进度至 35/80 |
