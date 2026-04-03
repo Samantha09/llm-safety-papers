@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-42%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-43%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | **42 篇 (52.5%)** |
-| **最后更新** | 2026-04-02 |
+| **已完成** | **43 篇 (53.75%)** |
+| **最后更新** | 2026-04-04 |
 
 ---
 
@@ -126,11 +126,12 @@ llm-safety-papers/
 │   │   ├── TrustLLM.md
 │   │   ├── Tree-of-Attacks.md
 │   │   └── Under-the-Influence.md
-│   ├── 2023/                          # 2023年论文 (7篇)
+│   ├── 2023/                          # 2023年论文 (8篇)
 │   │   ├── GCG.md
 │   │   ├── GPTFuzzer.md
 │   │   ├── Jailbroken.md
 │   │   ├── Llama-Guard.md
+│   │   ├── NeMo-Guardrails.md
 │   │   ├── Not-What-Youve-Signed-Up-For.md
 │   │   ├── Sirens-Song.md
 │   │   └── Towards-Mitigating-LLM-Hallucination.md
@@ -168,46 +169,47 @@ llm-safety-papers/
 | 12 | [Alignment-Weighted DPO](./papers/2024/Alignment-Weighted-DPO.md) | arXiv 2024 | 加权DPO优化安全对齐 | `DPO` `加权训练` `安全对齐` |
 | 13 | [SafeGen](./papers/2024/SafeGen.md) | IEEE S&P 2024 | T2I模型性暗示内容生成防护 | `多模态` `内容过滤` `即插即用` |
 | 14 | [Llama Guard](./papers/2023/Llama-Guard.md) | Meta 2023 | 基于LLM的输入输出保护模型，支持prompt和response分类 | `内容审核` `安全分类` `开源` `可定制` |
+| 15 | [NeMo Guardrails](./papers/2023/NeMo-Guardrails.md) | EMNLP 2023 | NVIDIA开源工具包，五类可编程护栏控制LLM对话安全性 | `可编程护栏` `运行时控制` `Colang` `开源` |
 
 ### 评估基准（7篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 15 | [JailbreakBench](./papers/2024/JailbreakBench.md) | arXiv 2024 | 越狱攻击评估基准 | `基准测试` `评估框架` `鲁棒性` |
-| 16 | [HarmBench](./papers/2024/HarmBench.md) | ICLR 2024 | 标准化安全评估框架 | `安全评估` `标准化` `自动化` |
-| 17 | [AuditBench](./papers/2024/AuditBench.md) | arXiv 2024 | 安全审计基准测试 | `安全审计` `评估基准` |
-| 18 | [AgentDojo](./papers/2024/AgentDojo.md) | NeurIPS 2024 | 动态提示注入攻击评估环境 | `动态评估` `提示注入` `智能体` |
-| 19 | [R-Judge](./papers/2024/R-Judge.md) | EMNLP 2024 | 智能体风险意识评估基准 | `风险意识` `智能体` `评估基准` |
-| 20 | [SIABench](./papers/2026/SIABench.md) | arXiv 2026 | 安全事件分析评估框架 | `网络安全` `评估基准` `智能体` |
-| 21 | [ESG-Bench](./papers/2026/ESG-Bench.md) | AAAI 2026 | 长上下文ESG报告幻觉缓解评估 | `幻觉缓解` `长上下文` `事实可靠性` |
-| 22 | [TruthfulQA](./papers/2022/TruthfulQA.md) | ACL 2022 | 模型真实性评估基准，揭示规模与真实性负相关 | `真实性` `幻觉` `评估基准` `规模悖论` |
+| 16 | [JailbreakBench](./papers/2024/JailbreakBench.md) | arXiv 2024 | 越狱攻击评估基准 | `基准测试` `评估框架` `鲁棒性` |
+| 17 | [HarmBench](./papers/2024/HarmBench.md) | ICLR 2024 | 标准化安全评估框架 | `安全评估` `标准化` `自动化` |
+| 18 | [AuditBench](./papers/2024/AuditBench.md) | arXiv 2024 | 安全审计基准测试 | `安全审计` `评估基准` |
+| 19 | [AgentDojo](./papers/2024/AgentDojo.md) | NeurIPS 2024 | 动态提示注入攻击评估环境 | `动态评估` `提示注入` `智能体` |
+| 20 | [R-Judge](./papers/2024/R-Judge.md) | EMNLP 2024 | 智能体风险意识评估基准 | `风险意识` `智能体` `评估基准` |
+| 21 | [SIABench](./papers/2026/SIABench.md) | arXiv 2026 | 安全事件分析评估框架 | `网络安全` `评估基准` `智能体` |
+| 22 | [ESG-Bench](./papers/2026/ESG-Bench.md) | AAAI 2026 | 长上下文ESG报告幻觉缓解评估 | `幻觉缓解` `长上下文` `事实可靠性` |
+| 23 | [TruthfulQA](./papers/2022/TruthfulQA.md) | ACL 2022 | 模型真实性评估基准，揭示规模与真实性负相关 | `真实性` `幻觉` `评估基准` `规模悖论` |
 
 ### 代码安全（1篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 22 | [SCS-Code](./papers/2026/SCS-Code.md) | EuroS&P 2026 | 利用内部表示引导CodeLLM生成安全代码 | `代码安全` `概念引导` `可解释性` |
-| 23 | [DiaHalu](./papers/2024/DiaHalu.md) | arXiv 2024 | 对话级幻觉评估基准 | `幻觉检测` `对话系统` `基准测试` |
+| 24 | [SCS-Code](./papers/2026/SCS-Code.md) | EuroS&P 2026 | 利用内部表示引导CodeLLM生成安全代码 | `代码安全` `概念引导` `可解释性` |
+| 25 | [DiaHalu](./papers/2024/DiaHalu.md) | arXiv 2024 | 对话级幻觉评估基准 | `幻觉检测` `对话系统` `基准测试` |
 
 ### 红队测试（2篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 23 | [APRT](./papers/2025/APRT.md) | COLING 2025 | 自动化渐进式红队测试 | `红队测试` `渐进式` `自动化` |
-| 24 | [Tree of Attacks](./papers/2024/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `树搜索` |
+| 26 | [APRT](./papers/2025/APRT.md) | COLING 2025 | 自动化渐进式红队测试 | `红队测试` `渐进式` `自动化` |
+| 27 | [Tree of Attacks](./papers/2024/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `树搜索` |
 
 ### 其他重要论文（6篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 25 | [Jailbreak Attacks and Defenses Survey](./papers/2024/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 越狱攻击与防御全面综述 | `综述` `攻击` `防御` `分类` |
-| 26 | [Under the Influence](./papers/2024/Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与防御 | `提示注入` `上下文操控` |
-| 27 | [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` |
-| 28 | [TrustLLM](./papers/2024/TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
-| 29 | [Jailbroken: How Does LLM Safety Training Fail?](./papers/2023/Jailbroken.md) | NeurIPS 2023 | LLM安全训练失败原因分析 | `安全训练` `漏洞分析` |
-| 30 | [Siren's Song: LLM幻觉综述](./papers/2023/Sirens-Song.md) | arXiv 2023 | LLM幻觉全面综述：分类、评估、来源与缓解 | `幻觉` `综述` `可靠性` |
-| 31 | [Towards Mitigating LLM Hallucination via Self-Reflection](./papers/2023/Towards-Mitigating-LLM-Hallucination.md) | EMNLP 2023 | 交互式自我反思方法减少医学QA中的幻觉 | `幻觉缓解` `自我反思` `医学QA` |
-| 32 | [Not What You've Signed Up For](./papers/2023/Not-What-Youve-Signed-Up-For.md) | AISec 2023 | 间接提示注入攻击：无需直接接口即可远程攻击LLM集成应用 | `间接注入` `远程攻击` `数据与指令混淆` |
+| 28 | [Jailbreak Attacks and Defenses Survey](./papers/2024/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 越狱攻击与防御全面综述 | `综述` `攻击` `防御` `分类` |
+| 29 | [Under the Influence](./papers/2024/Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与防御 | `提示注入` `上下文操控` |
+| 30 | [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` |
+| 31 | [TrustLLM](./papers/2024/TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
+| 32 | [Jailbroken: How Does LLM Safety Training Fail?](./papers/2023/Jailbroken.md) | NeurIPS 2023 | LLM安全训练失败原因分析 | `安全训练` `漏洞分析` |
+| 33 | [Siren's Song: LLM幻觉综述](./papers/2023/Sirens-Song.md) | arXiv 2023 | LLM幻觉全面综述：分类、评估、来源与缓解 | `幻觉` `综述` `可靠性` |
+| 34 | [Towards Mitigating LLM Hallucination via Self-Reflection](./papers/2023/Towards-Mitigating-LLM-Hallucination.md) | EMNLP 2023 | 交互式自我反思方法减少医学QA中的幻觉 | `幻觉缓解` `自我反思` `医学QA` |
+| 35 | [Not What You've Signed Up For](./papers/2023/Not-What-Youve-Signed-Up-For.md) | AISec 2023 | 间接提示注入攻击：无需直接接口即可远程攻击LLM集成应用 | `间接注入` `远程攻击` `数据与指令混淆` |
 
 ---
 
