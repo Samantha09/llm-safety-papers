@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-43%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-44%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | **43 篇 (53.75%)** |
-| **最后更新** | 2026-04-04 |
+| **已完成** | **44 篇 (55.0%)** |
+| **最后更新** | 2026-04-05 |
 
 ---
 
@@ -278,7 +278,8 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
-| 2026-04-02 | 添加论文：Not What You've Signed Up For - 间接提示注入攻击 (AISec 2023)，更新进度至 42/80 |
+| 2026-04-05 | 添加论文：DiaHalu - 对话级幻觉评估基准 (EMNLP 2024 Findings)，更新进度至 44/80 |
+| 2026-04-02 | 添加论文：Not What You've Signed Up For - 间接提示注入攻击 (AISec 2023)，更新进度至 43/80 |
 | 2026-03-31 | 添加论文：Towards Mitigating LLM Hallucination via Self-Reflection - 交互式自我反思方法减少医学QA幻觉 (EMNLP 2023)，更新进度至 41/80 |
 | 2026-03-30 | 添加论文：TrustLLM - 大型语言模型可信度综合评估基准 (arXiv 2024)，更新进度至 37/80 |
 | 2026-03-25 | 添加论文：DiaHalu - 对话级幻觉评估基准 (arXiv 2024)，更新进度至 36/80 |
