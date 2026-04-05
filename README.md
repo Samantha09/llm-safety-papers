@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-44%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-45%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | **44 篇 (55.0%)** |
-| **最后更新** | 2026-04-05 |
+| **已完成** | **45 篇 (56.25%)** |
+| **最后更新** | 2026-04-06 |
 
 ---
 
@@ -43,7 +43,7 @@
 |------|------|----------|
 | 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Harnessing Task Overload](./papers/2024/Harnessing-Task-Overload.md), [AutoDAN](./papers/2024/AutoDAN.md), [PAIR](./papers/2024/PAIR.md), [GCG](./papers/2024/GCG.md), [Tree of Attacks](./papers/2024/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/2024/AutoDAN-Turbo.md), [MultiJail](./papers/2024/MultiJail.md), [Crescendo](./papers/2025/Crescendo.md), [ActorBreaker](./papers/2025/ActorBreaker.md), [GPTFuzzer](./papers/2023/GPTFuzzer.md) |
 | 🎯 **对抗攻击** | 构造对抗样本欺骗模型 | [GCG](./papers/2024/GCG.md), [AutoDAN](./papers/2024/AutoDAN.md) |
-| 🧠 **提示注入** | 通过提示操控模型行为 | [Under the Influence](./papers/2024/Under-the-Influence.md), [Not What You've Signed Up For](./papers/2023/Not-What-Youve-Signed-Up-For.md) |
+| 🧠 **提示注入** | 通过提示操控模型行为 | [Under the Influence](./papers/2024/Under-the-Influence.md), [Not What You've Signed Up For](./papers/2023/Not-What-Youve-Signed-Up-For.md), [Formalizing Prompt Injection](./papers/2024/Formalizing-Prompt-Injection.md) |
 | 🎭 **隐蔽攻击** | 难以检测的攻击方式 | [Cold-Attack](./papers/2024/Cold-Attack.md), [Sleeper Agents](./papers/2024/Sleeper-Agents.md) |
 
 ### 按防御类型
@@ -171,6 +171,12 @@ llm-safety-papers/
 | 14 | [Llama Guard](./papers/2023/Llama-Guard.md) | Meta 2023 | 基于LLM的输入输出保护模型，支持prompt和response分类 | `内容审核` `安全分类` `开源` `可定制` |
 | 15 | [NeMo Guardrails](./papers/2023/NeMo-Guardrails.md) | EMNLP 2023 | NVIDIA开源工具包，五类可编程护栏控制LLM对话安全性 | `可编程护栏` `运行时控制` `Colang` `开源` |
 
+### 提示注入攻击（1篇）
+
+| # | 论文 | 会议/年份 | 核心思想 | 标签 |
+|---|------|----------|----------|------|
+| 36 | [Formalizing Prompt Injection](./papers/2024/Formalizing-Prompt-Injection.md) | USENIX Security 2024 | 形式化提示注入攻击框架，系统评估5种攻击和10种防御 | `提示注入` `形式化框架` `基准测试` `USENIX` |
+
 ### 评估基准（7篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
@@ -278,6 +284,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-04-06 | 添加论文：Formalizing Prompt Injection - 形式化提示注入攻击与防御框架 (USENIX Security 2024)，更新进度至 45/80 |
 | 2026-04-05 | 添加论文：DiaHalu - 对话级幻觉评估基准 (EMNLP 2024 Findings)，更新进度至 44/80 |
 | 2026-04-02 | 添加论文：Not What You've Signed Up For - 间接提示注入攻击 (AISec 2023)，更新进度至 43/80 |
 | 2026-03-31 | 添加论文：Towards Mitigating LLM Hallucination via Self-Reflection - 交互式自我反思方法减少医学QA幻觉 (EMNLP 2023)，更新进度至 41/80 |

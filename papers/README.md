@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-44%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--04-05-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-45%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--04-06-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -16,7 +16,7 @@
 |:----:|:--------:|------|
 | 2026 | 7 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
-| 2024 | 23 | [./2024/](./2024/) |
+| 2024 | 24 | [./2024/](./2024/) |
 | 2023 | 8 | [./2023/](./2023/) |
 | 2022 | 2 | [./2022/](./2022/) |
 
@@ -78,6 +78,7 @@
 | 20 | [Jailbreak Attacks and Defenses Survey](./2024/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 综述 |
 | 21 | [LLM Security and Privacy Survey](./2024/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | 综述 |
 | 22 | [DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark](./2024/DiaHalu.md) | arXiv 2024 | 幻觉检测基准 |
+| 23 | [Formalizing and Benchmarking Prompt Injection Attacks and Defenses](./2024/Formalizing-Prompt-Injection.md) | USENIX Security 2024 | 提示注入攻击/形式化框架 |
 
 ### 2023 年 (8篇)
 
@@ -102,7 +103,7 @@
 |------|:--------:|----------|
 | 🔓 越狱攻击 | 10 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo, Crescendo, ActorBreaker, GPTFuzzer |
 | 🎯 对抗攻击 | 2 | GCG, AutoDAN |
-| 🧠 提示注入 | 2 | Under the Influence, Not What You've Signed Up For |
+| 🧠 提示注入 | 3 | Under the Influence, Not What You've Signed Up For, Formalizing Prompt Injection |
 | 🎭 隐蔽攻击 | 2 | Cold-Attack, Sleeper Agents |
 | 🚪 后门攻击 | 1 | Sleeper Agents |
 
@@ -176,9 +177,9 @@
 
 ## 📝 维护说明
 
-- **最后更新：2026-04-05
-- **论文总数：44 篇
-- **完整笔记**：42 篇 (100%)
+- **最后更新：2026-04-06
+- **论文总数：45 篇
+- **完整笔记**：45 篇 (100%)
 - **目录结构**：按发表年份整理
 - **维护者**：AI 助手 + 人工审核
 
