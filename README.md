@@ -31,7 +31,7 @@
 |------|------|
 | **计划完成** | 80 篇 |
 | **已完成** | **45 篇 (56.25%)** |
-| **最后更新** | 2026-04-06 |
+| **最后更新** | 2026-04-07 |
 
 ---
 
@@ -50,7 +50,7 @@
 
 | 类型 | 说明 | 代表论文 |
 |------|------|----------|
-| 🛡️ **安全对齐** | 训练阶段的安全优化 | [Nothing in Excess](./papers/2025/Nothing-in-Excess.md), [Alignment-Weighted DPO](./papers/2024/Alignment-Weighted-DPO.md) |
+| 🛡️ **安全对齐** | 训练阶段的安全优化 | [BeaverTails](./papers/2023/BeaverTails.md), [Nothing in Excess](./papers/2025/Nothing-in-Excess.md), [Alignment-Weighted DPO](./papers/2024/Alignment-Weighted-DPO.md) |
 | 🔍 **输出检测** | 生成内容的实时检测 | [MLLM-Protector](./papers/2024/MLLM-Protector.md), [SafeGen](./papers/2024/SafeGen.md) |
 | 🧪 **红队测试** | 主动发现安全漏洞 | [APRT](./papers/2025/APRT.md), [Tree of Attacks](./papers/2024/Tree-of-Attacks.md), [GPTFuzzer](./papers/2023/GPTFuzzer.md), [Red Teaming LMs](./papers/2022/Red-Teaming-LMs.md) |
 

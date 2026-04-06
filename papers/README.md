@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
   <img src="https://img.shields.io/badge/Complete-45%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--04-06-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--04-07-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -17,7 +17,7 @@
 | 2026 | 7 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
 | 2024 | 24 | [./2024/](./2024/) |
-| 2023 | 8 | [./2023/](./2023/) |
+| 2023 | 9 | [./2023/](./2023/) |
 | 2022 | 2 | [./2022/](./2022/) |
 
 ---
@@ -80,18 +80,19 @@
 | 22 | [DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark](./2024/DiaHalu.md) | arXiv 2024 | 幻觉检测基准 |
 | 23 | [Formalizing and Benchmarking Prompt Injection Attacks and Defenses](./2024/Formalizing-Prompt-Injection.md) | USENIX Security 2024 | 提示注入攻击/形式化框架 |
 
-### 2023 年 (8篇)
+### 2023 年 (9篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
-| 1 | [GCG: Universal and Transferable Adversarial Attacks](./2023/GCG.md) | ICLR 2024 | 对抗攻击 |
-| 2 | [GPTFuzzer: Red Teaming LLMs with Auto-Generated Jailbreak Prompts](./2023/GPTFuzzer.md) | arXiv 2023 | 越狱攻击/红队测试 |
-| 3 | [Jailbroken: How Does LLM Safety Training Fail?](./2023/Jailbroken.md) | NeurIPS 2023 | 安全训练分析 |
-| 4 | [Llama Guard: LLM-based Input-Output Safeguard](./2023/Llama-Guard.md) | Meta 2023 | 内容审核/安全分类 |
-| 5 | [NeMo Guardrails: Programmable Guardrails for LLM Applications](./2023/NeMo-Guardrails.md) | EMNLP 2023 | 可编程护栏/运行时安全 |
-| 6 | [Not What You've Signed Up For: Indirect Prompt Injection](./2023/Not-What-Youve-Signed-Up-For.md) | AISec 2023 | 间接提示注入 |
-| 7 | [Siren's Song: LLM幻觉综述](./2023/Sirens-Song.md) | arXiv 2023 | LLM幻觉分类与缓解综述 |
-| 8 | [Towards Mitigating LLM Hallucination via Self-Reflection](./2023/Towards-Mitigating-LLM-Hallucination.md) | EMNLP 2023 | 幻觉缓解/医学QA |
+| 1 | [BeaverTails: Safety Alignment via Human-Preference Dataset](./2023/BeaverTails.md) | NeurIPS 2023 | 安全对齐/RLHF |
+| 2 | [GCG: Universal and Transferable Adversarial Attacks](./2023/GCG.md) | ICLR 2024 | 对抗攻击 |
+| 3 | [GPTFuzzer: Red Teaming LLMs with Auto-Generated Jailbreak Prompts](./2023/GPTFuzzer.md) | arXiv 2023 | 越狱攻击/红队测试 |
+| 4 | [Jailbroken: How Does LLM Safety Training Fail?](./2023/Jailbroken.md) | NeurIPS 2023 | 安全训练分析 |
+| 5 | [Llama Guard: LLM-based Input-Output Safeguard](./2023/Llama-Guard.md) | Meta 2023 | 内容审核/安全分类 |
+| 6 | [NeMo Guardrails: Programmable Guardrails for LLM Applications](./2023/NeMo-Guardrails.md) | EMNLP 2023 | 可编程护栏/运行时安全 |
+| 7 | [Not What You've Signed Up For: Indirect Prompt Injection](./2023/Not-What-Youve-Signed-Up-For.md) | AISec 2023 | 间接提示注入 |
+| 8 | [Siren's Song: LLM幻觉综述](./2023/Sirens-Song.md) | arXiv 2023 | LLM幻觉分类与缓解综述 |
+| 9 | [Towards Mitigating LLM Hallucination via Self-Reflection](./2023/Towards-Mitigating-LLM-Hallucination.md) | EMNLP 2023 | 幻觉缓解/医学QA |
 
 ---
 
