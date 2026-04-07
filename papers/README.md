@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-45%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--04-07-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-46%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--04-08-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -16,7 +16,7 @@
 |:----:|:--------:|------|
 | 2026 | 7 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
-| 2024 | 24 | [./2024/](./2024/) |
+| 2024 | 25 | [./2024/](./2024/) |
 | 2023 | 9 | [./2023/](./2023/) |
 | 2022 | 2 | [./2022/](./2022/) |
 
@@ -52,7 +52,7 @@
 | 3 | [APRT: Automated Progressive Red Teaming](./2025/APRT.md) | COLING 2025 | 红队测试 |
 | 4 | [ActorBreaker: Multi-turn LLM Jailbreak Attack](./2025/ActorBreaker.md) | ACL 2025 | 多轮越狱攻击 |
 
-### 2024 年 (18篇)
+### 2024 年 (19篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -178,8 +178,8 @@
 
 ## 📝 维护说明
 
-- **最后更新：2026-04-06
-- **论文总数：45 篇
+- **最后更新：2026-04-08
+- **论文总数：46 篇
 - **完整笔记**：45 篇 (100%)
 - **目录结构**：按发表年份整理
 - **维护者**：AI 助手 + 人工审核

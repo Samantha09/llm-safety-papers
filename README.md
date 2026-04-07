@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-45%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-46%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | **45 篇 (56.25%)** |
-| **最后更新** | 2026-04-07 |
+| **已完成** | **46 篇 (57.5%)** |
+| **最后更新** | 2026-04-08 |
 
 ---
 
@@ -104,7 +104,7 @@ llm-safety-papers/
 │   │   ├── APRT.md
 │   │   ├── Crescendo.md
 │   │   └── Nothing-in-Excess.md
-│   ├── 2024/                          # 2024年论文 (21篇)
+│   ├── 2024/                          # 2024年论文 (25篇)
 │   │   ├── AgentDojo.md
 │   │   ├── Alignment-Weighted-DPO.md
 │   │   ├── AuditBench.md
@@ -284,6 +284,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-04-08 | 添加论文：COLD-Attack - 可控越狱攻击框架，连接可控攻击生成与可控文本生成 (ICML 2024)，更新进度至 46/80 |
 | 2026-04-06 | 添加论文：Formalizing Prompt Injection - 形式化提示注入攻击与防御框架 (USENIX Security 2024)，更新进度至 45/80 |
 | 2026-04-05 | 添加论文：DiaHalu - 对话级幻觉评估基准 (EMNLP 2024 Findings)，更新进度至 44/80 |
 | 2026-04-02 | 添加论文：Not What You've Signed Up For - 间接提示注入攻击 (AISec 2023)，更新进度至 43/80 |
