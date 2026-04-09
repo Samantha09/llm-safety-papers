@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-46%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--04-08-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-47%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--04-10-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -16,7 +16,7 @@
 |:----:|:--------:|------|
 | 2026 | 7 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
-| 2024 | 25 | [./2024/](./2024/) |
+| 2024 | 26 | [./2024/](./2024/) |
 | 2023 | 9 | [./2023/](./2023/) |
 | 2022 | 2 | [./2022/](./2022/) |
 
@@ -52,7 +52,7 @@
 | 3 | [APRT: Automated Progressive Red Teaming](./2025/APRT.md) | COLING 2025 | 红队测试 |
 | 4 | [ActorBreaker: Multi-turn LLM Jailbreak Attack](./2025/ActorBreaker.md) | ACL 2025 | 多轮越狱攻击 |
 
-### 2024 年 (19篇)
+### 2024 年 (20篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -65,6 +65,7 @@
 | 7 | [PAIR: Jailbreaking Black Box LLMs in Twenty Queries](./2024/PAIR.md) | arXiv 2024 | 越狱攻击 |
 | 8 | [Tree of Attacks: Jailbreaking Black-Box LLMs Automatically](./2024/Tree-of-Attacks.md) | arXiv 2024 | 红队测试 |
 | 9 | [Cold-Attack: Jailbreaking LLMs with Stealth and Controllability](./2024/Cold-Attack.md) | arXiv 2024 | 越狱攻击 |
+| 10 | [HARM: Holistic Automated Red Teaming](./2024/Holistic-Automated-Red-Teaming.md) | EMNLP 2024 | 红队测试 |
 | 10 | [Sleeper Agents: Training Deceptive LLMs](./2024/Sleeper-Agents.md) | ICLR 2024 | 后门攻击 |
 | 11 | [Under the Influence](./2024/Under-the-Influence.md) | arXiv 2024 | 提示注入 |
 | 12 | [Alignment-Weighted DPO](./2024/Alignment-Weighted-DPO.md) | arXiv 2024 | 安全对齐 |
@@ -114,7 +115,7 @@
 |------|:--------:|----------|
 | 🛡️ 安全对齐 | 2 | Nothing in Excess, Alignment-Weighted DPO |
 | 🔍 输出检测 | 2 | MLLM-Protector, SafeGen |
-| 🧪 红队测试 | 4 | APRT, Tree of Attacks, GPTFuzzer, Red Teaming LMs |
+| 🧪 红队测试 | 5 | HARM, APRT, Tree of Attacks, GPTFuzzer, Red Teaming LMs |
 
 ### 评估基准
 
