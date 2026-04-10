@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-47%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--04-10-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-48%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--04-11-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -16,7 +16,7 @@
 |:----:|:--------:|------|
 | 2026 | 7 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
-| 2024 | 26 | [./2024/](./2024/) |
+| 2024 | 27 | [./2024/](./2024/) |
 | 2023 | 9 | [./2023/](./2023/) |
 | 2022 | 2 | [./2022/](./2022/) |
 
@@ -52,7 +52,7 @@
 | 3 | [APRT: Automated Progressive Red Teaming](./2025/APRT.md) | COLING 2025 | 红队测试 |
 | 4 | [ActorBreaker: Multi-turn LLM Jailbreak Attack](./2025/ActorBreaker.md) | ACL 2025 | 多轮越狱攻击 |
 
-### 2024 年 (20篇)
+### 2024 年 (27篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -80,6 +80,7 @@
 | 21 | [LLM Security and Privacy Survey](./2024/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | 综述 |
 | 22 | [DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark](./2024/DiaHalu.md) | arXiv 2024 | 幻觉检测基准 |
 | 23 | [Formalizing and Benchmarking Prompt Injection Attacks and Defenses](./2024/Formalizing-Prompt-Injection.md) | USENIX Security 2024 | 提示注入攻击/形式化框架 |
+| 24 | [Cybench: Evaluating Cybersecurity Capabilities of Language Models](./2024/Cybench.md) | ICLR 2025 | CTF能力评估/网络安全基准 |
 
 ### 2023 年 (9篇)
 
