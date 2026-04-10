@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-47%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-48%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | **47 篇 (58.75%)** |
-| **最后更新** | 2026-04-10 |
+| **已完成** | **48 篇 (60%)** |
+| **最后更新** | 2026-04-11 |
 
 ---
 
@@ -65,6 +65,7 @@
 | 🛡️ **R-Judge** | 智能体风险意识评估 | [R-Judge](./papers/2024/R-Judge.md) |
 | 🔬 **SIABench** | 安全事件分析评估 | [SIABench](./papers/2026/SIABench.md) |
 | 📊 **ESG-Bench** | 长上下文幻觉缓解评估 | [ESG-Bench](./papers/2026/ESG-Bench.md) |
+| 🛡️ **Cybench** | LLM网络安全CTF能力评估 | [Cybench](./papers/2024/Cybench.md) |
 | ✅ **TruthfulQA** | 模型真实性评估基准 | [TruthfulQA](./papers/2022/TruthfulQA.md) |
 | 🔒 **ESAA-Security** | 事件溯源安全审计框架 | [ESAA-Security](./papers/2026/ESAA-Security.md) |
 | 🔐 **CLIOPATRA** | LLM洞察系统隐私攻击 | [CLIOPATRA](./papers/2026/CLIOPATRA.md) |
@@ -111,6 +112,7 @@ llm-safety-papers/
 │   │   ├── AutoDAN.md
 │   │   ├── AutoDAN-Turbo.md
 │   │   ├── Cold-Attack.md
+│   │   ├── Cybench.md
 │   │   ├── GCG.md
 │   │   ├── HarmBench.md
 │   │   ├── Harnessing-Task-Overload.md
