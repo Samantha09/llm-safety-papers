@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-48%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--04-11-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-49%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--04-12-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -16,7 +16,7 @@
 |:----:|:--------:|------|
 | 2026 | 7 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
-| 2024 | 27 | [./2024/](./2024/) |
+| 2024 | 28 | [./2024/](./2024/) |
 | 2023 | 9 | [./2023/](./2023/) |
 | 2022 | 2 | [./2022/](./2022/) |
 
@@ -81,6 +81,7 @@
 | 22 | [DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark](./2024/DiaHalu.md) | arXiv 2024 | 幻觉检测基准 |
 | 23 | [Formalizing and Benchmarking Prompt Injection Attacks and Defenses](./2024/Formalizing-Prompt-Injection.md) | USENIX Security 2024 | 提示注入攻击/形式化框架 |
 | 24 | [Cybench: Evaluating Cybersecurity Capabilities of Language Models](./2024/Cybench.md) | ICLR 2025 | CTF能力评估/网络安全基准 |
+| 25 | [Curiosity-Driven Red-Teaming: Improving Red Team Coverage](./2024/Curiosity-Driven-Red-Teaming.md) | ICLR 2024 | 红队测试/好奇心驱动探索 |
 
 ### 2023 年 (9篇)
 
@@ -104,7 +105,7 @@
 
 | 标签 | 论文数量 | 论文列表 |
 |------|:--------:|----------|
-| 🔓 越狱攻击 | 10 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo, Crescendo, ActorBreaker, GPTFuzzer |
+| 🔓 越狱攻击 | 11 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo, Crescendo, ActorBreaker, GPTFuzzer, Curiosity-Driven Red-Teaming |
 | 🎯 对抗攻击 | 2 | GCG, AutoDAN |
 | 🧠 提示注入 | 3 | Under the Influence, Not What You've Signed Up For, Formalizing Prompt Injection |
 | 🎭 隐蔽攻击 | 2 | Cold-Attack, Sleeper Agents |
@@ -116,7 +117,7 @@
 |------|:--------:|----------|
 | 🛡️ 安全对齐 | 2 | Nothing in Excess, Alignment-Weighted DPO |
 | 🔍 输出检测 | 2 | MLLM-Protector, SafeGen |
-| 🧪 红队测试 | 5 | HARM, APRT, Tree of Attacks, GPTFuzzer, Red Teaming LMs |
+| 🧪 红队测试 | 6 | HARM, APRT, Tree of Attacks, GPTFuzzer, Red Teaming LMs, Curiosity-Driven Red-Teaming |
 
 ### 评估基准
 
