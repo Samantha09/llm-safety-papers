@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-49%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-50%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | **49 篇 (61%)** |
-| **最后更新** | 2026-04-12 |
+| **已完成** | **50 篇 (62.5%)** |
+| **最后更新** | 2026-04-13 |
 
 ---
 
@@ -81,7 +81,7 @@
 | 🔒 **隐私保护** | 移动端日志隐私保护 | [Proteus](./papers/2026/Proteus.md) |
 | 📋 **可验证审计** | 事件溯源AI代码安全审计 | [ESAA-Security](./papers/2026/ESAA-Security.md) |
 | ⚖️ **偏见与公平** | LLM教育反馈中的语言偏见 | [Marked Pedagogies](./papers/2026/Marked-Pedagogies.md) |
-| ✅ **幻觉与真实性** | 模型真实性评估与幻觉检测 | [TruthfulQA](./papers/2022/TruthfulQA.md), [Siren's Song](./papers/2023/Sirens-Song.md) |
+| ✅ **幻觉与真实性** | 模型真实性评估与幻觉检测 | [TruthfulQA](./papers/2022/TruthfulQA.md), [Siren's Song](./papers/2023/Sirens-Song.md), [HaloScope](./papers/2024/HaloScope.md) |
 
 ---
 
@@ -105,7 +105,7 @@ llm-safety-papers/
 │   │   ├── APRT.md
 │   │   ├── Crescendo.md
 │   │   └── Nothing-in-Excess.md
-│   ├── 2024/                          # 2024年论文 (25篇)
+│   ├── 2024/                          # 2024年论文 (26篇)
 │   │   ├── AgentDojo.md
 │   │   ├── Alignment-Weighted-DPO.md
 │   │   ├── AuditBench.md
@@ -114,6 +114,7 @@ llm-safety-papers/
 │   │   ├── Cold-Attack.md
 │   │   ├── Cybench.md
 │   │   ├── GCG.md
+│   │   ├── HaloScope.md
 │   │   ├── HarmBench.md
 │   │   ├── Harnessing-Task-Overload.md
 │   │   ├── Jailbreak-Attacks-and-Defenses-Survey.md
