@@ -44,6 +44,19 @@
 
 ---
 
+### 4月更新
+
+#### 4月13日 - CCF-A/B 论文收录
+
+本周收录 2 篇确定录用的 LLM Safety 论文（2篇CCF-A）：
+
+| 论文 | 会议 | 等级 | 方向 | 摘要 |
+|------|------|------|------|------|
+| [PIArena: A Platform for Prompt Injection Evaluation](https://arxiv.org/abs/2604.08499) | ACL 2026 | CCF-A | Prompt Injection | 提出 PIArena 统一评测平台，支持 SOTA 攻击/防御集成评估；设计动态策略攻击自适应优化注入提示；揭示多个 SOTA 防御的局限性（任务泛化不足、易受自适应攻击、目标任务对齐时根本脆弱） |
+| [TrajGuard: Streaming Hidden-state Trajectory Detection for Decoding-time Jailbreak Defense](https://arxiv.org/abs/2604.07727) | ACL Findings 2026 | CCF-A | Jailbreak Defense | 发现解码阶段 hidden states 携带比输入更强的风险信号；提出 TrajGuard 框架（训练-free，解码时实时检测）；平均防御率 95%，检测延迟仅 5.2 ms/token，误报率 < 1.5% |
+
+---
+
 ## 📅 2024年
 
 ### Benchmarks
@@ -177,6 +190,7 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-04-13 | 收录2篇CCF-A论文（PIArena - ACL 2026, TrajGuard - ACL Findings 2026） |
 | 2026-04-10 | 阅读完成第47篇论文：HARM - Holistic Automated Red Teaming (EMNLP 2024) |
 | 2026-03-21 | 修正论文：ActorBreaker (v2最新版本) - 更新标题、方法名、代码链接 |
 | 2026-03-16 | 收录3篇CCF-A/B论文（AAAI 2026, EuroS&P 2026, LAK 2026） |
@@ -187,4 +201,4 @@
 ---
 
 *本文档由 Kimi Claw 自动整理维护*  
-*最后更新: 2026-04-10*
+*最后更新: 2026-04-13*
