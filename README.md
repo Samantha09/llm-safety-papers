@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-50%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-51%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | **50 篇 (62.5%)** |
-| **最后更新** | 2026-04-13 |
+| **已完成** | **51 篇 (63.75%)** |
+| **最后更新** | 2026-04-14 |
 
 ---
 
@@ -63,7 +63,9 @@
 | 🔎 **AuditBench** | 安全审计基准 | [AuditBench](./papers/2024/AuditBench.md) |
 | 🤖 **AgentDojo** | 智能体安全评估环境 | [AgentDojo](./papers/2024/AgentDojo.md) |
 | 🛡️ **R-Judge** | 智能体风险意识评估 | [R-Judge](./papers/2024/R-Judge.md) |
+| 🔬 **HELM** | 语言模型透明评估框架，30模型42场景7指标 | [HELM](./papers/2022/HELM.md) |
 | 🔬 **SIABench** | 安全事件分析评估 | [SIABench](./papers/2026/SIABench.md) |
+| 📊 **HELM** | Stanford综合评估框架，覆盖30模型42场景7指标 | [HELM](./papers/2022/HELM.md) |
 | 📊 **ESG-Bench** | 长上下文幻觉缓解评估 | [ESG-Bench](./papers/2026/ESG-Bench.md) |
 | 🛡️ **Cybench** | LLM网络安全CTF能力评估 | [Cybench](./papers/2024/Cybench.md) |
 | ✅ **TruthfulQA** | 模型真实性评估基准 | [TruthfulQA](./papers/2022/TruthfulQA.md) |
@@ -191,7 +193,8 @@ llm-safety-papers/
 | 20 | [R-Judge](./papers/2024/R-Judge.md) | EMNLP 2024 | 智能体风险意识评估基准 | `风险意识` `智能体` `评估基准` |
 | 21 | [SIABench](./papers/2026/SIABench.md) | arXiv 2026 | 安全事件分析评估框架 | `网络安全` `评估基准` `智能体` |
 | 22 | [ESG-Bench](./papers/2026/ESG-Bench.md) | AAAI 2026 | 长上下文ESG报告幻觉缓解评估 | `幻觉缓解` `长上下文` `事实可靠性` |
-| 23 | [TruthfulQA](./papers/2022/TruthfulQA.md) | ACL 2022 | 模型真实性评估基准，揭示规模与真实性负相关 | `真实性` `幻觉` `评估基准` `规模悖论` |
+| 23 | [HELM](./papers/2022/HELM.md) | TMLR 2023 | Stanford综合评估框架，覆盖30模型42场景7指标，提高覆盖率17.9%→96% | `评估基准` `透明度` `标准化` |
+| 24 | [TruthfulQA](./papers/2022/TruthfulQA.md) | ACL 2022 | 模型真实性评估基准，揭示规模与真实性负相关 | `真实性` `幻觉` `评估基准` `规模悖论` |
 
 ### 代码安全（1篇）
 
@@ -287,6 +290,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-04-14 | 添加论文：HELM - Holistic Evaluation of Language Models，Stanford综合评估框架 (TMLR 2023)，更新进度至 51/80 |
 | 2026-04-08 | 添加论文：COLD-Attack - 可控越狱攻击框架，连接可控攻击生成与可控文本生成 (ICML 2024)，更新进度至 46/80 |
 | 2026-04-06 | 添加论文：Formalizing Prompt Injection - 形式化提示注入攻击与防御框架 (USENIX Security 2024)，更新进度至 45/80 |
 | 2026-04-05 | 添加论文：DiaHalu - 对话级幻觉评估基准 (EMNLP 2024 Findings)，更新进度至 44/80 |
