@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-51%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-52%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | **51 篇 (63.75%)** |
-| **最后更新** | 2026-04-14 |
+| **已完成** | **52 篇 (65%)** |
+| **最后更新** | 2026-04-15 |
 
 ---
 
@@ -196,12 +196,13 @@ llm-safety-papers/
 | 23 | [HELM](./papers/2022/HELM.md) | TMLR 2023 | Stanford综合评估框架，覆盖30模型42场景7指标，提高覆盖率17.9%→96% | `评估基准` `透明度` `标准化` |
 | 24 | [TruthfulQA](./papers/2022/TruthfulQA.md) | ACL 2022 | 模型真实性评估基准，揭示规模与真实性负相关 | `真实性` `幻觉` `评估基准` `规模悖论` |
 
-### 代码安全（1篇）
+### 代码安全（2篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
 | 24 | [SCS-Code](./papers/2026/SCS-Code.md) | EuroS&P 2026 | 利用内部表示引导CodeLLM生成安全代码 | `代码安全` `概念引导` `可解释性` |
-| 25 | [DiaHalu](./papers/2024/DiaHalu.md) | arXiv 2024 | 对话级幻觉评估基准 | `幻觉检测` `对话系统` `基准测试` |
+| 25 | [Asleep at the Keyboard](./papers/2022/Asleep-at-the-Keyboard.md) | IEEE S&P 2022 | 系统评估GitHub Copilot生成代码安全性，发现约40%存在漏洞，基于CWE Top 25三大维度分析 | `代码安全` `AI编程助手` `CWE Top 25` |
+| 26 | [DiaHalu](./papers/2024/DiaHalu.md) | arXiv 2024 | 对话级幻觉评估基准 | `幻觉检测` `对话系统` `基准测试` |
 
 ### 红队测试（2篇）
 
@@ -210,7 +211,7 @@ llm-safety-papers/
 | 26 | [APRT](./papers/2025/APRT.md) | COLING 2025 | 自动化渐进式红队测试 | `红队测试` `渐进式` `自动化` |
 | 27 | [Tree of Attacks](./papers/2024/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `树搜索` |
 
-### 其他重要论文（6篇）
+### 其他重要论文（7篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
@@ -290,6 +291,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-04-15 | 添加论文：Asleep at the Keyboard - GitHub Copilot安全评估 (IEEE S&P 2022)，更新进度至 52/80 |
 | 2026-04-14 | 添加论文：HELM - Holistic Evaluation of Language Models，Stanford综合评估框架 (TMLR 2023)，更新进度至 51/80 |
 | 2026-04-08 | 添加论文：COLD-Attack - 可控越狱攻击框架，连接可控攻击生成与可控文本生成 (ICML 2024)，更新进度至 46/80 |
 | 2026-04-06 | 添加论文：Formalizing Prompt Injection - 形式化提示注入攻击与防御框架 (USENIX Security 2024)，更新进度至 45/80 |

@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-51%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--04-14-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-52%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--04-15-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -18,19 +18,20 @@
 | 2025 | 4 | [./2025/](./2025/) |
 | 2024 | 28 | [./2024/](./2024/) |
 | 2023 | 9 | [./2023/](./2023/) |
-| 2022 | 3 | [./2022/](./2022/) |
+| 2022 | 4 | [./2022/](./2022/) |
 
 ---
 
 ## 📋 完整论文列表（按年份排序）
 
-### 2022 年 (3篇)
+### 2022 年 (4篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
 | 1 | [Red Teaming Language Models with Language Models](./2022/Red-Teaming-LMs.md) | EMNLP 2022 | 红队测试 |
 | 2 | [TruthfulQA: Measuring How Models Mimic Human Falsehoods](./2022/TruthfulQA.md) | ACL 2022 | 真实性评估/幻觉检测 |
 | 3 | [HELM: Holistic Evaluation of Language Models](./2022/HELM.md) | TMLR 2023 | 综合评估基准/透明度 |
+| 4 | [Asleep at the Keyboard: Assessing the Security of GitHub Copilot's Code Contributions](./2022/Asleep-at-the-Keyboard.md) | IEEE S&P 2022 | 代码安全/AI编程助手 |
 
 ### 2026 年 (7篇)
 
