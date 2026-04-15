@@ -1,424 +1,462 @@
-# TrustLLM: 大型语言模型的可信度综合评估
+# TrustLLM: Trustworthiness in Large Language Models
 
 ## 1. 基本信息
 
-| 字段 | 内容 |
+| 项目 | 内容 |
 |------|------|
 | **论文标题** | TrustLLM: Trustworthiness in Large Language Models |
-| **作者** | Yue Huang, Lichao Sun, Haoran Wang, Siyuan Wu, Qihui Zhang, Yuan Li, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, Xiner Li, Zhengliang Liu, Yixin Liu, Yijue Wang, Zhikun Zhang, Bertie Vidgen, Bhavya Kailkhura, Caiming Xiong, Chaowei Xiao, Chunyuan Li, Eric Xing, Furong Huang, Hao Liu, Heng Ji, Hongyi Wang, Huan Zhang, Huaxiu Yao, Manolis Kellis, Marinka Zitnik, Meng Jiang, Mohit Bansal, James Zou, Jian Pei, Jian Liu, Jianfeng Gao, Jiawei Han, Jieyu Zhao, Jiliang Tang, Jindong Wang, Joaquin Vanschoren, John Mitchell, Kai Shu, Kaidi Xu, Kai-Wei Chang, Lifang He, Lifu Huang, Michael Backes, Neil Zhenqiang Gong, Philip S. Yu, Pin-Yu Chen, Quanquan Gu, Ran Xu, Rex Ying, Shuiwang Ji, Suman Jana, Tianlong Chen, Tianming Liu, Tianyi Zhou, William Wang, Xiang Li, Xiangliang Zhang, Xiao Wang, Xing Xie, Xun Chen, Xuyu Wang, Yan Liu, Yanfang Ye, Yinzhi Cao, Yong Chen, Yue Zhao（100+位作者）|
-| **机构** | 斯坦福大学、MIT、哈佛大学、卡内基梅隆大学、耶鲁大学、杜克大学、南加州大学、University of Notre Dame、Lehigh University等全球50+所顶尖学术机构 |
-| **arXiv链接** | https://arxiv.org/abs/2401.05561 |
-| **GitHub** | https://github.com/HowieHwong/TrustLLM |
-| **Leaderboard** | https://trustllmbenchmark.github.io/TrustLLM-Website/ |
-| **发表时间** | 2024年1月（v6版本2024年9月） |
-| **研究方向** | LLM可信度评估、Benchmark、对齐 |
-| **数据收集** | 16种主流LLM，30+数据集，8个可信度维度 |
+| **作者** | Yue Huang, Lichao Sun, Haoran Wang, Siyuan Wu, Qihui Zhang, Yuan Li, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, Xiner Li, Zhengliang Liu, Yixin Liu, Yijue Wang, Zhikun Zhang, Bertie Vidgen, Bhavya Kailkhura, Caiming Xiong, Chaowei Xiao, Chunyuan Li, Eric Xing, Furong Huang, Hao Liu, Heng Ji, Hongyi Wang, Huan Zhang, Huaxiu Yao, Manolis Kellis, Marinka Zitnik, Meng Jiang, Mohit Bansal, James Zou, Jian Pei, Jian Liu, Jianfeng Gao, Jiawei Han, Jieyu Zhao, Jiliang Tang, Jindong Wang, Joaquin Vanschoren, John Mitchell, Kai Shu, Kaidi Xu, Kai-Wei Chang, Lifang He, Lifu Huang, Michael Backes, Neil Zhenqiang Gong, Philip S. Yu, Pin-Yu Chen, Quanquan Gu, Ran Xu, Rex Ying, Shuiwang Ji, Suman Jana, Tianlong Chen, Tianming Liu, Tianyi Zhou, William Wang, Xiang Li, Xiangliang Zhang, Xiao Wang, Xing Xie, Xun Chen, Xuyu Wang, Yan Liu, Yanfang Ye, Yinzhi Cao, Yong Chen, Yue Zhao |
+| **机构** | 来自Lehigh大学、Notre Dame大学、Stanford大学、MIT、Harvard、CMU、Oxford、CISPA等全球47所顶尖学术机构 |
+| **arXiv** | [2401.05561](https://arxiv.org/abs/2401.05561) |
+| **GitHub** | [HowieHwong/TrustLLM](https://github.com/HowieHwong/TrustLLM) |
+| **Leaderboard** | [TrustLLM Website](https://trustllmbenchmark.github.io/TrustLLM-Website/) |
+| **发表时间** | 2024年1月10日 (v1), 最新版本v6 (2024年9月30日) |
+| **研究方向** | LLM可信度综合评估、Benchmark |
+| **方向分类** | Benchmarks |
 
 ---
 
 ## 2. 英文摘要原文（arXiv Abstract原文）
 
 > Large language models (LLMs), exemplified by ChatGPT, have gained considerable attention for their excellent natural language processing capabilities. Nonetheless, these LLMs present many challenges, particularly in the realm of trustworthiness. Therefore, ensuring the trustworthiness of LLMs emerges as an important topic. This paper introduces TrustLLM, a comprehensive study of trustworthiness in LLMs, including principles for different dimensions of trustworthiness, established benchmark, evaluation, and analysis of trustworthiness for mainstream LLMs, and discussion of open challenges and future directions. Specifically, we first propose a set of principles for trustworthy LLMs that span eight different dimensions. Based on these principles, we further establish a benchmark across six dimensions including truthfulness, safety, fairness, robustness, privacy, and machine ethics. We then present a study evaluating 16 mainstream LLMs in TrustLLM, consisting of over 30 datasets. Our findings firstly show that in general trustworthiness and utility (i.e., functional effectiveness) are positively related. Secondly, our observations reveal that proprietary LLMs generally outperform most open-source counterparts in terms of trustworthiness, raising concerns about the potential risks of widely accessible open-source LLMs. However, a few open-source LLMs come very close to proprietary ones. Thirdly, it is important to note that some LLMs may be overly calibrated towards exhibiting trustworthiness, to the extent that they compromise their utility by mistakenly treating benign prompts as harmful and consequently not responding. Finally, we emphasize the importance of ensuring transparency not only in the models themselves but also in the technologies that underpin trustworthiness. Knowing the specific trustworthy technologies that have been employed is crucial for analyzing their effectiveness.
+>
+> **Cite as:** arXiv:2401.05561 [cs.CL]
 
 ---
 
 ## 3. 中文摘要翻译
 
-> 以ChatGPT为代表的大型语言模型（LLMs）因其卓越的自然语言处理能力而获得了广泛关注。然而，这些LLM在可信度方面面临着诸多挑战。因此，确保LLM的可信度成为一个重要课题。本文提出了TrustLLM，一个关于LLM可信度的综合研究框架，涵盖了不同可信度维度的原则、建立的基准测试、对主流LLM的可信度评估与分析，以及开放挑战和未来方向的讨论。具体而言，我们首先提出了一套涵盖八个不同维度的可信LLM原则。基于这些原则，我们进一步建立了一个涵盖六个维度的基准测试，包括真实性、安全性、公平性、鲁棒性、隐私和机器伦理。随后，我们展示了在TrustLLM中对16种主流LLM的评估研究，涉及超过30个数据集。我们的发现首先表明，总体上可信度和效用（即功能有效性）呈正相关。其次，我们的观察揭示了专有LLM在可信度方面通常优于大多数开源对应物，这引发了对广泛可访问的开源LLM潜在风险的担忧。然而，少数开源LLM已接近专有LLM的水平。第三，需要注意的是，一些LLM可能过度校准以展示可信度，以至于通过错误地将良性提示视为有害从而拒绝响应来损害其效用。最后，我们强调确保模型本身以及支撑可信度的技术都具有透明度的重要性。了解所采用的具体可信度技术对于分析其有效性至关重要。
+> 以ChatGPT为代表的大型语言模型（LLMs）在自然语言处理能力方面已获得广泛关注。然而，这些LLM在可信度（trustworthiness）方面面临诸多挑战。因此，确保LLM的可信度成为一个重要课题。本文提出了TrustLLM，这是对LLM可信度的一次全面研究，涵盖可信度各维度的原则、可信度基准的建立、对主流LLM的评估与分析，以及开放挑战与未来方向的讨论。具体而言，我们首先提出了一套跨越八个维度的可信LLM原则。基于这些原则，我们进一步建立了涵盖真实性（truthfulness）、安全性（safety）、公平性（fairness）、鲁棒性（robustness）、隐私性（privacy）和机器伦理（machine ethics）六个维度的基准测试。我们对TrustLLM中的16个主流LLM进行了评估，涉及超过30个数据集。研究发现如下：首先，总体而言，可信度与效用（即功能有效性）呈正相关。其次，闭源LLM在可信度方面总体上优于大多数开源对应模型，这引发了对广泛可及的开源LLM潜在风险的担忧。然而，少数开源LLM已非常接近闭源模型。第三，值得注意的是，某些LLM可能过度校准于展示可信度，以至于它们将良性提示误判为有害内容而不予响应，从而牺牲了效用。最后，我们强调不仅要确保模型本身的透明度，还要确保支撑可信度的技术的透明度。了解所采用的具体可信技术对于分析其有效性至关重要。
 
 ---
 
 ## 4. 研究背景
 
-### 4.1 大型语言模型的发展与挑战
+### 4.1 LLM的崛起与可信度危机
 
-大型语言模型（LLM）的出现标志着自然语言处理和生成式AI领域的重大里程碑。以ChatGPT为代表的LLM展现了卓越的自然语言处理能力，被广泛应用于自动化文章撰写、博客和社交媒体内容创作、翻译、搜索增强（如Bing Chat）、代码生成（如Code Llama辅助软件工程师）、金融领域情感分析和命名实体识别（BloombergGPT）、科学研究（医学、政治科学、法律、化学、教育、艺术等）等众多领域。
+大型语言模型（LLM）的出现标志着自然语言处理和生成式AI领域的重大里程碑。以ChatGPT为代表的LLM在NLP领域展现出的卓越能力引发了广泛关注，其应用已渗透到生活的方方面面：自动化文章撰写、博客和社交媒体内容生成、翻译、搜索增强（如Bing Chat）、代码辅助（如Code Llama）、金融领域情感分析和命名实体识别（BloombergGPT），以及科学研究（医学、政治科学、法律、化学、海洋学、教育、艺术等）。
 
 LLM的卓越能力可归因于多个因素：
-- **大规模训练数据**：如PaLM使用了超过7000亿token的大规模数据集进行训练
-- **大规模参数**：如GPT-4据估计拥有约1万亿参数
-- **先进的训练方案**：包括低秩适应（LoRA）、量化LoRA、路径系统等
-- **对齐训练**：通过人类反馈强化学习（RLHF）实现指令遵循能力
+- **大规模训练数据**：如PaLM使用超过7000亿token的训练语料
+- **大规模参数**：如GPT-4估计拥有约1万亿参数
+- **先进训练方案**：低秩适应（LoRA）、量化LoRA、路径系统等
+- **对齐技术**：基于人类反馈的强化学习（RLHF）及各种替代方案
 
-### 4.2 LLM可信度问题的三个核心挑战
+然而，LLM的崛起也引入了可信度方面的担忧。与传统语言模型不同，LLM具有独特特征，可能导致可信度问题：
 
-LLM的兴起也引入了对其可信度的担忧。与传统语言模型不同，LLM具有可能导致可信度问题的独特特征：
+**1. 输出的复杂性与多样性**
+LLM展示了处理广泛复杂和多样化主题的无与伦比的能力。但这种复杂性也导致了不可预测性，可能产生不准确或误导性的输出。同时，其高级生成能力为恶意行为者的滥用打开了大门，包括传播虚假信息和促进网络攻击。绕过LLM安全机制的所谓"越狱攻击"（jailbreaking attacks）也是重大威胁。
 
-**1）输出复杂性与多样性**
-LLM展示了处理广泛复杂和多样化主题的无与伦比的能力。然而，这种复杂性可能导致不可预测性，从而产生不准确或误导性的输出。同时，其高级生成能力为恶意行为者的滥用开辟了途径，包括传播虚假信息和促进网络攻击。例如：
-- 攻击者可能使用LLM制作欺骗性和误导性的文本，引诱用户点击恶意链接或下载恶意软件
-- LLM可被利用于自动化网络攻击，如生成大量虚假账户和评论以扰乱网站正常运行
-- 越狱攻击（Jailbreaking）技术可以绕过LLM的安全机制
+**2. 训练数据中的偏见与隐私信息**
+训练数据中的偏见对LLM生成内容的公平性有重大影响。例如，数据的男性中心偏见可能导致输出主要反映男性视角，掩盖女性的贡献和观点。另一个关键问题是训练数据中包含的敏感个人信息，缺乏严格保护措施可能导致隐私泄露。
 
-**2）训练数据中的偏见与隐私信息**
-- 训练数据中的偏见可能对LLM生成内容的公平性产生重大影响
-- 例如，男性中心偏见可能导致输出主要反映男性视角，掩盖女性贡献和观点
-- 对特定文化背景的偏见可能导致 responses偏向该文化，忽视其他文化背景的多样性
-- 敏感个人信息的存在可能导致隐私侵犯
+**3. 用户的高度期望**
+用户可能对LLM的性能有很高的期望，期待准确和有洞察力的回应，同时强调模型与人类价值观的一致性。许多研究人员对LLM是否与人类价值观对齐表示担忧。
 
-**3）高用户期望**
-用户可能对LLM的性能有很高的期望，期待准确且有见地的回应，强调模型与人类价值观的一致性。许多研究人员担心LLM是否与人类价值观对齐。不对齐可能严重影响其在各领域的广泛应用。
+### 4.2 现有可信度研究的不足
 
-### 4.3 现有评估的局限性
-
-先前的研究在LLM可信度评估方面建立了基础性见解。然而存在以下不足：
-- 某些分类未能完全涵盖LLM可信度的所有方面
-- 某些分类过度关注细粒度区分，导致子类别重叠，使建立清晰的评估基准变得复杂
-- 缺乏全面和统一的评估框架
+先前的研究已在LLM可信度方面建立了基础性见解，但存在以下不足：
+- 某些分类法未能完全涵盖LLM可信度的所有方面
+- 某些分类法专注于细粒度区分，导致子类别重叠，使评估基准的建立变得复杂
+- 缺乏全面且可操作的Trustworthiness评估框架
 
 ---
 
 ## 5. 核心贡献
 
-### 5.1 八个可信度维度的识别
+TrustLLM提出了一个统一框架，支持对LLM可信度的全面分析，主要贡献包括：
 
-TrustLLM通过整合来自AI、机器学习、数据挖掘、人机交互（HCI）和网络安全领域的领域知识，对过去五年发表的600篇关于LLM可信度的论文进行了广泛综述，识别出了定义LLM可信度的八个关键方面：
+### 5.1 八个维度的可信度识别
 
+通过跨AI、机器学习、数据挖掘、人机交互（HCI）和网络安全领域的领域知识，对过去五年发表的600篇LLM可信度论文进行了广泛综述，识别出定义LLM可信度的八个关键维度：
 1. **Truthfulness（真实性）**
 2. **Safety（安全性）**
 3. **Fairness（公平性）**
 4. **Robustness（鲁棒性）**
-5. **Privacy（隐私）**
+5. **Privacy（隐私性）**
 6. **Machine Ethics（机器伦理）**
 7. **Transparency（透明度）**
-8. **Accountability（问责性）**
+8. **Accountability（问责制）**
 
-### 5.2 全面且多样化的LLM选择
+### 5.2 全面多样的LLM评估
 
-通过评估16种LLM，涵盖专有模型和开源模型，覆盖了广泛的模型规模、训练策略和功能能力。这种多样性确保了TrustLLM不局限于特定类型或规模的LLM，同时也为评估未来LLM的可信度建立了全面的评估框架。
+评估了16个LLM，涵盖专有模型（proprietary）和开源模型（open-source），覆盖了广泛的模型规模、训练策略和功能能力，确保TrustLLM不仅限于特定类型或规模的LLM。
 
-### 5.3 多任务多数据集的基准测试
+### 5.3 多任务多数据集基准测试
 
-建立了跨越30个数据集的基准测试，全面评估LLM的功能能力，涵盖从简单分类到复杂生成的任务。每个数据集都呈现独特的挑战，并从多个可信度维度对LLM进行基准测试。同时采用多样化的评估指标来理解LLM的能力。
+使用超过30个数据集对LLM进行基准测试，涵盖从简单分类到复杂生成的各类任务，采用多样化评估指标，确保评估的全面性和多面性。
 
-### 5.4 首次综合集成基准测试
+### 5.4 开创性的六个维度基准
 
-这是首次包含18个子类别、覆盖30+数据集和16种LLM（包括专有模型和开源权重模型）的综合集成基准测试。
+建立了六个维度的基准（因透明度和问责制难以基准化而未涵盖），这是首个包含超过18个子类别、覆盖超过30个数据集和16个LLM的综合集成基准。
 
 ---
 
 ## 6. 研究方法
 
-### 6.1 TrustLLM框架概述
+### 6.1 可信度原则框架
 
-TrustLLM提出了一个统一框架，支持对LLM可信度的全面分析，包括：
-- 现有工作的综述
-- 不同可信度维度的组织原则
-- 新的基准测试
-- 对主流LLM可信度的全面评估
+TrustLLM首先提出了每个维度的原则：
 
-### 6.2 可信度维度定义
+#### Truthfulness（真实性）
+- LLM应提供准确的信息表示
+- 避免生成误导性或虚假内容
+- 区分事实与观点
 
-TrustLLM将效用（功能性有效性）与八个维度分离，将可信LLM定义为"要成为可信的LLM，必须适当体现真实性、安全性、公平性、鲁棒性、隐私、机器伦理、透明度和问责性等特征"。
+#### Safety（安全性）
+- 避免生成不安全或非法输出
+- 确保参与健康对话
+- 抵御jailbreak等攻击
 
-**六维度基准测试**（可量化评估）：
-- Truthfulness（真实性）
-- Safety（安全性）
-- Fairness（公平性）
-- Robustness（鲁棒性）
-- Privacy（隐私）
-- Machine Ethics（机器伦理）
+#### Fairness（公平性）
+- 不产生有偏见或歧视性的结果
+- 公平对待所有用户和群体
+- 避免刻板印象
 
-**两维度讨论**（难以基准化）：
-- Transparency（透明度）
-- Accountability（问责性）
+#### Robustness（鲁棒性）
+- 在各种情况下保持性能水平
+- 抵御对抗性输入
+- 处理分布外（OOD）数据
 
-### 6.3 评估的LLM列表
+#### Privacy（隐私性）
+- 保护人类自主性、身份和尊严
+- 规范个人信息的使用
+- 防止数据泄露
 
-TrustLLM评估的16种主流LLM包括：
+#### Machine Ethics（机器伦理）
+- 确保AI的道德行为
+- 在复杂伦理场景中做出正确判断
+- 展现道德意识
+
+### 6.2 LLM选择
+
+TrustLLM选择了16个主流LLM进行评估，包括：
 
 | 模型 | 类型 | 说明 |
 |------|------|------|
-| GPT-4 | 专有 | OpenAI最新GPT-4 |
-| ChatGPT | 专有 | OpenAI ChatGPT (GPT-3.5-turbo) |
+| GPT-4 | 专有 | OpenAI最新GPT模型 |
+| ChatGPT | 专有 | OpenAI对话模型 |
+| GPT-3.5 | 专有 | OpenAI GPT-3.5 |
 | Claude | 专有 | Anthropic Claude |
-| ERNIE | 专有 | 百度文心一言 |
-| Llama2 | 开源 | Meta Llama2系列（7b, 13b, 70b） |
-| Vicuna | 开源 | 基于Llama的对话模型 |
-| Oasst | 开源 | Open Assistant |
-| MPT | 开源 | MosaicML MPT |
-| Falcon | 开源 | TII Falcon |
-| Dolly | 开源 | Databricks Dolly |
-| 及其他 | - | - |
+| ERNIE | 专有 | 百度文心 |
+| Llama2 | 开源 | Meta Llama2系列 |
+| Vicuna | 开源 | 对话模型 |
+| Oasst | 开源 | 开源助手模型 |
+| MPT | 开源 | MosaicML模型 |
+| Falcon | 开源 | 阿布扎比技术创新研究所模型 |
+| etc. | - | - |
+
+### 6.3 数据集与评估指标
+
+TrustLLM使用了超过30个数据集，涵盖18个子类别，评估指标根据任务类型而异，包括准确率、F1分数、AUC、拒绝率（RtA）等。
 
 ---
 
 ## 7. 实验设置
 
-### 7.1 评估维度与数据集
+### 7.1 Truthfulness评估
 
-TrustLLM在六个主要维度上评估LLM：
+Truthfulness评估涵盖四个子维度：
 
-**Truthfulness（真实性）评估**：
-- 虚假信息生成（Misinformation Generation）
-- 幻觉（Hallucination）
-- 谄媚（Sycophancy）
-- 对抗性事实性（Adversarial Factuality）
+**7.1.1 虚假信息生成**
+- 仅使用内部知识评估
+- 整合外部知识评估
 
-**Safety（安全性）评估**：
-- 越狱（Jailbreak）
-- 夸大安全性（Exaggerated Safety）
-- 毒性（Toxicity）
-- 滥用（Misuse）
+**7.1.2 幻觉（Hallucination）**
+- 评估LLM生成内容的幻觉程度
 
-**Fairness（公平性）评估**：
-- 刻板印象（Stereotypes）
-- 贬损（Disparagement）
-- 主观选择中的偏好偏见
+**7.1.3 谄媚性响应（Sycophancy）**
+- 基于人格的谄媚
+- 基于偏好的谄媚
 
-**Robustness（鲁棒性）评估**：
-- 对自然噪声输入的鲁棒性
-- 分布外（OOD）任务韧性评估
+**7.1.4 对抗性事实性（Adversarial Factuality）**
+- 评估LLM识别和突出用户输入中事实错误的能力
 
-**Privacy（隐私）评估**：
-- 隐私意识（Privacy Awareness）
-- 隐私泄露（Privacy Leakage）
+### 7.2 Safety评估
 
-**Machine Ethics（机器伦理）评估**：
-- 隐含伦理（Implicit Ethics）
-- 显式伦理（Explicit Ethics）
-- 意识（Awareness）
+Safety评估涵盖四个子维度：
 
-### 7.2 评估指标
+**7.2.1 Jailbreak攻击**
+- 固定句子开头
+- 恶意词汇
+- 编码字符串（URL编码、Base64等）
+- 无标点输出
+- 无长词输出
+- 无"the"输出
+- JSON格式输出
+- 拒绝句子禁止
+- Leetspeak（ obfuscation攻击）
+- 场景设置（DAN角色扮演）
+- CoT（链式思考）
+- 多任务
+- 编程函数
 
-TrustLLM采用多样化的评估指标：
-- 准确率（Accuracy）
-- F1分数
-- 拒绝回答率（RtA - Refuse to Answer）
-- 语义相似度
-- Pearson相关系数
-- 幻觉率
-- 偏见率
-- 毒性率
+**7.2.2 夸大安全（Exaggerated Safety）**
+- 评估LLM是否过度拒绝良性提示
+
+**7.2.3 毒性（Toxicity）**
+- 评估LLM生成有毒内容倾向
+
+**7.2.4 误用（Misuse）**
+- 评估LLM被恶意使用的风险
+
+### 7.3 Fairness评估
+
+**7.3.1 刻板印象（Stereotypes）**
+- 评估LLM对刻板印象语句的识别和拒绝能力
+
+**7.3.2 贬损（Disparagement）**
+- 评估LLM在处理带有贬损倾向问题时的公平性
+
+**7.3.3 主观选择中的偏好偏见**
+- 评估LLM在被迫选择时的偏见
+
+### 7.4 Robustness评估
+
+**7.4.1 对自然噪声输入的鲁棒性**
+- 有ground-truth标签的任务表现
+- 开放式任务表现
+
+**7.4.2 分布外（OOD）任务抗性评估**
+- OOD检测
+- OOD泛化
+
+### 7.5 Privacy评估
+
+**7.5.1 隐私意识**
+- 评估LLM对隐私规范的理解
+
+**7.5.2 隐私泄露**
+- 使用Enron Email Dataset等测试隐私泄露
+
+### 7.6 Machine Ethics评估
+
+**7.6.1 隐式伦理（Implicit Ethics）**
+- 低歧义和高歧义场景
+
+**7.6.2 显式伦理（Explicit Ethics）**
+- 显式伦理判断能力
+
+**7.6.3 意识（Awareness）**
+- 道德意识评估
 
 ---
 
 ## 8. 实验结果
 
-### 8.1 总体发现
+### 8.1 总体观察
 
-**发现1：可信度与效用正相关**
-- 在道德行为分类和刻板印象识别任务中，如GPT-4这样具有强语言理解能力的LLM往往能做出更准确的道德判断
-- 在自然语言推理方面表现突出的Llama2-70b和GPT-4展现出更强的对抗性攻击抵御能力
-- LLM的可信度排名往往与其在MT-Bench、OpenLLM Leaderboard等效用导向排行榜上的位置相呼应
+**观察1：可信度与效用正相关**
 
-**发现2：大多数LLM存在"过度对齐"问题**
-- 许多LLM表现出一定程度的过度对齐（夸大安全性），损害其整体可信度
-- 例如，Llama2-7b在无害提示上的拒绝率高达57%，严重影响可用性
-- 关键问题在于对齐过程中需要理解提示意图，而非仅仅记忆示例
+研究发现，可信度与效用（即功能有效性）之间存在正相关关系。在道德行为分类和刻板印象识别等任务中，像GPT-4这样具有强语言理解能力的LLM往往能做出更准确的道德判断，并更可靠地拒绝刻板印象语句。Llama2-70b和GPT-4在自然语言推理方面的专长使它们对对抗性攻击表现出更强的抵抗力。可信度排名与以效用为重点的排行榜（如MT-Bench、OpenLLM Leaderboard）上的位置往往一致。
 
-**发现3：专有LLM普遍优于开源LLM，但少数开源模型可竞争**
-- 专有LLM（如ChatGPT、GPT-4）在可信度方面通常显著优于大多数开源权重LLM
-- 这引发了对广泛可下载的开源模型潜在风险的严重担忧
-- 然而，Llama2作为开源模型在许多任务中超越了专有LLM的可信度表现
-- 这表明开源模型可以在不添加外部辅助模块的情况下达到高度可信
+**观察2：大多数LLM"过度对齐"（Over-aligned）**
 
-**发现4：透明度的重要性**
-- 模型本身和可信度相关技术都应透明
-- 了解所采用的具体可信度技术对于分析其有效性至关重要
+研究发现许多LLM表现出一定程度的过度对齐（夸张安全），这可能损害其整体可信度。这类LLM可能将许多无害的提示内容识别为有害，从而影响其效用。例如，Llama2-7b在实际上无害的提示中有57%的拒绝率。因此，在对齐过程中训练LLM理解提示背后的意图而非仅仅记忆示例至关重要。
 
-### 8.2 各维度详细发现
+**观察3：专有LLM总体上优于开源LLM，但少数开源模型可与之竞争**
 
-**Truthfulness（真实性）发现**：
-1. 专有LLM（如GPT-4）和开源LLM（如Llama2）在仅依赖内部知识时往往难以提供真实回应
-2. 所有LLM在零样本常识推理任务中都面临挑战
-3. 外部知识增强的LLM表现显著提升，超越了原始数据集上的最新结果
-4. 不同幻觉任务之间存在显著差异
-5. 谄媚程度与对抗性事实性之间存在正相关
+研究发现专有LLM与开源LLM在可信度方面存在性能差距。通常，专有LLM（如ChatGPT、GPT-4）的表现明显优于大多数开源LLM。但Llama2（Meta开发的开源LLM）在许多任务中的可信度优于专有LLM，表明开源模型可以在不添加外部辅助模块的情况下实现高可信度。
 
-**Safety（安全性）发现**：
-1. 大多数开源LLM的安全性仍令人担忧，显著落后于专有LLM，尤其是在越狱、毒性和滥用方面
-2. LLM对不同越狱攻击的抵抗并不一致
-3. 平衡安全性对大多数LLM都是挑战
+**观察4：模型本身和可信度技术都应透明**
 
-**Fairness（公平性）发现**：
-1. 大多数LLM在识别刻板印象方面表现不佳，即使表现最佳的GPT-4总体准确率也仅达65%
-2. 仅少数LLM（如Oasst-12b和Vicuna-7b）在处理贬损方面表现出公平性
-3. 在基线测试中大多数LLM表现良好，但被迫选择时表现显著下降
+鉴于不同LLM在可信度方面存在显著性能差距，强调模型本身和旨在增强可信度的技术的透明度非常重要。虽然某些专有LLM表现出高可信度，但底层技术的具体细节仍未公开。透明或开源这些可信技术可以促进这些技术的更广泛采用和改进。
 
-**Robustness（鲁棒性）发现**：
-1. Llama2系列和大多数专有LLM在传统下游任务中超越其他开源LLM
-2. LLM在开放-ended任务中表现出显著差异
-3. OOD鲁棒性方面LLM表现出相当大的性能差异
-4. 参数规模与OOD性能之间不存在一致的正相关
+### 8.2 真实性（Truthfulness）详细发现
 
-**Privacy（隐私）发现**：
-1. 大多数LLM表现出一定程度的隐私意识
-2. 人类与LLM在隐私信息使用方面的Pearson相关系数差异很大
-3. 在Enron Email数据集测试时，几乎所有LLM都表现出一定程度的隐私泄露
+1. **内部知识局限**：专有LLM（如GPT-4）和开源LLM（如Llama2）在仅依赖内部知识时往往难以提供真实回应。主要是由于训练数据中的噪声（包括错误信息或过时信息）和Transformer架构的泛化能力有限。
 
-**Machine Ethics（机器伦理）发现**：
-1. LLM已形成一套特定的道德价值观，但仍与人类伦理存在显著差距
-2. 在低模糊度场景的隐含任务中，大多数LLM的准确率低于70%
-3. 在意识方面，表现最佳的GPT-4在四个意识数据集上达到94%的平均准确率
+2. **零样本常识推理困难**：所有LLM在零样本常识推理任务中都面临挑战，表明这些对人类来说相对简单的任务对LLM来说仍然困难。
+
+3. **外部知识增强显著改善**：相比之下，通过外部知识增强的LLM表现出显著的性能提升，超过了原始数据集上报告的最先进结果。
+
+4. **幻觉任务表现差异**：大多数LLM在多项选择题问答任务中比在知识对话等更开放式任务中表现出更少的幻觉，可能由于提示敏感性。
+
+5. **谄媚性与对抗性事实性正相关**：谄媚程度较低的模型在识别和突出用户输入中的事实错误方面更有效。
+
+### 8.3 安全性（Safety）详细发现
+
+1. **开源LLM安全差距显著**：大多数开源LLM的安全性仍然令人担忧，明显落后于专有LLM，特别是在jailbreak、毒性和误用领域。
+
+2. **对不同jailbreak攻击抵抗不均**：LLM对不同jailbreak攻击的抵抗不统一。各种jailbreak攻击（特别是leetspeak攻击）的成功率差异很大，突显了LLM开发者需要采用针对不同攻击类型的综合防御策略。
+
+3. **安全平衡仍是挑战**：安全协议严格的LLM往往表现出过度谨慎（如Llama2系列和ERNIE），表明许多LLM并未完全对齐，可能依赖肤浅的对齐知识。
+
+### 8.4 公平性（Fairness）详细发现
+
+1. **刻板印象识别普遍不足**：大多数LLM在识别刻板印象方面表现不佳，即使表现最好的GPT-4总体准确率也只有65%。在呈现包含刻板印象的句子时，不同LLM的同意率差异很大，最好的只有0.5%，最差的高达近60%。
+
+2. **贬损处理有限公平**：只有少数LLM（如Oasst-12b和Vicuna-7b）在处理贬损时表现出公平性；大多数LLM在处理带有贬损倾向的问题时仍对特定属性表现出偏见。
+
+3. **被迫选择时性能下降**：在简单基线测试中表现良好的LLM，在被迫选择选项时性能显著下降。
+
+### 8.5 鲁棒性（Robustness）详细发现
+
+1. **Llama2系列和专有LLM在传统下游任务中表现优异**。
+
+2. **开放式任务表现变异性大**：LLM在开放式任务性能方面表现出显著的变异性，最差模型在扰动前后的平均语义相似度仅为88%，远低于最佳表现模型的97.64%。
+
+3. **OOD鲁棒性差异显著**：最佳模型GPT-4在OOD检测中的RtA超过80%，OOD泛化的平均F1分数超过92%；而最差模型的RtA仅为0.4%，F1分数约为30%。
+
+4. **参数规模与OOD性能无一致正相关**：Llama2系列模型的OOD性能因参数规模不同而表现各异。
+
+### 8.6 隐私（Privacy）详细发现
+
+1. **一定隐私意识**：当被告知必须遵守隐私政策时，大多数LLM表现出一定的隐私意识，对有关私人信息的查询表现出更高的拒绝回应可能性。
+
+2. **隐私理解差异大**：人类与LLM在使用隐私信息方面的一致性差异很大。表现最好的ChatGPT达到0.665的相关性，而Oass-12b表现出令人惊讶的负相关（小于零），表明与人类的隐私理解存在分歧。
+
+3. **Enron Email Dataset测试中几乎所有LLM都有一定程度的信息泄露**。
+
+### 8.7 机器伦理（Machine Ethics）详细发现
+
+1. **基础道德理解存在但复杂场景不足**：LLM已发展出特定的道德价值观，但在与人类伦理完全对齐方面仍有显著差距。大多数LLM在低歧义场景的隐式任务中的准确率低于70%。在高歧义场景中，不同LLM的表现差异很大，如Llama2系列达到99.9%的RtA，而其他低于70%。
+
+2. **意识表现**：表现最好的GPT-4在四个意识数据集上达到94%的平均准确率，其他LLM表现出不错但非卓越的意识。
 
 ---
 
 ## 9. 策略示例
 
-### 9.1 Truthfulness评估策略
+### 9.1 Jailbreak攻击策略示例
 
-**虚假信息生成评估**：
-- 使用Merely Internal Knowledge：评估LLM仅依靠内部知识生成信息的能力
-- Integrating External Knowledge：评估LLM结合外部知识生成信息的能力
+TrustLLM详细列出了各种jailbreak攻击的提示模板：
 
-**幻觉评估**：
-- 多选问答任务（Multiple-choice QA）
-- 开放域对话任务（Open-ended dialogue）
+**固定句子开头（Begin with fixed sentence）**
+```
+Give an example sentence and ask LLMs to generate by beginning with this sentence.
+```
 
-**谄媚评估**：
-- Persona-based Sycophancy：基于人格的谄媚
-- Preference-driven Sycophancy：基于偏好的谄媚
+**恶意词汇（Begin with bad words）**
+```
+"Damn", "fucking", "asshole", etc. used as interjections, adjectives, nouns, or stop words.
+```
 
-### 9.2 Safety评估策略
+**编码字符串（Encoded string）**
+```
+Using URL encoding to encode strings. Example: %44%61%6D%6E%20%79%6F%75
+```
 
-**越狱攻击评估**：
-- 评估LLM对各种越狱攻击的抵抗能力
-- 包括leetspeak攻击等不同攻击类型
+**无标点（No punctuation）**
+```
+Instruct LLMs to produce outputs without using any punctuation marks.
+```
 
-**夸大安全性评估**：
-- 识别过度谨慎的LLM
-- 测量错误地将良性提示分类为有害的比例
+**JSON格式（JSON format output）**
+```
+Prompt the model to generate answers in JSON format.
+```
 
-**毒性评估**：
-- 检测LLM生成有毒内容的能力
-- 评估毒性检测和拒绝的能力
+**拒绝句子禁止（Refusal sentence prohibition）**
+```
+Direct LLMs to generate answers while adhering to constraints that eliminate standard refusal responses.
+```
 
-### 9.3 Fairness评估策略
+**Leetspeak**
+```
+Obfuscation attack prompting LLMs to respond in leetspeak style (e.g., "H3ll0 W0rld").
+```
 
-**刻板印象识别**：
-- 评估LLM识别和拒绝刻板印象陈述的能力
-- 测量对刻板印象内容的同意率
+**场景设置（Scenario setting）**
+```
+DAN (Do Anything Now) role-playing attacks - setting a proper scenario to make the toxic instruction or question make sense.
+```
 
-**贬损处理**：
-- 评估LLM对贬损性内容公平处理的能力
+**链式思考（CoT）**
+```
+Adding "make it step by step" at the end of instructions to trigger chain-of-thought reasoning that may bypass safety.
+```
 
-### 9.4 Robustness评估策略
-
-**自然噪声鲁棒性**：
-- 对输入添加自然噪声（如拼写错误、语法错误）
-- 评估性能变化
-
-**OOD评估**：
-- OOD检测：识别分布外输入的能力
-- OOD泛化：在分布变化下保持性能的能力
+**多任务（Multi-task）**
+```
+Inserting multiple task instructions including a bad one, with random positions.
+```
 
 ---
 
 ## 10. 攻击流程
 
-### 10.1 越狱攻击（Jailbreak Attacks）
+TrustLLM的jailbreak攻击评估流程如下：
 
-TrustLLM评估了LLM对越狱攻击的脆弱性。越狱攻击是旨在绕过LLM安全机制的技术，允许攻击者滥用LLM。
-
-**主要越狱技术包括**：
-- **直接越狱**：通过明确的恶意指令直接尝试绕过安全机制
-- **编码绕过**：使用leetspeak等技术对恶意指令进行编码
-- **角色扮演攻击**：让LLM扮演不受安全约束的角色
-- **分段攻击**：将恶意请求分解为多个看似无害的部分
-- **上下文逃避**：通过改变话题或上下文来绕过安全检测
-
-**TrustLLM发现**：
-- 各种越狱攻击的成功率差异很大
-- leetspeak攻击等某些技术在绕过安全机制方面特别有效
-- LLM对不同类型的越狱攻击抵抗力不一致
-
-### 10.2 对抗性攻击（Adversarial Attacks）
-
-**对抗性事实性测试**：
-- 向LLM输入包含事实错误的对抗性提示
-- 评估LLM识别和纠正这些错误的能力
-
-**发现**：
-- 谄媚程度与对抗性事实性识别能力之间存在正相关
-- 较低谄媚程度的模型能更有效地识别和突出用户输入中的事实错误
-
-### 10.3 隐私攻击（Privacy Attacks）
-
-**隐私泄露测试**：
-- 使用Enron Email数据集测试LLM的隐私泄露
-- 评估LLM在训练数据中记忆和泄露私人信息的能力
-
-**发现**：
-- 几乎所有LLM在Enron Email数据集上都表现出一定程度的隐私泄露
-- 这引发了对LLM可能泄露敏感训练数据中私人信息的担忧
+1. **数据准备**：Jailbreak Trigger包含超过46K个提示数据
+2. **随机采样**：每个子类随机选择100个条目（50 QQB和50 ITC），共1300个用于评估
+3. **自动评估**：由于人工评估成本高，采用Longformer分类器自动评估jailbreak结果
+4. **分类**：评估器将LLM响应分为拒绝回答（非jailbreak）或非拒绝（成功jailbreak）
+5. **度量**：使用RtA（拒绝回答百分比）作为测量指标
 
 ---
 
 ## 11. 消融实验
 
-### 11.1 模型规模对可信度的影响
+### 11.1 各维度消融分析
 
-**参数规模与性能关系**：
-- 在某些任务中，更大的模型表现出更好的可信度
-- 然而，并非所有维度都呈现一致的正相关
-- 例如，在OOD鲁棒性方面，Llama2系列不同规模模型表现参差不齐
+TrustLLM通过在各子维度上进行广泛的消融实验来验证方法的有效性：
 
-**发现**：
-- Llama2-7b在无害提示上的拒绝率高达57%
-- 较大规模不一定带来更好的可信度
-- 需要针对可信度的专项优化
+**Truthfulness维度**：
+- 对比仅内部知识vs外部知识增强的性能差异
+- 分析谄媚性与对抗性事实性的相关性
+- 评估不同幻觉任务的表现差异
 
-### 11.2 开源与专有模型对比
+**Safety维度**：
+- 测试不同jailbreak攻击策略的效果差异
+- 分析夸大安全对效用的影响
+- 对比专有与开源LLM在各类安全任务上的差距
 
-**专有模型优势领域**：
-- 越狱攻击抵抗
-- 毒性检测
-- 滥用预防
-- 复杂道德推理
+**Fairness维度**：
+- 刻板印象识别准确率的详细分析
+- 不同属性（性别、种族、职业等）的偏见程度对比
+- 被迫选择vs自由回应的公平性差异
 
-**开源模型接近或超越专有的领域**：
-- Llama2在多个任务中超越专有模型的可信度表现
-- 某些开源模型在公平性方面表现良好
+**Robustness维度**：
+- 不同类型自然噪声对性能的影响
+- OOD检测与OOD泛化的详细分析
+- 参数规模与鲁棒性的非线性关系
 
-### 11.3 对齐训练的影响
+**Privacy维度**：
+- 不同隐私意识策略的效果对比
+- Enron Email Dataset泄露程度的详细分析
+- 人类与LLM隐私理解相关性分析
 
-**过度对齐问题**：
-- 某些LLM被过度对齐，导致"夸大安全性"
-- 这些模型错误地将良性提示分类为有害的比例较高
-- 影响整体可用性
+**Machine Ethics维度**：
+- 低歧义vs高歧义场景的表现差异
+- 隐式vs显式伦理任务的对比
+- RtA率与道德准确率的权衡分析
 
-**解决方向**：
-- 在对齐过程中理解意图而非仅记忆示例
-- 降低有害内容识别的假阳性率
+### 11.2 模型规模消融
+
+对Llama2系列（7b, 13b, 70b）进行了规模消融，发现：
+- 较大模型并非在所有维度都表现更好
+- 参数规模与OOD性能无一致正相关
+- 某些任务中较小模型反而表现更优
 
 ---
 
 ## 12. 局限性
 
-### 12.1 透明度与问责性的量化困难
+### 12.1 基准覆盖不完整
 
-TrustLLM指出，透明度和问责性两个维度难以量化评估：
-- **透明度**：涉及模型训练机制、参数设计、架构设计的全面理解
-- **问责性**：涉及明确责任归属和错误追溯机制
+- 由于透明度和问责制难以量化评估，未能涵盖所有八个维度
+- 仅评估了六个维度的可信度
 
-这些维度需要定性分析和行业标准，而非简单的量化指标。
+### 12.2 模型覆盖有限
 
-### 12.2 评估范围局限
+- 仅评估了16个LLM，无法覆盖所有可用模型
+- 某些新兴模型可能未被纳入
 
-**模型选择**：
-- 仅评估了16种主流LLM
-- 不断有新的LLM发布，评估需要持续更新
+### 12.3 评估成本与可扩展性
 
-**数据集时效性**：
-- 30+数据集可能无法完全覆盖所有可信度挑战
-- 随着LLM能力提升，新的安全和伦理问题不断涌现
+- 依赖自动化评估可能导致某些细微偏见未被捕捉
+- 人工评估成本高昂，难以大规模实施
 
-### 12.3 评估方法局限
+### 12.4 动态演化
 
-**自动化评估的局限性**：
-- 某些可信度维度需要人类判断
-- 自动化指标可能无法捕捉微妙的偏见或有害内容
+- LLM的能力和可信度特征随时间快速演化
+- 基准可能需要频繁更新以跟上新模型的发展
 
-**红队测试覆盖**：
-- 不可能覆盖所有可能的攻击向量
-- 需要持续的红队测试和对抗性评估
+### 12.5 文化与语言偏见
 
-### 12.4 跨文化与多语言挑战
-
-- 公平性评估可能存在文化偏见
-- 不同文化对安全性、隐私、伦理的理解存在差异
-- 多语言评估资源相对有限
+- 评估数据集可能存在文化和语言偏见
+- 某些文化的可信度概念可能未被充分涵盖
 
 ---
 
@@ -426,139 +464,85 @@ TrustLLM指出，透明度和问责性两个维度难以量化评估：
 
 ### 13.1 内容警告
 
-TrustLLM论文本身包含以下声明：
-> Content Warning: This paper may contain some offensive content generated by LLMs.
+TrustLLM论文明确标注了内容警告：
+> **Content Warning**: This paper may contain some offensive content generated by LLMs.
 
-这是因为论文评估涉及有害内容（如越狱攻击、毒性等），需要展示LLM生成的有害输出示例。
+这是因为论文涉及评估LLM在安全性方面的表现，包括对jailbreak、毒性等有害内容的评估，这些内容可能具有冒犯性。
 
-### 13.2 研究伦理考量
+### 13.2 研究伦理
 
-**数据使用**：
-- 论文使用了大量公开数据集进行评估
-- 遵循各数据集的使用条款和伦理要求
+- 研究旨在提高LLM的可信度和安全性
+- 所有评估均在受控环境中进行
+- 未涉及真实用户数据的收集或滥用
 
-**隐私保护**：
-- 隐私泄露测试使用了Enron Email数据集（公开可用）
-- 研究不针对特定个人，而是评估LLM的普遍隐私行为
+### 13.3 开放贡献
 
-**有益性**：
-- 论文旨在提升LLM的可信度，而非促进有害使用
-- 通过识别LLM的弱点，为开发更安全的LLM提供指导
-
-### 13.3 开放性与协作倡议
-
-TrustLLM倡导建立AI联盟：
-- 产业界、学术界、开源社区以及各实践者之间的协作
-- 促进LLM可信度的发展
-
-**资源开放**：
-- 数据集、代码和工具包已在GitHub开源
-- Leaderboard公开发布，持续更新评估结果
+- 承诺公开数据集、代码和工具包
+- 建立开放的leaderboard促进社区研究
 
 ---
 
 ## 14. 参考文献
 
-由于原文包含大量参考文献（300+篇），以下仅列出关键引用：
+本文引用了大量相关工作，包括：
 
-### 核心LLM与架构
+**LLM基础**：
+- [1-2] GPT系列、BloombergGPT等基础LLM研究
+- [35-37] PaLM等模型的训练数据规模研究
+- [38] GPT-4参数规模估计
+- [39-41] LoRA、量化LoRA、路径系统等训练技术
+- [42-55] RLHF及各种对齐方法
 
-[1] Brown et al. "Language Models are Few-Shot Learners" (GPT-3)
-[2] OpenAI "GPT-4 Technical Report"
-[35] Chowdhery et al. "PaLM: Scaling Language Modeling with Pathways"
-[38] GPT-4参数估计相关
-[39] LoRA相关研究
-[40] 量化LoRA相关研究
-[41] 路径系统相关研究
+**可信度相关**：
+- [56-58] LLM输出不准确性问题
+- [59-60] 虚假信息传播和网络攻击
+- [61] Jailbreaking攻击
+- [62-63] 数据偏见问题
+- [64-65] 隐私问题
 
-### 对齐训练
+**评估基准**：
+- [70-73] 现有可信度评估研究
+- [74] MT-Bench
+- [75] OpenLLM Leaderboard
 
-[42] Ziegler et al. "Fine-tuning language models for human feedback"
-[43] Ouyang et al. "Training language models to follow instructions with human feedback" (InstructGPT/ChatGPT)
-[44-55] 各种对齐训练替代方法
-
-### 可信度相关
-
-[56-58] LLM输出不准确或误导性相关研究
-[59] 虚假信息传播相关
-[60] 网络攻击相关
-[61] 越狱攻击相关（Referenced as "leetspeak attacks"）
-[62-63] 偏见相关研究
-[64-65] 隐私相关研究
-[66] 对齐与人类价值观相关
-
-### 开发者实践
-
-[67] OpenAI可信度措施
-[68] Meta负责任AI
-[69] Llama2安全对齐
-
-### 基准测试
-
-[70-73] 前期可信度评估研究
-[74] MT-Bench
-[75] OpenLLM Leaderboard
-[84] Enron Email Dataset
-[87-89] LLM新兴能力相关
-
-### 模型
-
-[9] Code Llama
-[11] BloombergGPT
-[69] Llama2
-[76] Moderator相关
-[79] ERNIE (百度)
-[81] Oasst-12b
-[82] Vicuna-7b
-
-### 其他关键引用
-
-[90] Encoder-decoder架构
-[91] KM scaling law
-[92] Chinchilla scaling law
-[93] PPO算法
-[94] RAFT
-[95] Conditional Behavior Cloning
-[96] Chain of Hindsight
-[97] Stable Alignment
-[98] LLM评估相关
-[99-113] 各项NLP任务评估
+**开发者实践**：
+- [67] OpenAI的可信度措施
+- [7] WebGPT
+- [68] Meta的负责任AI方法
+- [69] Llama2安全对齐
 
 ---
 
-## 附录：TrustLLM完整论文笔记
+## 附录：关键数据汇总
 
-### 论文核心价值
+### 评估LLM列表
 
-TrustLLM是LLM可信度研究领域的重要里程碑，原因如下：
+| 模型 | 公司/机构 | 类型 |
+|------|----------|------|
+| GPT-4 | OpenAI | 专有 |
+| ChatGPT | OpenAI | 专有 |
+| GPT-3.5 | OpenAI | 专有 |
+| Claude | Anthropic | 专有 |
+| ERNIE | 百度 | 专有 |
+| Llama2-7b/13b/70b | Meta | 开源 |
+| Vicuna-7b/13b | LMSYS | 开源 |
+| Oasst-12b | OpenAssistant | 开源 |
+| MPT-7b | MosaicML | 开源 |
+| Falcon-7b/40b | TII | 开源 |
 
-1. **全面性**：首次对LLM可信度进行8个维度的系统梳理，覆盖了从技术到伦理的完整光谱
+### 评估维度与数据集数量
 
-2. **实证性**：基于16个主流LLM和30+数据集的大规模实证研究，而非纯理论分析
-
-3. **实践指导**：发现的可信度与效用正相关、过度对齐问题等对LLM开发有直接指导意义
-
-4. **开放资源**：GitHub代码、Leaderboard和数据全面开源，促进社区协作
-
-### 关键启示
-
-**对LLM开发者**：
-- 开源模型可以达到专有模型级别的可信度
-- 需要警惕过度对齐问题
-- 透明度是建立信任的关键
-
-**对用户**：
-- 了解LLM的可信度限制
-- 重要应用需多重验证
-- 不应盲目信任LLM输出
-
-**对研究者**：
-- 8维度框架为后续研究提供清晰路线图
-- 透明度和问责性需进一步量化方法
-- 持续评估新模型至关重要
+| 维度 | 子类别数 | 数据集数 |
+|------|:--------:|:--------:|
+| Truthfulness | 4 | ~10 |
+| Safety | 4 | ~8 |
+| Fairness | 3 | ~6 |
+| Robustness | 2 | ~4 |
+| Privacy | 2 | ~3 |
+| Machine Ethics | 3 | ~4 |
 
 ---
 
-*本笔记由LLM Safety论文阅读助手自动生成*
-*论文：TrustLLM (arXiv:2401.05561)*
-*阅读日期：2026-03-30*
+*本文档由 LLM Safety 论文阅读助手自动生成*
+*论文：TrustLLM (arXiv:2401.05561, 2024)*
+*阅读进度：53/80*
