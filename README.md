@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-52%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-53%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | **52 篇 (65%)** |
-| **最后更新** | 2026-04-15 |
+| **已完成** | **53 篇 (66%)** |
+| **最后更新** | 2026-04-16 |
 
 ---
 
@@ -140,9 +140,13 @@ llm-safety-papers/
 │   │   ├── Not-What-Youve-Signed-Up-For.md
 │   │   ├── Sirens-Song.md
 │   │   └── Towards-Mitigating-LLM-Hallucination.md
-│   └── 2022/                          # 2022年论文 (2篇)
-│       ├── Red-Teaming-LMs.md
-│       └── TruthfulQA.md
+│   ├── 2022/                          # 2022年论文 (4篇)
+│   │   ├── Asleep-at-the-Keyboard.md
+│   │   ├── HELM.md
+│   │   ├── Red-Teaming-LMs.md
+│   │   └── TruthfulQA.md
+│   └── 2021/                          # 2021年论文 (1篇)
+│       └── You-Autocomplete-Me.md
 └── .github/                           # GitHub 配置
     └── workflows/                     # 自动化工作流
 ```
@@ -291,6 +295,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-04-16 | 添加论文：You Autocomplete Me - 神经代码补全投毒攻击 (USENIX Security 2021)，更新进度至 53/80 |
 | 2026-04-15 | 添加论文：Asleep at the Keyboard - GitHub Copilot安全评估 (IEEE S&P 2022)，更新进度至 52/80 |
 | 2026-04-14 | 添加论文：HELM - Holistic Evaluation of Language Models，Stanford综合评估框架 (TMLR 2023)，更新进度至 51/80 |
 | 2026-04-08 | 添加论文：COLD-Attack - 可控越狱攻击框架，连接可控攻击生成与可控文本生成 (ICML 2024)，更新进度至 46/80 |
