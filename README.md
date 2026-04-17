@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-53%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-54%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | **53 篇 (66%)** |
-| **最后更新** | 2026-04-16 |
+| **已完成** | **54 篇 (67.5%)** |
+| **最后更新** | 2026-04-17 |
 
 ---
 
@@ -41,7 +41,7 @@
 
 | 类型 | 说明 | 代表论文 |
 |------|------|----------|
-| 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Harnessing Task Overload](./papers/2024/Harnessing-Task-Overload.md), [AutoDAN](./papers/2024/AutoDAN.md), [PAIR](./papers/2024/PAIR.md), [GCG](./papers/2024/GCG.md), [Tree of Attacks](./papers/2024/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/2024/AutoDAN-Turbo.md), [MultiJail](./papers/2024/MultiJail.md), [Crescendo](./papers/2025/Crescendo.md), [ActorBreaker](./papers/2025/ActorBreaker.md), [GPTFuzzer](./papers/2023/GPTFuzzer.md) |
+| 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Harnessing Task Overload](./papers/2024/Harnessing-Task-Overload.md), [AutoDAN](./papers/2024/AutoDAN.md), [PAIR](./papers/2024/PAIR.md), [GCG](./papers/2024/GCG.md), [Tree of Attacks](./papers/2024/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/2024/AutoDAN-Turbo.md), [MultiJail](./papers/2024/MultiJail.md), [Crescendo](./papers/2025/Crescendo.md), [ActorBreaker](./papers/2025/ActorBreaker.md), [Do Anything Now](./papers/2023/Do-Anything-Now.md), [GPTFuzzer](./papers/2023/GPTFuzzer.md) |
 | 🎯 **对抗攻击** | 构造对抗样本欺骗模型 | [GCG](./papers/2024/GCG.md), [AutoDAN](./papers/2024/AutoDAN.md) |
 | 🧠 **提示注入** | 通过提示操控模型行为 | [Under the Influence](./papers/2024/Under-the-Influence.md), [Not What You've Signed Up For](./papers/2023/Not-What-Youve-Signed-Up-For.md), [Formalizing Prompt Injection](./papers/2024/Formalizing-Prompt-Injection.md) |
 | 🎭 **隐蔽攻击** | 难以检测的攻击方式 | [Cold-Attack](./papers/2024/Cold-Attack.md), [Sleeper Agents](./papers/2024/Sleeper-Agents.md) |
@@ -155,7 +155,7 @@ llm-safety-papers/
 
 ## 📚 论文列表
 
-### 越狱攻击（9篇）
+### 越狱攻击（10篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
@@ -168,6 +168,7 @@ llm-safety-papers/
 | 7 | [AutoDAN-Turbo](./papers/2024/AutoDAN-Turbo.md) | arXiv 2024 | 终身学习策略自探索代理 | `终身学习` `策略自探索` `黑盒` |
 | 8 | [Crescendo](./papers/2025/Crescendo.md) | USENIX Security 2025 | 多轮渐进式越狱攻击 | `多轮攻击` `渐进式` `良性输入` |
 | 9 | [ActorBreaker](./papers/2025/ActorBreaker.md) | ACL 2025 | 基于行动者网络的多轮越狱攻击，通过自然分布偏移发现安全漏洞 | `多轮攻击` `行动者网络` `自然分布偏移` |
+| 10 | [Do Anything Now](./papers/2023/Do-Anything-Now.md) | CCS 2024 | 首个野生越狱提示系统性测量研究，揭示8大越狱社区与攻击策略演化 | `野生越狱` `社区检测` `平台迁移` |
 
 ### 防御与安全对齐（5篇）
 
@@ -295,6 +296,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-04-17 | 添加论文：Do Anything Now - 野生越狱提示特征分析与评估 (CCS 2024)，更新进度至 54/80 |
 | 2026-04-16 | 添加论文：You Autocomplete Me - 神经代码补全投毒攻击 (USENIX Security 2021)，更新进度至 53/80 |
 | 2026-04-15 | 添加论文：Asleep at the Keyboard - GitHub Copilot安全评估 (IEEE S&P 2022)，更新进度至 52/80 |
 | 2026-04-14 | 添加论文：HELM - Holistic Evaluation of Language Models，Stanford综合评估框架 (TMLR 2023)，更新进度至 51/80 |
