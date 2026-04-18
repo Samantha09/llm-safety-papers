@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-54%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--04-17-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-55%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--04-18-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -14,7 +14,7 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 7 | [./2026/](./2026/) |
+| 2026 | 8 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
 | 2024 | 28 | [./2024/](./2024/) |
 | 2023 | 10 | [./2023/](./2023/) |
@@ -33,7 +33,7 @@
 | 3 | [HELM: Holistic Evaluation of Language Models](./2022/HELM.md) | TMLR 2023 | 综合评估基准/透明度 |
 | 4 | [Asleep at the Keyboard: Assessing the Security of GitHub Copilot's Code Contributions](./2022/Asleep-at-the-Keyboard.md) | IEEE S&P 2022 | 代码安全/AI编程助手 |
 
-### 2026 年 (7篇)
+### 2026 年 (8篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -44,6 +44,7 @@
 | 5 | [CLIOPATRA: Extracting Private Information from LLM Insights](./2026/CLIOPATRA.md) | arXiv 2026 | 隐私保护/隐私攻击 |
 | 6 | [Proteus: A Practical Framework for Privacy-Preserving Device Logs](./2026/Proteus.md) | CCS 2026 | 隐私保护/移动端安全 |
 | 7 | [Marked Pedagogies: Linguistic Biases in Personalized Automated Writing Feedback](./2026/Marked-Pedagogies.md) | LAK 2026 | 偏见与公平/LLM教育 |
+| 8 | [PIArena: A Platform for Prompt Injection Evaluation](./2026/PIArena.md) | ACL 2026 | 提示注入评估平台 |
 
 ### 2025 年 (4篇)
 
@@ -111,7 +112,7 @@
 |------|:--------:|----------|
 | 🔓 越狱攻击 | 12 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo, Crescendo, ActorBreaker, Do Anything Now, GPTFuzzer, Curiosity-Driven Red-Teaming |
 | 🎯 对抗攻击 | 2 | GCG, AutoDAN |
-| 🧠 提示注入 | 3 | Under the Influence, Not What You've Signed Up For, Formalizing Prompt Injection |
+| 🧠 提示注入 | 4 | PIArena, Under the Influence, Not What You've Signed Up For, Formalizing Prompt Injection |
 | 🎭 隐蔽攻击 | 2 | Cold-Attack, Sleeper Agents |
 | 🚪 后门攻击 | 1 | Sleeper Agents |
 
@@ -185,8 +186,8 @@
 
 ## 📝 维护说明
 
-- **最后更新：2026-04-17
-- **论文总数：54 篇
+- **最后更新：2026-04-18
+- **论文总数：55 篇
 - **完整笔记**：54 篇 (100%)
 - **目录结构**：按发表年份整理
 - **维护者**：AI 助手 + 人工审核
