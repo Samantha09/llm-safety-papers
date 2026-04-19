@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-55%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--04-18-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-56%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--04-20-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -14,7 +14,7 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 8 | [./2026/](./2026/) |
+| 2026 | 9 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
 | 2024 | 28 | [./2024/](./2024/) |
 | 2023 | 10 | [./2023/](./2023/) |
@@ -45,6 +45,7 @@
 | 6 | [Proteus: A Practical Framework for Privacy-Preserving Device Logs](./2026/Proteus.md) | CCS 2026 | 隐私保护/移动端安全 |
 | 7 | [Marked Pedagogies: Linguistic Biases in Personalized Automated Writing Feedback](./2026/Marked-Pedagogies.md) | LAK 2026 | 偏见与公平/LLM教育 |
 | 8 | [PIArena: A Platform for Prompt Injection Evaluation](./2026/PIArena.md) | ACL 2026 | 提示注入评估平台 |
+| 9 | [Route to Rome Attack: Directing LLM Routers to Expensive Models](./2026/Route-to-Rome-Attack.md) | ACL 2026 | 路由器安全/路由攻击 |
 
 ### 2025 年 (4篇)
 
