@@ -46,14 +46,15 @@
 
 ### 4月更新
 
-#### 4月13日 - CCF-A/B 论文收录
+#### 4月20日 - CCF-A/B 论文收录
 
-本周收录 2 篇确定录用的 LLM Safety 论文（2篇CCF-A）：
+本周收录 3 篇确定录用的 LLM Safety 论文（2篇CCF-A，1篇CCF-B）：
 
 | 论文 | 会议 | 等级 | 方向 | 摘要 |
 |------|------|------|------|------|
 | [PIArena: A Platform for Prompt Injection Evaluation](https://arxiv.org/abs/2604.08499) | ACL 2026 | CCF-A | Prompt Injection | 提出 PIArena 统一评测平台，支持 SOTA 攻击/防御集成评估；设计动态策略攻击自适应优化注入提示；揭示多个 SOTA 防御的局限性（任务泛化不足、易受自适应攻击、目标任务对齐时根本脆弱） |
-| [TrajGuard: Streaming Hidden-state Trajectory Detection for Decoding-time Jailbreak Defense](https://arxiv.org/abs/2604.07727) | ACL Findings 2026 | CCF-A | Jailbreak Defense | 发现解码阶段 hidden states 携带比输入更强的风险信号；提出 TrajGuard 框架（训练-free，解码时实时检测）；平均防御率 95%，检测延迟仅 5.2 ms/token，误报率 < 1.5% |
+| [Directing LLM Routers to Expensive Models via Adversarial Suffix Optimization](https://arxiv.org/abs/2604.15022) | ACL 2026 | CCF-A | Router Attack | 提出R²A方法，通过对抗后缀优化误导黑盒LLM路由器选择昂贵模型；部署混合集成代理路由器模拟黑盒路由器；商业和开源路由系统上均显著提升昂贵模型路由率 |
+| [Continual Unlearning in Real Time with Ensured Preservation of LLM Knowledge](https://arxiv.org/abs/2604.14644) | ACL Findings 2026 | CCF-A | Unlearning/Evaluation | 提出CURaTE方法，实现实时持续遗忘并保证LLM知识保留；基于句子嵌入模型判断输入是否对应存储的遗忘请求 |
 
 ---
 
