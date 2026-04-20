@@ -1,8 +1,8 @@
 # LLM Safety Papers Reading Notes
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Papers-80%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-56%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Papers-74%20Total-blue?style=flat-square" alt="Total Papers">
+  <img src="https://img.shields.io/badge/Completed-56%2F74-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -29,8 +29,8 @@
 
 | 指标 | 数值 |
 |------|------|
-| **计划完成** | 80 篇 |
-| **已完成** | **56 篇 (70.00%)** |
+| **计划完成** | 74 篇 |
+| **已完成** | **56 篇 (75.68%)** |
 | **最后更新** | 2026-04-20 |
 
 ---
