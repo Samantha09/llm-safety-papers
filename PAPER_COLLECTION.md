@@ -46,6 +46,20 @@
 
 ### 4月更新
 
+### 4月更新
+
+#### 4月23日 - DoS & 资源耗尽攻击论文收录
+
+本周收录 5 篇 LLM DoS / 资源耗尽攻击论文：
+
+| 论文 | 会议 | 等级 | 方向 | 摘要 |
+|------|------|------|------|------|
+| [ThinkTrap: DoS Attacks against Black-box LLM Services via Infinite Thinking](https://arxiv.org/abs/2512.07086) | NDSS 2026 | CCF-A | DoS Attack / Infinite Loop | 通过对抗prompt使LLM进入无限生成循环，10 RPM即可将服务吞吐压至1%；提出输入空间优化框架，在低维子空间中进行黑盒优化 |
+| [Crabs: Consuming Resource via Auto-generation for LLM-DoS Attack under Black-box Settings](https://arxiv.org/abs/2412.13879) | ACL 2025 Findings | CCF-B | DoS Attack / Auto Generation | 提出AutoDoS自动生成黑盒DoS攻击prompt；发明DoS Attack Tree结构化方法；效果显著且可自动化 |
+| [Rethinking Latency DoS: Attacking the LLM Serving Framework](https://arxiv.org/abs/2602.07878) | arXiv | — | DoS Attack / System Layer | Fill攻击耗尽KV cache造成线头阻塞，Squeeze攻击迫使调度器反复抢占；比现有算法延迟攻击效率高30-40% |
+| [Beyond Max Tokens: Stealthy Resource Amplification via Tool Calling Chains in LLM Agents](https://arxiv.org/abs/2601.10955) | arXiv | — | DoS Attack / Agent/MCP | 针对MCP协议的多轮工具调用链经济DoS攻击；通过Monte Carlo Tree Search优化文本字段，最大化成本且保证任务成功率 |
+| [Resource Consumption Threats in LLMs (Survey)](https://arxiv.org/abs/2603.16068) | arXiv | — | Survey / Resource Security | 系统性综述LLM资源消耗威胁全流程：威胁诱导→机制理解→缓解策略；建立统一框架 |
+
 #### 4月20日 - CCF-A/B 论文收录
 
 本周收录 3 篇确定录用的 LLM Safety 论文（2篇CCF-A，1篇CCF-B）：
@@ -184,6 +198,7 @@
 | Red Teaming | ~8 | 10% |
 | Prompt Injection | ~6 | 8% |
 | Privacy & Security | ~6 | 8% |
+| DoS & Resource Exhaustion | ~5 | 6% |
 
 ---
 
@@ -191,6 +206,7 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-04-23 | 新增5篇DoS/资源耗尽攻击论文（ThinkTrap-NDSS 2026, Crabs-ACL 2025, Latency DoS, Tool Chain DoS, Survey） |
 | 2026-04-13 | 收录2篇CCF-A论文（PIArena - ACL 2026, TrajGuard - ACL Findings 2026） |
 | 2026-04-10 | 阅读完成第47篇论文：HARM - Holistic Automated Red Teaming (EMNLP 2024) |
 | 2026-03-21 | 修正论文：ActorBreaker (v2最新版本) - 更新标题、方法名、代码链接 |
@@ -202,4 +218,4 @@
 ---
 
 *本文档由 Kimi Claw 自动整理维护*  
-*最后更新: 2026-04-13*
+*最后更新: 2026-04-23*
