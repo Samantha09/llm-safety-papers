@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-74%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-57%2F74-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--04-22-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-61%2F74-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--04-26-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -16,7 +16,7 @@
 |:----:|:--------:|------|
 | 2026 | 10 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
-| 2024 | 28 | [./2024/](./2024/) |
+| 2024 | 29 | [./2024/](./2024/) |
 | 2023 | 10 | [./2023/](./2023/) |
 | 2022 | 4 | [./2022/](./2022/) |
 
@@ -87,9 +87,7 @@
 | 23 | [Formalizing and Benchmarking Prompt Injection Attacks and Defenses](./2024/Formalizing-Prompt-Injection.md) | USENIX Security 2024 | 提示注入攻击/形式化框架 |
 | 24 | [Cybench: Evaluating Cybersecurity Capabilities of Language Models](./2024/Cybench.md) | ICLR 2025 | CTF能力评估/网络安全基准 |
 | 25 | [Curiosity-Driven Red-Teaming: Improving Red Team Coverage](./2024/Curiosity-Driven-Red-Teaming.md) | ICLR 2024 | 红队测试/好奇心驱动探索 |
-| 26 | [HaloScope: Harnessing Unlabeled LLM Generations for Hallucination Detection](./2024/HaloScope.md) | NeurIPS 2024 | 幻觉检测/无标注学习 |
-
-### 2023 年 (10篇)
+| 27 | [Against the Achilles' Heel: A Survey on Red Teaming for Generative Models](./2024/Against-the-Achilles-Heel.md) | arXiv 2024 | 红队测试综述 |
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -142,7 +140,7 @@
 | ⚡ 资源攻击 | 1 | Harnessing Task Overload |
 | 🔄 过度拒绝 | 1 | Nothing in Excess |
 | 🔬 漏洞分析 | 1 | Jailbroken |
-| 📚 综述 | 3 | LLM Security and Privacy Survey, Jailbreak Attacks and Defenses Survey, TrustLLM |
+| 📚 综述 | 4 | LLM Security and Privacy Survey, Jailbreak Attacks and Defenses Survey, TrustLLM, Against the Achilles' Heel |
 | 🤖 智能体安全 | 2 | AgentDojo, R-Judge |
 | 🛡️ 风险意识 | 1 | R-Judge |
 | 🔄 终身学习 | 1 | AutoDAN-Turbo |
