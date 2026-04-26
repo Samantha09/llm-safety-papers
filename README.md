@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-74%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-61%2F74-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-62%2F74-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 74 篇 |
-| **已完成** | **61 篇 (82.43%)** |
-| **最后更新** | 2026-04-26 |
+| **已完成** | **62 篇 (83.78%)** |
+| **最后更新** | 2026-04-27 |
 
 ---
 
@@ -72,6 +72,7 @@
 | 🔒 **ESAA-Security** | 事件溯源安全审计框架 | [ESAA-Security](./papers/2026/ESAA-Security.md) |
 | 🔐 **CLIOPATRA** | LLM洞察系统隐私攻击 | [CLIOPATRA](./papers/2026/CLIOPATRA.md) |
 | 🔒 **Proteus** | 隐私保护设备日志框架 | [Proteus](./papers/2026/Proteus.md) |
+| 🔒 **Hidden Secrets** | arXiv 源文件信息泄露分析 | [Hidden Secrets](./papers/2026/Hidden-Secrets-arXiv.md) |
 
 ### 其他重要方向
 
@@ -80,7 +81,7 @@
 | 📚 **综述** | 领域全面回顾 | [Jailbreak Attacks and Defenses Survey](./papers/2024/Jailbreak-Attacks-and-Defenses-Survey.md), [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md), [TrustLLM](./papers/2024/TrustLLM.md), [Siren's Song](./papers/2023/Sirens-Song.md) |
 | 🔬 **漏洞分析** | 模型自我认知漏洞 | [Jailbroken](./papers/2023/Jailbroken.md) |
 | 💻 **代码安全** | CodeLLM安全生成 | [SCS-Code](./papers/2026/SCS-Code.md) |
-| 🔒 **隐私保护** | 移动端日志隐私保护 | [Proteus](./papers/2026/Proteus.md) |
+| 🔒 **隐私保护** | 移动端日志隐私保护 | [Proteus](./papers/2026/Proteus.md), [Hidden Secrets](./papers/2026/Hidden-Secrets-arXiv.md) |
 | 📋 **可验证审计** | 事件溯源AI代码安全审计 | [ESAA-Security](./papers/2026/ESAA-Security.md) |
 | ⚖️ **偏见与公平** | LLM教育反馈中的语言偏见 | [Marked Pedagogies](./papers/2026/Marked-Pedagogies.md) |
 | ✅ **幻觉与真实性** | 模型真实性评估与幻觉检测 | [TruthfulQA](./papers/2022/TruthfulQA.md), [Siren's Song](./papers/2023/Sirens-Song.md), [HaloScope](./papers/2024/HaloScope.md) |
@@ -298,6 +299,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-04-27 | 添加论文：Hidden Secrets in the arXiv - 系统性分析270万份arXiv源文件信息泄露 (IEEE S&P 2026)，更新进度至 62/74 |
 | 2026-04-26 | 添加论文：Against the Achilles' Heel - 生成式模型红队测试综述 (arXiv 2024)，更新进度至 61/74 |
 | 2026-04-26 | 添加论文：Don't Listen To Me - 理解与探索LLM越狱提示词 (USENIX Security 2024)，更新进度至 60/80 |
 | 2026-04-17 | 添加论文：Do Anything Now - 野生越狱提示特征分析与评估 (CCS 2024)，更新进度至 54/80 |
