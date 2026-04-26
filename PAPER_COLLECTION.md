@@ -72,6 +72,23 @@
 
 ---
 
+#### 4月27日 - CCF-A/B 论文收录
+
+本周收录 9 篇确定录用的 LLM Safety CCF-A/B 论文（9篇CCF-A）：
+
+| 论文 | 会议 | 等级 | 方向 | 摘要 |
+|------|------|------|------|------|
+| [Hidden Secrets in the arXiv: Discovering, Analyzing, and Preventing Unintentional Information Disclosure in Source Files](https://arxiv.org/abs/2604.20927) | IEEE S&P 2026 | CCF-A | Privacy/Information Disclosure | 系统性分析arXiv 270万份LaTeX源码中的信息泄露问题：发现近100%提交都包含"隐藏"信息（API密钥、Git历史、内部链接等）；提出ALC-NG工具进行彻底清理 |
+| [Adaptive Instruction Composition for Automated LLM Red-Teaming](https://arxiv.org/abs/2604.21159) | ACL 2026 | CCF-A | Red Teaming / Jailbreak | 提出自适应指令组合框架，通过强化学习平衡探索与利用，在组合空间中引导攻击者生成多样化越狱提示；在Harmbench上超越多种自适应方法 |
+| [Benchmarking Contextual Integrity in Enterprise LLM Agents](https://arxiv.org/abs/2604.21308) | ACL 2026 Industry | CCF-A | Privacy / Agent | 提出CI-Work基准，模拟企业信息流五方向评估LLM Agent隐私泄露；揭示隐私违规率15.8%-50.9%的严峻现实；发现任务效用与隐私泄露存在反向权衡 |
+| [Structured Memory for Long-Horizon Behavior in LLMs](https://arxiv.org/abs/2604.21748) | ACL 2026 | CCF-A | Memory / Agent | 提出StructMem结构化层次记忆框架，保留事件级绑定并诱导跨事件连接；在LoCoMo上提升时序推理和多跳问答性能，同时大幅降低token使用和API调用 |
+| [Revisiting Non-Verbatim Memorization in Large Language Models](https://arxiv.org/abs/2604.21882) | ACL 2026 | CCF-A | Memorization / Privacy | 提出RedirectQA数据集，利用Wikipedia重定向关联Wikidata事实三元组与多样化表面形式；揭示13个LLM的事实记忆既非完全表面特定也非完全表面不变，表面多样性对评估非逐字记忆至关重要 |
+| [Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions](https://arxiv.org/abs/2604.21871) | ACL Findings 2026 | CCF-A | Ethics / Alignment | 研究LLM在关系道德困境中的决策，发现模型决策与道德正确性对齐而非与预测人类行为对齐；揭示LLM决策优先考虑刚性规范性规则而非社交敏感性，可能导致现实部署中的严重偏差 |
+| [From If-Statements to ML Pipelines: Revisiting Bias in Code-Generation](https://arxiv.org/abs/2604.21716) | ACL Findings 2026 | CCF-A | Bias / Code Generation | 揭示现有代码生成偏见评估严重低估实际偏见：87.7%的ML流水线包含敏感属性（vs条件语句的59.2%）；即使模型证明排除了无关特征仍保留敏感属性；传统基准低估部署风险 |
+| [Real-time Risk Event Discovery from Noisy Customer Incidents at Enterprise Scale](https://arxiv.org/abs/2604.21889) | ACL 2026 Industry | CCF-A | LLM Agent / Incident Detection | 提出TingIS企业级事件发现系统，峰值吞吐量2000条/分钟、P90延迟3.5分钟；在真实数据上显著优于基线方法 |
+| [Turning the Adversary's Poison against Itself: Cluster Segregation Concealment for Backdoor Defense](https://arxiv.org/abs/2604.21416) | Computers & Security Journal | CCF-B | Backdoor Defense | 提出CSC后门防御方法，利用投毒样本在潜伏空间早期形成孤立簇的特性，通过DBSCAN聚类识别异常簇并重新标记为虚拟类；在12种投毒攻击上SOTA，将平均攻击成功率降至近零 |
+
+
 ## 📅 2024年
 
 ### Benchmarks
