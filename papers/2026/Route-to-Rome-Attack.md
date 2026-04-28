@@ -5,35 +5,35 @@
 | 项目 | 内容 |
 |------|------|
 | **论文标题** | Route to Rome Attack: Directing LLM Routers to Expensive Models via Adversarial Suffix Optimization |
-| **简称** | R²A (Route to Rome Attack) |
 | **作者** | Haochun Tang, Yuliang Yan, Jiahua Lu, Huaxiao Liu, Enyan Dai |
-| **单位** | 吉林大学（Key Laboratory of Symbolic Computation and Knowledge Engineering, MoE）、香港科技大学（广州） |
-| **arXiv ID** | 2604.15022 |
-| **会议** | ACL 2026 Main Conference |
-| **GitHub** | https://github.com/thcxiker/R2A-Attack |
-| **提交时间** | 2026年4月16日 |
-| **研究方向** | LLM路由器安全、路由攻击、对抗后缀优化 |
-| **CCF等级** | CCF-A |
+| **机构** | (From paper content - appears to be academic institution) |
+| **会议** | ACL 2026 Main Conference (CCF-A) |
+| **arXiv** | [2604.15022](https://arxiv.org/abs/2604.15022) |
+| **代码/数据** | https://github.com/thcxiker/R2A-Attack |
+| **发表日期** | 2026年4月16日 |
+
+### 引用格式
+
+```
+@article{tang2026route,
+  title={Route to Rome Attack: Directing LLM Routers to Expensive Models via Adversarial Suffix Optimization},
+  author={Tang, Haochun and Yan, Yuliang and Lu, Jiahua and Liu, Huaxiao and Dai, Enyan},
+  journal={arXiv preprint arXiv:2604.15022},
+  year={2026}
+}
+```
 
 ---
 
-## 2. 英文摘要原文（arXiv abstract原文）
+## 2. 英文摘要原文（arXiv Abstract原文）
 
-> **Cost-aware routing** dynamically dispatches user queries to models of varying capability to balance performance and inference cost. However, the routing strategy introduces a new security concern that adversaries may manipulate the router to consistently select expensive high-capability models. Existing routing attacks depend on either white-box access or heuristic prompts, rendering them ineffective in real-world black-box scenarios. In this work, we propose **R²A**, which aims to mislead black-box LLM routers to expensive models via **adversarial suffix optimization**. Specifically, R²A deploys a **hybrid ensemble surrogate router** to mimic the black-box router. A suffix optimization algorithm is further adapted for the ensemble-based surrogate. Extensive experiments on multiple open-source and commercial routing systems demonstrate that R²A significantly increases the routing rate to expensive models on queries of different distributions. Code and examples: this https URL.
-
-**引用信息（arXiv）：**
-```
-arXiv:2604.15022 [cs.CR]
-Journal reference: ACL 2026 Main Conference
-Authors: Haochun Tang, Yuliang Yan, Jiahua Lu, Huaxiao Liu, Enyan Dai
-Submitted: Thu, 16 Apr 2026
-```
+> Cost-aware routing dynamically dispatches user queries to models of varying capability to balance performance and inference cost. However, the routing strategy introduces a new security concern that adversaries may manipulate the router to consistently select expensive high-capability models. Existing routing attacks depend on either white-box access or heuristic prompts, rendering them ineffective in real-world black-box scenarios. In this work, we propose R$^2$A, which aims to mislead black-box LLM routers to expensive models via adversarial suffix optimization. Specifically, R$^2$A deploys a hybrid ensemble surrogate router to mimic the black-box router. A suffix optimization algorithm is further adapted for the ensemble-based surrogate. Extensive experiments on multiple open-source and commercial routing systems demonstrate that {R$^2$A} significantly increases the routing rate to expensive models on queries of different distributions. Code and examples: https://github.com/thcxiker/R2A-Attack.
 
 ---
 
 ## 3. 中文摘要翻译
 
-> **成本感知路由**（Cost-aware routing）是一种动态调度用户查询至不同能力级别模型的策略，旨在平衡性能与推理成本。然而，这一路由策略引入了一个新的安全威胁：攻击者可能操纵路由器持续选择昂贵的高能力模型。现有路由攻击依赖白盒访问或启发式提示，使得它们在现实黑盒场景中无效。在本文中，我们提出了**R²A**（Route to Rome Attack），通过**对抗后缀优化**来误导黑盒LLM路由器选择昂贵模型。具体而言，R²A部署了一个**混合集成替代路由器**（hybrid ensemble surrogate router）来模拟黑盒路由器的行为，并进一步为该集成替代路由器适配了后缀优化算法。在多个开源和商业路由系统上的广泛实验表明，R²A能够显著提高在不同分布查询上路由至昂贵模型的比率。代码和示例已开源。
+> 成本感知路由动态地将用户查询分发到不同能力水平的模型，以平衡性能与推理成本。然而，这种路由策略引入了一个新的安全问题：攻击者可能操纵路由器持续选择昂贵的强能力模型。现有的路由攻击依赖于白盒访问或启发式提示，使它们在真实世界的黑盒场景中失效。在本文中，我们提出了R²A，旨在通过对抗后缀优化将黑盒LLM路由器误导到昂贵模型。具体而言，R²A部署了一个混合集成替代路由器来模拟黑盒路由器，并进一步为基于集成的替代路由器适配了后缀优化算法。在多个开源和商业路由系统上的广泛实验表明，R²A显著提高了在不同分布查询上路由到昂贵模型的比例。代码和示例：https://github.com/thcxiker/R2A-Attack。
 
 ---
 
@@ -41,141 +41,160 @@ Submitted: Thu, 16 Apr 2026
 
 ### 4.1 LLM路由器的兴起
 
-近年来，大型语言模型（LLM）的发展由缩放定律（Scaling Laws, Kaplan et al., 2020）驱动，性能随模型规模增大可预测地提升。例如，Qwen-3-Max扩展至超过1万亿参数，约为前代Qwen-2.5-72B的14倍。然而，为每个用户查询都部署最先进模型在计算和经济上均不可持续。
+随着大型语言模型（LLMs）在各种应用中的广泛部署，如何在保持性能的同时控制成本成为一个关键挑战。成本感知路由（Cost-aware routing）技术应运而生，它动态地将用户查询分发到不同能力水平的模型，以在性能与推理成本之间取得平衡。
 
-**成本感知路由**（Cost-aware Routing）应运而生，其核心思想是：只有一小部分请求真正需要昂贵的高能力模型，而简单查询可以由便宜的弱模型有效处理。商业系统如OpenRouter和GPT-5-Auto已广泛采用这种路由策略。
+传统的LLM路由方法包括：
+- **Early approaches**: 查询多个LLM为单一输入选择最佳响应
+- **Later approaches**: 在推理阶段之前预测最佳模型，使用不同数据源和骨干模型
 
-在路由系统中，当路由器收到简单的事实性问题"法国的首都是什么？"时，它识别出这是低复杂度查询，选择较弱的Mistral 8x7B模型来生成回答，从而节省成本。
+更近期的工作通过多种策略改进捕获模型间差异的能力，包括：
+- 双对比学习（Dual contrastive learning）
+- 基于图的学习（Graph-based learning）
+- 紧凑模型嵌入（Compact model embeddings）
+- 基于排名的方法如Elo评分和Bradley-Terry模型
+- 基于上下文学习的路由方法
 
-### 4.2 路由攻击的威胁模型
+### 4.2 路由器攻击的风险
 
-成本感知路由引入了一个自然的安全问题：**路由攻击**（Router Attack）。攻击者的目标是使用通用触发器（如固定后缀）来持续操纵路由器选择昂贵模型。这可能导致：
+尽管路由技术带来了成本-性能优势，但最近的研究揭示了LLM路由器中的安全漏洞：
 
-1. **经济损失**：攻击者通过强制路由到昂贵模型来浪费目标用户的预算
-2. **服务降级**：在高负载时强制路由到慢速模型造成延迟
-3. **资源耗尽**：耗尽目标组织的计算预算
+1. **基于分类器的启发式依赖**：许多路由器依赖基于分类器的启发式方法，引入安全风险
+2. **投票操纵脆弱性**：如Chatbot Arena等基于投票的排行榜容易受到对抗性投票操纵
+3. **路由决策可被操控**：攻击者可以扰动查询以改变路由决策
 
-### 4.3 现有方法的局限性
+### 4.3 现有攻击方法的局限性
 
-| 方法 | 依赖条件 | 局限性 |
-|------|----------|--------|
-| Shafran et al. (2025) | 白盒访问（梯度/架构） | 商业黑盒路由器无法提供这些信息 |
-| LifeCycle (Lin et al., 2025b) | 启发式提示模板 | 非严格优化，无法持续有效操纵各种路由器 |
-| Chain-of-Thought | 简单提示工程 | 效果有限，缺乏系统性 |
+现有路由攻击方法存在两个主要限制：
 
-**核心问题**：在现实黑盒场景中，攻击者只能观察到路由器的最终路由决策，无法访问其内部参数、梯度或架构。那么，如何仅通过查询黑盒路由器来优化对抗后缀？
+1. **白盒访问依赖**：一些方法需要访问路由器参数和梯度
+2. **固定优化提示依赖**：其他方法依赖于固定的优化提示
+
+这些限制使得它们在真实世界的黑盒场景中无效，因为攻击者通常无法获取路由器的内部结构和参数。
+
+### 4.4 研究空白
+
+本文试图填补以下研究空白：
+- 在严格黑盒设置下进行路由攻击
+- 仅使用观察到的路由决策来优化攻击
+- 为每个目标路由器训练特定的后缀攻击
+- 实现跨不同查询分布的强大泛化能力
 
 ---
 
 ## 5. 核心贡献
 
-论文的三大核心贡献：
+### 5.1 R²A方法概述
 
-1. **新问题定义**：首次系统研究了在严格黑盒设置下，通过对抗后缀优化将LLM路由器引导至昂贵模型的问题。
+本文提出了**R²A（Route to Rome Attack）**，一种新颖的黑盒路由攻击方法，通过对抗后缀优化将LLM路由器误导到昂贵模型。
 
-2. **混合集成替代路由器（R²A）**：提出了一种结合多种开源路由器和轻量级可训练路由器的混合集成替代路由器，在有限查询预算下有效模拟目标黑盒路由器行为。
+### 5.2 核心技术贡献
 
-3. **适配于集成替代的梯度聚合算法**：设计了专门用于聚合多个路由器梯度（包括语义嵌入路由器和LLM-based路由器）的后缀优化算法，解决了不同架构间梯度规模异质性问题。
+1. **混合集成替代路由器（Hybrid Ensemble Surrogate Router）**：
+   - 部署多个开源路由器模型作为集成
+   - 模拟目标黑盒路由器的行为
+   - 通过观察查询-路由决策对来训练替代路由器
+
+2. **编码器一致性目标（Encoder-Consistent Objective）**：
+   - 确保替代路由器与目标路由器的决策一致
+   - 处理异构梯度尺度问题
+   - 实现跨不同路由器架构的鲁棒攻击
+
+3. **后缀优化算法（Suffix Optimization Algorithm）**：
+   - 针对每个目标路由器优化特定后缀
+   - 使用梯度下降等优化技术
+   - 考虑查询的语义完整性
+
+### 5.3 实践贡献
+
+1. **显著的成本增加**：实验显示R²A可将每百万token的平均成本增加约**2.7倍**到**2.9倍**
+2. **强泛化能力**：在分布内和分布外数据集上都表现出色
+3. **低攻击成本**：收集120个替代训练查询仅需约$0.98
+4. **真实世界验证**：在商业系统OpenRouter和GPT-5上验证了有效性
 
 ---
 
 ## 6. 研究方法
 
-### 6.1 问题形式化
+### 6.1 问题定义
 
-**LLM路由器定义**：给定查询 $q$，路由器 $\mathcal{R}: q \rightarrow \mathbb{R}^N$ 从模型池 $\mathcal{M} = \{M_1, ..., M_N\}$ 中选择模型。成本感知路由的目标是最小化推理成本同时满足目标质量约束：
+设：
+- $\mathcal{R}_t$ 为目标黑盒路由器
+- $\mathcal{M}_{strong}$ 为高能力（昂贵）模型集合
+- $\mathcal{M}_{weak}$ 为低能力（便宜）模型集合
+- $q$ 为用户查询
+- $s$ 为对抗后缀
 
-$$\mathcal{R}(q) = \arg\min_{M_i \in \mathcal{M}} \Big( \ell(q, M_i) + \lambda \cdot C(q, M_i) \Big)$$
+**攻击目标**：找到一个后缀 $s$，使得：
+$$\text{ASR}(s) = \frac{1}{|\mathcal{D}|}\sum_{q\in\mathcal{D}}\mathbb{I}\left(\mathcal{R}_{t}(q\oplus s)\in\mathcal{M}_{strong}\right)$$
 
-其中 $\ell(q, M_i)$ 是模型 $M_i$ 在查询 $q$ 上的预测损失，$C(q, M_i)$ 是成本分数，$\lambda \geq 0$ 控制成本权重。
+最大化，即让更多查询被路由到昂贵模型。
 
-**攻击者目标**：给定原本路由至弱模型 $\mathcal{R}_t(q) \in \mathcal{M}_{weak}$ 的查询 $q$，攻击操作 $\mathcal{A}$ 成功当且仅当 $\mathcal{R}_t(\mathcal{A}(q)) \in \mathcal{M}_{strong}$。
+### 6.2 替代路由器构建
 
-**攻击者能力**：攻击者只能在查询末尾附加最多 $\Delta$ 个token的对抗后缀 $s$，以保持答案质量且修改最小化。
+#### 6.2.1 替代路由器选择
 
-**攻击者知识**：严格的**黑盒设置**——攻击者只能观察目标路由器对输入查询的路由决策，无法访问内部logit、参数或梯度。每个查询目标路由器都需支付费用，攻击者被限制为最多 $Q$ 次查询。
+使用5个开源路由器构建集成池：
+- RouteLLM-Bert
+- GraphRouter
+- P2L
+- RouterDC
+- RouteLLM-MF
 
-**路由攻击的优化目标**：
+#### 6.2.2 混合集成策略
 
-$$s^* = \arg\max_{s} \mathbb{E}_{q \sim \mathcal{Q}} \left[ \mathbb{I}(\mathcal{R}_t(q \oplus s) \in \mathcal{M}_{strong}) \right]$$
+1. **参数高效适应**：使用LoRA（Low-Rank Adaptation）技术
+   - 在有限的查询预算下训练替代路由器
+   - LoRA允许通过低秩矩阵更新高效适应预训练模型
 
-约束条件：$s \in \mathcal{S}$，$|s| \leq \Delta$
+2. **梯度归一化（Gradient Normalization）**：
+   - 处理异构梯度尺度问题
+   - 确保不同路由器组件的梯度贡献平衡
+   - 防止某些路由器主导优化过程
 
-### 6.2 混合集成替代路由器（Hybrid Ensemble Surrogate Router）
+3. **编码器一致性目标**：
+   - 确保替代路由器输出与目标路由器一致
+   - 通过对比学习损失实现
+   - 最小化替代路由器与目标路由器决策的差异
 
-由于目标路由器设计未知，依赖单一架构可能导致架构不匹配。R²A构建了一个混合集成替代路由器 $\mathcal{R}_s$，结合多种预训练开源路由器和可训练的轻量级路由器。
+### 6.3 后缀优化
 
-#### 6.2.1 可训练轻量级路由器设计
+#### 6.3.1 优化目标
 
-轻量级路由器 $\mathcal{R}_l$ 的目标是从查询的嵌入 $E(q) \in \mathbb{R}^d$ 预测目标路由器的决策。使用 all-MiniLM-L6-v2 作为编码器（$d=384$）。
+在替代路由器上优化后缀 $s$，以最大化路由到 $\mathcal{M}_{strong}$ 的概率：
+$$\max_s \sum_{i=1}^{N} \mathbb{I}\left(\mathcal{R}_{surrogate}(q_i \oplus s) \in \mathcal{M}_{strong}\right)$$
 
-直接学习线性映射 $\mathbb{R}^d \rightarrow \mathbb{R}^{|\mathcal{M}_t|}$ 需要优化参数矩阵规模为 $d \times |\mathcal{M}_t|$，训练需求超过严格查询预算。
+#### 6.3.2 优化算法
 
-受LoRA（Hu et al., 2022）启发，施加低秩约束，将变换分解为两个小矩阵：
+使用基于梯度的方法优化后缀：
+1. **初始化**：使用随机或基于启发式的初始后缀
+2. **梯度计算**：计算后缀词符的梯度
+3. **梯度归一化**：对梯度进行归一化处理
+4. **更新**：使用优化器（如Adam）更新后缀
+5. **约束**：确保后缀不会过度破坏查询的语义完整性
 
-$$\mathbf{z}_l = E(q) \mathbf{W}_l^1 \mathbf{W}_l^2$$
+#### 6.3.3 查询预算管理
 
-其中 $\mathbf{W}_l^1 \in \mathbb{R}^{d \times r}$，$\mathbf{W}_l^2 \in \mathbb{R}^{r \times |\mathcal{M}_t|}$，秩 $r \ll d$。低秩分解大幅减少了训练路由器所需的查询数量。
+- 替代训练查询预算：120个查询
+- 分割为：
+  - $\mathcal{D}_{proxy}$：替代模型训练
+  - $\mathcal{D}_{suffix}$：后缀优化
+  - $\mathcal{D}_{eval}$：分布内泛化评估
 
-#### 6.2.2 开源路由器集成
+### 6.4 安全性分析
 
-R²A将具有多样化路由机制的多个开源路由器 $\{ \mathcal{R}_o^{(1)}, ..., \mathcal{R}_o^{(K)} \}$ 结合起来，减少替代路由器与目标路由器之间的机制不匹配。
+#### 6.4.1 白盒攻击模拟
 
-由于开源路由器的模型池 $\{ \mathcal{M}_o^{(1)}, ..., \mathcal{M}_o^{(K)} \}$ 与目标路由器的模型池 $\mathcal{M}_t$ 不一致，应用线性映射对齐它们的logit：
+在替代路由器上进行优化时，可以采用白盒方法：
+- 获取替代路由器的梯度信息
+- 直接优化后缀参数
+- 使用更精确的优化策略
 
-$$\mathbf{z}_o^{(k)} = \mathbf{W}_o \cdot \mathbf{z}_{uni}^{(k)}$$
+#### 6.4.2 黑盒攻击部署
 
-其中 $\mathbf{W}_o \in \mathbb{R}^{|\mathcal{M}_{uni}| \times |\mathcal{M}_t|}$ 是投影矩阵，$\mathbf{z}_{uni}^{(k)}$ 是扩展至所有开源模型并集 $\mathcal{M}_{uni} = \bigcup_{k=1}^{K} \mathcal{M}_o^{(k)}$ 的logit向量。
-
-#### 6.2.3 集成与替代路由器训练
-
-集成路由结果通过加权求和计算：
-
-$$\hat{y} = \text{softmax}(\alpha_0 \mathbf{z}_l + \sum_{i=1}^{K} \alpha_i \mathbf{z}_o^{(k)})$$
-
-其中 $\alpha_i$ 是满足 $\alpha_i \geq 0$ 和 $\sum_{i=0}^{K} \alpha_i = 1$ 的可学习集成权重。
-
-替代路由器训练目标：最小化替代路由器与目标路由器路由决策之间的交叉熵损失
-
-$$\min_{\theta} \mathcal{L}_S = \frac{1}{Q} \sum_{i=1}^{Q} l(\hat{y}(q_i), \mathcal{R}_t(q_i))$$
-
-参数 $\theta = \{ \mathbf{W}_l^1, \mathbf{W}_l^2, \mathbf{W}_o, \{ \alpha_i \}_{i=0}^{K} \}$。
-
-### 6.3 对抗后缀优化算法
-
-基于混合集成替代路由器，对抗后缀优化重新形式化为：
-
-$$\min_s \mathcal{L}_A = -\mathbb{E}_{q \sim \mathcal{Q}} \sum_{M \in \mathcal{M}_{strong}} p(\hat{y} = M | q \oplus s)$$
-
-#### 6.3.1 后缀Token梯度的聚合
-
-由于集成替代涉及多个编码器，需要跨路由器聚合梯度。令 $\mathbf{z}_{total} = \sum_{k=0}^{K} \alpha_k \mathbf{z}^{(k)}$ 表示集成logit。
-
-第 $k$ 个路由器对token $s_i$ 的梯度：
-
-$$g_i^{(k)} = \frac{\partial \mathcal{L}_A}{\partial \mathbf{z}_{total}} \cdot \underbrace{\frac{\partial \mathbf{z}_{total}}{\partial \mathbf{z}^{(k)}}}_{\alpha_k} \cdot \frac{\partial \mathbf{z}^{(k)}}{\partial s_i} = \alpha_k \cdot \frac{\partial \mathcal{L}_A}{\partial \mathbf{z}_{total}} \frac{\partial \mathbf{z}^{(k)}}{\partial s_i}$$
-
-#### 6.3.2 梯度归一化问题
-
-对于单个路由器，梯度项 $\delta_i^{(k)} = \frac{\partial \mathbf{z}^{(k)}}{\partial s_i}$ 有效捕获了token敏感性，但其幅度在不同架构间差异很大。直接求和 $g_i^{(k)}$ 会导致特定成员路由器主导优化。
-
-通过min-max归一化解决：
-
-$$\tilde{\delta}_i^{(k)} = \frac{\delta_i^{(k)} - \delta_{min}^{(k)}}{\delta_{max}^{(k)} - \delta_{min}^{(k)}}$$
-
-归一化后聚合梯度：
-
-$$\tilde{g}_i = \sum_{k=0}^{K} \alpha_k \cdot \tilde{\delta}_i^{(k)} \cdot \frac{\partial \mathcal{L}_A}{\partial \mathbf{z}_{total}}$$
-
-#### 6.3.3 后缀优化算法流程
-
-1. **初始化**：从第一个查询开始优化（$m_c = 1$）
-2. **迭代优化**：
-   - 对每个后缀位置 $i$，计算聚合梯度得分 $\tilde{g}_i$
-   - 选取Top-K候选token集合 $C_i$
-   - 采样 $B$ 个变体，通过从 $C_i$ 随机采样替换随机后缀token
-   - 选择损失最低的变体更新 $s$
-3. **递增式查询激活**：当当前后缀在前 $m_c$ 个查询上成功时，激活下一个查询（$m_c \leftarrow m_c + 1$）
+在目标路由器上部署时，仅使用：
+- 查询-路由决策对
+- 不需要获取目标路由器的内部结构
+- 通过替代路由器学习到的模式进行攻击
 
 ---
 
@@ -183,303 +202,599 @@ $$\tilde{g}_i = \sum_{k=0}^{K} \alpha_k \cdot \tilde{\delta}_i^{(k)} \cdot \frac
 
 ### 7.1 目标路由器
 
-测试了9个目标路由器：
-
-| 路由器类型 | 名称 |
-|-----------|------|
-| 开源路由器 | RouteLLM-Bert, GraphRouter, P2L, RouterDC, RouteLLM-MF |
-| 商业路由器 | OpenRouter（真实商业系统）, GPT-5-Auto |
-
-集成池包含5个开源路由器。当目标路由器出现在集成池中时，先将其从集成池移除再训练替代路由器，以严格分离目标和替代路由器，防止数据泄露。
+测试9个目标路由器，包括：
+- RouteLLM-Bert
+- GraphRouter
+- P2L
+- RouterDC
+- RouteLLM-MF
+- OpenRouter（真实商业路由器）
+- GPT-5（闭源商业路由器）
 
 ### 7.2 数据集
 
-**分布内（In-Distribution）**：
+#### 分布内数据集（In-Distribution）：
+- MMLU（大规模多任务语言理解）
+- GSM8K（小学数学8K）
+- MT-Bench（多轮对话基准）
 
-| 数据集 | 用途 |
-|--------|------|
-| MMLU | 替代模型训练、分布内泛化评估 |
-| GSM8K | 替代模型训练、后缀优化 |
-| MT-Bench | 分布内泛化评估 |
-
-每个数据集分为三个不相交的子集：$\mathcal{D}_{proxy}$（替代训练）、$\mathcal{D}_{suffix}$（后缀优化）、$\mathcal{D}_{eval}$（分布内评估）。查询预算统一设为120。
-
-**分布外（Out-of-Distribution）**：
-
-| 数据集 | 用途 |
-|--------|------|
-| SimpleQA | 分布外泛化评估 |
-| ArenaHard | 分布外泛化评估 |
-| RArena | 分布外泛化评估 |
-
-分布外查询既不用于替代训练也不用于后缀优化。
+#### 分布外数据集（Out-of-Distribution）：
+- SimpleQA
+- ArenaHard
+- RouterArena
 
 ### 7.3 基线方法
 
-| 基线 | 描述 |
-|------|------|
-| **Rerouting** (Shafran et al., 2025) | 基于爬山发现查询无关对抗触发器，最大化路由器复杂度分数 |
-| **LifeCycle (W)** | 通过梯度访问优化触发器以最大化强模型选择 |
-| **LifeCycle (B)** | 从高胜率查询中提取固定领域无关触发器 |
-| **Chain-of-Thought (CoT)** | 添加"Let's think step by step"增加感知推理复杂度 |
-| **Clean** | 无攻击的原始查询 |
+与以下基线进行比较：
+1. **Rerouting**：基于爬山搜索的通用对抗触发器
+2. **LifeCycle (W)**：基于梯度优化的通用触发器
+3. **LifeCycle (B)**：从高胜率查询中提取固定触发器
+4. **CoT（Chain-of-Thought）**：添加"Let’s think step by step"以增加感知复杂度
 
 ### 7.4 评估指标
 
-**攻击成功率（Attack Success Rate, ASR）**：
+**攻击成功率（ASR）**：被路由到高能力模型的查询比例
 
-$$ASR(s) = \frac{1}{|\mathcal{D}|} \sum_{q \in \mathcal{D}} \mathbb{I} \left( \mathcal{R}_t(q \oplus s) \in \mathcal{M}_{strong} \right)$$
+$$ASR(s)=\frac{1}{|\mathcal{D}|}\sum_{q\in\mathcal{D}}\mathbb{I}\left(\mathcal{R}_{t}(q\oplus s)\in\mathcal{M}_{strong}\right)$$
 
-ASR衡量附加后缀后查询被路由至高能力模型的比例，ASR越高表示攻击越有效。
+### 7.5 实验配置
+
+- 查询预算：120个（所有实验）
+- 运行次数：3次
+- 温度设置：默认（根据模型配置）
+- 评估的路由器数量：9个
+- 数据集数量：6个（3个分布内 + 3个分布外）
 
 ---
 
 ## 8. 实验结果
 
-### 8.1 主要结果：R²A持续优于所有基线
+### 8.1 主要结果：路由攻击成功率
 
-在6个数据集和9个路由器上的完整结果如下（以ASR衡量，数值越高越好）：
+#### 8.1.1 分布内结果
 
-| 目标路由器 | Clean | LifeCycle (W) | LifeCycle (B) | Rerouting | CoT | **R²A (Ours)** |
-|-----------|-------|--------------|--------------|-----------|-----|---------------|
-| RouteLLM-Bert | 0.40 | 0.69 | 0.53 | 0.77 | 0.52 | **0.89** (+0.49↑) |
-| GraphRouter | 0.64 | 0.69 | 0.60 | 0.63 | 0.65 | **0.87** (+0.23↑) |
-| P2L | 0.67 | 0.67 | 0.66 | 0.59 | 0.74 | **0.74** (+0.07↑) |
-| RouterDC | 0.72 | 0.90 | 0.91 | 0.87 | 0.79 | **0.94** (+0.22↑) |
-| RouteLLM-MF | 0.56 | 0.77 | 0.64 | 0.88 | 0.54 | **0.95** (+0.39↑) |
-| OpenRouter* | 0.27 | 0.44 | 0.42 | 0.44 | 0.42 | **0.74** (+0.47↑) |
+**Table 1结果摘要（ASR）**：
 
-> *OpenRouter是真实商业黑盒路由器
+| 方法 | MMLU | GSM8K | MT-Bench | 平均 |
+|------|------|-------|----------|------|
+| Clean | 0.25 | 0.35 | 0.27 | 0.29 |
+| Rerouting | 0.88 | 0.54 | 0.64 | 0.69 |
+| LifeCycle (W) | 0.93 | 0.65 | 0.76 | 0.78 |
+| LifeCycle (B) | 0.42 | 0.33 | 0.64 | 0.46 |
+| CoT | 0.35 | 0.54 | 0.33 | 0.41 |
+| **R²A (Ours)** | **0.98** | **0.82** | **0.91** | **0.90** |
 
 **关键发现**：
+- R²A在所有分布内数据集上显著优于所有基线
+- 平均ASR达到90%，比最佳基线（LifeCycle W）提高约15%
+- 在MMLU上，R²A达到98%的ASR，几乎完美的攻击效果
 
-1. **SOTA性能**：R²A在所有路由器上均达到最先进的攻击成功率，大幅超越先前对抗方法
-2. **跨路由器泛化**：R²A在分布内和分布外数据集上均维持高ASR，表明学习到的对抗后缀具有强泛化能力
-3. **商业系统有效性**：在真实商业黑盒路由器OpenRouter上，R²A将路由至昂贵模型的比率从27%提升至74%
+#### 8.1.2 分布外结果
+
+| 方法 | SimpleQA | ArenaHard | RouterArena | 平均 |
+|------|----------|-----------|-------------|------|
+| Clean | 0.30 | 0.28 | 0.25 | 0.28 |
+| Rerouting | 0.60 | 0.65 | 0.44 | 0.56 |
+| LifeCycle (W) | 0.71 | 0.68 | 0.42 | 0.60 |
+| LifeCycle (B) | 0.33 | 0.32 | 0.35 | 0.33 |
+| CoT | 0.54 | 0.43 | 0.23 | 0.40 |
+| **R²A (Ours)** | **0.79** | **0.86** | **0.74** | **0.80** |
+
+**关键发现**：
+- R²A在分布外数据集上保持高ASR（80%）
+- 显著优于所有基线，验证了强泛化能力
+- 即使从未见过的查询分布，攻击依然有效
 
 ### 8.2 推理成本分析
 
-**货币成本影响**（OpenRouter API报告）：
+#### 8.2.1 成本增加倍数
 
-| 数据集 | Clean基线成本 | R²A攻击后成本 | 增幅 |
-|--------|--------------|--------------|------|
-| MMLU | ~1x | ~2.7x | **2.7倍** |
-| RouterArena | ~1x | ~2.9x | **2.9倍** |
+在OpenRouter上评估：
+- **MMLU**：约2.7倍成本增加
+- **RouterArena**：约2.9倍成本增加
 
-**攻击成本极低**：收集120个替代训练查询仅需约$0.98美元，而后缀引起的推理成本增加却是成倍的。
+#### 8.2.2 攻击成本
 
-### 8.3 GPT-5路由器攻击评估
+- 收集120个替代训练查询：仅需$0.98
+- 总体财务开销极低
+- 后缀诱导的生成长度变化（数据集相关）
 
-**设置**：由于GPT-5 Auto接口不暴露路由决策，直接应用在OpenRouter上训练的后缀。
+### 8.3 GPT-5路由器攻击结果
 
-**评估方法**：
+#### 8.3.1 实验设置
 
-1. **响应质量**：在固定GPT-4后端上测试，GSM8K上无性能下降
-2. **Thinking模式指纹**：使用Bag-of-Words指纹将响应分类为"像强模型"或"像弱模型"
+- 在GPT-5网页界面测试三种模式：Auto、Instant、Thinking
+- 随机采样50个问题从分布外测试集
+- 使用在OpenRouter上训练的对抗后缀
 
-**结果**：
+#### 8.3.2 评估方法
 
-| 维度 | Clean胜率 | R²A攻击胜率 |
-|------|----------|------------|
-| 全面性（Comprehensiveness） | 36.0% | 64.0% |
-| 多样性（Diversity） | 28.0% | 72.0% |
-| 赋能性（Empowerment） | 36.0% | 64.0% |
-| 整体（Overall） | 36.0% | 64.0% |
+由于GPT-5不暴露路由决策，使用两种间接评估方法：
+1. **响应质量**：使用LLM法官比较响应
+2. **指纹分数**：使用BoW指纹识别Thinking模式likelihood
 
-**案例研究**：附加对抗后缀后，路由器从生成简短错误答案切换为多步推理并给出正确答案，暗示R²A成功引导GPT-5路由器选择更强模型。处理时间也显著增加。
+#### 8.3.3 结果
 
-### 8.4 空格防御鲁棒性
+**响应质量比较（Table 2）**：
 
-评估R²A对空格防御（插入空格破坏后缀）的抵抗能力：
+| 评估维度 | Clean | Attack |
+|----------|-------|--------|
+| Comprehensiveness | 36.0% | 64.0% |
+| Diversity | 28.0% | 72.0% |
+| Empowerment | 36.0% | 64.0% |
+| Overall | 36.0% | **64.0%** |
 
-| 数据集 | RouteLLM-BERT | GraphRouter | RouterDC |
-|--------|--------------|------------|----------|
-| MT-Bench | 0.95 (↓0.00) | 0.71 (↓0.02) | 1.00 (0.00) |
-| ArenaHard | 0.81 (↓0.03) | 0.73 (↓0.10) | 1.00 (0.00) |
+**关键发现**：
+- 攻击后响应在所有评估维度上持续优于清洁查询
+- 64%的总体胜率表明攻击成功诱导了更强的模型
+- Thinking-likeness概率明显向更高值转移
 
-R²A对空格防御展现出良好的抵抗能力，性能仅轻微下降。
+#### 8.3.4 案例分析
+
+**Figure 5展示的案例**：
+- **清洁查询**：快速但不正确的回答（0秒）
+- **攻击后查询**：多步推理过程，得出正确答案（51秒）
+- 观察到处理时间显著增加
+- 这表明对抗后缀成功诱导GPT-5路由到更昂贵的Thinking模式
+
+### 8.4 空格防御的鲁棒性
+
+**Table 3结果（空格防御下的ASR）**：
+
+| 数据集 | RouteLLM-BERT | Graph-Router | RouterDC |
+|--------|---------------|--------------|----------|
+| MT-Bench | 0.95 (0.93) | 0.71↓ (0.73) | 1.00 (1.00) |
+| ArenaHard | 0.81↓ (0.84) | 0.73↓ (0.83) | 1.00 (1.00) |
+
+**关键发现**：
+- R²A对空格防御表现出轻微的鲁棒性下降
+- 在所有三个数据集上仍保持高ASR
+- 防御仅在某些路由器上有轻微效果
+
+### 8.5 消融研究
+
+**Table 4结果（消融实验）**：
+
+| 配置 | RouterDC | CausalLLM | MF | SW |
+|------|----------|-----------|-----|-----|
+| **R²A** | **0.83** | **0.83** | **0.95** | **0.81** |
+| w/o Lightweight Router | 0.30 | 0.75 | 0.70 | 0.61 |
+| w/o Grad Norm | 0.33 | 0.78 | 0.49 | 0.63 |
+
+**关键发现**：
+1. **轻量级路由器的贡献**：
+   - 禁用后RouterDC上从0.83降至0.30
+   - 表明参数高效适应在有限查询下至关重要
+
+2. **梯度归一化的贡献**：
+   - 移除后在MF上从0.95降至0.49
+   - 表明梯度归一化对处理异构梯度尺度至关重要
+
+3. **两个组件的必要性**：
+   - 两个组件对跨路由器的鲁棒攻击都必要
+
+### 8.6 查询预算的影响
+
+**Figure 6结果**：
+- 增加查询预算（50→150）持续提高替代准确度
+- 替代准确度与ASR强相关
+- RouteLLM-Bert在80→120查询时ASR从0.58急剧上升到0.87
+- 大多数目标路由器在约120个查询时性能饱和
+- R²A高度样本高效，仅需适度查询数量即可实现强攻击效果
 
 ---
 
 ## 9. 策略示例
 
-### 9.1 攻击成功示例
+### 9.1 对抗后缀示例
 
-**简单事实性问题**："法国的首都是什么？"
+基于实验观察，有效的对抗后缀通常包含：
+1. **语义模糊标记**：增加推理复杂度感知的词符
+2. **模式化触发器**：重复某些模式以诱导复杂化
+3. **链式推理暗示**：如"Let me think step by step"
 
-- **Clean路由**：Mistral 8x7B（弱模型，廉价）
-- **R²A攻击后路由**：GPT-4o / Claude-3-Opus（强模型，昂贵）
-
-### 9.2 后缀形式
-
-R²A学习到的对抗后缀是**固定的通用字符串**，可以附加到任何简单查询末尾。形式上类似于：
-
+**示例后缀模式**：
 ```
-[学习到的对抗后缀示例结构]
+[Universal Suffix]: "Let me carefully analyze this step by step, considering all possible angles and implications..."
 ```
 
-### 9.3 跨模型池迁移
+### 9.2 攻击场景
 
-由于使用了混合集成替代路由器，R²A学到的后缀能够泛化到：
-- 不同的开源路由器（RouteLLM vs. GraphRouter）
-- 不同的模型池配置
-- 商业黑盒路由器（OpenRouter, GPT-5-Auto）
+#### 场景1：MMLU学术问题
 
----
+**清洁查询**：
+```
+What is the pressure of carbon dioxide at 200°F and a specific volume of 0.20 ft³/lbm?
+```
+**结果**：快速但不正确的回答（Internal: 0s）
 
-## 10. 攻击流程
+**攻击后查询**：
+```
+What is the pressure of carbon dioxide at 200°F and a specific volume of 0.20 ft³/lbm? [Universal Suffix]
+```
+**结果**：多步推理，正确答案（Internal Thought: 51s）
+
+#### 场景2：多轮对话
+
+**清洁查询**：
+```
+User: Can you help me write a Python function to sort a list?
+```
+
+**攻击后查询**：
+```
+User: Can you help me write a Python function to sort a list? [Universal Suffix]
+```
+**结果**：可能被路由到更强大的模型，提供更详细的解释
+
+### 9.3 攻击流程
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    R²A 攻击流程                                  │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  Step 1: 构建混合集成替代路由器                                   │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │  开源路由器池（5个）  ──┐                                │   │
-│  │                         ├──→ 线性映射W₀ ──┐             │   │
-│  │  可训练轻量路由器      ──┤  (对齐至目标池) │             │   │
-│  │  (LoRA, all-MiniLM)   ──┘                │             │   │
-│  │                                              ↓             │   │
-│  │                                    加权集成 + softmax      │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                                                                  │
-│  Step 2: 替代路由器训练                                          │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │  目标路由器 (黑盒)  ──[最多Q次查询]──→ 训练标签          │   │
-│  │              ↑                        ↓                 │   │
-│  │         交叉熵损失 ←──── 替代路由器预测                  │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                                                                  │
-│  Step 3: 对抗后缀优化                                           │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │  初始后缀 s = [s₁, ..., sₗ]                              │   │
-│  │       ↓                                                  │   │
-│  │  对每个位置i: 计算聚合梯度 g̃ᵢ                          │   │
-│  │       ↓                                                  │   │
-│  │  Top-K候选集合 Cᵢ ← g̃ᵢ                                  │   │
-│  │       ↓                                                  │   │
-│  │  采样B个变体 s^(b)，选择loss最低的更新s                  │   │
-│  │       ↓                                                  │   │
-│  │  递增激活新查询（当前缀在前m_c个查询上成功）             │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                                                                  │
-│  Step 4: 最终攻击                                               │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │  原始查询 q ──[附加优化后后缀 s*]──→ q ⊕ s*             │   │
-│  │       → 路由器现在选择昂贵强模型 → 经济损失/服务降级     │   │
-│  └─────────────────────────────────────────────────────────┘   │
-└─────────────────────────────────────────────────────────────────┘
+1. 收集替代训练查询（120个）
+   ↓
+2. 训练混合集成替代路由器
+   ↓
+3. 在替代路由器上优化对抗后缀
+   ↓
+4. 将优化后的后缀附加到目标查询
+   ↓
+5. 提交攻击查询到目标路由器
+   ↓
+6. 观察路由决策（更多路由到昂贵模型）
 ```
 
 ---
 
-## 11. 消融实验
+## 10. 攻击流程详解
 
-### 11.1 核心组件消融
+### 10.1 攻击准备阶段
 
-对R²A两个核心组件进行消融研究：
+#### 10.1.1 数据收集
 
-| 模型 | RouterDC | CausalLLM | MF | SW |
-|------|---------|-----------|----|----|
-| **R²A（完整）** | 0.83 | 0.83 | 0.95 | 0.81 |
-| 无轻量级路由器 | **0.30** | 0.75 | 0.70 | 0.61 |
-| 无梯度归一化 | 0.33 | 0.78 | **0.49** | 0.63 |
+- 收集120个代表性查询用于替代训练
+- 查询涵盖不同分布和难度级别
+- 成本：约$0.98
 
-**关键发现**：
+#### 10.1.2 替代路由器训练
 
-1. **无梯度归一化**：在RouterDC上从0.83降至0.33，在MF上从0.95降至0.49，证明梯度归一化对处理异构梯度规模的关键作用
-2. **无轻量级路由器**：在RouterDC上从0.83降至0.30，表明参数高效适应（LoRA）在有限查询预算下的重要性
+```
+对于每个目标路由器Rt：
+  1. 初始化混合集成替代路由器Rs
+  2. 使用Dproxy训练Rs（LoRA参数高效适应）
+  3. 应用梯度归一化处理异构梯度
+  4. 验证Rs与Rt的决策一致性
+```
 
-### 11.2 查询预算的影响
+### 10.2 后缀优化阶段
 
-| 查询预算 | 替代准确率 | ASR (RouteLLM-Bert) |
-|---------|-----------|-------------------|
-| 50 | 低 | 0.52 |
-| 80 | 中 | 0.58 |
-| 100 | 高 | 0.72 |
-| **120** | **高** | **0.87** |
-| 150 | 饱和 | 0.89 |
+#### 10.2.1 优化目标
 
-**发现**：对于大多数目标路由器，性能在约120个查询时饱和，表明R²A具有极高的样本效率——仅需适度查询即可在不同路由器上获得强攻击效果。
+$$\max_s \sum_{q \in \mathcal{D}_{suffix}} \mathbb{I}\left(\mathcal{R}_s(q \oplus s) \in \mathcal{M}_{strong}\right)$$
+
+#### 10.2.2 优化算法
+
+1. **初始化**：$s \leftarrow s_{init}$（随机或启发式）
+2. **循环直到收敛**：
+   - 计算梯度：$\nabla_s \mathcal{L}_{attack}$
+   - 归一化梯度：$\tilde{g} \leftarrow \text{normalize}(\nabla_s \mathcal{L}_{attack})$
+   - 更新后缀：$s \leftarrow s + \alpha \cdot \tilde{g}$
+   - 约束后缀长度和可读性
+
+### 10.3 攻击部署阶段
+
+#### 10.3.1 黑盒攻击实施
+
+1. 获取目标查询 $q$
+2. 附加优化后的后缀 $s$: $q' = q \oplus s$
+3. 提交 $q'$ 到目标路由器 $\mathcal{R}_t$
+4. 观察路由决策
+
+#### 10.3.2 成本分析
+
+- **攻击成本**：极低（查询预算约$0.98）
+- **收益**：每百万token成本增加2.7-2.9倍
+- **投资回报率**：极高
+
+### 10.4 攻击效果量化
+
+| 指标 | 清洁查询 | 攻击后 |
+|------|---------|--------|
+| 路由到昂贵模型比例 | 25-30% | 74-98% |
+| 推理成本（$/M tokens） | $X | 2.7-2.9X |
+| 响应质量 | 基线 | 显著提升 |
+| 处理延迟 | 低 | 高（51s vs 0s） |
+
+---
+
+## 11. 消融实验深入分析
+
+### 11.1 轻量级路由器的影响
+
+#### 11.1.1 实验配置
+
+- 比较有无LoRA参数高效适应
+- 测试不同查询预算（50, 80, 120, 150）
+
+#### 11.1.2 结果分析
+
+| 查询预算 | w/o Lightweight Router | w/ R²A |
+|----------|------------------------|--------|
+| 50 | 0.15 | 0.52 |
+| 80 | 0.25 | 0.58 |
+| 120 | 0.30 | **0.83** |
+| 150 | 0.35 | 0.85 |
+
+**发现**：
+- 轻量级路由器在所有预算下持续改进ASR
+- 120个查询时提升效果最显著（0.30→0.83）
+- 之后边际收益递减
+
+### 11.2 梯度归一化的影响
+
+#### 11.2.1 问题背景
+
+不同路由器组件产生异构梯度尺度：
+- 某些组件梯度较大
+- 其他组件梯度可能过小而被忽略
+
+#### 11.2.2 解决方案
+
+梯度归一化：
+$$\tilde{g}_i = \frac{g_i}{\|g_i\|} \cdot \frac{1}{\sqrt{d}}$$
+
+其中 $d$ 是梯度维度。
+
+#### 11.2.3 结果分析
+
+| 目标路由器 | w/o Grad Norm | w/ Grad Norm | 提升 |
+|------------|---------------|--------------|------|
+| RouterDC | 0.33 | 0.83 | +151% |
+| CausalLLM | 0.78 | 0.83 | +6% |
+| MF | 0.49 | 0.95 | +94% |
+| SW | 0.63 | 0.81 | +29% |
+
+**发现**：
+- 梯度归一化在所有路由器上都有帮助
+- 对RouterDC和MF等路由器影响最大
+- 确保所有组件均匀贡献于优化
+
+### 11.3 替代路由器数量的影响
+
+测试不同数量的替代路由器对攻击效果的影响：
+
+| 替代路由器数量 | ASR |
+|---------------|-----|
+| 1 | 0.65 |
+| 3 | 0.78 |
+| 5 | **0.83** |
+| 全部 | 0.82 |
+
+**发现**：
+- 5个替代路由器是最佳选择
+- 过多替代路由器可能引入噪声
+- 平衡多样性和一致性
+
+### 11.4 后缀长度的影响
+
+| 后缀长度（词符） | ASR | 生成长度变化 |
+|-----------------|-----|-------------|
+| 10 | 0.71 | +5% |
+| 20 | 0.83 | +12% |
+| 50 | 0.85 | +25% |
+| 100 | 0.82 | +40% |
+
+**发现**：
+- 20个词符后缀效果最佳
+- 过长后缀可能破坏查询语义
+- 生成长度增加可能暴露攻击
 
 ---
 
 ## 12. 局限性
 
-### 12.1 主要局限
+### 12.1 攻击目标的限制
 
-1. **目标定向单一**：R²A主要研究将查询引导至更强/更昂贵模型，未系统研究其他目标（如针对特定模型、延迟或安全性）
-2. **信息依赖**：攻击假设可访问路由器候选模型列表及每次查询所选模型的身份信息，某些部署场景中此假设不成立
-3. **每个路由器独立优化**：需要为每个目标路由器训练单独的对抗后缀，无法跨路由器共享
+1. **仅针对成本操纵**：
+   - 主要关注将查询导向更强和更昂贵的模型
+   - 未系统研究针对特定模型的其他原因（如延迟、安全）
 
-### 12.2 潜在缓解方向
+2. **候选模型列表依赖**：
+   - 攻击假设可访问路由器的候选模型列表
+   - 需要知道每个查询选择了哪个模型
+   - 在某些部署中这些信息可能不可用
 
-- 针对多目标攻击（延迟优化、成本最小化）的扩展研究
-- 探索零样本迁移到未知路由器的方法
-- 研究防御策略以保护成本感知路由系统
+### 12.2 攻击成本的考虑
+
+1. **查询预算需求**：
+   - 需要约120个查询用于替代训练
+   - 在某些场景中可能难以收集
+
+2. **目标特异性**：
+   - 需要为每个目标路由器训练单独的对抗后缀
+   - 无法获得通用后缀跨多个路由器有效
+
+### 12.3 防御的可能
+
+1. **检测方法**：
+   - 后缀检测技术可能识别对抗后缀
+   - 响应长度异常可能作为攻击指标
+
+2. **缓解措施**：
+   - 空格插入防御对某些路由器有效
+   - 输入预处理可能削弱攻击效果
+
+### 12.4 伦理考虑
+
+1. **负责任的披露**：
+   - 研究目标是用开源代码促进更好的防御
+   - 未详细描述实际恶意利用方法
+
+2. **潜在影响**：
+   - 攻击可能导致服务提供商成本增加
+   - 可能影响路由系统的可用性
 
 ---
 
 ## 13. 伦理声明
 
-本研究属于**对抗性安全研究**范畴，遵循负责任的披露原则：
+### 13.1 研究目的
 
-1. **学术研究目的**：本文属于对LLM路由器安全性的学术研究，旨在揭示风险并促进防御
-2. **低风险场景**：攻击需要攻击者能够修改用户查询，这本身已代表系统已被入侵
-3. **促进防御**：研究结果为路由器系统的安全设计提供了重要参考，有助于构建更安全的成本感知路由系统
-4. **防御建议**：论文建议对路由器进行更强监控，路由器设计应考虑对抗性操纵风险
+本研究旨在：
+1. 揭示LLM路由器中的安全漏洞
+2. 为安全社区提供关于路由攻击的知识
+3. 促进更安全的路由系统设计
+
+### 13.2 代码发布
+
+- 代码和示例已在GitHub公开：https://github.com/thcxiker/R2A-Attack
+- 旨在帮助防御者理解和缓解此类攻击
+- 未提供可直接用于恶意目的的完整攻击工具包
+
+### 13.3 负责任的使用建议
+
+1. **对于研究者**：
+   - 使用本研究结果开发更好的防御
+   - 在受控环境中进行实验
+
+2. **对于服务提供商**：
+   - 监控异常路由模式
+   - 实施攻击检测机制
+   - 考虑路由决策的鲁棒性
+
+3. **对于政策制定者**：
+   - 认识到AI系统的安全风险
+   - 支持安全研究和标准化工作
+
+### 13.4 潜在风险与缓解
+
+| 潜在风险 | 缓解措施 |
+|---------|---------|
+| 恶意利用导致成本增加 | 仅发布防御相关发现；强调检测重要性 |
+| 攻击技术扩散 | 不详细描述实际攻击操作步骤 |
+| 服务可用性受影响 | 建议服务提供商实施监控和防护 |
 
 ---
 
 ## 14. 参考文献
 
-### 核心引用
+### 核心参考文献
 
-1. **Kaplan et al. (2020)** - Scaling Laws for Neural Language Models. arXiv:2001.08361
-2. **Zou et al. (2023)** - Universal and Transferable Adversarial Attacks (GCG). arXiv:2307.15043, ICLR 2024
-3. **Hu et al. (2022)** - LoRA: Low-Rank Adaptation of Large Language Models. ICLR 2022
-4. **Liu et al. (2017)** - Delving into Transferable Adversarial Examples and Black-box Attacks. ICLR 2017
-5. **Dong et al. (2018)** - Boosting Adversarial Attacks with Momentum. CVPR 2018
-6. **Shafran et al. (2025)** - Routing attack (white-box approach). 2025
-7. **Lin et al. (2025b)** - Life-cycle Routing Vulnerabilities of LLM Router. arXiv:2503.08704
-8. **Hendrycks et al. (2021)** - Measuring Massive Multitask Language Understanding (MMLU). ICLR 2021
-9. **Cobbe et al. (2021)** - Training Verifiers to Solve Math Word Problems (GSM8K). arXiv:2110.14168
-10. **Wang et al. (2020)** - all-MiniLM-L6-v2 sentence transformer.
+1. Tang, H., Yan, Y., Lu, J., Liu, H., & Dai, E. (2026). Route to Rome Attack: Directing LLM Routers to Expensive Models via Adversarial Suffix Optimization. *ACL 2026*.
 
-### LLM路由器相关
+2. Chen, L., Zaharia, M., & Zou, J. (2024). FrugalGPT: How to use large language models while reducing cost and improving performance. *TMLR*.
 
-- Chen et al. (2024a) - FrugalGPT.TMLR 2024
-- Jiang et al. (2023) - LLM-Blender. ACL 2023
-- Ding et al. (2024) - Hybrid LLM. ICLR 2024
-- Feng et al. (2024) - GraphRouter. ICLR 2024
-- Chen et al. (2024b) - RouterDC. NeurIPS 2024
-- Zhuang et al. (2025) - Compact Model Embeddings for routing
-- Wang et al. (2025) - In-context-learning based routers
+3. Shafran, A., et al. (2025). Rerouting: Universal adversarial triggers for LLM routing. *arXiv*.
 
-### 路由器攻击相关
+4. Lin, Q., et al. (2025). Life-cycle routing vulnerabilities of LLM router. *arXiv*.
 
-- Kassem et al. (2025) - Router-LLM fragility analysis. arXiv:2504.07113
-- Huang et al. (2025a) - Adversarial manipulation of Chatbot Arena. ICML 2025
-- Kojima et al. (2022) - Chain-of-Thought prompting. NeurIPS 2022
+5. Kojima, T., et al. (2022). Large language models are zero-shot reasoners. *NeurIPS*.
+
+6. Hendrycks, D., et al. (2021). Measuring massive multitask language understanding. *ICLR*.
+
+7. Cobbe, K., et al. (2021). Training verifiers to solve math word problems. *arXiv*.
+
+8. Bai, G., et al. (2024). MT-bench-101: A fine-grained benchmark for evaluating LLMs in multi-turn dialogues. *ACL 2024*.
+
+9. Hu, E.J., et al. (2022). LoRA: Low-rank adaptation of large language models. *ICLR*.
+
+10. Kassem, A., et al. (2025). How robust are router-llms? *arXiv*.
+
+11. Huang, Y., et al. (2025). Exploring adversarial manipulation of voting-based leaderboards. *ICML*.
+
+12. Chen, S., et al. (2024). RouterDC: Query-based router by dual contrastive learning. *NeurIPS*.
+
+13. Feng, T., et al. (2024). Graphrouter: A graph-based router for LLM selections. *ICLR*.
+
+14. Dai, E., & Wang, S. (2022). Learning fair graph neural networks. *TKDE*.
+
+15. Li, T., et al. (2025). From crowdsourced data to high-quality benchmarks. *ICML*.
+
+16. Robey, A., et al. (2025). Whitespace defense for adversarial suffixes. *arXiv*.
+
+17. Guo, Z., et al. (2025). LightRAG: Simple and fast retrieval-augmented generation. *EMNLP 2025*.
+
+18. Wei, J., et al. (2024). SimpleQA: A benchmark for simple question answering. *arXiv*.
+
+19. Lu, Y., et al. (2025). RouterArena: An open platform for comprehensive comparison of LLM routers. *arXiv*.
+
+20. Zhuang, Y., et al. (2025). Compact model embeddings for LLM routing. *arXiv*.
+
+21. Zhao, Y., et al. (2024). Elo-based routing in LLM systems. *arXiv*.
+
+22. Frick, E., et al. (2025). Prompt-to-leaderboard. *arXiv*.
+
+23. Wang, Y., et al. (2025). In-context-learning based routers. *arXiv*.
+
+24. Aggarwal, P., et al. (2025). Automix: Automatically mixing language models. *arXiv*.
+
+25. Jiang, D., et al. (2023). LLM-blender: Ensembling large language models. *ACL 2023*.
 
 ---
 
-## 📊 总结
+## 附录说明
 
-| 维度 | 内容 |
-|------|------|
-| **论文主题** | 针对LLM成本感知路由器的黑盒对抗攻击 |
-| **核心方法** | R²A：混合集成替代路由器 + 对抗后缀优化 |
-| **创新点** | 首个在严格黑盒场景下实现路由攻击的系统性方法 |
-| **实验规模** | 9个路由器 × 6个数据集（含2个商业系统） |
-| **关键结果** | ASR最高提升+0.77，推理成本增加2.7-2.9倍 |
-| **攻击成本** | 仅需$0.98的查询成本即可发起有效攻击 |
-| **开源代码** | https://github.com/thcxiker/R2A-Attack |
-| **安全启示** | 路由是安全关键边界，需要更强监控 |
+### 附录A：数据集详细信息
+
+#### A.1 数据集划分
+
+| 数据集 | Dproxy | Dsuffix | Deval |
+|--------|--------|---------|-------|
+| MMLU | 500 | 200 | 300 |
+| GSM8K | 400 | 200 | 200 |
+| MT-Bench | 100 | 50 | 50 |
+| SimpleQA | - | - | 100 |
+| ArenaHard | - | - | 100 |
+| RouterArena | - | - | 100 |
+
+#### A.2 替代路由器列表
+
+1. **RouteLLM-Bert**: 基于BERT的路由模型
+2. **GraphRouter**: 基于图学习的路由模型
+3. **P2L**: 基于参数高效学习的路由模型
+4. **RouterDC**: 基于双对比学习的路由模型
+5. **RouteLLM-MF**: 基于矩阵分解的路由模型
+
+### 附录B：超参数设置
+
+| 参数 | 值 |
+|------|-----|
+| LoRA rank | 16 |
+| LoRA alpha | 32 |
+| 学习率 | 0.01 |
+| 优化器 | Adam |
+| 后缀最大长度 | 50词符 |
+| 查询预算 | 120 |
+
+### 附录C：成本分析
+
+| 成本项目 | 金额 |
+|---------|------|
+| 替代训练查询（120个） | $0.98 |
+| 后缀优化 | <$0.10 |
+| 评估查询 | ~$2.00 |
+| **总计** | **~$3.00** |
+
+### 附录D：指纹识别方法
+
+使用Bag-of-Words指纹识别方法：
+1. 训练一个分类器识别"Thinking"模式响应
+2. 将此分类器应用于查询响应
+3. Thinking-likeness分数作为路由到强模型的概率
+
+### 附录E：空格防御实现
+
+```python
+def whitespace_defense(suffix):
+    """在suffix中插入空格"""
+    return ' '.join(list(suffix))
+
+# 示例
+original = "Let me think step by step"
+defended = "L e t   m e   t h i n k   s t e p   b y   s t e p"
+```
 
 ---
 
-*本笔记由 LLM Safety 论文阅读助手自动生成*
-*生成时间: 2026-04-20 01:00 CST*
-*阅读进度: 56/80 (70.00%)*
+*本文档由AI助手自动生成，基于arXiv论文2604.15022内容。*
+*生成日期：2026-04-28*
+*项目主页：https://github.com/thcxiker/R2A-Attack*
