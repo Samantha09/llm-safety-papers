@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-74%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-62%2F74-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--04-27-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-65%2F74-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--04-30-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -14,7 +14,7 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 11 | [./2026/](./2026/) |
+| 2026 | 15 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
 | 2024 | 29 | [./2024/](./2024/) |
 | 2023 | 10 | [./2023/](./2023/) |
@@ -48,6 +48,7 @@
 | 9 | [Route to Rome Attack: Directing LLM Routers to Expensive Models](./2026/Route-to-Rome-Attack.md) | ACL 2026 | 路由器安全/路由攻击 |
 | 10 | [CURaTE: Continual Unlearning in Real Time with Ensured Preservation of LLM Knowledge](./2026/CURaTE.md) | ACL Findings 2026 | 遗忘学习/隐私保护 |
 | 11 | [Hidden Secrets in the arXiv: Discovering, Analyzing, and Preventing Unintentional Information Disclosure](./2026/Hidden-Secrets-arXiv.md) | IEEE S&P 2026 | 隐私保护/信息泄露 |
+| 12 | [Breaking Bad Email Habits: Bounding the Impact of Simulated Phishing Campaigns](./2026/Breaking-Bad-Email-Habits.md) | LAK 2026 | 社会工程/钓鱼攻击 |
 
 ### 2025 年 (4篇)
 
