@@ -49,6 +49,10 @@
 | 10 | [CURaTE: Continual Unlearning in Real Time with Ensured Preservation of LLM Knowledge](./2026/CURaTE.md) | ACL Findings 2026 | 遗忘学习/隐私保护 |
 | 11 | [Hidden Secrets in the arXiv: Discovering, Analyzing, and Preventing Unintentional Information Disclosure](./2026/Hidden-Secrets-arXiv.md) | IEEE S&P 2026 | 隐私保护/信息泄露 |
 | 12 | [Breaking Bad Email Habits: Bounding the Impact of Simulated Phishing Campaigns](./2026/Breaking-Bad-Email-Habits.md) | LAK 2026 | 社会工程/钓鱼攻击 |
+| 13 | [CI-Work: Benchmarking Contextual Integrity in Enterprise LLM Agents](./2026/CI-Work.md) | ACL 2026 | 隐私保护/企业Agent |
+| 14 | [Adaptive Instruction Composition for Automated LLM Red-Teaming](./2026/Adaptive-Instruction-Composition.md) | ACL 2026 | 红队测试/越狱攻击 |
+| 15 | [ThinkTrap: DoS Attacks against Black-box LLM Services](./2026/ThinkTrap.md) | NDSS 2026 | DoS攻击/资源耗尽 |
+| 16 | [StructMem: Structured Memory for Long-Horizon Behavior in LLMs](./2026/StructMem.md) | ACL 2026 | 记忆系统/Agent |
 
 ### 2025 年 (4篇)
 
@@ -143,7 +147,7 @@
 | 🔄 过度拒绝 | 1 | Nothing in Excess |
 | 🔬 漏洞分析 | 1 | Jailbroken |
 | 📚 综述 | 4 | LLM Security and Privacy Survey, Jailbreak Attacks and Defenses Survey, TrustLLM, Against the Achilles' Heel |
-| 🤖 智能体安全 | 2 | AgentDojo, R-Judge |
+| 🤖 智能体安全 | 3 | AgentDojo, R-Judge, StructMem |
 | 🛡️ 风险意识 | 1 | R-Judge |
 | 🔄 终身学习 | 1 | AutoDAN-Turbo |
 | 🔒 网络安全 | 1 | SIABench |
