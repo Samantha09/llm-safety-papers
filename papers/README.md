@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-74%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-65%2F74-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Complete-67%2F74-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--04-30-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -19,10 +19,18 @@
 | 2024 | 29 | [./2024/](./2024/) |
 | 2023 | 10 | [./2023/](./2023/) |
 | 2022 | 4 | [./2022/](./2022/) |
+| 2021 | 2 | [./2021/](./2021/) |
 
 ---
 
 ## 📋 完整论文列表（按年份排序）
+
+### 2021 年 (1篇)
+
+| 序号 | 论文标题 | 会议/年份 | 类别 |
+|:----:|----------|:---------:|------|
+| 1 | [Extracting Training Data from Large Language Models](./2021/Extracting-Training-Data.md) | USENIX Security 2021 | 训练数据提取攻击/隐私 |
+| 2 | [You Autocomplete Me: Poisoning Neural Code Completion Models](./2021/You-Autocomplete-Me.md) | USENIX Security 2021 | 代码补全投毒攻击 |
 
 ### 2022 年 (4篇)
 
