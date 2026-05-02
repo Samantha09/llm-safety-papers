@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-74%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-67%2F74-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Complete-68%2F74-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--04-30-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -14,7 +14,7 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 15 | [./2026/](./2026/) |
+| 2026 | 16 | [./2026/](./2026/) |
 | 2025 | 4 | [./2025/](./2025/) |
 | 2024 | 29 | [./2024/](./2024/) |
 | 2023 | 10 | [./2023/](./2023/) |
