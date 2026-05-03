@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-74%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-68%2F74-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-69%2F74-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 74 篇 |
-| **已完成** | **68 篇 (91.89%)** |
-| **最后更新** | 2026-05-03 |
+| **已完成** | **69 篇 (93.24%)** |
+| **最后更新** | 2026-05-04 |
 
 ---
 
@@ -80,6 +80,7 @@
 |------|------|------|
 | 📚 **综述** | 领域全面回顾 | [Jailbreak Attacks and Defenses Survey](./papers/2024/Jailbreak-Attacks-and-Defenses-Survey.md), [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md), [TrustLLM](./papers/2024/TrustLLM.md), [Siren's Song](./papers/2023/Sirens-Song.md) |
 | 🔬 **漏洞分析** | 模型自我认知漏洞 | [Jailbroken](./papers/2023/Jailbroken.md) |
+| 🔮 **跨模态安全** | 跨模态编码器脆弱性 | [One Single Hub Text Breaks CLIP](./papers/2026/One-Single-Hub-Text-Breaks-CLIP.md) |
 | 💻 **代码安全** | CodeLLM安全生成 | [SCS-Code](./papers/2026/SCS-Code.md) |
 | 🔒 **隐私保护** | 移动端日志隐私保护 | [Proteus](./papers/2026/Proteus.md), [Hidden Secrets](./papers/2026/Hidden-Secrets-arXiv.md) |
 | 📋 **可验证审计** | 事件溯源AI代码安全审计 | [ESAA-Security](./papers/2026/ESAA-Security.md) |
