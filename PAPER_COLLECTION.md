@@ -10,6 +10,18 @@
 
 ## 📅 2026年
 
+### 5月更新
+
+#### 5月4日 - CCF-A/B 论文收录
+
+本周收录 1 篇确定录用的 LLM Safety 论文（1篇CCF-A）：
+
+| 论文 | 会议 | 等级 | 方向 | 摘要 |
+|------|------|------|------|------|
+| [One Single Hub Text Breaks CLIP: Identifying Vulnerabilities in Cross-Modal Encoders via Hubness](https://arxiv.org/abs/2604.27674) | ACL 2026 | CCF-A | Cross-Modal Security / Vulnerability | 发现跨模态编码器中的hubness问题可被利用：通过单一hub文本在多数图像上获得不合理的高相似度，揭示CLIP等跨模态模型的脆弱性 |
+
+---
+
 ### 3月更新
 
 #### 3月16日 - CCF-A/B 论文收录
