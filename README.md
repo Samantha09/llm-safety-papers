@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-74%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-70%2F74-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-71%2F74-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 74 篇 |
-| **已完成** | **70 篇 (94.59%)** |
-| **最后更新** | 2026-05-05 |
+| **已完成** | **71 篇 (95.95%)** |
+| **最后更新** | 2026-05-06 |
 
 ---
 
@@ -78,7 +78,7 @@
 
 | 方向 | 说明 | 论文 |
 |------|------|------|
-| 📚 **综述** | 领域全面回顾 | [Jailbreak Attacks and Defenses Survey](./papers/2024/Jailbreak-Attacks-and-Defenses-Survey.md), [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md), [TrustLLM](./papers/2024/TrustLLM.md), [Siren's Song](./papers/2023/Sirens-Song.md) |
+| 📚 **综述** | 领域全面回顾 | [Jailbreak Attacks and Defenses Survey](./papers/2024/Jailbreak-Attacks-and-Defenses-Survey.md), [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md), [TrustLLM](./papers/2024/TrustLLM.md), [AI Alignment Survey](./papers/2025/AI-Alignment-Survey.md), [Siren's Song](./papers/2023/Sirens-Song.md) |
 | 🔬 **漏洞分析** | 模型自我认知漏洞 | [Jailbroken](./papers/2023/Jailbroken.md) |
 | 🔮 **跨模态安全** | 跨模态编码器脆弱性 | [One Single Hub Text Breaks CLIP](./papers/2026/One-Single-Hub-Text-Breaks-CLIP.md) |
 | 💻 **代码安全** | CodeLLM安全生成 | [SCS-Code](./papers/2026/SCS-Code.md) |
@@ -234,8 +234,10 @@ llm-safety-papers/
 | 38 | [Under the Influence](./papers/2024/Under-the-Influence.md) | arXiv 2024 | 提示注入攻击与防御 | `提示注入` `上下文操控` |
 | 39 | [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | LLM安全与隐私全面综述 | `综述` `全景` |
 | 40 | [TrustLLM](./papers/2024/TrustLLM.md) | arXiv 2024 | LLM可信度六维评估基准 | `综述` `可信度` `评估基准` |
-| 41 | [Jailbroken: How Does LLM Safety Training Fail?](./papers/2023/Jailbroken.md) | NeurIPS 2023 | LLM安全训练失败原因分析 | `安全训练` `漏洞分析` |
+| 41 | [AI Alignment: A Comprehensive Survey](./papers/2025/AI-Alignment-Survey.md) | arXiv 2023 | AI对齐全面综述：RICE框架、前向对齐、后向对齐 | `对齐` `综述` `RICE` `RLHF` |
+| 42 | [Jailbroken: How Does LLM Safety Training Fail?](./papers/2023/Jailbroken.md) | NeurIPS 2023 | LLM安全训练失败原因分析 | `安全训练` `漏洞分析` |
 | 42 | [Siren's Song: LLM幻觉综述](./papers/2023/Sirens-Song.md) | arXiv 2023 | LLM幻觉全面综述：分类、评估、来源与缓解 | `幻觉` `综述` `可靠性` |
+| 43 | [AI Alignment: A Comprehensive Survey](./papers/2025/AI-Alignment-Survey.md) | arXiv 2023 | AI对齐全面综述：RICE框架、前向对齐、后向对齐 | `对齐` `综述` `RICE` `RLHF` |
 | 43 | [Towards Mitigating LLM Hallucination via Self-Reflection](./papers/2023/Towards-Mitigating-LLM-Hallucination.md) | EMNLP 2023 | 交互式自我反思方法减少医学QA中的幻觉 | `幻觉缓解` `自我反思` `医学QA` |
 | 44 | [Not What You've Signed Up For](./papers/2023/Not-What-Youve-Signed-Up-For.md) | AISec 2023 | 间接提示注入攻击：无需直接接口即可远程攻击LLM集成应用 | `间接注入` `远程攻击` `数据与指令混淆` |
 
