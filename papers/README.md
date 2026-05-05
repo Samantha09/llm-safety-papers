@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-74%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-70%2F74-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--05-04-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-71%2F74-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--05-06-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -15,7 +15,7 @@
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
 | 2026 | 17 | [./2026/](./2026/) |
-| 2025 | 4 | [./2025/](./2025/) |
+| 2025 | 5 | [./2025/](./2025/) |
 | 2024 | 30 | [./2024/](./2024/) |
 | 2023 | 10 | [./2023/](./2023/) |
 | 2022 | 4 | [./2022/](./2022/) |
@@ -63,7 +63,7 @@
 | 16 | [StructMem: Structured Memory for Long-Horizon Behavior in LLMs](./2026/StructMem.md) | ACL 2026 | 记忆系统/Agent |
 | 17 | [One Single Hub Text Breaks CLIP: Identifying Vulnerabilities in Cross-Modal Encoders](./2026/One-Single-Hub-Text-Breaks-CLIP.md) | ACL 2026 | 跨模态安全/脆弱性分析 |
 
-### 2025 年 (4篇)
+### 2025 年 (5篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -71,6 +71,7 @@
 | 2 | [Crescendo: Multi-Turn LLM Jailbreak Attack](./2025/Crescendo.md) | USENIX Security 2025 | 多轮越狱攻击 |
 | 3 | [APRT: Automated Progressive Red Teaming](./2025/APRT.md) | COLING 2025 | 红队测试 |
 | 4 | [ActorBreaker: Multi-turn LLM Jailbreak Attack](./2025/ActorBreaker.md) | ACL 2025 | 多轮越狱攻击 |
+| 5 | [AI Alignment: A Comprehensive Survey](./2025/AI-Alignment-Survey.md) | arXiv 2023 | AI对齐全面综述/RICE框架 |
 
 ### 2024 年 (28篇)
 
