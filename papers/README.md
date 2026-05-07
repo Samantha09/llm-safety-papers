@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-74%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-71%2F74-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--05-07-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-72%2F74-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--05-08-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -41,7 +41,7 @@
 | 3 | [HELM: Holistic Evaluation of Language Models](./2022/HELM.md) | TMLR 2023 | 综合评估基准/透明度 |
 | 4 | [Asleep at the Keyboard: Assessing the Security of GitHub Copilot's Code Contributions](./2022/Asleep-at-the-Keyboard.md) | IEEE S&P 2022 | 代码安全/AI编程助手 |
 
-### 2026 年 (17篇)
+### 2026 年 (18篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -62,6 +62,7 @@
 | 15 | [ThinkTrap: DoS Attacks against Black-box LLM Services](./2026/ThinkTrap.md) | NDSS 2026 | DoS攻击/资源耗尽 |
 | 16 | [StructMem: Structured Memory for Long-Horizon Behavior in LLMs](./2026/StructMem.md) | ACL 2026 | 记忆系统/Agent |
 | 17 | [One Single Hub Text Breaks CLIP: Identifying Vulnerabilities in Cross-Modal Encoders](./2026/One-Single-Hub-Text-Breaks-CLIP.md) | ACL 2026 | 跨模态安全/脆弱性分析 |
+| 18 | [Cluster Segregation Concealment: Turning the Adversary's Poison against Itself](./2026/Cluster-Segregation-Concealment.md) | Computers & Security 2026 | 后门防御/投毒抑制 |
 
 ### 2025 年 (5篇)
 
@@ -131,7 +132,7 @@
 | 🎯 对抗攻击 | 2 | GCG, AutoDAN |
 | 🧠 提示注入 | 4 | PIArena, Under the Influence, Not What You've Signed Up For, Formalizing Prompt Injection |
 | 🎭 隐蔽攻击 | 2 | Cold-Attack, Sleeper Agents |
-| 🚪 后门攻击 | 1 | Sleeper Agents |
+| 🚪 后门攻击 | 2 | Sleeper Agents, Cluster Segregation Concealment (CSC) |
 
 ### 防御类型
 
@@ -140,6 +141,7 @@
 | 🛡️ 安全对齐 | 2 | Nothing in Excess, Alignment-Weighted DPO |
 | 🔍 输出检测 | 2 | MLLM-Protector, SafeGen |
 | 🧪 红队测试 | 6 | HARM, APRT, Tree of Attacks, GPTFuzzer, Red Teaming LMs, Curiosity-Driven Red-Teaming |
+| 🛡️ 后门防御 | 1 | Cluster Segregation Concealment (CSC) |
 
 ### 评估基准
 
