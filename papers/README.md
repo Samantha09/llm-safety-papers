@@ -14,7 +14,7 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 17 | [./2026/](./2026/) |
+| 2026 | 20 | [./2026/](./2026/) |
 | 2025 | 5 | [./2025/](./2025/) |
 | 2024 | 31 | [./2024/](./2024/) |
 | 2023 | 10 | [./2023/](./2023/) |
@@ -41,7 +41,7 @@
 | 3 | [HELM: Holistic Evaluation of Language Models](./2022/HELM.md) | TMLR 2023 | 综合评估基准/透明度 |
 | 4 | [Asleep at the Keyboard: Assessing the Security of GitHub Copilot's Code Contributions](./2022/Asleep-at-the-Keyboard.md) | IEEE S&P 2022 | 代码安全/AI编程助手 |
 
-### 2026 年 (18篇)
+### 2026 年 (20篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -63,6 +63,8 @@
 | 16 | [StructMem: Structured Memory for Long-Horizon Behavior in LLMs](./2026/StructMem.md) | ACL 2026 | 记忆系统/Agent |
 | 17 | [One Single Hub Text Breaks CLIP: Identifying Vulnerabilities in Cross-Modal Encoders](./2026/One-Single-Hub-Text-Breaks-CLIP.md) | ACL 2026 | 跨模态安全/脆弱性分析 |
 | 18 | [Cluster Segregation Concealment: Turning the Adversary's Poison against Itself](./2026/Cluster-Segregation-Concealment.md) | Computers & Security 2026 | 后门防御/投毒抑制 |
+| 19 | [Rethinking Latency DoS: Attacking the LLM Serving Framework](./2026/Rethinking-Latency-DoS.md) | arXiv 2026 | DoS攻击/系统层攻击 |
+| 20 | [Beyond Max Tokens: Stealthy Resource Amplification via Tool Calling Chains](./2026/Beyond-Max-Tokens.md) | arXiv 2026 | 经济DoS攻击/MCP安全 |
 
 ### 2025 年 (5篇)
 
