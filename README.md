@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-74%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-75%2F76-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-76%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -29,9 +29,9 @@
 
 | 指标 | 数值 |
 |------|------|
-| **计划完成** | 76 篇 |
-| **已完成** | **75 篇 (98.68%)** |
-| **最后更新** | 2026-05-08 |
+| **计划完成** | 80 篇 |
+| **已完成** | **76 篇 (95.00%)** |
+| **最后更新** | 2026-05-09 |
 
 ---
 
@@ -43,7 +43,7 @@
 |------|------|----------|
 | 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Don't Listen To Me](./papers/2024/Dont-Listen-To-Me.md), [Harnessing Task Overload](./papers/2024/Harnessing-Task-Overload.md), [AutoDAN](./papers/2024/AutoDAN.md), [PAIR](./papers/2024/PAIR.md), [GCG](./papers/2024/GCG.md), [Tree of Attacks](./papers/2024/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/2024/AutoDAN-Turbo.md), [MultiJail](./papers/2024/MultiJail.md), [Crescendo](./papers/2025/Crescendo.md), [ActorBreaker](./papers/2025/ActorBreaker.md), [Do Anything Now](./papers/2023/Do-Anything-Now.md), [GPTFuzzer](./papers/2023/GPTFuzzer.md) |
 | 🎯 **对抗攻击** | 构造对抗样本欺骗模型 | [GCG](./papers/2024/GCG.md), [AutoDAN](./papers/2024/AutoDAN.md), [Route to Rome](./papers/2026/Route-to-Rome-Attack.md) |
-| 🧠 **提示注入** | 通过提示操控模型行为 | [PIArena](./papers/2026/PIArena.md), [Under the Influence](./papers/2024/Under-the-Influence.md), [Not What You've Signed Up For](./papers/2023/Not-What-Youve-Signed-Up-For.md), [Formalizing Prompt Injection](./papers/2024/Formalizing-Prompt-Injection.md) |
+| 🧠 **提示注入** | 通过提示操控模型行为 | [PIArena](./papers/2026/PIArena.md), [Under the Influence](./papers/2024/Under-the-Influence.md), [Not What You've Signed Up For](./papers/2023/Not-What-Youve-Signed-Up-For.md), [Benchmarking Indirect Prompt Injection (BIPIA)](./papers/2023/Benchmarking-Indirect-Prompt-Injection.md), [Formalizing Prompt Injection](./papers/2024/Formalizing-Prompt-Injection.md) |
 | 🎭 **隐蔽攻击** | 难以检测的攻击方式 | [Cold-Attack](./papers/2024/Cold-Attack.md), [Sleeper Agents](./papers/2024/Sleeper-Agents.md) |
 
 ### 按防御类型
@@ -134,7 +134,7 @@ llm-safety-papers/
 │   │   ├── TrustLLM.md
 │   │   ├── Tree-of-Attacks.md
 │   │   └── Under-the-Influence.md
-│   ├── 2023/                          # 2023年论文 (8篇)
+│   ├── 2023/                          # 2023年论文 (9篇)
 │   │   ├── GCG.md
 │   │   ├── GPTFuzzer.md
 │   │   ├── Jailbroken.md
@@ -185,11 +185,12 @@ llm-safety-papers/
 | 14 | [Llama Guard](./papers/2023/Llama-Guard.md) | Meta 2023 | 基于LLM的输入输出保护模型，支持prompt和response分类 | `内容审核` `安全分类` `开源` `可定制` |
 | 15 | [NeMo Guardrails](./papers/2023/NeMo-Guardrails.md) | EMNLP 2023 | NVIDIA开源工具包，五类可编程护栏控制LLM对话安全性 | `可编程护栏` `运行时控制` `Colang` `开源` |
 
-### 提示注入攻击（1篇）
+### 提示注入攻击（2篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
 | 36 | [Formalizing Prompt Injection](./papers/2024/Formalizing-Prompt-Injection.md) | USENIX Security 2024 | 形式化提示注入攻击框架，系统评估5种攻击和10种防御 | `提示注入` `形式化框架` `基准测试` `USENIX` |
+| 37 | [Benchmarking Indirect Prompt Injection (BIPIA)](./papers/2023/Benchmarking-Indirect-Prompt-Injection.md) | KDD 2025 | 首个系统性间接提示注入攻击基准，评估现有LLM普遍存在漏洞，提出边界感知和显式提醒双重防御 | `提示注入` `BIPIA` `基准测试` `KDD` |
 
 ### 评估基准（7篇）
 
@@ -308,6 +309,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-05-09 | 添加论文：Benchmarking Indirect Prompt Injection (BIPIA) - 首个系统性间接提示注入攻击基准 (KDD 2025)，更新进度至 76/80 |
 | 2026-04-27 | 添加论文：Hidden Secrets in the arXiv - 系统性分析270万份arXiv源文件信息泄露 (IEEE S&P 2026)，更新进度至 62/74 |
 | 2026-04-26 | 添加论文：Against the Achilles' Heel - 生成式模型红队测试综述 (arXiv 2024)，更新进度至 61/74 |
 | 2026-04-26 | 添加论文：Don't Listen To Me - 理解与探索LLM越狱提示词 (USENIX Security 2024)，更新进度至 60/80 |
