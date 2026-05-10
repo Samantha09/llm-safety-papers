@@ -14,11 +14,12 @@
 
 #### 5月4日 - CCF-A/B 论文收录
 
-本周收录 1 篇确定录用的 LLM Safety 论文（1篇CCF-A）：
+本周收录 2 篇确定录用的 LLM Safety 论文（2篇CCF-A）：
 
 | 论文 | 会议 | 等级 | 方向 | 摘要 |
 |------|------|------|------|------|
-| [One Single Hub Text Breaks CLIP: Identifying Vulnerabilities in Cross-Modal Encoders via Hubness](https://arxiv.org/abs/2604.27674) | ACL 2026 | CCF-A | Cross-Modal Security / Vulnerability | 发现跨模态编码器中的hubness问题可被利用：通过单一hub文本在多数图像上获得不合理的高相似度，揭示CLIP等跨模态模型的脆弱性 |
+| [Safety Anchor: Defending Harmful Fine-tuning via Geometric Bottlenecks](https://arxiv.org/abs/2605.05995) | ICML 2026 | CCF-A | Fine-tuning Defense / Alignment | 提出Safety Anchor通过几何瓶颈机制防御有害微调攻击，保护LLM微调过程安全 |
+| [Decoding the Leakage Threats of RAG Systems](https://arxiv.org/abs/2605.05818) | ACL 2026 | CCF-A | RAG Security / Privacy | 提出LeakDojo框架系统性评估RAG知识泄露风险，揭示查询生成和对抗指令的独立贡献机制 |
 
 ---
 
