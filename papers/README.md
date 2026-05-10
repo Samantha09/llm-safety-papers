@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-76%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--05-09-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-77%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--05-11-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -14,7 +14,7 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 20 | [./2026/](./2026/) |
+| 2026 | 21 | [./2026/](./2026/) |
 | 2025 | 5 | [./2025/](./2025/) |
 | 2024 | 31 | [./2024/](./2024/) |
 | 2023 | 11 | [./2023/](./2023/) |
@@ -65,6 +65,7 @@
 | 18 | [Cluster Segregation Concealment: Turning the Adversary's Poison against Itself](./2026/Cluster-Segregation-Concealment.md) | Computers & Security 2026 | 后门防御/投毒抑制 |
 | 19 | [Rethinking Latency DoS: Attacking the LLM Serving Framework](./2026/Rethinking-Latency-DoS.md) | arXiv 2026 | DoS攻击/系统层攻击 |
 | 20 | [Beyond Max Tokens: Stealthy Resource Amplification via Tool Calling Chains](./2026/Beyond-Max-Tokens.md) | arXiv 2026 | 经济DoS攻击/MCP安全 |
+| 21 | [Safety Anchor: Defending Harmful Fine-tuning via Geometric Bottlenecks](./2026/Safety-Anchor.md) | ICML 2026 | 微调防御/几何瓶颈 |
 
 ### 2025 年 (5篇)
 
@@ -141,7 +142,7 @@
 
 | 标签 | 论文数量 | 论文列表 |
 |------|:--------:|----------|
-| 🛡️ 安全对齐 | 2 | Nothing in Excess, Alignment-Weighted DPO |
+| 🛡️ 安全对齐 | 3 | Nothing in Excess, Alignment-Weighted DPO, Safety Anchor |
 | 🔍 输出检测 | 2 | MLLM-Protector, SafeGen |
 | 🧪 红队测试 | 6 | HARM, APRT, Tree of Attacks, GPTFuzzer, Red Teaming LMs, Curiosity-Driven Red-Teaming |
 | 🛡️ 后门防御 | 1 | Cluster Segregation Concealment (CSC) |
@@ -208,8 +209,8 @@
 
 ## 📝 维护说明
 
-- **最后更新：2026-04-27
-- **论文总数：57 篇
+- **最后更新：2026-05-11
+- **论文总数：77 篇
 - **完整笔记**：57 篇 (100%)
 - **目录结构**：按发表年份整理
 - **维护者**：AI 助手 + 人工审核

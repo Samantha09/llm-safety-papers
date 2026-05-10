@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-74%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-76%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-77%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | **76 篇 (95.00%)** |
-| **最后更新** | 2026-05-09 |
+| **已完成** | **77 篇 (96.25%)** |
+| **最后更新** | 2026-05-11 |
 
 ---
 
@@ -174,7 +174,7 @@ llm-safety-papers/
 | 9 | [ActorBreaker](./papers/2025/ActorBreaker.md) | ACL 2025 | 基于行动者网络的多轮越狱攻击，通过自然分布偏移发现安全漏洞 | `多轮攻击` `行动者网络` `自然分布偏移` |
 | 10 | [Do Anything Now](./papers/2023/Do-Anything-Now.md) | CCS 2024 | 首个野生越狱提示系统性测量研究，揭示8大越狱社区与攻击策略演化 | `野生越狱` `社区检测` `平台迁移` |
 
-### 防御与安全对齐（5篇）
+### 防御与安全对齐（6篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
@@ -184,6 +184,7 @@ llm-safety-papers/
 | 13 | [SafeGen](./papers/2024/SafeGen.md) | IEEE S&P 2024 | T2I模型性暗示内容生成防护 | `多模态` `内容过滤` `即插即用` |
 | 14 | [Llama Guard](./papers/2023/Llama-Guard.md) | Meta 2023 | 基于LLM的输入输出保护模型，支持prompt和response分类 | `内容审核` `安全分类` `开源` `可定制` |
 | 15 | [NeMo Guardrails](./papers/2023/NeMo-Guardrails.md) | EMNLP 2023 | NVIDIA开源工具包，五类可编程护栏控制LLM对话安全性 | `可编程护栏` `运行时控制` `Colang` `开源` |
+| 16 | [Safety Anchor](./papers/2026/Safety-Anchor.md) | ICML 2026 | 通过几何瓶颈机制防御有害微调攻击，仅需单锚点即可将有害分数降至10以下 | `微调防御` `几何瓶颈` `SBR` |
 
 ### 提示注入攻击（2篇）
 
@@ -309,7 +310,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
-| 2026-05-09 | 添加论文：Benchmarking Indirect Prompt Injection (BIPIA) - 首个系统性间接提示注入攻击基准 (KDD 2025)，更新进度至 76/80 |
+| 2026-05-11 | 添加论文：Safety Anchor - 通过几何瓶颈防御有害微调攻击 (ICML 2026)，更新进度至 77/80 |
 | 2026-04-27 | 添加论文：Hidden Secrets in the arXiv - 系统性分析270万份arXiv源文件信息泄露 (IEEE S&P 2026)，更新进度至 62/74 |
 | 2026-04-26 | 添加论文：Against the Achilles' Heel - 生成式模型红队测试综述 (arXiv 2024)，更新进度至 61/74 |
 | 2026-04-26 | 添加论文：Don't Listen To Me - 理解与探索LLM越狱提示词 (USENIX Security 2024)，更新进度至 60/80 |
