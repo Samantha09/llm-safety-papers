@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-74%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-77%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-78%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | **77 篇 (96.25%)** |
-| **最后更新** | 2026-05-11 |
+| **已完成** | **78 篇 (97.50%)** |
+| **最后更新** | 2026-05-12 |
 
 ---
 
@@ -84,7 +84,7 @@
 | 💻 **代码安全** | CodeLLM安全生成 | [SCS-Code](./papers/2026/SCS-Code.md) |
 | 🔒 **隐私保护** | 移动端日志隐私保护 | [Proteus](./papers/2026/Proteus.md), [Hidden Secrets](./papers/2026/Hidden-Secrets-arXiv.md) |
 | 📋 **可验证审计** | 事件溯源AI代码安全审计 | [ESAA-Security](./papers/2026/ESAA-Security.md) |
-| ⚖️ **偏见与公平** | LLM教育反馈中的语言偏见 | [Marked Pedagogies](./papers/2026/Marked-Pedagogies.md) |
+| ⚖️ **偏见与公平** | LLM教育反馈中的语言偏见、代码生成中的隐性歧视 | [Marked Pedagogies](./papers/2026/Marked-Pedagogies.md), [From If-Statements to ML Pipelines](./papers/2026/From-If-Statements-to-ML-Pipelines.md) |
 | ✅ **幻觉与真实性** | 模型真实性评估与幻觉检测 | [TruthfulQA](./papers/2022/TruthfulQA.md), [Siren's Song](./papers/2023/Sirens-Song.md), [HaloScope](./papers/2024/HaloScope.md) |
 
 ---
@@ -310,6 +310,8 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-05-12 | 添加论文：From If-Statements to ML Pipelines - 代码生成中的隐性偏见研究 (ACL 2026 Findings)，更新进度至 78/80
+| 2026-05-12 | 添加论文：From If-Statements to ML Pipelines - 代码生成中的隐性偏见研究 (ACL 2026 Findings)，更新进度至 78/80
 | 2026-05-11 | 添加论文：Safety Anchor - 通过几何瓶颈防御有害微调攻击 (ICML 2026)，更新进度至 77/80 |
 | 2026-04-27 | 添加论文：Hidden Secrets in the arXiv - 系统性分析270万份arXiv源文件信息泄露 (IEEE S&P 2026)，更新进度至 62/74 |
 | 2026-04-26 | 添加论文：Against the Achilles' Heel - 生成式模型红队测试综述 (arXiv 2024)，更新进度至 61/74 |

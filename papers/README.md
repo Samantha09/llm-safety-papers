@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-77%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--05-11-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-78%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--05-12-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -14,7 +14,7 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 21 | [./2026/](./2026/) |
+| 2026 | 22 | [./2026/](./2026/) |
 | 2025 | 5 | [./2025/](./2025/) |
 | 2024 | 31 | [./2024/](./2024/) |
 | 2023 | 11 | [./2023/](./2023/) |
@@ -41,7 +41,7 @@
 | 3 | [HELM: Holistic Evaluation of Language Models](./2022/HELM.md) | TMLR 2023 | 综合评估基准/透明度 |
 | 4 | [Asleep at the Keyboard: Assessing the Security of GitHub Copilot's Code Contributions](./2022/Asleep-at-the-Keyboard.md) | IEEE S&P 2022 | 代码安全/AI编程助手 |
 
-### 2026 年 (20篇)
+### 2026 年 (21篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -66,6 +66,7 @@
 | 19 | [Rethinking Latency DoS: Attacking the LLM Serving Framework](./2026/Rethinking-Latency-DoS.md) | arXiv 2026 | DoS攻击/系统层攻击 |
 | 20 | [Beyond Max Tokens: Stealthy Resource Amplification via Tool Calling Chains](./2026/Beyond-Max-Tokens.md) | arXiv 2026 | 经济DoS攻击/MCP安全 |
 | 21 | [Safety Anchor: Defending Harmful Fine-tuning via Geometric Bottlenecks](./2026/Safety-Anchor.md) | ICML 2026 | 微调防御/几何瓶颈 |
+| 22 | [From If-Statements to ML Pipelines: Revisiting Bias in Code-Generation](./2026/From-If-Statements-to-ML-Pipelines.md) | ACL Findings 2026 | 偏见与公平/代码生成 |
 
 ### 2025 年 (5篇)
 
@@ -171,7 +172,7 @@
 | 🔍 安全训练分析 | 1 | Jailbroken |
 | 📊 幻觉缓解 | 1 | ESG-Bench |
 | 📄 长上下文 | 1 | ESG-Bench |
-| ⚖️ 偏见与公平 | 1 | Marked Pedagogies |
+| ⚖️ 偏见与公平 | 2 | Marked Pedagogies, From If-Statements to ML Pipelines |
 
 ---
 
