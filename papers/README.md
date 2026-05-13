@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-79%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--05-13-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-80%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--05-14-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -14,7 +14,7 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 23 | [./2026/](./2026/) |
+| 2026 | 24 | [./2026/](./2026/) |
 | 2025 | 5 | [./2025/](./2025/) |
 | 2024 | 31 | [./2024/](./2024/) |
 | 2023 | 11 | [./2023/](./2023/) |
@@ -68,6 +68,7 @@
 | 21 | [Safety Anchor: Defending Harmful Fine-tuning via Geometric Bottlenecks](./2026/Safety-Anchor.md) | ICML 2026 | 微调防御/几何瓶颈 |
 | 22 | [From If-Statements to ML Pipelines: Revisiting Bias in Code-Generation](./2026/From-If-Statements-to-ML-Pipelines.md) | ACL Findings 2026 | 偏见与公平/代码生成 |
 | 23 | [Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions](./2026/Machine-Behavior-in-Relational-Moral-Dilemmas.md) | ACL Findings 2026 | 伦理与对齐/道德决策 |
+| 24 | [LeakDojo: Decoding the Leakage Threats of RAG Systems](./2026/LeakDojo-RAG-Leakage.md) | ACL 2026 | RAG安全/知识泄露/隐私攻击 |
 
 ### 2025 年 (5篇)
 
@@ -211,8 +212,8 @@
 
 ## 📝 维护说明
 
-- **最后更新：2026-05-11
-- **论文总数：77 篇
+- **最后更新：2026-05-14
+- **论文总数：80 篇
 - **完整笔记**：57 篇 (100%)
 - **目录结构**：按发表年份整理
 - **维护者**：AI 助手 + 人工审核

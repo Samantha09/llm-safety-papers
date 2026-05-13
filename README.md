@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-74%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-79%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-80%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 80 篇 |
-| **已完成** | **79 篇 (98.75%)** |
-| **最后更新** | 2026-05-13 |
+| **已完成** | **80 篇 (100%)** |
+| **最后更新** | 2026-05-14 |
 
 ---
 
@@ -222,11 +222,12 @@ llm-safety-papers/
 | 26 | [APRT](./papers/2025/APRT.md) | COLING 2025 | 自动化渐进式红队测试 | `红队测试` `渐进式` `自动化` |
 | 27 | [Tree of Attacks](./papers/2024/Tree-of-Attacks.md) | arXiv 2024 | 树状结构的红队攻击 | `红队测试` `树搜索` |
 
-### 隐私与数据安全（1篇）
+### 隐私与数据安全（2篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
 | 36 | [Extracting Training Data from LLMs](./papers/2021/Extracting-Training-Data.md) | USENIX Security 2021 | 首次系统演示从大型语言模型中提取训练数据攻击，从GPT-2中提取数百个逐字序列，包括PII、UUID等敏感信息 | `训练数据提取` `隐私攻击` `成员推断` |
+| 37 | [LeakDojo: Decoding the Leakage Threats of RAG Systems](./papers/2026/LeakDojo-RAG-Leakage.md) | ACL 2026 | 系统性评估RAG知识泄露风险，提出查询生成与对抗指令的独立贡献机制，揭示能力-风险关联与忠实性悖论 | `RAG安全` `知识泄露` `隐私攻击` `ACL 2026` |
 
 ### 其他重要论文（7篇）
 
