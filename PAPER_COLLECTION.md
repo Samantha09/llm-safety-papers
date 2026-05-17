@@ -23,6 +23,15 @@
 
 ---
 
+#### 5月11日 - CCF-A/B 论文收录
+
+本周收录 2 篇确定录用的 LLM Safety 论文（2篇CCF-A）：
+
+| 论文 | 会议 | 等级 | 方向 | 摘要 |
+|------|------|------|------|------|
+| [Editing for Versatile Alignment against Jailbreaks](https://arxiv.org/abs/2605.14750) | IEEE TPAMI 2026 | CCF-A | Jailbreak Defense / Alignment | 提出EVA框架，通过精准模型编辑实现越狱防御，在LLM和VLM上均超越基线方法，同时保持模型通用推理能力 |
+| [Exploiting LLM Agent Supply Chains via Payload-less Skills](https://arxiv.org/abs/2605.14460) | USENIX Security 2026 | CCF-A | Agent Security / Supply Chain | 提出语义合规劫持（SCH）无载荷供应链攻击，通过自然语言指令诱导LLM Agent生成恶意代码，攻击成功率高达77.67%，现有安全扫描工具无法检测 |
+
 ### 3月更新
 
 #### 3月16日 - CCF-A/B 论文收录
