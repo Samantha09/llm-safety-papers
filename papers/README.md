@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
   <img src="https://img.shields.io/badge/Complete-80%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--05-14-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--05-18-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -69,6 +69,7 @@
 | 22 | [From If-Statements to ML Pipelines: Revisiting Bias in Code-Generation](./2026/From-If-Statements-to-ML-Pipelines.md) | ACL Findings 2026 | 偏见与公平/代码生成 |
 | 23 | [Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions](./2026/Machine-Behavior-in-Relational-Moral-Dilemmas.md) | ACL Findings 2026 | 伦理与对齐/道德决策 |
 | 24 | [LeakDojo: Decoding the Leakage Threats of RAG Systems](./2026/LeakDojo-RAG-Leakage.md) | ACL 2026 | RAG安全/知识泄露/隐私攻击 |
+| 25 | [SCH: Semantic Compliance Hijacking for LLM Agent Supply Chains](./2026/SCH-Semantic-Compliance-Hijacking.md) | USENIX Security 2026 | 供应链安全/无载荷攻击 |
 
 ### 2025 年 (5篇)
 
