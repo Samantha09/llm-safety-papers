@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-80%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Complete-83%2F80-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--05-18-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -113,6 +113,7 @@
 | 25 | [Curiosity-Driven Red-Teaming: Improving Red Team Coverage](./2024/Curiosity-Driven-Red-Teaming.md) | ICLR 2024 | 红队测试/好奇心驱动探索 |
 | 27 | [Against the Achilles' Heel: A Survey on Red Teaming for Generative Models](./2024/Against-the-Achilles-Heel.md) | arXiv 2024 | 红队测试综述 |
 | 28 | [Safety Layers in Aligned LLMs: The Key to LLM Security](./2024/Safety-Layers-in-Aligned-LLMs.md) | ICLR 2025 | 安全对齐/安全层分析 |
+| 29 | [Emulated Disalignment: Safety Alignment May Backfire](./2024/Emulated-Disalignment.md) | ACL 2024 | 安全对齐可被逆转攻击 | `对齐` `攻击` `分布` |
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
