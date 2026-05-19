@@ -4,7 +4,7 @@
 > 
 > **维护者**: Kimi Claw  
 > **更新频率**: 每周自动更新  
-> **总收录**: 约 74 篇论文（2021-2026年）
+> **总收录**: 约 84 篇论文（2021-2026年）
 
 ---
 
@@ -110,6 +110,13 @@
 | [Real-time Risk Event Discovery from Noisy Customer Incidents at Enterprise Scale](https://arxiv.org/abs/2604.21889) | ACL 2026 Industry | CCF-A | LLM Agent / Incident Detection | 提出TingIS企业级事件发现系统，峰值吞吐量2000条/分钟、P90延迟3.5分钟；在真实数据上显著优于基线方法 |
 | [Turning the Adversary's Poison against Itself: Cluster Segregation Concealment for Backdoor Defense](https://arxiv.org/abs/2604.21416) | Computers & Security Journal | CCF-B | Backdoor Defense | 提出CSC后门防御方法，利用投毒样本在潜伏空间早期形成孤立簇的特性，通过DBSCAN聚类识别异常簇并重新标记为虚拟类；在12种投毒攻击上SOTA，将平均攻击成功率降至近零 |
 
+#### 4月其他论文
+
+| 论文 | 会议 | 等级 | 方向 | 摘要 |
+|------|------|------|------|------|
+| [One Single Hub Text Breaks CLIP: Identifying Vulnerabilities in Cross-Modal Encoders via Hubness](https://arxiv.org/abs/2604.27674) | ACL 2026 | CCF-A | Vision-Language Security | 揭示CLIP等跨模态模型的hubness问题：单一hub文本在多数图像上获得不合理的高相似度，导致跨模态检索和安全分类被绕过 |
+
+---
 
 ## 📅 2024年
 
@@ -118,10 +125,10 @@
 | 论文 | 会议 | arXiv | 摘要 | 代码 |
 |------|------|-------|------|------|
 | **TrustLLM** - Liu et al. | - | [2401.05561](https://arxiv.org/abs/2401.05561) | LLM可信度综合评估 | 未开源 |
-| **AgentDojo** - Debenedetti et al. | NeurIPS 2024 | - | 动态提示注入攻击评估环境 | [GitHub](https://github.com/ethz-spylab/agentdojo) |
+| **AgentDojo** - Debenedetti et al. | NeurIPS 2024 | [2406.13342](https://arxiv.org/abs/2406.13342) | 动态提示注入攻击评估环境 | [GitHub](https://github.com/ethz-spylab/agentdojo) |
 | **HELM Safety** - CRFM/Stanford | - | - | 语言模型标准化安全评估 | 未开源 |
 | **JailbreakBench** - Chao et al. | NeurIPS 2024 | - | 越狱攻击开放鲁棒性基准 | [GitHub](https://github.com/JailbreakBench/jailbreakbench) |
-| **R-Judge** - Yuan et al. | EMNLP 2024 | - | LLM Agent安全风险意识基准 | 未开源 |
+| **R-Judge** - Yuan et al. | EMNLP 2024 | [2401.09013](https://arxiv.org/abs/2401.09013) | LLM Agent安全风险意识基准 | 未开源 |
 | **HallusionBench** - Guan et al. | CVPR 2024 | - | 语言幻觉与视觉错觉诊断套件 | 未开源 |
 | **DiaHalu** - Chen et al. | - | [2403.00896](https://arxiv.org/abs/2403.00896) | 对话级幻觉评估基准 | 未开源 |
 | **Cybench** | - | [2405.16382](https://arxiv.org/abs/2405.16382) | LLM网络安全能力评估框架 | 未开源 |
@@ -130,23 +137,25 @@
 
 | 论文 | 会议 | arXiv | 摘要 | 代码 |
 |------|------|-------|------|------|
-| **Cold-Attack** - Guo et al. | - | [2402.06679](https://arxiv.org/abs/2402.06679) | 隐蔽可控的越狱攻击 | 未开源 |
+| **COLD-Attack** - Guo et al. | ICML 2024 | [2402.08679](https://arxiv.org/abs/2402.08679) | 隐蔽可控的越狱攻击 | 未开源 |
 | **Jailbreaking Black Box LLMs in Twenty Queries (PAIR)** - Chao et al. | - | [2310.08419](https://arxiv.org/abs/2310.08419) | 20次查询内黑盒越狱 | 未开源 |
 | **ActorBreaker** - Ren et al. | ACL 2025 | [2410.10700](https://arxiv.org/abs/2410.10700) | 基于行动者网络的多轮越狱攻击，通过自然分布偏移发现安全漏洞 | [GitHub](https://github.com/AI45Lab/ActorAttack) |
-| **Tree of Attacks** - Mehrotra et al. | NeurIPS 2024 | - | 树形攻击自动越狱黑盒LLM | [GitHub](https://github.com/RICommunity/TAP) |
-| **AutoDAN** - Liu et al. | ICLR 2024 | - | 生成隐蔽越狱提示 | [GitHub](https://github.com/SheltonLiu-N/AutoDAN) |
-| **Crescendo Multi-Turn Jailbreak** - Russinovich et al. | - | - | 多轮递增式越狱攻击 | 未开源 |
+| **Tree of Attacks** - Mehrotra et al. | NeurIPS 2024 | [2312.02119](https://arxiv.org/abs/2312.02119) | 树形攻击自动越狱黑盒LLM | [GitHub](https://github.com/RICommunity/TAP) |
+| **AutoDAN** - Liu et al. | ICLR 2024 | [2310.04451](https://arxiv.org/abs/2310.04451) | 生成隐蔽越狱提示 | [GitHub](https://github.com/SheltonLiu-N/AutoDAN) |
+| **Crescendo Multi-Turn Jailbreak** - Russinovich et al. | USENIX Security 2024 | [2404.01833](https://arxiv.org/abs/2404.01833) | 多轮递增式越狱攻击 | 未开源 |
 | **Harnessing Task Overload** - Dong et al. | - | [2410.04190](https://arxiv.org/abs/2410.04190) | 利用任务过载实现可扩展越狱 | 未开源 |
 | **AutoDAN-Turbo** - Liu et al. | - | [2410.05295](https://arxiv.org/abs/2410.05295) | 终身学习策略自探索代理 | [GitHub](https://github.com/SaFoLab-WISC/AutoDAN-Turbo) |
 | **HarmBench** - Mazeika et al. | - | [2402.04249](https://arxiv.org/abs/2402.04249) | 自动红队测试标准化评估框架 | [GitHub](https://github.com/centerforaisafety/HarmBench) |
 | **Jailbroken** - Wei et al. | NeurIPS 2023 | - | 分析安全训练失败原因 | 未开源 |
+| **MultiJail** - Liu et al. | arXiv | [2311.17532](https://arxiv.org/abs/2311.17532) | 多模态越狱攻击：利用文本+图像输入绕过T2I模型安全对齐 | 未开源 |
+| **SafeGen** - Wu et al. | IEEE TPAMI | [2311.02105](https://arxiv.org/abs/2311.02105) | 轻量级防御机制防止Text-to-Image模型生成色情内容 | 未开源 |
 
 ### Defense & Safety
 
 | 论文 | 会议 | arXiv | 摘要 | 代码 |
 |------|------|-------|------|------|
 | **MLLM-Protector** - Pi et al. | - | [2401.02906](https://arxiv.org/abs/2401.02906) | 保护多模态LLM安全而不损失性能 | 未开源 |
-| **NeMo Guardrails** - Rebedea et al. | EMNLP 2023 Demo | - | 可控制和安全的LLM应用工具包 | [GitHub](https://github.com/NVIDIA/NeMo-Guardrails) |
+| **NeMo Guardrails** - Rebedea et al. | EMNLP 2023 | [2310.10501](https://arxiv.org/abs/2310.10501) | 可控制和安全的LLM应用工具包 | [GitHub](https://github.com/NVIDIA/NeMo-Guardrails) |
 | **Defending with Spotlighting** - Hines et al. | - | - | 利用spotlighting防御间接提示注入 | 未开源 |
 
 ### Red Teaming
@@ -182,7 +191,7 @@
 
 | 论文 | 会议 | arXiv | 摘要 | 代码 |
 |------|------|-------|------|------|
-| **Formalizing Prompt Injection Attacks** - Liu et al. | USENIX Security 2024 | - | 提示注入攻击形式化与基准测试 | 未开源 |
+| **Formalizing Prompt Injection Attacks** - Liu et al. | USENIX Security 2024 | [2310.12815](https://arxiv.org/abs/2310.12815) | 提示注入攻击形式化与基准测试 | 未开源 |
 | **Benchmarking Indirect Prompt Injection** - Yi et al. | - | [2312.14197](https://arxiv.org/abs/2312.14197) | 间接提示注入攻击基准测试 | 未开源 |
 
 ### Surveys
@@ -201,14 +210,14 @@
 | 论文 | 会议 | arXiv | 摘要 | 代码 |
 |------|------|-------|------|------|
 | **Universal and Transferable Adversarial Attacks (GCG)** - Zou et al. | ICLR 2024 | [2307.15043](https://arxiv.org/abs/2307.15043) | 通用可迁移对抗攻击 | [GitHub](https://github.com/llm-attacks/llm-attacks) |
-| **Towards Mitigating LLM Hallucination** - Ji et al. | EMNLP 2023 Findings | - | 通过自我反思缓解LLM幻觉 | 未开源 |
+| **Towards Mitigating LLM Hallucination** - Ji et al. | EMNLP 2023 | [2310.06271](https://arxiv.org/abs/2310.06271) | 通过自我反思缓解LLM幻觉 | 未开源 |
 | **GPTFuzzer** - Yu et al. | - | [2309.10253](https://arxiv.org/abs/2309.10253) | 自动生成越狱提示的红队测试 | 未开源 |
 | **Llama Guard** - Inan et al. | - | [2312.06674](https://arxiv.org/abs/2312.06674) | 基于LLM的输入输出安全保障 | [GitHub](https://github.com/meta-llama/PurpleLlama) |
 | **Not What You've Signed Up For** - Greshake et al. | AISec 2023 | - | 间接提示注入攻击 | 未开源 |
 | **A Holistic Approach to Undesired Content Detection** - Markov et al. | AAAI 2023 | - | 不良内容检测的整体方法 | 未开源 |
 | **Trustworthy LLMs Survey** - Liu et al. | - | [2308.05374](https://arxiv.org/abs/2308.05374) | 可信LLM评估综述 | 未开源 |
-| **Do Anything Now** - Shen et al. | CCS 2024 | - | 野外越狱提示特征分析 | 未开源 |
-| **Don't Listen to Me** - Yu et al. | USENIX Security 2024 | - | 理解越狱提示的本质 | 未开源 |
+| **Do Anything Now** - Shen et al. | CCS 2023 | [2308.03825](https://arxiv.org/abs/2308.03825) | 野外越狱提示特征分析 | 未开源 |
+| **Don't Listen to Me** - Yu et al. | USENIX Security 2024 | [2403.17336](https://arxiv.org/abs/2403.17336) | 理解越狱提示的本质 | 未开源 |
 | **Survey of Hallucination in NLG** - Ji et al. | ACM Computing Surveys | - | 自然语言生成中的幻觉综述 | 未开源 |
 | **Prompt Injection Attack** - Liu et al. | - | [2306.05499](https://arxiv.org/abs/2306.05499) | 针对LLM集成应用的提示注入攻击 | 未开源 |
 
@@ -218,11 +227,11 @@
 
 | 论文 | 会议 | 年份 | 摘要 | 代码 |
 |------|------|------|------|------|
-| **Red Teaming Language Models with Language Models** - Perez et al. | - | 2022 | 用LLM对LLM进行红队测试 | 未开源 |
-| **TruthfulQA** - Lin et al. | - | 2022 | 测量模型模仿人类谬误的程度 | 未开源 |
+| **Red Teaming Language Models with Language Models** - Perez et al. | EMNLP 2022 | [2202.03286](https://arxiv.org/abs/2202.03286) | 用LLM对LLM进行红队测试 | 未开源 |
+| **TruthfulQA** - Lin et al. | ACL 2022 | [2109.07958](https://arxiv.org/abs/2109.07958) | 测量模型模仿人类谬误的程度 | 未开源 |
 | **Asleep at the Keyboard** - Pearce et al. | IEEE S&P | 2022 | GitHub Copilot代码安全分析 | 未开源 |
 | **You Autocomplete Me** - Schuster et al. | USENIX Security | 2021 | 神经代码补全中的投毒攻击 | 未开源 |
-| **Extracting Training Data from LLMs** - Carlini et al. | USENIX Security | 2021 | 从大型语言模型中提取训练数据 | 未开源 |
+| **Extracting Training Data from LLMs** - Carlini et al. | USENIX Security 2021 | [2012.07805](https://arxiv.org/abs/2012.07805) | 从大型语言模型中提取训练数据 | 未开源 |
 
 ---
 
