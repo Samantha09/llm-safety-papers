@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-83%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--05-18-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-84%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--05-20-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -81,7 +81,7 @@
 | 4 | [ActorBreaker: Multi-turn LLM Jailbreak Attack](./2025/ActorBreaker.md) | ACL 2025 | 多轮越狱攻击 |
 | 5 | [AI Alignment: A Comprehensive Survey](./2025/AI-Alignment-Survey.md) | arXiv 2023 | AI对齐全面综述/RICE框架 |
 
-### 2024 年 (29篇)
+### 2024 年 (30篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -105,7 +105,8 @@
 | 17 | [TrustLLM: Trustworthiness in Large Language Models](./2024/TrustLLM.md) | arXiv 2024 | 综述 |
 | 18 | [SafeGen: Mitigating Sexually Explicit Content in T2I Models](./2024/SafeGen.md) | IEEE S&P 2024 | 多模态安全 |
 | 19 | [MultiJail: Jailbreaking T2I Models via Multi-Modal Attack](./2024/MultiJail.md) | arXiv 2024 | 多模态攻击 |
-| 20 | [Jailbreak Attacks and Defenses Survey](./2024/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 综述 |
+| 20 | [Speak Out of Turn: Safety Vulnerability in Multi-turn Dialogue](./2024/Speak-Out-of-Turn.md) | arXiv 2024 | 多轮对话安全漏洞/越狱攻击 |
+| 21 | [Jailbreak Attacks and Defenses Survey](./2024/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 综述 |
 | 21 | [LLM Security and Privacy Survey](./2024/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | 综述 |
 | 22 | [DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark](./2024/DiaHalu.md) | arXiv 2024 | 幻觉检测基准 |
 | 23 | [Formalizing and Benchmarking Prompt Injection Attacks and Defenses](./2024/Formalizing-Prompt-Injection.md) | USENIX Security 2024 | 提示注入攻击/形式化框架 |

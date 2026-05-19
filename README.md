@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-74%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-83%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-84%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -29,9 +29,9 @@
 
 | 指标 | 数值 |
 |------|------|
-| **计划完成** | 80 篇 |
-| **已完成** | **82 篇 (102%)** |
-| **最后更新** | 2026-05-18 |
+| **计划完成** | 83 篇 |
+| **已完成** | **84 篇 (105%)** |
+| **最后更新** | 2026-05-20 |
 
 ---
 
@@ -158,7 +158,7 @@ llm-safety-papers/
 
 ## 📚 论文列表
 
-### 越狱攻击（10篇）
+### 越狱攻击（11篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
@@ -173,6 +173,7 @@ llm-safety-papers/
 | 8 | [Crescendo](./papers/2025/Crescendo.md) | USENIX Security 2025 | 多轮渐进式越狱攻击 | `多轮攻击` `渐进式` `良性输入` |
 | 9 | [ActorBreaker](./papers/2025/ActorBreaker.md) | ACL 2025 | 基于行动者网络的多轮越狱攻击，通过自然分布偏移发现安全漏洞 | `多轮攻击` `行动者网络` `自然分布偏移` |
 | 10 | [Do Anything Now](./papers/2023/Do-Anything-Now.md) | CCS 2024 | 首个野生越狱提示系统性测量研究，揭示8大越狱社区与攻击策略演化 | `野生越狱` `社区检测` `平台迁移` |
+| 11 | [Speak Out of Turn](./papers/2024/Speak-Out-of-Turn.md) | arXiv 2024 | 多轮对话中的安全漏洞，将恶意查询分解为多个子问题逐步诱导LLM生成有害内容 | `多轮攻击` `查询分解` `安全漏洞` |
 
 ### 防御与安全对齐（6篇）
 
@@ -311,8 +312,11 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-05-20 | 添加论文：Speak Out of Turn - 多轮对话安全漏洞 (arXiv 2402.17262)，更新进度至 84/80 |
 | 2026-05-12 | 添加论文：From If-Statements to ML Pipelines - 代码生成中的隐性偏见研究 (ACL 2026 Findings)，更新进度至 78/80
+| 2026-05-20 | 添加论文：Speak Out of Turn - 多轮对话安全漏洞 (arXiv 2402.17262)，更新进度至 84/80 |
 | 2026-05-12 | 添加论文：From If-Statements to ML Pipelines - 代码生成中的隐性偏见研究 (ACL 2026 Findings)，更新进度至 78/80
+| 2026-05-20 | 添加论文：Speak Out of Turn - 多轮对话安全漏洞 (arXiv 2402.17262)，更新进度至 84/80 |
 | 2026-05-11 | 添加论文：Safety Anchor - 通过几何瓶颈防御有害微调攻击 (ICML 2026)，更新进度至 77/80 |
 | 2026-04-27 | 添加论文：Hidden Secrets in the arXiv - 系统性分析270万份arXiv源文件信息泄露 (IEEE S&P 2026)，更新进度至 62/74 |
 | 2026-04-26 | 添加论文：Against the Achilles' Heel - 生成式模型红队测试综述 (arXiv 2024)，更新进度至 61/74 |
