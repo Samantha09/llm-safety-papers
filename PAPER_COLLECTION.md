@@ -34,6 +34,14 @@
 
 ### 3月更新
 
+#### 5月18日 - CCF-A/B 论文收录
+
+本周收录 1 篇确定录用的 LLM Safety 论文（1篇CCF-B）：
+
+| 论文 | 会议 | 等级 | 方向 | 摘要 |
+|------|------|------|------|------|
+| [Autonomous LLM Agents & CTFs: A Second Look](https://arxiv.org/abs/2605.21497) | EuroS&P 2026 | CCF-B | Agent Security / CTF | 重新审视LLM Agent自动化攻击CTF挑战的能力，发现通用agent（claude-code）表现与专用架构相当（19/30），但同类任务存在共同弱点，揭示当前Agent仍远低于人类水平 |
+
 #### 3月16日 - CCF-A/B 论文收录
 
 本周收录 3 篇确定录用的 LLM Safety 论文（1篇CCF-A，2篇CCF-B）：
