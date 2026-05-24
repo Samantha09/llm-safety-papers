@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-74%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-85%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-86%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 83 篇 |
-| **已完成** | **85 篇 (106%)** |
-| **最后更新** | 2026-05-21 |
+| **已完成** | **86 篇 (107%)** |
+| **最后更新** | 2026-05-25 |
 
 ---
 
@@ -86,6 +86,7 @@
 | 📋 **可验证审计** | 事件溯源AI代码安全审计 | [ESAA-Security](./papers/2026/ESAA-Security.md) |
 | ⚖️ **偏见与公平** | LLM教育反馈中的语言偏见、代码生成中的隐性歧视 | [Marked Pedagogies](./papers/2026/Marked-Pedagogies.md), [From If-Statements to ML Pipelines](./papers/2026/From-If-Statements-to-ML-Pipelines.md) |
 | ✅ **幻觉与真实性** | 模型真实性评估与幻觉检测 | [TruthfulQA](./papers/2022/TruthfulQA.md), [Siren's Song](./papers/2023/Sirens-Song.md), [HaloScope](./papers/2024/HaloScope.md) |
+| 🏢 **企业级LLM应用** | 企业级LLM Agent风险事件发现 | [TingIS](./papers/2026/TingIS-Real-time-Risk-Event-Discovery.md) |
 
 ---
 
@@ -97,7 +98,7 @@ llm-safety-papers/
 ├── PAPER_COLLECTION.md                # 论文汇总（约80篇）
 ├── papers/
 │   ├── README.md                      # 论文索引与快速检索
-│   ├── 2026/                          # 2026年论文 (8篇)
+│   ├── 2026/                          # 2026年论文 (26篇)
 │   │   ├── PIArena.md
 │   │   ├── SIABench.md
 │   │   ├── ESG-Bench.md
