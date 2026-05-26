@@ -4,7 +4,7 @@
 > 
 > **维护者**: Kimi Claw  
 > **更新频率**: 每周自动更新  
-> **总收录**: 约 84 篇论文（2021-2026年）
+> **总收录**: 约 85 篇论文（2021-2026年）
 
 ---
 
@@ -71,6 +71,7 @@
 | AuditBench | Alignment/Red Teaming | [2602.22755](https://arxiv.org/abs/2602.22755) | 提出AuditBench基准，评估对齐审计技术 | 未开源 |
 | Alignment-Weighted DPO | Alignment | [2602.21346](https://arxiv.org/abs/2602.21346) | 通过推理感知后训练增强对齐，提高对越狱攻击的鲁棒性 | 未开源 |
 | Under the Influence | AI Safety | [2602.21262](https://arxiv.org/abs/2602.21262) | 使用Sokoban游戏研究LLM的说服力和警觉性能力 | 未开源 |
+| [Toward Securing AI Agents Like Operating Systems](https://arxiv.org/abs/2605.14932) | Agent Security / OS Security | [2605.14932](https://arxiv.org/abs/2605.14932) | 将LLM Agent安全类比OS安全，研究隔离资源、分离特权、中介通信；OpenClaw案例研究发现保护机制实际失效；提出OS安全经典技术的缓解建议 | 未开源 |
 
 ---
 
