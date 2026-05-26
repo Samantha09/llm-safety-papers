@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-86%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--05--25-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-88%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--05--27-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -14,7 +14,7 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 25 | [./2026/](./2026/) |
+| 2026 | 27 | [./2026/](./2026/) |
 | 2025 | 5 | [./2025/](./2025/) |
 | 2024 | 31 | [./2024/](./2024/) |
 | 2023 | 11 | [./2023/](./2023/) |
@@ -41,7 +41,7 @@
 | 3 | [HELM: Holistic Evaluation of Language Models](./2022/HELM.md) | TMLR 2023 | 综合评估基准/透明度 |
 | 4 | [Asleep at the Keyboard: Assessing the Security of GitHub Copilot's Code Contributions](./2022/Asleep-at-the-Keyboard.md) | IEEE S&P 2022 | 代码安全/AI编程助手 |
 
-### 2026 年 (26篇)
+### 2026 年 (27篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -71,6 +71,7 @@
 | 24 | [LeakDojo: Decoding the Leakage Threats of RAG Systems](./2026/LeakDojo-RAG-Leakage.md) | ACL 2026 | RAG安全/知识泄露/隐私攻击 |
 | 25 | [SCH: Semantic Compliance Hijacking for LLM Agent Supply Chains](./2026/SCH-Semantic-Compliance-Hijacking.md) | USENIX Security 2026 | 供应链安全/无载荷攻击 |
 | 26 | [TingIS: Real-time Risk Event Discovery from Noisy Customer Incidents](./2026/TingIS-Real-time-Risk-Event-Discovery.md) | ACL 2026 Industry | 风险事件发现/企业级Agent |
+| 27 | [Autonomous LLM Agents & CTFs: A Second Look](./2026/Autonomous-LLM-Agents-CTFs-Second-Look.md) | EuroS&P 2026 | Agent安全/CTF/渗透测试 |
 
 ### 2025 年 (5篇)
 
