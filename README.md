@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-74%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-88%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-89%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 83 篇 |
-| **已完成** | **88 篇 (110%)** |
-| **最后更新** | 2026-05-27 |
+| **已完成** | **89 篇 (111%)** |
+| **最后更新** | 2026-05-29 |
 
 ---
 
@@ -188,12 +188,13 @@ llm-safety-papers/
 | 15 | [NeMo Guardrails](./papers/2023/NeMo-Guardrails.md) | EMNLP 2023 | NVIDIA开源工具包，五类可编程护栏控制LLM对话安全性 | `可编程护栏` `运行时控制` `Colang` `开源` |
 | 16 | [Safety Anchor](./papers/2026/Safety-Anchor.md) | ICML 2026 | 通过几何瓶颈机制防御有害微调攻击，仅需单锚点即可将有害分数降至10以下 | `微调防御` `几何瓶颈` `SBR` |
 
-### 提示注入攻击（2篇）
+### 提示注入攻击（3篇）
 
 | # | 论文 | 会议/年份 | 核心思想 | 标签 |
 |---|------|----------|----------|------|
-| 36 | [Formalizing Prompt Injection](./papers/2024/Formalizing-Prompt-Injection.md) | USENIX Security 2024 | 形式化提示注入攻击框架，系统评估5种攻击和10种防御 | `提示注入` `形式化框架` `基准测试` `USENIX` |
-| 37 | [Benchmarking Indirect Prompt Injection (BIPIA)](./papers/2023/Benchmarking-Indirect-Prompt-Injection.md) | KDD 2025 | 首个系统性间接提示注入攻击基准，评估现有LLM普遍存在漏洞，提出边界感知和显式提醒双重防御 | `提示注入` `BIPIA` `基准测试` `KDD` |
+| 38 | [Prompt Injection Attack against LLM-integrated Applications](./papers/2023/Prompt-Injection-Attack.md) | arXiv 2023 | 提出HouYi黑盒提示注入攻击，三组件框架（框架+分隔符+破坏者），86.1%成功率攻击36个应用 | `提示注入` `HouYi` `黑盒攻击` `三阶段攻击` |
+| 39 | [Formalizing Prompt Injection](./papers/2024/Formalizing-Prompt-Injection.md) | USENIX Security 2024 | 形式化提示注入攻击框架，系统评估5种攻击和10种防御 | `提示注入` `形式化框架` `基准测试` `USENIX` |
+| 40 | [Benchmarking Indirect Prompt Injection (BIPIA)](./papers/2023/Benchmarking-Indirect-Prompt-Injection.md) | KDD 2025 | 首个系统性间接提示注入攻击基准，评估现有LLM普遍存在漏洞，提出边界感知和显式提醒双重防御 | `提示注入` `BIPIA` `基准测试` `KDD` |
 
 ### 评估基准（7篇）
 
@@ -313,6 +314,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-05-29 | 添加论文：Prompt Injection Attack against LLM-integrated Applications - HouYi黑盒提示注入攻击 (arXiv 2306.05499)，更新进度至 89/80 |
 | 2026-05-20 | 添加论文：Speak Out of Turn - 多轮对话安全漏洞 (arXiv 2402.17262)，更新进度至 84/80 |
 | 2026-05-12 | 添加论文：From If-Statements to ML Pipelines - 代码生成中的隐性偏见研究 (ACL 2026 Findings)，更新进度至 78/80
 | 2026-05-20 | 添加论文：Speak Out of Turn - 多轮对话安全漏洞 (arXiv 2402.17262)，更新进度至 84/80 |
