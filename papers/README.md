@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-88%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--05--27-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-89%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--05--29-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -17,7 +17,7 @@
 | 2026 | 27 | [./2026/](./2026/) |
 | 2025 | 5 | [./2025/](./2025/) |
 | 2024 | 31 | [./2024/](./2024/) |
-| 2023 | 11 | [./2023/](./2023/) |
+| 2023 | 12 | [./2023/](./2023/) |
 | 2022 | 4 | [./2022/](./2022/) |
 | 2021 | 2 | [./2021/](./2021/) |
 
@@ -131,6 +131,7 @@
 | 9 | [Towards Mitigating LLM Hallucination via Self-Reflection](./2023/Towards-Mitigating-LLM-Hallucination.md) | EMNLP 2023 | 幻觉缓解/医学QA |
 | 10 | [Do Anything Now: 野生越狱提示特征分析与评估](./2023/Do-Anything-Now.md) | CCS 2024 | 越狱攻击/野生提示测量研究 |
 | 11 | [Benchmarking Indirect Prompt Injection (BIPIA)](./2023/Benchmarking-Indirect-Prompt-Injection.md) | KDD 2025 | 间接提示注入攻击基准 |
+| 12 | [Prompt Injection Attack against LLM-integrated Applications](./2023/Prompt-Injection-Attack.md) | arXiv 2023 | 提示注入攻击/HouYi黑盒攻击 |
 
 ---
 
@@ -142,7 +143,7 @@
 |------|:--------:|----------|
 | 🔓 越狱攻击 | 12 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo, Crescendo, ActorBreaker, Do Anything Now, GPTFuzzer, Curiosity-Driven Red-Teaming |
 | 🎯 对抗攻击 | 2 | GCG, AutoDAN |
-| 🧠 提示注入 | 6 | PIArena, Under the Influence, Not What You've Signed Up For, Benchmarking Indirect Prompt Injection, Formalizing Prompt Injection, Do Anything Now (提示注入相关) |
+| 🧠 提示注入 | 7 | PIArena, Under the Influence, Not What You've Signed Up For, Benchmarking Indirect Prompt Injection, Formalizing Prompt Injection, Do Anything Now (提示注入相关), Prompt Injection Attack |
 | 🎭 隐蔽攻击 | 2 | Cold-Attack, Sleeper Agents |
 | 🚪 后门攻击 | 2 | Sleeper Agents, Cluster Segregation Concealment (CSC) |
 
