@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-90%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--05--30-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-91%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--06--01-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -25,6 +25,7 @@
 
 ## 📋 完整论文列表（按年份排序）
 
+| 28 | [AliMark: Enhancing Robustness of Sentence-Level Watermarking Against Text Paraphrasing](./2026/AliMark.md) | ICML 2026 | 水印/内容溯源 |
 ### 2021 年 (1篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
@@ -41,7 +42,7 @@
 | 3 | [HELM: Holistic Evaluation of Language Models](./2022/HELM.md) | TMLR 2023 | 综合评估基准/透明度 |
 | 4 | [Asleep at the Keyboard: Assessing the Security of GitHub Copilot's Code Contributions](./2022/Asleep-at-the-Keyboard.md) | IEEE S&P 2022 | 代码安全/AI编程助手 |
 
-### 2026 年 (27篇)
+### 2026 年 (28篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
