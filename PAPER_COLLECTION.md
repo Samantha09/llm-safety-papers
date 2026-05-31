@@ -42,6 +42,15 @@
 |------|------|------|------|------|
 | [Autonomous LLM Agents & CTFs: A Second Look](https://arxiv.org/abs/2605.21497) | EuroS&P 2026 | CCF-B | Agent Security / CTF | 重新审视LLM Agent自动化攻击CTF挑战的能力，发现通用agent（claude-code）表现与专用架构相当（19/30），但同类任务存在共同弱点，揭示当前Agent仍远低于人类水平 |
 
+#### 6月1日 - CCF-A/B 论文收录
+
+本周收录 2 篇确定录用的 LLM Safety 论文（2篇CCF-A）：
+
+| 论文 | 会议 | 等级 | 方向 | 摘要 |
+|------|------|------|------|------|
+| [AliMark: Enhancing Robustness of Sentence-Level Watermarking Against Text Paraphrasing](https://arxiv.org/abs/2605.29434) | ICML 2026 | CCF-A | Watermarking / Security | 提出AliMark方法增强句子级水印在文本改写攻击下的鲁棒性，基于令牌级别梯度显著性选择关键位置进行水印嵌入，有效抵御多种改写攻击 |
+| [Implicit Identity Technologies for LLMs: Fingerprinting and Watermarking across Datasets, Models, and Generated Content](https://arxiv.org/abs/2605.29245) | IJCAI-ECAI 2026 | CCF-B | Fingerprinting / Security | 系统性综述并提出LLM隐式身份技术（水印/指纹），覆盖身份验证、溯源、内容归属和资产保护四大应用场景 |
+
 #### 3月16日 - CCF-A/B 论文收录
 
 本周收录 3 篇确定录用的 LLM Safety 论文（1篇CCF-A，2篇CCF-B）：
