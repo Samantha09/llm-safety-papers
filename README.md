@@ -31,7 +31,7 @@
 |------|------|
 | **计划完成** | 83 篇 |
 | **已完成** | **91 篇 (114%)** |
-| **最后更新| 2026-06-01
+| **最后更新| 2026-06-02
 
 ---
 
@@ -78,11 +78,11 @@
 
 | 方向 | 说明 | 论文 |
 |------|------|------|
-| 📚 **综述** | 领域全面回顾 | [Jailbreak Attacks and Defenses Survey](./papers/2024/Jailbreak-Attacks-and-Defenses-Survey.md), [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md), [TrustLLM](./papers/2024/TrustLLM.md), [AI Alignment Survey](./papers/2025/AI-Alignment-Survey.md), [Siren's Song](./papers/2023/Sirens-Song.md), [Resource Consumption Threats Survey](./papers/2026/Resource-Consumption-Threats-Survey.md) |
+| 📚 **综述** | 领域全面回顾 | [Jailbreak Attacks and Defenses Survey](./papers/2024/Jailbreak-Attacks-and-Defenses-Survey.md), [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md), [TrustLLM](./papers/2024/TrustLLM.md), [AI Alignment Survey](./papers/2025/AI-Alignment-Survey.md), [Siren's Song](./papers/2023/Sirens-Song.md), [Resource Consumption Threats Survey](./papers/2026/Resource-Consumption-Threats-Survey.md), [Implicit Identity](./papers/2026/Implicit-Identity-Technologies.md) |
 | 🔬 **漏洞分析** | 模型自我认知漏洞 | [Jailbroken](./papers/2023/Jailbroken.md) |
 | 🔮 **跨模态安全** | 跨模态编码器脆弱性 | [One Single Hub Text Breaks CLIP](./papers/2026/One-Single-Hub-Text-Breaks-CLIP.md) |
 | 💻 **代码安全** | CodeLLM安全生成 | [SCS-Code](./papers/2026/SCS-Code.md) |
-| 🔒 **隐私保护** | 移动端日志隐私保护 | [Proteus](./papers/2026/Proteus.md), [Hidden Secrets](./papers/2026/Hidden-Secrets-arXiv.md) |
+| 🔒 **隐私保护** | 移动端日志隐私保护 | [Proteus](./papers/2026/Proteus.md), [Hidden Secrets](./papers/2026/Hidden-Secrets-arXiv.md), [Implicit Identity](./papers/2026/Implicit-Identity-Technologies.md) |
 | 📋 **可验证审计** | 事件溯源AI代码安全审计 | [ESAA-Security](./papers/2026/ESAA-Security.md) |
 | ⚖️ **偏见与公平** | LLM教育反馈中的语言偏见、代码生成中的隐性歧视 | [Marked Pedagogies](./papers/2026/Marked-Pedagogies.md), [From If-Statements to ML Pipelines](./papers/2026/From-If-Statements-to-ML-Pipelines.md) |
 | ✅ **幻觉与真实性** | 模型真实性评估与幻觉检测 | [TruthfulQA](./papers/2022/TruthfulQA.md), [Siren's Song](./papers/2023/Sirens-Song.md), [HaloScope](./papers/2024/HaloScope.md) |
@@ -244,6 +244,7 @@ llm-safety-papers/
 | 42 | [Jailbroken: How Does LLM Safety Training Fail?](./papers/2023/Jailbroken.md) | NeurIPS 2023 | LLM安全训练失败原因分析 | `安全训练` `漏洞分析` |
 | 42 | [Siren's Song: LLM幻觉综述](./papers/2023/Sirens-Song.md) | arXiv 2023 | LLM幻觉全面综述：分类、评估、来源与缓解 | `幻觉` `综述` `可靠性` |
 | 43 | [AI Alignment: A Comprehensive Survey](./papers/2025/AI-Alignment-Survey.md) | arXiv 2023 | AI对齐全面综述：RICE框架、前向对齐、后向对齐 | `对齐` `综述` `RICE` `RLHF` |
+| 44 | [Implicit Identity Technologies](./papers/2026/Implicit-Identity-Technologies.md) | IJCAI-ECAI 2026 | LLM指纹识别与水印技术统一综述，提出隐式身份框架与生命周期分类体系 | `指纹识别` `水印` `资产保护` `溯源` |
 | 43 | [Towards Mitigating LLM Hallucination via Self-Reflection](./papers/2023/Towards-Mitigating-LLM-Hallucination.md) | EMNLP 2023 | 交互式自我反思方法减少医学QA中的幻觉 | `幻觉缓解` `自我反思` `医学QA` |
 | 44 | [Not What You've Signed Up For](./papers/2023/Not-What-Youve-Signed-Up-For.md) | AISec 2023 | 间接提示注入攻击：无需直接接口即可远程攻击LLM集成应用 | `间接注入` `远程攻击` `数据与指令混淆` |
 
@@ -314,7 +315,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
-| 2026-05-29 | 添加论文：Prompt Injection Attack against LLM-integrated Applications - HouYi黑盒提示注入攻击 (arXiv 2306.05499)，更新进度至 89/80 |
+| 2026-06-02 | 添加论文：Implicit Identity Technologies - LLM指纹识别与水印技术综述 (IJCAI-ECAI 2026)，更新进度至 91/80 |
 | 2026-05-20 | 添加论文：Speak Out of Turn - 多轮对话安全漏洞 (arXiv 2402.17262)，更新进度至 84/80 |
 | 2026-05-12 | 添加论文：From If-Statements to ML Pipelines - 代码生成中的隐性偏见研究 (ACL 2026 Findings)，更新进度至 78/80
 | 2026-05-20 | 添加论文：Speak Out of Turn - 多轮对话安全漏洞 (arXiv 2402.17262)，更新进度至 84/80 |
