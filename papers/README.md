@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-91%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--06--02-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-92%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--06--03-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -16,7 +16,7 @@
 |:----:|:--------:|------|
 | 2026 | 29 | [./2026/](./2026/) |
 | 2025 | 5 | [./2025/](./2025/) |
-| 2024 | 31 | [./2024/](./2024/) |
+| 2024 | 32 | [./2024/](./2024/) |
 | 2023 | 12 | [./2023/](./2023/) |
 | 2022 | 4 | [./2022/](./2022/) |
 | 2021 | 2 | [./2021/](./2021/) |

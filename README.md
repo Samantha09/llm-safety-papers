@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-74%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-91%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-92%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 83 篇 |
-| **已完成** | **91 篇 (114%)** |
-| **最后更新| 2026-06-02
+| **已完成** | **92 篇 (115%)** |
+| **最后更新** | 2026-06-03
 
 ---
 
@@ -50,7 +50,7 @@
 
 | 类型 | 说明 | 代表论文 |
 |------|------|----------|
-| 🛡️ **安全对齐** | 训练阶段的安全优化 | [BeaverTails](./papers/2023/BeaverTails.md), [Nothing in Excess](./papers/2025/Nothing-in-Excess.md), [Alignment-Weighted DPO](./papers/2024/Alignment-Weighted-DPO.md), [Safety Layers](./papers/2024/Safety-Layers-in-Aligned-LLMs.md), [Emulated Disalignment](./papers/2024/Emulated-Disalignment.md) |
+| 🛡️ **安全对齐** | 训练阶段的安全优化 | [BeaverTails](./papers/2023/BeaverTails.md), [Nothing in Excess](./papers/2025/Nothing-in-Excess.md), [Alignment-Weighted DPO](./papers/2024/Alignment-Weighted-DPO.md), [Safety Layers](./papers/2024/Safety-Layers-in-Aligned-LLMs.md), [Instruction Hierarchy](./papers/2024/Instruction-Hierarchy.md), [Emulated Disalignment](./papers/2024/Emulated-Disalignment.md) |
 | 🔍 **输出检测** | 生成内容的实时检测 | [MLLM-Protector](./papers/2024/MLLM-Protector.md), [SafeGen](./papers/2024/SafeGen.md) |
 | 🧪 **红队测试** | 主动发现安全漏洞 | [HARM](./papers/2024/Holistic-Automated-Red-Teaming.md), [APRT](./papers/2025/APRT.md), [Tree of Attacks](./papers/2024/Tree-of-Attacks.md), [GPTFuzzer](./papers/2023/GPTFuzzer.md), [Red Teaming LMs](./papers/2022/Red-Teaming-LMs.md) |
 
@@ -183,10 +183,11 @@ llm-safety-papers/
 | 10 | [MLLM-Protector](./papers/2024/MLLM-Protector.md) | arXiv 2024 | 多模态模型输出端检测与解毒 | `多模态` `输出检测` `轻量级` |
 | 11 | [Nothing in Excess](./papers/2025/Nothing-in-Excess.md) | ICLR 2025 | 缓解过度安全对齐导致的过度拒绝 | `过度拒绝` `安全对齐` `平衡` |
 | 12 | [Alignment-Weighted DPO](./papers/2024/Alignment-Weighted-DPO.md) | arXiv 2024 | 加权DPO优化安全对齐 | `DPO` `加权训练` `安全对齐` |
-| 13 | [SafeGen](./papers/2024/SafeGen.md) | IEEE S&P 2024 | T2I模型性暗示内容生成防护 | `多模态` `内容过滤` `即插即用` |
-| 14 | [Llama Guard](./papers/2023/Llama-Guard.md) | Meta 2023 | 基于LLM的输入输出保护模型，支持prompt和response分类 | `内容审核` `安全分类` `开源` `可定制` |
-| 15 | [NeMo Guardrails](./papers/2023/NeMo-Guardrails.md) | EMNLP 2023 | NVIDIA开源工具包，五类可编程护栏控制LLM对话安全性 | `可编程护栏` `运行时控制` `Colang` `开源` |
-| 16 | [Safety Anchor](./papers/2026/Safety-Anchor.md) | ICML 2026 | 通过几何瓶颈机制防御有害微调攻击，仅需单锚点即可将有害分数降至10以下 | `微调防御` `几何瓶颈` `SBR` |
+| 13 | [Instruction Hierarchy](./papers/2024/Instruction-Hierarchy.md) | arXiv 2024 | 提出指令层次结构，教导LLM区分特权优先级，系统消息>用户消息>工具输出 | `指令层次` `特权区分` `提示注入防御` |
+| 14 | [SafeGen](./papers/2024/SafeGen.md) | IEEE S&P 2024 | T2I模型性暗示内容生成防护 | `多模态` `内容过滤` `即插即用` |
+| 15 | [Llama Guard](./papers/2023/Llama-Guard.md) | Meta 2023 | 基于LLM的输入输出保护模型，支持prompt和response分类 | `内容审核` `安全分类` `开源` `可定制` |
+| 16 | [NeMo Guardrails](./papers/2023/NeMo-Guardrails.md) | EMNLP 2023 | NVIDIA开源工具包，五类可编程护栏控制LLM对话安全性 | `可编程护栏` `运行时控制` `Colang` `开源` |
+| 17 | [Safety Anchor](./papers/2026/Safety-Anchor.md) | ICML 2026 | 通过几何瓶颈机制防御有害微调攻击，仅需单锚点即可将有害分数降至10以下 | `微调防御` `几何瓶颈` `SBR` |
 
 ### 提示注入攻击（3篇）
 
