@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-93%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Complete-92%2F80-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--06--06-informational?style=flat-square" alt="Last Update">
 </p>
 
