@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-92%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--06--06-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-93%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--06--08-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -14,7 +14,7 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 29 | [./2026/](./2026/) |
+| 2026 | 30 | [./2026/](./2026/) |
 | 2025 | 5 | [./2025/](./2025/) |
 | 2024 | 32 | [./2024/](./2024/) |
 | 2023 | 12 | [./2023/](./2023/) |
@@ -75,6 +75,7 @@
 | 27 | [Autonomous LLM Agents & CTFs: A Second Look](./2026/Autonomous-LLM-Agents-CTFs-Second-Look.md) | EuroS&P 2026 | Agent安全/CTF/渗透测试 |
 | 28 | [Implicit Identity Technologies: Fingerprinting and Watermarking for LLMs](./2026/Implicit-Identity-Technologies.md) | IJCAI-ECAI 2026 | 指纹识别/水印/资产保护/溯源 |
 | 29 | [AliMark: Enhancing Robustness of Sentence-Level Watermarking Against Text Paraphrasing](./2026/AliMark.md) | ICML 2026 | 水印/内容溯源 |
+| 30 | [SlotGCG: Exploiting Positional Vulnerability in LLMs for Jailbreak Attacks](./2026/SlotGCG.md) | ICLR 2026 | 越狱攻击/位置脆弱性 |
 
 ### 2025 年 (5篇)
 
