@@ -51,6 +51,14 @@
 | [AliMark: Enhancing Robustness of Sentence-Level Watermarking Against Text Paraphrasing](https://arxiv.org/abs/2605.29434) | ICML 2026 | CCF-A | Watermarking / Security | 提出AliMark方法增强句子级水印在文本改写攻击下的鲁棒性，基于令牌级别梯度显著性选择关键位置进行水印嵌入，有效抵御多种改写攻击 |
 | [Implicit Identity Technologies for LLMs: Fingerprinting and Watermarking across Datasets, Models, and Generated Content](https://arxiv.org/abs/2605.29245) | IJCAI-ECAI 2026 | CCF-B | Fingerprinting / Security | 系统性综述并提出LLM隐式身份技术（水印/指纹），覆盖身份验证、溯源、内容归属和资产保护四大应用场景 |
 
+#### 6月8日 - CCF-A/B 论文收录
+
+本周收录 1 篇确定录用的 LLM Safety 论文（1篇CCF-A）：
+
+| 论文 | 会议 | 等级 | 方向 | 摘要 |
+|------|------|------|------|------|
+| [Exploiting the Positional Vulnerability in LLMs for Jailbreak Attacks](https://arxiv.org/abs/2606.05609) | ICLR 2026 | CCF-A | Jailbreak Attack / Red Teaming | 提出SlotGCG方法，系统性研究LLM中位置脆弱性（slots）并优化jailbreak攻击，比现有GCG方法提高14%攻击成功率，收敛更快，且对防御方法更具鲁棒性 |
+
 #### 3月16日 - CCF-A/B 论文收录
 
 本周收录 3 篇确定录用的 LLM Safety 论文（1篇CCF-A，2篇CCF-B）：
