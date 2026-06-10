@@ -31,7 +31,7 @@
 |------|------|
 | **计划完成** | 83 篇 |
 | **已完成 93 篇 (116%)** |
-| **最后更新: 2026-06-08
+| **最后更新: 2026-06-11
 
 ---
 
@@ -316,7 +316,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
-| 2026-06-02 | 添加论文：Implicit Identity Technologies - LLM指纹识别与水印技术综述 (IJCAI-ECAI 2026)，更新进度至 91/80 |
+| 2026-06-11 | 完善论文笔记：Toward Securing AI Agents Like Operating Systems - 扩展至完整14章节（20KB+），分析OpenClaw风格智能体的OS安全类比与攻击面 |
 | 2026-05-20 | 添加论文：Speak Out of Turn - 多轮对话安全漏洞 (arXiv 2402.17262)，更新进度至 84/80 |
 | 2026-05-12 | 添加论文：From If-Statements to ML Pipelines - 代码生成中的隐性偏见研究 (ACL 2026 Findings)，更新进度至 78/80
 | 2026-05-20 | 添加论文：Speak Out of Turn - 多轮对话安全漏洞 (arXiv 2402.17262)，更新进度至 84/80 |
