@@ -31,7 +31,7 @@
 |------|------|
 | **计划完成** | 83 篇 |
 | **已完成 93 篇 (116%)** |
-| **最后更新: 2026-06-12
+| **最后更新: 2026-06-14
 
 ---
 
@@ -42,7 +42,7 @@
 | 类型 | 说明 | 代表论文 |
 |------|------|----------|
 | 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Don't Listen To Me](./papers/2024/Dont-Listen-To-Me.md), [Harnessing Task Overload](./papers/2024/Harnessing-Task-Overload.md), [AutoDAN](./papers/2024/AutoDAN.md), [PAIR](./papers/2024/PAIR.md), [GCG](./papers/2024/GCG.md), [Tree of Attacks](./papers/2024/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/2024/AutoDAN-Turbo.md), [MultiJail](./papers/2024/MultiJail.md), [Crescendo](./papers/2025/Crescendo.md), [ActorBreaker](./papers/2025/ActorBreaker.md), [Do Anything Now](./papers/2023/Do-Anything-Now.md), [GPTFuzzer](./papers/2023/GPTFuzzer.md), [SlotGCG](./papers/2026/SlotGCG.md) |
-| 🎯 **对抗攻击** | 构造对抗样本欺骗模型 | [GCG](./papers/2024/GCG.md), [AutoDAN](./papers/2024/AutoDAN.md), [Route to Rome](./papers/2026/Route-to-Rome-Attack.md) |
+| 🎯 **对抗攻击** | 构造对抗样本欺骗模型 | [GCG](./papers/2024/GCG.md), [AutoDAN](./papers/2024/AutoDAN.md), [Route to Rome](./papers/2026/Route-to-Rome-Attack.md), [R²A](./papers/2026/Route-to-Rome-Attack.md) |
 | 🧠 **提示注入** | 通过提示操控模型行为 | [PIArena](./papers/2026/PIArena.md), [Under the Influence](./papers/2024/Under-the-Influence.md), [Not What You've Signed Up For](./papers/2023/Not-What-Youve-Signed-Up-For.md), [Benchmarking Indirect Prompt Injection (BIPIA)](./papers/2023/Benchmarking-Indirect-Prompt-Injection.md), [Formalizing Prompt Injection](./papers/2024/Formalizing-Prompt-Injection.md) |
 | 🎭 **隐蔽攻击** | 难以检测的攻击方式 | [Cold-Attack](./papers/2024/Cold-Attack.md), [Sleeper Agents](./papers/2024/Sleeper-Agents.md) |
 
