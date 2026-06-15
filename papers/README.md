@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-94%2F84-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Complete-95%2F95-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--06--15-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -16,7 +16,7 @@
 |:----:|:--------:|------|
 | 2026 | 30 | [./2026/](./2026/) |
 | 2025 | 5 | [./2025/](./2025/) |
-| 2024 | 32 | [./2024/](./2024/) |
+| 2024 | 36 | [./2024/](./2024/) |
 | 2023 | 13 | [./2023/](./2023/) |
 | 2022 | 4 | [./2022/](./2022/) |
 | 2021 | 2 | [./2021/](./2021/) |
@@ -87,7 +87,7 @@
 | 4 | [ActorBreaker: Multi-turn LLM Jailbreak Attack](./2025/ActorBreaker.md) | ACL 2025 | 多轮越狱攻击 |
 | 5 | [AI Alignment: A Comprehensive Survey](./2025/AI-Alignment-Survey.md) | arXiv 2023 | AI对齐全面综述/RICE框架 |
 
-### 2024 年 (30篇)
+### 2024 年 (36篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -115,12 +115,14 @@
 | 21 | [Jailbreak Attacks and Defenses Survey](./2024/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 综述 |
 | 21 | [LLM Security and Privacy Survey](./2024/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | 综述 |
 | 22 | [DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark](./2024/DiaHalu.md) | arXiv 2024 | 幻觉检测基准 |
-| 23 | [Formalizing and Benchmarking Prompt Injection Attacks and Defenses](./2024/Formalizing-Prompt-Injection.md) | USENIX Security 2024 | 提示注入攻击/形式化框架 |
-| 24 | [Cybench: Evaluating Cybersecurity Capabilities of Language Models](./2024/Cybench.md) | ICLR 2025 | CTF能力评估/网络安全基准 |
-| 25 | [Curiosity-Driven Red-Teaming: Improving Red Team Coverage](./2024/Curiosity-Driven-Red-Teaming.md) | ICLR 2024 | 红队测试/好奇心驱动探索 |
+| 23 | [HallusionBench: Language Hallucination and Visual Illusion Benchmark](./2024/HallusionBench.md) | CVPR 2024 | 视觉语言幻觉检测基准 |
+| 24 | [Formalizing and Benchmarking Prompt Injection Attacks and Defenses](./2024/Formalizing-Prompt-Injection.md) | USENIX Security 2024 | 提示注入攻击/形式化框架 |
+| 25 | [Cybench: Evaluating Cybersecurity Capabilities of Language Models](./2024/Cybench.md) | ICLR 2025 | CTF能力评估/网络安全基准 |
+| 26 | [Curiosity-Driven Red-Teaming: Improving Red Team Coverage](./2024/Curiosity-Driven-Red-Teaming.md) | ICLR 2024 | 红队测试/好奇心驱动探索 |
 | 27 | [Against the Achilles' Heel: A Survey on Red Teaming for Generative Models](./2024/Against-the-Achilles-Heel.md) | arXiv 2024 | 红队测试综述 |
 | 28 | [Safety Layers in Aligned LLMs: The Key to LLM Security](./2024/Safety-Layers-in-Aligned-LLMs.md) | ICLR 2025 | 安全对齐/安全层分析 |
 | 29 | [Emulated Disalignment: Safety Alignment May Backfire](./2024/Emulated-Disalignment.md) | ACL 2024 | 安全对齐可被逆转攻击 | `对齐` `攻击` `分布` |
+| 30 | [Instruction Hierarchy: Protecting LLMs from Jailbreak via Instruction Hierarchy](./2024/Instruction-Hierarchy.md) | ICLR 2025 | 指令层次/安全对齐 |
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
