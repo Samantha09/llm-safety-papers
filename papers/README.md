@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-95%2F95-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--06--15-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-94%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--06--17-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -14,10 +14,10 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 30 | [./2026/](./2026/) |
-| 2025 | 5 | [./2025/](./2025/) |
+| 2026 | 34 | [./2026/](./2026/) |
+| 2025 | 6 | [./2025/](./2025/) |
 | 2024 | 36 | [./2024/](./2024/) |
-| 2023 | 13 | [./2023/](./2023/) |
+| 2023 | 12 | [./2023/](./2023/) |
 | 2022 | 4 | [./2022/](./2022/) |
 | 2021 | 2 | [./2021/](./2021/) |
 
@@ -26,7 +26,7 @@
 ## 📋 完整论文列表（按年份排序）
 
 | 28 | [AliMark: Enhancing Robustness of Sentence-Level Watermarking Against Text Paraphrasing](./2026/AliMark.md) | ICML 2026 | 水印/内容溯源 |
-### 2021 年 (1篇)
+### 2021 年 (2篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -42,7 +42,7 @@
 | 3 | [HELM: Holistic Evaluation of Language Models](./2022/HELM.md) | TMLR 2023 | 综合评估基准/透明度 |
 | 4 | [Asleep at the Keyboard: Assessing the Security of GitHub Copilot's Code Contributions](./2022/Asleep-at-the-Keyboard.md) | IEEE S&P 2022 | 代码安全/AI编程助手 |
 
-### 2026 年 (29篇)
+### 2026 年 (34篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -77,7 +77,7 @@
 | 29 | [AliMark: Enhancing Robustness of Sentence-Level Watermarking Against Text Paraphrasing](./2026/AliMark.md) | ICML 2026 | 水印/内容溯源 |
 | 30 | [SlotGCG: Exploiting Positional Vulnerability in LLMs for Jailbreak Attacks](./2026/SlotGCG.md) | ICLR 2026 | 越狱攻击/位置脆弱性 |
 
-### 2025 年 (5篇)
+### 2025 年 (6篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
