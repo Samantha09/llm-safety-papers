@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-94%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--06--17-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-95%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--06--18-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -17,7 +17,7 @@
 | 2026 | 34 | [./2026/](./2026/) |
 | 2025 | 6 | [./2025/](./2025/) |
 | 2024 | 36 | [./2024/](./2024/) |
-| 2023 | 12 | [./2023/](./2023/) |
+| 2023 | 13 | [./2023/](./2023/) |
 | 2022 | 4 | [./2022/](./2022/) |
 | 2021 | 2 | [./2021/](./2021/) |
 
@@ -138,6 +138,7 @@
 | 10 | [Do Anything Now: 野生越狱提示特征分析与评估](./2023/Do-Anything-Now.md) | CCS 2024 | 越狱攻击/野生提示测量研究 |
 | 11 | [Benchmarking Indirect Prompt Injection (BIPIA)](./2023/Benchmarking-Indirect-Prompt-Injection.md) | KDD 2025 | 间接提示注入攻击基准 |
 | 12 | [Prompt Injection Attack against LLM-integrated Applications](./2023/Prompt-Injection-Attack.md) | arXiv 2023 | 提示注入攻击/HouYi黑盒攻击 |
+| 13 | [Trustworthy LLMs Evaluation Survey](./2023/Trustworthy-LLMs-Evaluation-Survey.md) | arXiv 2023 | LLM可信度评估综述/七大维度29子类 |
 
 ---
 
@@ -178,7 +179,7 @@
 | ⚡ 资源攻击 | 1 | Harnessing Task Overload |
 | 🔄 过度拒绝 | 1 | Nothing in Excess |
 | 🔬 漏洞分析 | 1 | Jailbroken |
-| 📚 综述 | 4 | LLM Security and Privacy Survey, Jailbreak Attacks and Defenses Survey, TrustLLM, Against the Achilles' Heel |
+| 📚 综述 | 5 | LLM Security and Privacy Survey, Jailbreak Attacks and Defenses Survey, TrustLLM, Trustworthy LLMs Evaluation Survey, Against the Achilles' Heel |
 | 🤖 智能体安全 | 3 | AgentDojo, R-Judge, StructMem |
 | 🛡️ 风险意识 | 1 | R-Judge |
 | 🔄 终身学习 | 1 | AutoDAN-Turbo |
