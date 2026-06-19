@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-95%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--06--18-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-96%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--06--19-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -16,7 +16,7 @@
 |:----:|:--------:|------|
 | 2026 | 34 | [./2026/](./2026/) |
 | 2025 | 6 | [./2025/](./2025/) |
-| 2024 | 36 | [./2024/](./2024/) |
+| 2024 | 37 | [./2024/](./2024/) |
 | 2023 | 13 | [./2023/](./2023/) |
 | 2022 | 4 | [./2022/](./2022/) |
 | 2021 | 2 | [./2021/](./2021/) |
@@ -87,7 +87,7 @@
 | 4 | [ActorBreaker: Multi-turn LLM Jailbreak Attack](./2025/ActorBreaker.md) | ACL 2025 | 多轮越狱攻击 |
 | 5 | [AI Alignment: A Comprehensive Survey](./2025/AI-Alignment-Survey.md) | arXiv 2023 | AI对齐全面综述/RICE框架 |
 
-### 2024 年 (36篇)
+### 2024 年 (37篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -123,6 +123,7 @@
 | 28 | [Safety Layers in Aligned LLMs: The Key to LLM Security](./2024/Safety-Layers-in-Aligned-LLMs.md) | ICLR 2025 | 安全对齐/安全层分析 |
 | 29 | [Emulated Disalignment: Safety Alignment May Backfire](./2024/Emulated-Disalignment.md) | ACL 2024 | 安全对齐可被逆转攻击 | `对齐` `攻击` `分布` |
 | 30 | [Instruction Hierarchy: Protecting LLMs from Jailbreak via Instruction Hierarchy](./2024/Instruction-Hierarchy.md) | ICLR 2025 | 指令层次/安全对齐 |
+| 31 | [Are Aligned Neural Networks Adversarially Aligned?](./2024/Are-Aligned-Neural-Networks-Adversarially-Aligned.md) | NeurIPS 2024 | 对抗对齐/对齐安全性分析 |
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
