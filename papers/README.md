@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-96%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--06--19-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-97%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--06--22-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -14,7 +14,7 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 34 | [./2026/](./2026/) |
+| 2026 | 35 | [./2026/](./2026/) |
 | 2025 | 6 | [./2025/](./2025/) |
 | 2024 | 37 | [./2024/](./2024/) |
 | 2023 | 13 | [./2023/](./2023/) |
@@ -42,7 +42,7 @@
 | 3 | [HELM: Holistic Evaluation of Language Models](./2022/HELM.md) | TMLR 2023 | 综合评估基准/透明度 |
 | 4 | [Asleep at the Keyboard: Assessing the Security of GitHub Copilot's Code Contributions](./2022/Asleep-at-the-Keyboard.md) | IEEE S&P 2022 | 代码安全/AI编程助手 |
 
-### 2026 年 (34篇)
+### 2026 年 (35篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -76,6 +76,7 @@
 | 28 | [Implicit Identity Technologies: Fingerprinting and Watermarking for LLMs](./2026/Implicit-Identity-Technologies.md) | IJCAI-ECAI 2026 | 指纹识别/水印/资产保护/溯源 |
 | 29 | [AliMark: Enhancing Robustness of Sentence-Level Watermarking Against Text Paraphrasing](./2026/AliMark.md) | ICML 2026 | 水印/内容溯源 |
 | 30 | [SlotGCG: Exploiting Positional Vulnerability in LLMs for Jailbreak Attacks](./2026/SlotGCG.md) | ICLR 2026 | 越狱攻击/位置脆弱性 |
+| 31 | [Quantifying Aleatoric Uncertainty of ICL: Robust Measure of LLM Prediction Confidence](./2026/Quantifying-Aleatoric-Uncertainty-ICL.md) | ACL 2026 | 不确定性量化/幻觉检测/ICL |
 
 ### 2025 年 (6篇)
 
