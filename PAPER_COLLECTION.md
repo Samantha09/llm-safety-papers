@@ -10,6 +10,16 @@
 
 ## 📅 2026年
 
+### 6月更新
+
+#### 6月22日 - CCF-A/B 论文收录
+
+本周收录 1 篇确定录用的 LLM Safety 论文（1篇CCF-A）：
+
+| 论文 | 会议 | 等级 | 方向 | 摘要 |
+|------|------|------|------|------|
+| [Quantifying Aleatoric Uncertainty of In-Context Learning for Robust Measure of LLM Prediction Confidence](https://arxiv.org/abs/2606.19353) | ACL 2026 | CCF-A | Hallucination Detection / Uncertainty | 提出基于自功能向量和贝叶斯框架的 ICL 不确定性估计方法，可靠测量 LLM 预测置信度，并用于幻觉检测 |
+
 ### 5月更新
 
 #### 5月4日 - CCF-A/B 论文收录
