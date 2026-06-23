@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-97%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Complete-98%2F80-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--06--23-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -17,7 +17,7 @@
 | 2026 | 35 | [./2026/](./2026/) |
 | 2025 | 6 | [./2025/](./2025/) |
 | 2024 | 37 | [./2024/](./2024/) |
-| 2023 | 13 | [./2023/](./2023/) |
+| 2023 | 14 | [./2023/](./2023/) |
 | 2022 | 4 | [./2022/](./2022/) |
 | 2021 | 2 | [./2021/](./2021/) |
 
@@ -141,6 +141,7 @@
 | 11 | [Benchmarking Indirect Prompt Injection (BIPIA)](./2023/Benchmarking-Indirect-Prompt-Injection.md) | KDD 2025 | 间接提示注入攻击基准 |
 | 12 | [Prompt Injection Attack against LLM-integrated Applications](./2023/Prompt-Injection-Attack.md) | arXiv 2023 | 提示注入攻击/HouYi黑盒攻击 |
 | 13 | [Trustworthy LLMs Evaluation Survey](./2023/Trustworthy-LLMs-Evaluation-Survey.md) | arXiv 2023 | LLM可信度评估综述/七大维度29子类 |
+| 14 | [A Holistic Approach to Undesired Content Detection](./2023/A-Holistic-Approach-to-Undesired-Content-Detection.md) | AAAI 2023 | 内容审核/主动学习/域适应 |
 
 ---
 
