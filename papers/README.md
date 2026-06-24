@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-98%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Complete-99%2F80-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--06--23-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -16,7 +16,7 @@
 |:----:|:--------:|------|
 | 2026 | 35 | [./2026/](./2026/) |
 | 2025 | 6 | [./2025/](./2025/) |
-| 2024 | 37 | [./2024/](./2024/) |
+| 2024 | 38 | [./2024/](./2024/) |
 | 2023 | 14 | [./2023/](./2023/) |
 | 2022 | 4 | [./2022/](./2022/) |
 | 2021 | 2 | [./2021/](./2021/) |
@@ -88,43 +88,44 @@
 | 4 | [ActorBreaker: Multi-turn LLM Jailbreak Attack](./2025/ActorBreaker.md) | ACL 2025 | 多轮越狱攻击 |
 | 5 | [AI Alignment: A Comprehensive Survey](./2025/AI-Alignment-Survey.md) | arXiv 2023 | AI对齐全面综述/RICE框架 |
 
-### 2024 年 (37篇)
+### 2024 年 (38篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
 | 1 | [Harnessing Task Overload: Scalable Jailbreak Attacks](./2024/Harnessing-Task-Overload.md) | arXiv 2024 | 越狱攻击 |
 | 2 | [MLLM-Protector: Ensuring MLLM's Safety without Hurting Performance](./2024/MLLM-Protector.md) | arXiv 2024 | 多模态安全 |
-| 3 | [AutoDAN: Generating Stealthy Jailbreak Prompts](./2024/AutoDAN.md) | NeurIPS 2024 | 越狱攻击 |
-| 4 | [JailbreakBench: Open Robustness Benchmark](./2024/JailbreakBench.md) | NeurIPS 2024 | 评估基准 |
-| 5 | [HarmBench: Standardized Evaluation Framework](./2024/HarmBench.md) | ICLR 2024 | 评估基准 |
-| 6 | [GCG: Universal and Transferable Adversarial Attacks](./2024/GCG.md) | ICLR 2024 | 对抗攻击 |
-| 7 | [PAIR: Jailbreaking Black Box LLMs in Twenty Queries](./2024/PAIR.md) | arXiv 2024 | 越狱攻击 |
-| 8 | [Tree of Attacks: Jailbreaking Black-Box LLMs Automatically](./2024/Tree-of-Attacks.md) | arXiv 2024 | 红队测试 |
-| 9 | [Cold-Attack: Jailbreaking LLMs with Stealth and Controllability](./2024/Cold-Attack.md) | arXiv 2024 | 越狱攻击 |
-| 10 | [HARM: Holistic Automated Red Teaming](./2024/Holistic-Automated-Red-Teaming.md) | EMNLP 2024 | 红队测试 |
-| 10 | [Sleeper Agents: Training Deceptive LLMs](./2024/Sleeper-Agents.md) | ICLR 2024 | 后门攻击 |
-| 11 | [Under the Influence](./2024/Under-the-Influence.md) | arXiv 2024 | 提示注入 |
-| 12 | [Alignment-Weighted DPO](./2024/Alignment-Weighted-DPO.md) | arXiv 2024 | 安全对齐 |
-| 13 | [AuditBench](./2024/AuditBench.md) | arXiv 2024 | 评估基准 |
-| 14 | [AgentDojo: Dynamic Environment for LLM Agent Security](./2024/AgentDojo.md) | NeurIPS 2024 | 评估基准 |
-| 15 | [AutoDAN-Turbo: Lifelong Agent for Jailbreak Strategy](./2024/AutoDAN-Turbo.md) | arXiv 2024 | 越狱攻击 |
-| 16 | [R-Judge: Benchmarking Safety Risk Awareness for LLM Agents](./2024/R-Judge.md) | EMNLP 2024 | 评估基准 |
-| 17 | [TrustLLM: Trustworthiness in Large Language Models](./2024/TrustLLM.md) | arXiv 2024 | 综述 |
-| 18 | [SafeGen: Mitigating Sexually Explicit Content in T2I Models](./2024/SafeGen.md) | IEEE S&P 2024 | 多模态安全 |
-| 19 | [MultiJail: Jailbreaking T2I Models via Multi-Modal Attack](./2024/MultiJail.md) | arXiv 2024 | 多模态攻击 |
-| 20 | [Speak Out of Turn: Safety Vulnerability in Multi-turn Dialogue](./2024/Speak-Out-of-Turn.md) | arXiv 2024 | 多轮对话安全漏洞/越狱攻击 |
-| 21 | [Jailbreak Attacks and Defenses Survey](./2024/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 综述 |
-| 21 | [LLM Security and Privacy Survey](./2024/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | 综述 |
-| 22 | [DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark](./2024/DiaHalu.md) | arXiv 2024 | 幻觉检测基准 |
-| 23 | [HallusionBench: Language Hallucination and Visual Illusion Benchmark](./2024/HallusionBench.md) | CVPR 2024 | 视觉语言幻觉检测基准 |
-| 24 | [Formalizing and Benchmarking Prompt Injection Attacks and Defenses](./2024/Formalizing-Prompt-Injection.md) | USENIX Security 2024 | 提示注入攻击/形式化框架 |
-| 25 | [Cybench: Evaluating Cybersecurity Capabilities of Language Models](./2024/Cybench.md) | ICLR 2025 | CTF能力评估/网络安全基准 |
-| 26 | [Curiosity-Driven Red-Teaming: Improving Red Team Coverage](./2024/Curiosity-Driven-Red-Teaming.md) | ICLR 2024 | 红队测试/好奇心驱动探索 |
-| 27 | [Against the Achilles' Heel: A Survey on Red Teaming for Generative Models](./2024/Against-the-Achilles-Heel.md) | arXiv 2024 | 红队测试综述 |
-| 28 | [Safety Layers in Aligned LLMs: The Key to LLM Security](./2024/Safety-Layers-in-Aligned-LLMs.md) | ICLR 2025 | 安全对齐/安全层分析 |
-| 29 | [Emulated Disalignment: Safety Alignment May Backfire](./2024/Emulated-Disalignment.md) | ACL 2024 | 安全对齐可被逆转攻击 | `对齐` `攻击` `分布` |
-| 30 | [Instruction Hierarchy: Protecting LLMs from Jailbreak via Instruction Hierarchy](./2024/Instruction-Hierarchy.md) | ICLR 2025 | 指令层次/安全对齐 |
-| 31 | [Are Aligned Neural Networks Adversarially Aligned?](./2024/Are-Aligned-Neural-Networks-Adversarially-Aligned.md) | NeurIPS 2024 | 对抗对齐/对齐安全性分析 |
+| 3 | [Defending with Spotlighting: Indirect Prompt Injection Defense](./2024/Defending-with-Spotlighting.md) | arXiv 2024 | 提示注入防御/Spotlighting |
+| 4 | [AutoDAN: Generating Stealthy Jailbreak Prompts](./2024/AutoDAN.md) | NeurIPS 2024 | 越狱攻击 |
+| 5 | [JailbreakBench: Open Robustness Benchmark](./2024/JailbreakBench.md) | NeurIPS 2024 | 评估基准 |
+| 6 | [HarmBench: Standardized Evaluation Framework](./2024/HarmBench.md) | ICLR 2024 | 评估基准 |
+| 7 | [GCG: Universal and Transferable Adversarial Attacks](./2024/GCG.md) | ICLR 2024 | 对抗攻击 |
+| 8 | [PAIR: Jailbreaking Black Box LLMs in Twenty Queries](./2024/PAIR.md) | arXiv 2024 | 越狱攻击 |
+| 9 | [Tree of Attacks: Jailbreaking Black-Box LLMs Automatically](./2024/Tree-of-Attacks.md) | arXiv 2024 | 红队测试 |
+| 10 | [Cold-Attack: Jailbreaking LLMs with Stealth and Controllability](./2024/Cold-Attack.md) | arXiv 2024 | 越狱攻击 |
+| 11 | [HARM: Holistic Automated Red Teaming](./2024/Holistic-Automated-Red-Teaming.md) | EMNLP 2024 | 红队测试 |
+| 12 | [Sleeper Agents: Training Deceptive LLMs](./2024/Sleeper-Agents.md) | ICLR 2024 | 后门攻击 |
+| 13 | [Under the Influence](./2024/Under-the-Influence.md) | arXiv 2024 | 提示注入 |
+| 14 | [Alignment-Weighted DPO](./2024/Alignment-Weighted-DPO.md) | arXiv 2024 | 安全对齐 |
+| 15 | [AuditBench](./2024/AuditBench.md) | arXiv 2024 | 评估基准 |
+| 16 | [AgentDojo: Dynamic Environment for LLM Agent Security](./2024/AgentDojo.md) | NeurIPS 2024 | 评估基准 |
+| 17 | [AutoDAN-Turbo: Lifelong Agent for Jailbreak Strategy](./2024/AutoDAN-Turbo.md) | arXiv 2024 | 越狱攻击 |
+| 18 | [R-Judge: Benchmarking Safety Risk Awareness for LLM Agents](./2024/R-Judge.md) | EMNLP 2024 | 评估基准 |
+| 19 | [TrustLLM: Trustworthiness in Large Language Models](./2024/TrustLLM.md) | arXiv 2024 | 综述 |
+| 20 | [SafeGen: Mitigating Sexually Explicit Content in T2I Models](./2024/SafeGen.md) | IEEE S&P 2024 | 多模态安全 |
+| 21 | [MultiJail: Jailbreaking T2I Models via Multi-Modal Attack](./2024/MultiJail.md) | arXiv 2024 | 多模态攻击 |
+| 22 | [Speak Out of Turn: Safety Vulnerability in Multi-turn Dialogue](./2024/Speak-Out-of-Turn.md) | arXiv 2024 | 多轮对话安全漏洞/越狱攻击 |
+| 23 | [Jailbreak Attacks and Defenses Survey](./2024/Jailbreak-Attacks-and-Defenses-Survey.md) | arXiv 2024 | 综述 |
+| 24 | [LLM Security and Privacy Survey](./2024/LLM-Security-and-Privacy-Survey.md) | arXiv 2024 | 综述 |
+| 25 | [DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark](./2024/DiaHalu.md) | arXiv 2024 | 幻觉检测基准 |
+| 26 | [HallusionBench: Language Hallucination and Visual Illusion Benchmark](./2024/HallusionBench.md) | CVPR 2024 | 视觉语言幻觉检测基准 |
+| 27 | [Formalizing and Benchmarking Prompt Injection Attacks and Defenses](./2024/Formalizing-Prompt-Injection.md) | USENIX Security 2024 | 提示注入攻击/形式化框架 |
+| 28 | [Cybench: Evaluating Cybersecurity Capabilities of Language Models](./2024/Cybench.md) | ICLR 2025 | CTF能力评估/网络安全基准 |
+| 29 | [Curiosity-Driven Red-Teaming: Improving Red Team Coverage](./2024/Curiosity-Driven-Red-Teaming.md) | ICLR 2024 | 红队测试/好奇心驱动探索 |
+| 30 | [Against the Achilles' Heel: A Survey on Red Teaming for Generative Models](./2024/Against-the-Achilles-Heel.md) | arXiv 2024 | 红队测试综述 |
+| 31 | [Safety Layers in Aligned LLMs: The Key to LLM Security](./2024/Safety-Layers-in-Aligned-LLMs.md) | ICLR 2025 | 安全对齐/安全层分析 |
+| 32 | [Emulated Disalignment: Safety Alignment May Backfire](./2024/Emulated-Disalignment.md) | ACL 2024 | 安全对齐可被逆转攻击 | `对齐` `攻击` `分布` |
+| 33 | [Instruction Hierarchy: Protecting LLMs from Jailbreak via Instruction Hierarchy](./2024/Instruction-Hierarchy.md) | ICLR 2025 | 指令层次/安全对齐 |
+| 34 | [Are Aligned Neural Networks Adversarially Aligned?](./2024/Are-Aligned-Neural-Networks-Adversarially-Aligned.md) | NeurIPS 2024 | 对抗对齐/对齐安全性分析 |
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -153,7 +154,7 @@
 |------|:--------:|----------|
 | 🔓 越狱攻击 | 12 | Harnessing Task Overload, AutoDAN, PAIR, Cold-Attack, Tree of Attacks, GCG, AutoDAN-Turbo, Crescendo, ActorBreaker, Do Anything Now, GPTFuzzer, Curiosity-Driven Red-Teaming |
 | 🎯 对抗攻击 | 2 | GCG, AutoDAN |
-| 🧠 提示注入 | 7 | PIArena, Under the Influence, Not What You've Signed Up For, Benchmarking Indirect Prompt Injection, Formalizing Prompt Injection, Do Anything Now (提示注入相关), Prompt Injection Attack |
+| 🧠 提示注入 | 8 | PIArena, Under the Influence, Not What You've Signed Up For, Benchmarking Indirect Prompt Injection, Formalizing Prompt Injection, Do Anything Now (提示注入相关), Prompt Injection Attack, Spotlighting |
 | 🎭 隐蔽攻击 | 2 | Cold-Attack, Sleeper Agents |
 | 🚪 后门攻击 | 2 | Sleeper Agents, Cluster Segregation Concealment (CSC) |
 
