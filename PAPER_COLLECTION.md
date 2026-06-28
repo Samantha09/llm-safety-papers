@@ -12,6 +12,15 @@
 
 ### 6月更新
 
+#### 6月29日 - CCF-A/B 论文收录
+
+本周收录 2 篇确定录用的 LLM Safety 论文（1篇CCF-A，1篇CCF-B）：
+
+| 论文 | 会议 | 等级 | 方向 | 摘要 |
+|------|------|------|------|------|
+| [A Survey of Toxicity Detection and Mitigation Strategies for Multilingual Language Models](https://arxiv.org/abs/2606.25380) | Findings of ACL 2026 | CCF-A | Toxicity / Multilingual Safety | 系统综述多语言LLM毒性检测与缓解技术，涵盖威胁模型（语言选择、代码切换、拼写变异等）、检测方法（跨语言编码器、LLM检测器等）及缓解策略，并指出语言覆盖不均、文化差异等开放挑战 |
+| [Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs](https://arxiv.org/abs/2606.26387) | ECCV 2026 | CCF-B | Hallucination / MLLM Safety | 提出VIGIL框架，通过因果视觉定位的强化学习后训练减少MLLM幻觉，引入几何约束最大化视觉输入与生成响应间的互信息，在仅用25%偏好数据下达到SOTA，并展示空间定位能力 |
+
 #### 6月22日 - CCF-A/B 论文收录
 
 本周收录 1 篇确定录用的 LLM Safety 论文（1篇CCF-A）：
