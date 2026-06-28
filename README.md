@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-74%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-99%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-100%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 83 篇 |
-| **已完成 99 篇 (123.75%)** |
-| **最后更新: 2026-06-25** |
+| **已完成 100 篇 (125.00%)** |
+| **最后更新: 2026-06-29** |
 
 ---
 
@@ -85,8 +85,9 @@
 | 🔒 **隐私保护** | 移动端日志隐私保护 | [Proteus](./papers/2026/Proteus.md), [Hidden Secrets](./papers/2026/Hidden-Secrets-arXiv.md), [Implicit Identity](./papers/2026/Implicit-Identity-Technologies.md) |
 | 📋 **可验证审计** | 事件溯源AI代码安全审计 | [ESAA-Security](./papers/2026/ESAA-Security.md) |
 | ⚖️ **偏见与公平** | LLM教育反馈中的语言偏见、代码生成中的隐性歧视 | [Marked Pedagogies](./papers/2026/Marked-Pedagogies.md), [From If-Statements to ML Pipelines](./papers/2026/From-If-Statements-to-ML-Pipelines.md) |
-| ✅ **幻觉与真实性** | 模型真实性评估与幻觉检测 | [TruthfulQA](./papers/2022/TruthfulQA.md), [Siren's Song](./papers/2023/Sirens-Song.md), [HaloScope](./papers/2024/HaloScope.md) |
+| ✅ **幻觉与真实性** | 模型真实性评估与幻觉检测 | [TruthfulQA](./papers/2022/TruthfulQA.md), [Siren's Song](./papers/2023/Sirens-Song.md), [HaloScope](./papers/2024/HaloScope.md), [Quantifying Aleatoric Uncertainty ICL](./papers/2026/Quantifying-Aleatoric-Uncertainty-ICL.md) |
 | 🏢 **企业级LLM应用** | 企业级LLM Agent风险事件发现 | [TingIS](./papers/2026/TingIS-Real-time-Risk-Event-Discovery.md) |
+| 🌍 **多语言安全 / Toxicity** | 多语言LLM毒性检测与缓解综述 | [Multilingual Toxicity Survey](./papers/2026/Multilingual-Toxicity-Detection-Survey.md) |
 
 ---
 
@@ -98,7 +99,7 @@ llm-safety-papers/
 ├── PAPER_COLLECTION.md                # 论文汇总（约80篇）
 ├── papers/
 │   ├── README.md                      # 论文索引与快速检索
-│   ├── 2026/                          # 2026年论文 (26篇)
+│   ├── 2026/                          # 2026年论文 (~37篇)
 │   │   ├── PIArena.md
 │   │   ├── SIABench.md
 │   │   ├── ESG-Bench.md
