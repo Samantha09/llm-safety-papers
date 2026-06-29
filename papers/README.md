@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-100%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Complete-101%2F80-success?style=flat-square" alt="Complete">
   <img src="https://img.shields.io/badge/Last%20Update-2026--06--29-informational?style=flat-square" alt="Last Update">
 </p>
 
@@ -14,7 +14,7 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 35 | [./2026/](./2026/) |
+| 2026 | 36 | [./2026/](./2026/) |
 | 2025 | 6 | [./2025/](./2025/) |
 | 2024 | 38 | [./2024/](./2024/) |
 | 2023 | 14 | [./2023/](./2023/) |
@@ -78,6 +78,7 @@
 | 30 | [SlotGCG: Exploiting Positional Vulnerability in LLMs for Jailbreak Attacks](./2026/SlotGCG.md) | ICLR 2026 | 越狱攻击/位置脆弱性 |
 | 31 | [Quantifying Aleatoric Uncertainty of ICL: Robust Measure of LLM Prediction Confidence](./2026/Quantifying-Aleatoric-Uncertainty-ICL.md) | ACL 2026 | 不确定性量化/幻觉检测/ICL |
 | 32 | [Multilingual Toxicity Survey: Toxicity Detection and Mitigation for Multilingual LLMs](./2026/Multilingual-Toxicity-Detection-Survey.md) | Findings of ACL 2026 | 多语言安全/毒性检测/综述 |
+| 33 | [Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment](./2026/VIGIL-Staying-VIGILant.md) | ECCV 2026 | 视觉懒惰/MLLM幻觉缓解/反事实对齐 |
 
 ### 2025 年 (6篇)
 
@@ -230,9 +231,9 @@
 
 ## 📝 维护说明
 
-- **最后更新：2026-06-11**
+- **最后更新：2026-06-30**
 - **论文总数：80 篇
-- **完整笔记**：57 篇 (100%)
+- **完整笔记**：58 篇 (101%)
 - **目录结构**：按发表年份整理
 - **维护者**：AI 助手 + 人工审核
 

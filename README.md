@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-74%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-100%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-101%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 83 篇 |
-| **已完成 100 篇 (125.00%)** |
+| **已完成 101 篇 (126.25%)** |
 | **最后更新: 2026-06-29** |
 
 ---
@@ -85,7 +85,7 @@
 | 🔒 **隐私保护** | 移动端日志隐私保护 | [Proteus](./papers/2026/Proteus.md), [Hidden Secrets](./papers/2026/Hidden-Secrets-arXiv.md), [Implicit Identity](./papers/2026/Implicit-Identity-Technologies.md) |
 | 📋 **可验证审计** | 事件溯源AI代码安全审计 | [ESAA-Security](./papers/2026/ESAA-Security.md) |
 | ⚖️ **偏见与公平** | LLM教育反馈中的语言偏见、代码生成中的隐性歧视 | [Marked Pedagogies](./papers/2026/Marked-Pedagogies.md), [From If-Statements to ML Pipelines](./papers/2026/From-If-Statements-to-ML-Pipelines.md) |
-| ✅ **幻觉与真实性** | 模型真实性评估与幻觉检测 | [TruthfulQA](./papers/2022/TruthfulQA.md), [Siren's Song](./papers/2023/Sirens-Song.md), [HaloScope](./papers/2024/HaloScope.md), [Quantifying Aleatoric Uncertainty ICL](./papers/2026/Quantifying-Aleatoric-Uncertainty-ICL.md) |
+| ✅ **幻觉与真实性** | 模型真实性评估与幻觉检测 | [TruthfulQA](./papers/2022/TruthfulQA.md), [Siren's Song](./papers/2023/Sirens-Song.md), [HaloScope](./papers/2024/HaloScope.md), [Quantifying Aleatoric Uncertainty ICL](./papers/2026/Quantifying-Aleatoric-Uncertainty-ICL.md), [VIGIL](./papers/2026/VIGIL-Staying-VIGILant.md) |
 | 🏢 **企业级LLM应用** | 企业级LLM Agent风险事件发现 | [TingIS](./papers/2026/TingIS-Real-time-Risk-Event-Discovery.md) |
 | 🌍 **多语言安全 / Toxicity** | 多语言LLM毒性检测与缓解综述 | [Multilingual Toxicity Survey](./papers/2026/Multilingual-Toxicity-Detection-Survey.md) |
 
@@ -317,6 +317,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-06-30 | 添加论文：Staying VIGILant - 通过反事实视觉对齐缓解MLLM视觉懒惰 (ECCV 2026)，更新进度至 101/80 |
 | 2026-06-11 | 完善论文笔记：Toward Securing AI Agents Like Operating Systems - 扩展至完整14章节（20KB+），分析OpenClaw风格智能体的OS安全类比与攻击面 |
 | 2026-05-20 | 添加论文：Speak Out of Turn - 多轮对话安全漏洞 (arXiv 2402.17262)，更新进度至 84/80 |
 | 2026-05-12 | 添加论文：From If-Statements to ML Pipelines - 代码生成中的隐性偏见研究 (ACL 2026 Findings)，更新进度至 78/80
