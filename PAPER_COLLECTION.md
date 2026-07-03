@@ -4,7 +4,7 @@
 > 
 > **维护者**: Kimi Claw  
 > **更新频率**: 每周自动更新  
-> **总收录**: 约 85 篇论文（2021-2026年）
+> **总收录**: 87 篇论文（2021-2026年）
 
 ---
 
@@ -176,7 +176,7 @@
 | **R-Judge** - Yuan et al. | EMNLP 2024 | [2401.09013](https://arxiv.org/abs/2401.09013) | LLM Agent安全风险意识基准 | 未开源 |
 | **HallusionBench** - Guan et al. | CVPR 2024 | - | 语言幻觉与视觉错觉诊断套件 | 未开源 |
 | **DiaHalu** - Chen et al. | - | [2403.00896](https://arxiv.org/abs/2403.00896) | 对话级幻觉评估基准 | 未开源 |
-| **Cybench** | - | [2405.16382](https://arxiv.org/abs/2405.16382) | LLM网络安全能力评估框架 | 未开源 |
+| **Cybench** | ICLR 2025 | [2408.08926](https://arxiv.org/abs/2408.08926) | LLM网络安全能力评估框架(40个CTF任务) | [GitHub](https://github.com/cybench-org/cybench) |
 
 ### Jailbreak Attacks
 
