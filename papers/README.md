@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-101%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--06--29-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-102%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--07--06-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -17,7 +17,7 @@
 | 2026 | 36 | [./2026/](./2026/) |
 | 2025 | 6 | [./2025/](./2025/) |
 | 2024 | 38 | [./2024/](./2024/) |
-| 2023 | 14 | [./2023/](./2023/) |
+| 2023 | 15 | [./2023/](./2023/) |
 | 2022 | 4 | [./2022/](./2022/) |
 | 2021 | 2 | [./2021/](./2021/) |
 
@@ -145,6 +145,7 @@
 | 12 | [Prompt Injection Attack against LLM-integrated Applications](./2023/Prompt-Injection-Attack.md) | arXiv 2023 | 提示注入攻击/HouYi黑盒攻击 |
 | 13 | [Trustworthy LLMs Evaluation Survey](./2023/Trustworthy-LLMs-Evaluation-Survey.md) | arXiv 2023 | LLM可信度评估综述/七大维度29子类 |
 | 14 | [A Holistic Approach to Undesired Content Detection](./2023/A-Holistic-Approach-to-Undesired-Content-Detection.md) | AAAI 2023 | 内容审核/主动学习/域适应 |
+| 15 | [Survey of Hallucination in NLG](./2023/Survey-of-Hallucination-in-NLG.md) | ACM Computing Surveys 2023 | NLG幻觉问题全面综述/评估指标/缓解方法 |
 
 ---
 
