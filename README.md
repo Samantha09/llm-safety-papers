@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-74%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-102%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-103%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 83 篇 |
-| **已完成 102 篇 (127.5%)** |
-| **最后更新: 2026-07-06** |
+| **已完成 103 篇 (128.75%)** |
+| **最后更新: 2026-07-11** |
 
 ---
 
@@ -99,7 +99,7 @@ llm-safety-papers/
 ├── PAPER_COLLECTION.md                # 论文汇总（约80篇）
 ├── papers/
 │   ├── README.md                      # 论文索引与快速检索
-│   ├── 2026/                          # 2026年论文 (~37篇)
+│   ├── 2026/                          # 2026年论文 (37篇)
 │   │   ├── PIArena.md
 │   │   ├── SIABench.md
 │   │   ├── ESG-Bench.md
