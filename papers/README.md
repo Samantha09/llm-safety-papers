@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-103%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--07--11-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-104%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--07--13-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -14,7 +14,7 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 37 | [./2026/](./2026/) |
+| 2026 | 38 | [./2026/](./2026/) |
 | 2025 | 6 | [./2025/](./2025/) |
 | 2024 | 38 | [./2024/](./2024/) |
 | 2023 | 15 | [./2023/](./2023/) |
@@ -42,7 +42,7 @@
 | 3 | [HELM: Holistic Evaluation of Language Models](./2022/HELM.md) | TMLR 2023 | 综合评估基准/透明度 |
 | 4 | [Asleep at the Keyboard: Assessing the Security of GitHub Copilot's Code Contributions](./2022/Asleep-at-the-Keyboard.md) | IEEE S&P 2022 | 代码安全/AI编程助手 |
 
-### 2026 年 (37篇)
+### 2026 年 (38篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -79,6 +79,7 @@
 | 31 | [Quantifying Aleatoric Uncertainty of ICL: Robust Measure of LLM Prediction Confidence](./2026/Quantifying-Aleatoric-Uncertainty-ICL.md) | ACL 2026 | 不确定性量化/幻觉检测/ICL |
 | 32 | [Multilingual Toxicity Survey: Toxicity Detection and Mitigation for Multilingual LLMs](./2026/Multilingual-Toxicity-Detection-Survey.md) | Findings of ACL 2026 | 多语言安全/毒性检测/综述 |
 | 33 | [Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment](./2026/VIGIL-Staying-VIGILant.md) | ECCV 2026 | 视觉懒惰/MLLM幻觉缓解/反事实对齐 |
+| 34 | [Jailbreaking Frontier AI Models at Scale: Attack Gaps in Safety Frameworks](./2026/Jailbreaking-Frontier-AI-Models-at-Scale.md) | IEEE S&P 2026 | 越狱攻击/安全框架漏洞/规模化攻击 |
 
 ### 2025 年 (6篇)
 
