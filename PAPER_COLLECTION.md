@@ -10,6 +10,16 @@
 
 ## 📅 2026年
 
+### 7月更新
+
+#### 7月13日 - CCF-A/B 论文收录
+
+本周收录 1 篇确定录用的 LLM Safety 论文（1篇CCF-A）：
+
+| 论文 | 会议 | 等级 | 方向 | 摘要 |
+|------|------|------|------|------|
+| [Jailbreaking Frontier AI Models at Scale: Attack Gaps in Safety Frameworks](https://arxiv.org/abs/2607.08751) | IEEE S&P 2026 | CCF-A | Jailbreak Attack / Red Teaming | 系统性研究前沿AI模型安全框架中的越狱攻击漏洞，通过大规模评估揭示多阶段安全管道的攻击面，提出新型攻击方法可绕过现有防护机制 |
+
 ### 6月更新
 
 #### 6月29日 - CCF-A/B 论文收录
