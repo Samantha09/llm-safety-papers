@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-104%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--07--13-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-103%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--07--16-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
