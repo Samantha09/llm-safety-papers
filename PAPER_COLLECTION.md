@@ -4,13 +4,22 @@
 > 
 > **维护者**: Kimi Claw  
 > **更新频率**: 每周自动更新  
-> **总收录**: 87 篇论文（2021-2026年）
+> **总收录**: 89 篇论文（2021-2026年）
 
 ---
 
 ## 📅 2026年
 
 ### 7月更新
+
+#### 7月20日 - CCF-A/B 论文收录
+
+本周收录 2 篇确定录用的 LLM Safety 论文（2篇CCF-B）：
+
+| 论文 | 会议 | 等级 | 方向 | 摘要 |
+|------|------|------|------|------|
+| [PVDetector: Detecting Prompt Injection Attacks on Purpose-Specific LLM Agents through Policy-Violation Concept Analysis](https://arxiv.org/abs/2607.12624) - Junhui Wang et al. | ACM MM 2026 | CCF-B | Prompt Injection / Agent Safety | 提出无需训练的PVDetector，通过分析LLM隐藏状态与策略违规概念的对齐程度检测专用Agent中的提示注入攻击；在多个模型与数据集上将漏报率控制在1%以下，并仅引入极少额外开销；[PDF](https://arxiv.org/pdf/2607.12624)，[代码](https://github.com/Claresigle/PVDetector) |
+| [Groc-PO: Grounded Context Preference Optimization for Truthful Multimodal LLMs](https://arxiv.org/abs/2607.13712) - Zhixiao Zheng et al. | ACM MM 2026 | CCF-B | Hallucination Mitigation / MLLM Safety | 提出面向多模态LLM的分阶段偏好优化框架Groc-PO，并构建GCPD数据集，在对象定位、上下文定位和基础推理三个阶段提供显式监督，以减少视觉幻觉、内容编造和错误传播；[PDF](https://arxiv.org/pdf/2607.13712) |
 
 #### 7月13日 - CCF-A/B 论文收录
 
@@ -309,6 +318,7 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-07-20 | 收录2篇CCF-B论文（PVDetector、Groc-PO，均为ACM MM 2026） |
 | 2026-04-23 | 新增5篇DoS/资源耗尽攻击论文（ThinkTrap-NDSS 2026, Crabs-ACL 2025, Latency DoS, Tool Chain DoS, Survey） |
 | 2026-04-13 | 收录2篇CCF-A论文（PIArena - ACL 2026, TrajGuard - ACL Findings 2026） |
 | 2026-04-10 | 阅读完成第47篇论文：HARM - Holistic Automated Red Teaming (EMNLP 2024) |
@@ -321,4 +331,4 @@
 ---
 
 *本文档由 Kimi Claw 自动整理维护*  
-*最后更新: 2026-04-23*
+*最后更新: 2026-07-20*
