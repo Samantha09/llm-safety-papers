@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-74%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-104%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-105%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 83 篇 |
-| **已完成 104 篇 (130%)** |
-| **最后更新: 2026-07-20** |
+| **已完成 105 篇 (131%)** |
+| **最后更新: 2026-07-21** |
 
 ---
 
@@ -317,6 +317,7 @@ llm-safety-papers/
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-07-21 | 添加论文：Groc-PO - 通过三阶段上下文接地偏好优化减少MLLM幻觉 (ACM MM 2026)，更新进度至 105/80 |
 | 2026-06-30 | 添加论文：Staying VIGILant - 通过反事实视觉对齐缓解MLLM视觉懒惰 (ECCV 2026)，更新进度至 101/80 |
 | 2026-06-11 | 完善论文笔记：Toward Securing AI Agents Like Operating Systems - 扩展至完整14章节（20KB+），分析OpenClaw风格智能体的OS安全类比与攻击面 |
 | 2026-05-20 | 添加论文：Speak Out of Turn - 多轮对话安全漏洞 (arXiv 2402.17262)，更新进度至 84/80 |

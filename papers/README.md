@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-104%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--07--20-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-105%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--07--21-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -14,7 +14,7 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 38 | [./2026/](./2026/) |
+| 2026 | 39 | [./2026/](./2026/) |
 | 2025 | 6 | [./2025/](./2025/) |
 | 2024 | 38 | [./2024/](./2024/) |
 | 2023 | 15 | [./2023/](./2023/) |
@@ -80,8 +80,9 @@
 | 32 | [Multilingual Toxicity Survey: Toxicity Detection and Mitigation for Multilingual LLMs](./2026/Multilingual-Toxicity-Detection-Survey.md) | Findings of ACL 2026 | 多语言安全/毒性检测/综述 |
 | 33 | [Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment](./2026/VIGIL-Staying-VIGILant.md) | ECCV 2026 | 视觉懒惰/MLLM幻觉缓解/反事实对齐 |
 | 34 | [Jailbreaking Frontier AI Models at Scale: Attack Gaps in Safety Frameworks](./2026/Jailbreaking-Frontier-AI-Models-at-Scale.md) | IEEE S&P 2026 | 越狱攻击/安全框架漏洞/规模化攻击 |
+| 35 | [Groc-PO: Grounded Context Preference Optimization for Truthful Multimodal LLMs](./2026/Groc-PO.md) | ACM MM 2026 | 幻觉缓解/MLLM安全/偏好优化 |
 
-### 2025 年 (6篇)
+### 2025 年 (7篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -193,7 +194,7 @@
 | 🔄 终身学习 | 1 | AutoDAN-Turbo |
 | 🔒 网络安全 | 1 | SIABench |
 | 🔍 安全训练分析 | 1 | Jailbroken |
-| 📊 幻觉缓解 | 1 | ESG-Bench |
+| 📊 幻觉缓解 | 3 | ESG-Bench, Groc-PO, VIGILant |
 | 📄 长上下文 | 1 | ESG-Bench |
 | ⚖️ 偏见与公平 | 2 | Marked Pedagogies, From If-Statements to ML Pipelines |
 
@@ -228,6 +229,8 @@
 
 **幻觉缓解研究路径：**
 1. [ESG-Bench](./2026/ESG-Bench.md) - 长上下文幻觉缓解基准
+2. [Groc-PO](./2026/Groc-PO.md) - 三阶段上下文接地偏好优化减少MLLM幻觉
+3. [VIGILant](./2026/VIGIL-Staying-VIGILant.md) - 反事实视觉对齐缓解视觉懒惰
 
 ---
 
