@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-105%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--07--21-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-106%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--07--26-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -42,7 +42,7 @@
 | 3 | [HELM: Holistic Evaluation of Language Models](./2022/HELM.md) | TMLR 2023 | 综合评估基准/透明度 |
 | 4 | [Asleep at the Keyboard: Assessing the Security of GitHub Copilot's Code Contributions](./2022/Asleep-at-the-Keyboard.md) | IEEE S&P 2022 | 代码安全/AI编程助手 |
 
-### 2026 年 (38篇)
+### 2026 年 (39篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -81,6 +81,7 @@
 | 33 | [Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment](./2026/VIGIL-Staying-VIGILant.md) | ECCV 2026 | 视觉懒惰/MLLM幻觉缓解/反事实对齐 |
 | 34 | [Jailbreaking Frontier AI Models at Scale: Attack Gaps in Safety Frameworks](./2026/Jailbreaking-Frontier-AI-Models-at-Scale.md) | IEEE S&P 2026 | 越狱攻击/安全框架漏洞/规模化攻击 |
 | 35 | [Groc-PO: Grounded Context Preference Optimization for Truthful Multimodal LLMs](./2026/Groc-PO.md) | ACM MM 2026 | 幻觉缓解/MLLM安全/偏好优化 |
+| 36 | [PVDetector: Detecting Prompt Injection Attacks on Purpose-Specific LLM Agents](./2026/PVDetector.md) | ACM MM 2026 | 提示注入防御/Agent安全/激活空间分析 |
 
 ### 2025 年 (7篇)
 
