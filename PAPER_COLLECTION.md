@@ -4,13 +4,23 @@
 > 
 > **维护者**: Kimi Claw  
 > **更新频率**: 每周自动更新  
-> **总收录**: 89 篇论文（2021-2026年）
+> **总收录**: 92 篇论文（2021-2026年）
 
 ---
 
 ## 📅 2026年
 
 ### 7月更新
+
+#### 7月27日 - CCF-A/B 论文收录
+
+本周收录 3 篇确定录用的 LLM Safety 论文（2篇CCF-A，1篇CCF-B）：
+
+| 论文 | 会议 | 等级 | 方向 | 摘要 |
+|------|------|------|------|------|
+| [Expectation Alignment of Language Models for Real-World User Expectations](https://arxiv.org/abs/2607.20485) - Miaomiao Li et al. | ICML 2026 | CCF-A | Alignment / Evaluation | 指出LLM在标准benchmark上表现优异，但与真实用户期望仍存在系统性偏差；提出基于真实人类反馈的Expectation Alignment框架，捕捉用户期望的多样性与细微差别；[PDF](https://arxiv.org/pdf/2607.20485) |
+| [Knowledge Injection Exists in MoE? Exploring Expert-Aware Contrast Decoding in MoE for Mitigating LLMs' Hallucinations](https://arxiv.org/abs/2607.20426) - Xinyue Fang et al. | ACL 2026 | CCF-A | Hallucination Mitigation / MoE | 针对MoE架构特点提出EAACD专家感知对比解码方法，通过高低可靠性专家组的对比校准缓解LLM幻觉，实验证明优于现有基线；[PDF](https://arxiv.org/pdf/2607.20426) |
+| [GhostPrompt: Cross-Image Adversarial Prompt for Vision-Language Models](https://arxiv.org/abs/2607.19683) - Li Zeng et al. | ACM MM 2026 | CCF-B | Adversarial Attack / VLM Safety | 指出传统文本对抗攻击在视觉输入固定时存在迁移性差的问题，提出跨图像可迁移的对抗提示GhostPrompt；[PDF](https://arxiv.org/pdf/2607.19683)，[代码](https://github.com/Ye-ze-yu/GhostPrompt) |
 
 #### 7月20日 - CCF-A/B 论文收录
 
