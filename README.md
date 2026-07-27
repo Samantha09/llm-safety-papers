@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-74%20Total-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Completed-106%2F80-success?style=flat-square" alt="Completed">
+  <img src="https://img.shields.io/badge/Completed-107%2F80-success?style=flat-square" alt="Completed">
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 | 指标 | 数值 |
 |------|------|
 | **计划完成** | 83 篇 |
-| **已完成 106 篇 (132.5%)** |
-| **最后更新: 2026-07-27** |
+| **已完成 107 篇 (133.75%)** |
+| **最后更新: 2026-07-28** |
 
 ---
 
@@ -42,7 +42,7 @@
 | 类型 | 说明 | 代表论文 |
 |------|------|----------|
 | 🔓 **越狱攻击** | 诱导模型输出有害内容 | [Don't Listen To Me](./papers/2024/Dont-Listen-To-Me.md), [Harnessing Task Overload](./papers/2024/Harnessing-Task-Overload.md), [AutoDAN](./papers/2024/AutoDAN.md), [PAIR](./papers/2024/PAIR.md), [GCG](./papers/2024/GCG.md), [Tree of Attacks](./papers/2024/Tree-of-Attacks.md), [AutoDAN-Turbo](./papers/2024/AutoDAN-Turbo.md), [MultiJail](./papers/2024/MultiJail.md), [Crescendo](./papers/2025/Crescendo.md), [ActorBreaker](./papers/2025/ActorBreaker.md), [Do Anything Now](./papers/2023/Do-Anything-Now.md), [GPTFuzzer](./papers/2023/GPTFuzzer.md), [SlotGCG](./papers/2026/SlotGCG.md), [Jailbreaking Frontier AI Models](./papers/2026/Jailbreaking-Frontier-AI-Models-at-Scale.md) |
-| 🎯 **对抗攻击** | 构造对抗样本欺骗模型 | [GCG](./papers/2024/GCG.md), [AutoDAN](./papers/2024/AutoDAN.md), [Route to Rome](./papers/2026/Route-to-Rome-Attack.md), [R²A](./papers/2026/Route-to-Rome-Attack.md) |
+| 🎯 **对抗攻击** | 构造对抗样本欺骗模型 | [GCG](./papers/2024/GCG.md), [AutoDAN](./papers/2024/AutoDAN.md), [Route to Rome](./papers/2026/Route-to-Rome-Attack.md), [R²A](./papers/2026/Route-to-Rome-Attack.md), [GhostPrompt](./papers/2026/GhostPrompt.md) |
 | 🧠 **提示注入** | 通过提示操控模型行为 | [PIArena](./papers/2026/PIArena.md), [Under the Influence](./papers/2024/Under-the-Influence.md), [Not What You've Signed Up For](./papers/2023/Not-What-Youve-Signed-Up-For.md), [Benchmarking Indirect Prompt Injection (BIPIA)](./papers/2023/Benchmarking-Indirect-Prompt-Injection.md), [Formalizing Prompt Injection](./papers/2024/Formalizing-Prompt-Injection.md) |
 | 🎭 **隐蔽攻击** | 难以检测的攻击方式 | [Cold-Attack](./papers/2024/Cold-Attack.md), [Sleeper Agents](./papers/2024/Sleeper-Agents.md) |
 
@@ -80,7 +80,7 @@
 |------|------|------|
 | 📚 **综述** | 领域全面回顾 | [Jailbreak Attacks and Defenses Survey](./papers/2024/Jailbreak-Attacks-and-Defenses-Survey.md), [LLM Security and Privacy Survey](./papers/2024/LLM-Security-and-Privacy-Survey.md), [TrustLLM](./papers/2024/TrustLLM.md), [Trustworthy LLMs Evaluation Survey](./papers/2023/Trustworthy-LLMs-Evaluation-Survey.md), [AI Alignment Survey](./papers/2025/AI-Alignment-Survey.md), [Siren's Song](./papers/2023/Sirens-Song.md), [Resource Consumption Threats Survey](./papers/2026/Resource-Consumption-Threats-Survey.md), [Implicit Identity](./papers/2026/Implicit-Identity-Technologies.md) |
 | 🔬 **漏洞分析** | 模型自我认知漏洞 | [Jailbroken](./papers/2023/Jailbroken.md) |
-| 🔮 **跨模态安全** | 跨模态编码器脆弱性 | [One Single Hub Text Breaks CLIP](./papers/2026/One-Single-Hub-Text-Breaks-CLIP.md) |
+| 🔮 **跨模态安全** | 跨模态编码器脆弱性 | [One Single Hub Text Breaks CLIP](./papers/2026/One-Single-Hub-Text-Breaks-CLIP.md), [GhostPrompt](./papers/2026/GhostPrompt.md) |
 | 💻 **代码安全** | CodeLLM安全生成 | [SCS-Code](./papers/2026/SCS-Code.md) |
 | 🔒 **隐私保护** | 移动端日志隐私保护 | [Proteus](./papers/2026/Proteus.md), [Hidden Secrets](./papers/2026/Hidden-Secrets-arXiv.md), [Implicit Identity](./papers/2026/Implicit-Identity-Technologies.md) |
 | 📋 **可验证审计** | 事件溯源AI代码安全审计 | [ESAA-Security](./papers/2026/ESAA-Security.md) |
