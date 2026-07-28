@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total-80%20Papers-blue?style=flat-square" alt="Total Papers">
-  <img src="https://img.shields.io/badge/Complete-107%2F80-success?style=flat-square" alt="Complete">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--07--28-informational?style=flat-square" alt="Last Update">
+  <img src="https://img.shields.io/badge/Complete-108%2F80-success?style=flat-square" alt="Complete">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--07--29-informational?style=flat-square" alt="Last Update">
 </p>
 
 本目录包含 LLM 安全领域的论文阅读笔记，按**发表年份**整理，每年份内按**发表时间**排序。
@@ -14,7 +14,7 @@
 
 | 年份 | 论文数量 | 目录 |
 |:----:|:--------:|------|
-| 2026 | 41 | [./2026/](./2026/) |
+| 2026 | 42 | [./2026/](./2026/) |
 | 2025 | 6 | [./2025/](./2025/) |
 | 2024 | 38 | [./2024/](./2024/) |
 | 2023 | 15 | [./2023/](./2023/) |
@@ -42,7 +42,7 @@
 | 3 | [HELM: Holistic Evaluation of Language Models](./2022/HELM.md) | TMLR 2023 | 综合评估基准/透明度 |
 | 4 | [Asleep at the Keyboard: Assessing the Security of GitHub Copilot's Code Contributions](./2022/Asleep-at-the-Keyboard.md) | IEEE S&P 2022 | 代码安全/AI编程助手 |
 
-### 2026 年 (39篇)
+### 2026 年 (42篇)
 
 | 序号 | 论文标题 | 会议/年份 | 类别 |
 |:----:|----------|:---------:|------|
@@ -83,6 +83,7 @@
 | 35 | [Groc-PO: Grounded Context Preference Optimization for Truthful Multimodal LLMs](./2026/Groc-PO.md) | ACM MM 2026 | 幻觉缓解/MLLM安全/偏好优化 |
 | 36 | [PVDetector: Detecting Prompt Injection Attacks on Purpose-Specific LLM Agents](./2026/PVDetector.md) | ACM MM 2026 | 提示注入防御/Agent安全/激活空间分析 |
 | 37 | [Expectation Alignment: User Expectations in Real-World LLM Interactions](./2026/Expectation-Alignment.md) | ICML 2026 | 期望对齐/用户评估/对齐新范式 |
+| 38 | [Knowledge Injection Exists in MoE: Expert-Aware Contrast Decoding for Mitigating LLMs' Hallucinations](./2026/Knowledge-Injection-MoE.md) | ACL 2026 | 幻觉缓解/MoE/专家感知对比解码 |
 
 ### 2025 年 (7篇)
 
